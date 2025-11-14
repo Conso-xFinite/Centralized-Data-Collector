@@ -150,3 +150,6 @@
 [0m[33m[5.502ms] [34;1m[rows:0][0m INSERT INTO "market_agg_trade" ("event","event_time","symbol","agg_id","price","quantity","first_id","last_id","timestamp","buyer_maker","ignore","created_at","id") VALUES ('aggTrade',1762967467321,'BTCUSDT',3739954555,101598.92,0.01333,5474934204,5474934204,1762967467321,true,true,'2025-11-13 01:11:07.908','200d4167-93c9-4c8e-88c3-9e80f7062738'),('aggTrade',1762967467357,'BTCUSDT',3739954556,101598.93,0.00098,5474934205,5474934206,1762967467356,false,true,'2025-11-13 01:11:07.921',DEFAULT) RETURNING "id"
 [35;1m[ERROR] 2025-11-13 01:11:11.853 binance_storer.go(271)[StoreData]:
 [0m[35mFailed to batch insert Binance trades: err = ERROR: duplicate key value violates unique constraint "market_agg_trade_pkey" (SQLSTATE 23505)[0m
+[33;1m[WARN]  2025-11-13 02:23:53.735 ws.go(261)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-13 02:23:53.757 ws.go(261)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-13 02:23:54.211 ws.go(261)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m

@@ -61,16 +61,17 @@ func main() {
 	if err != nil {
 		logger.Fatal("Error creating data collector: %v", err)
 	}
+
 	logger.Info("Data collector created.")
-	for {
-		go dataCollector.Start(ctx)
-		if err != nil {
-			logger.Error("Start")
-		}
-		time.Sleep(100 * time.Second)
+
+	go dataCollector.Start(ctx)
+	if err != nil {
+		logger.Error("Error starting data collector: %v", err)
 	}
 
-	logger.Info("Data collection started.")
+	for {
+		time.Sleep(1 * time.Second)
+	}
 
 	logger.Info("Starting Subscribe Dispatcher...")
 	// subscribeDispatcher := collector.NewSubscribeDispatcher(redisClient,

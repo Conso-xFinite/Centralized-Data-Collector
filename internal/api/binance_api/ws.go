@@ -6,6 +6,7 @@ import (
 	"Centralized-Data-Collector/pkg/utils"
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/url"
 	"strings"
 	"sync/atomic"
@@ -75,30 +76,33 @@ func buildCombinedURL(symbols []string) string {
 }
 
 func (c *Client) Login() error {
-
+	logger.Info("Login")
 	if c.connector.LockIsLogined(c.conn) {
 		logger.Error("WebSocket is already logged in") // 已连接, 不需要重复连接
 		return nil
 	}
 
-	var streamUrl string
-	if c.index == 0 {
-		streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40aggTrade"
-	} else if c.index == 1 {
-		streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40kline_1m"
-	} else if c.index == 2 {
-		streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40avgPrice"
+	// var streamUrl string
+	// if c.index == 0 {
+	// streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40aggTrade"
+	// } else if c.index == 1 {
+	// 	streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40kline_1m"
+	// } else if c.index == 2 {
+	// 	streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40avgPrice"
+	// }
+
+	baseBinanceUrl := "wss://stream.binance.com:9443/stream"
+
+	conn, err := c.connector.LockDialWebSocket(baseBinanceUrl, nil)
+	if err != nil {
+		logger.Error("WebSocket dial error: %v", err)
+		return err
 	}
 
-	conn, resq, err := websocket.DefaultDialer.Dial(streamUrl, nil)
-	if err != nil {
-		logger.Error("WebSocket dial failed: %v, http response: %+v", err)
-		logger.Error("WebSocket dial failed: %v, http response: %+v", resq)
-	}
-	if err != nil {
-		// logError("[%s] dial error: %v", name, err)
-		logger.Error("WebSocket dial error: %v", err)
-	}
+	// conn, resq, err := websocket.DefaultDialer.Dial(streamUrl, nil)
+	// if err != nil {
+	// 	logger.Error("WebSocket dial failed: %v, http response: %+v", err, resq)
+	// }
 
 	if !c.hasFinishedInitConnect {
 		c.hasFinishedInitConnect = true
@@ -112,22 +116,21 @@ func (c *Client) Login() error {
 		return err
 	}
 
-	// set pong handler to update lastPongTimestamp
-	conn.SetPongHandler(func(appData string) error {
-		c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
-		return nil
-	})
-
+	// // set pong handler to update lastPongTimestamp
+	// conn.SetPongHandler(func(appData string) error {
+	// 	logger.Debug("Received pong: %s", appData)
+	// 	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+	// 	return nil
+	// })
+	logger.Info("WebSocket logged in successfully")
 	c.conn = conn
 
 	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
 	go c.listenMsg(conn)
-	logger.Info("WebSocket connected and logged in successfully, index: %d", c.index)
 	return nil
 }
 
 func (c *Client) Start() {
-	// wg.Add(1)
 	go func() {
 		for {
 			if c.index == 0 {
@@ -139,37 +142,35 @@ func (c *Client) Start() {
 			}
 			time.Sleep(20 * time.Millisecond)
 		}
-		// if c.index > 0 {
-		// 	time.Sleep(time.Second * time.Duration(c.index)) // staggered start
-		// }
+
 		var conn *websocket.Conn = nil
+
 		for {
 			if c.forceStop.Load() {
 				break
 			} else if !c.connector.LockIsLogined(conn) {
-				logger.Debug("Login: %v", !c.connector.LockIsLogined(conn))
 				if err := c.Login(); err != nil {
 					logger.Error("Login error: %v", err)
 				} else {
 					// c.channelManager.RequeueAllSubscribedChannels()
+					logger.Info("Client-%d connected and logged in", c.index)
 					conn = c.conn
 				}
 			} else {
-				// if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 30 {
-				// 	logger.Error("No pong received in the last 30 seconds, reconnecting...")
-				// 	c.connector.LockClose(c.conn)
-				// } else if pastTime >= 10 {
-				// 	if err := c.connector.LockWritePingMessage(conn); err != nil {
-				// 		log.Printf("Ping error: %v", err)
-				// 		c.connector.LockClose(c.conn)
-				// 	}
-				// }
-				//  else if
-				// err := c.sendPendingMessages(conn); err != nil {
+				if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 10 {
+					logger.Error("No pong received in the last 30 seconds, reconnecting...")
+					c.connector.LockClose(c.conn)
+				} else if pastTime >= 10 {
+					if err := c.connector.LockWritePingMessage(conn); err != nil {
+						log.Printf("Ping error: %v", err)
+						c.connector.LockClose(c.conn)
+					}
+				}
+				// else if err := c.sendPendingMessages(conn); err != nil {
 				// 	log.Printf("sendPendingMessages error: %v", err)
 				// 	c.connector.LockClose(c.conn)
 				// }
-				// time.Sleep(1 * time.Second)
+				time.Sleep(1 * time.Second)
 			}
 		}
 	}()

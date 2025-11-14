@@ -26,7 +26,7 @@ func DataCollectorInstance() *DataCollector {
 }
 
 func NewDataCollector(ctx context.Context, redisClient *redis.Client) (*DataCollector, error) {
-	okxConnPool := binance_api.NewWSPool(3)
+	okxConnPool := binance_api.NewWSPool(1)
 	dataCollector := &DataCollector{
 		apiClient:   okxConnPool,
 		redisHelper: utils.NewRedisHelper(redisClient),

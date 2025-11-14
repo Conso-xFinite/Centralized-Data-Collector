@@ -126,7 +126,7 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 		}
 		logger.Debug("tradeModels = %v", len(tradeModels))
 		logger.Debug("klineModels = %v", len(klineModels))
-		// TODO 后续增加价格数据根据交易数据生成。
+		// TODO 后续增加价格数据根据交易数据生成。kline数据 也需要整合
 
 		if len(tradeModels) > 0 {
 			for {

@@ -80,9 +80,11 @@ func (c *WConnector) isLogined(conn *websocket.Conn) bool {
 }
 
 func (c *WConnector) LockIsLogined(conn *websocket.Conn) bool {
+	logger.Debug("LockIsLogined start")
 	c.myMu.Lock()
 	isLogined := c.isLogined(conn)
 	c.myMu.Unlock()
+	logger.Debug("LockIsLogined end")
 	return isLogined
 }
 
@@ -100,9 +102,11 @@ func (c *WConnector) close(conn *websocket.Conn) error {
 }
 
 func (c *WConnector) LockClose(conn *websocket.Conn) error {
+	logger.Debug("LockClose start")
 	c.myMu.Lock()
 	err := c.close(conn)
 	c.myMu.Unlock()
+	logger.Debug("LockClose end")
 	return err
 }
 
@@ -123,12 +127,14 @@ func (c *WConnector) writeJSON(conn *websocket.Conn, v interface{}) error {
 }
 
 func (c *WConnector) LockWritePingMessage(conn *websocket.Conn) error {
+	logger.Debug("LockWritePingMessage start")
 	c.myMu.Lock()
 	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
 		time.Sleep(sleep)
 	}
 	err := c.writeMessage(conn, []byte("ping"))
 	c.myMu.Unlock()
+	logger.Debug("LockWritePingMessage end")
 	return err
 }
 
@@ -234,7 +240,7 @@ func (c *WConnector) LockReadPushMessage(conn *websocket.Conn) (p []byte, err er
 // }
 
 func (c *WConnector) LockLogin(conn *websocket.Conn) (err error) {
-	// c.myMu.Lock()
+	c.myMu.Lock()
 	// defer c.myMu.Unlock()
 	// if !c.isConnected(conn) {
 	// 	return ErrWSNotConnected
