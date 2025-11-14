@@ -36,13 +36,13 @@ func NewWConnector() *WConnector {
 }
 
 func (c *WConnector) LockDialWebSocket(urlStr string, requestHeader http.Header) (*websocket.Conn, error) {
-	// c.myMu.Lock()
+	c.myMu.Lock()
 	logger.Info("LockDialWebSocket...1")
-	// globalConnectMu.Lock()
+	globalConnectMu.Lock()
 	logger.Info("LockDialWebSocket...2")
-	// if sleep := 334*time.Millisecond - time.Since(globalLastConnect); sleep > 0 {
-	// 	time.Sleep(sleep)
-	// }
+	if sleep := 334*time.Millisecond - time.Since(globalLastConnect); sleep > 0 {
+		time.Sleep(sleep)
+	}
 	logger.Info("LockDialWebSocket...3")
 	conn, _, err := websocket.DefaultDialer.Dial(urlStr, requestHeader)
 	logger.Info("LockDialWebSocket...4")
