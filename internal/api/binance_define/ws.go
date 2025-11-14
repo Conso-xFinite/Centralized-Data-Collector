@@ -150,6 +150,12 @@ type WSReq struct {
 // 	return wssr.Code == "0" || wssr.Code == ""
 // }
 
+type SubscribeMsg struct {
+	Method string   `json:"method"`
+	Params []string `json:"params"`
+	ID     int      `json:"id"`
+}
+
 type WSSinglePushMsg struct {
 	IsFirst   bool        `json:"isFirst,omitempty"` // 是否为本次连接后接收到的第一条推送数据
 	EventType string      `json:"event,omitempty"`
@@ -210,6 +216,18 @@ type Kline struct {
 	VB   string `json:"V"` // 主动买入成交量
 	QB   string `json:"Q"` // 主动买入成交额
 	B    string `json:"B"` // 忽略字段
+}
+
+type Binance24hrMiniTicker struct {
+	Event       string `json:"e"` // 事件类型
+	EventTime   int64  `json:"E"` // 事件时间
+	Symbol      string `json:"s"` // 交易对
+	Close       string `json:"c"` // 最新成交价
+	Open        string `json:"o"` // 开盘价
+	High        string `json:"h"` // 最高价
+	Low         string `json:"l"` // 最低价
+	Volume      string `json:"v"` // 24h 成交量
+	QuoteVolume string `json:"q"` // 24h 成交额
 }
 
 // type WSTradeData struct {

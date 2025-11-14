@@ -6,6 +6,7 @@ import (
 	"Centralized-Data-Collector/pkg/utils"
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/url"
 	"strings"
 	"sync/atomic"
@@ -81,15 +82,6 @@ func (c *Client) Login() error {
 		return nil
 	}
 
-	// var streamUrl string
-	// if c.index == 0 {
-	// streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40aggTrade"
-	// } else if c.index == 1 {
-	// 	streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40kline_1m"
-	// } else if c.index == 2 {
-	// 	streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40avgPrice"
-	// }
-
 	baseBinanceUrl := "wss://stream.binance.com:9443/stream?streams="
 
 	conn, err := c.connector.LockDialWebSocket(baseBinanceUrl, nil)
@@ -139,6 +131,7 @@ func (c *Client) Start() {
 
 		var conn *websocket.Conn = nil
 
+		hasSubscribe := false
 		for {
 			if c.forceStop.Load() {
 				break
@@ -151,28 +144,46 @@ func (c *Client) Start() {
 					conn = c.conn
 				}
 			} else {
-				// if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 30 {
-				// 	logger.Error("No pong received in the last 30 seconds, reconnecting...")
-				// 	c.connector.LockClose(c.conn)
-				// } else if pastTime >= 10 {
-				// 	if err := c.connector.LockWritePingMessage(conn); err != nil {
-				// 		log.Printf("Ping error: %v", err)
-				// 		c.connector.LockClose(c.conn)
-				// 	}
-				// } else
-
+				// 动态订阅逻辑在这里实现
 				// if err := c.sendPendingMessages(conn); err != nil {
 				// 	log.Printf("sendPendingMessages error: %v", err)
 				// 	c.connector.LockClose(c.conn)
 				// }
+
+				// 先写死固定订阅
+				if !hasSubscribe {
+					// 动态订阅 BTCUSDT 的 aggTrade
+					subMsg := binance_define.SubscribeMsg{
+						Method: "SUBSCRIBE",
+						Params: []string{
+							// "btcusdt@aggTrade",
+							// "btcusdt@kline_1m",
+							"btcusdt@miniTicker",
+							// "ethusdt@aggTrade",
+							// "ethusdt@kline_1m",
+							// "ethusdt@miniTicker",
+							// "bnbusdt@aggTrade",
+							// "bnbusdt@kline_1m",
+							// "bnbusdt@miniTicker",
+							// "solusdt@aggTrade",
+							// "solusdt@kline_1m",
+							// "solusdt@miniTicker",
+						},
+						ID: 1,
+					}
+
+					data, _ := json.Marshal(subMsg)
+					err := conn.WriteMessage(websocket.TextMessage, data)
+					if err != nil {
+						log.Printf("Subscribe error: %v", err)
+					}
+
+					hasSubscribe = true
+				}
 				time.Sleep(1 * time.Second)
 			}
 		}
 	}()
-}
-
-func (c *Client) onPongResp() {
-	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
 }
 
 // func (c *Client) onSubscribeResp(resp *binance_define.WSSubscribeResp) {
@@ -228,27 +239,14 @@ func (c *Client) onPongResp() {
 
 // 处理消息和 pong
 func (c *Client) listenMsg(conn *websocket.Conn) {
+	//是否需要判断 连接状态后续确认
 	for {
-		_, message, err := conn.ReadMessage()
+		message, err := c.connector.LockReadPushMessage(conn)
 		if err != nil {
 			logger.Warn("WebSocket read error: %v", err)
 			break
-		} else {
-			logger.Debug("LockReadPushMessage end =", string(message))
-
 		}
-		continue
-		// message, err := c.connector.LockReadPushMessage(conn)
-		// if err != nil {
-		// 	logger.Warn("WebSocket read error: %v", err)
-		// 	break
-		// } else {
-		// 	logger.Debug("LockReadPushMessage end =", message)
-		// }
-
-		// 更新最后一次活跃时间（收到任意消息视作活跃）
-		// c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
-
+		logger.Debug("Received message: %s", string(message))
 		// 先尝试解析为通用 map 以便快速判断
 		var generic map[string]interface{}
 		if err := json.Unmarshal(message, &generic); err != nil {
@@ -275,23 +273,16 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 				}
 			}
 		} else {
-			// single stream: top-level 就包含事件字段
 			dataMap = generic
 		}
 
-		// 如果是订阅确认（例如 {"result": null, "id": 1}），记录日志并继续
 		if _, ok := generic["result"]; ok {
 			logger.Info("Subscription response: %s", string(message))
 			continue
 		}
 
-		evt, _ := dataMap["e"].(string) // comma-ok safe; if absent evt == ""
-		// if evt != "aggTrade" && evt != "avgPrice" && evt != "kline" {
-		// 	// logger.Debug("Non-aggTrade message: %v", generic)
-		// 	continue
-		// }
+		evt, _ := dataMap["e"].(string)
 
-		// 把原始 data（优先使用 data 字段原始字节）反序列化到结构体，避免浮点/类型问题
 		var payload []byte
 		if raw, ok := generic["data"]; ok {
 			// 重新编码 generic["data"] 为 JSON bytes，然后反序列化
@@ -331,130 +322,24 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 			}
 			c.pool.AddPushDataToQueue(msg)
 
+		} else if evt == "24hrMiniTicker" {
+			var miniTicker binance_define.Binance24hrMiniTicker
+			if err := json.Unmarshal(payload, &miniTicker); err != nil {
+				logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
+				continue
+			}
+			msg := &binance_define.WSSinglePushMsg{
+				IsFirst:   false,
+				EventType: evt,
+				Data:      miniTicker,
+			}
+			c.pool.AddPushDataToQueue(msg)
+		} else {
+			logger.Debug("Received other event type: %s, message: %s", evt, string(message))
 		}
-
-		// || evt == "avgPrice" || evt == "kline"
-
-		// 成功：trade 是结构体，数值字段已正确解析（注意 JSON 中数字若为浮点会被 decode 到 int64）
-		// logger.Info("aggTrade parsed: %+v", trade)
-
-		// tradeModelJson, _ := json.MarshalIndent(trade, "", "  ")
-		// logger.Debug("Parsed trade model: %s", tradeModelJson)
-
-		// 将 trade 放进池子（如果有 pool）
-		// if c.pool != nil {
-		// 	// 标记是否为第一次收到该通道的数据
-		// 	// isFirst := !hasReceivedData(arg)
-
-		// 	// AddPushDataToQueue 方法在你的 WSPool 中应该存在并接受 interface{} 或特定类型
-
-		// } else {
-		// 	// 如果没有 pool，直接记录日志
-		// 	logger.Info("aggTrade %s @ %s qty=%s id=%d ts=%d", trade.Price, trade.Symbol, trade.Quantity, trade.AggID, trade.Timestamp)
-		// }
 		continue
 	}
 
-	// 其他消息类型：直接记录（debug）
-	// logger.Debug("Received other message: %s", string(message))
-	// }
-
-	// 读循环退出后，确保连接被关闭
-	_ = conn.Close()
-
-	// // key: channel:tokenContractAddress, value: bool
-	// channelDataReceivedMap := make(map[string]bool)
-
-	// hasReceivedData := func(arg *binance_define.WSSubscribeArg) bool {
-	// 	key := fmt.Sprintf("%s:%s:%s", arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
-	// 	_, exists := channelDataReceivedMap[key]
-	// 	if !exists {
-	// 		channelDataReceivedMap[key] = true
-	// 	}
-	// 	return exists
-	// }
-
-	// validChannels := []string{"price", "dex-token-candle1s", "trades"}
-
-	// for {
-	// 	message, err := c.connector.LockReadPushMessage(conn)
-	// 	if err != nil {
-	// 		logger.Warn("WebSocket read error: %v", err)
-	// 		break
-	// 	}
-
-	// 	// log.Printf("Received text message: %s", message)
-	// 	if string(message) == "pong" {
-	// 		c.onPongResp()
-	// 	} else {
-	// 		// log.Printf("Received message: msgType = %d, message = %s", msgType, message)
-	// 		// 解析消息
-	// 		var subscribeResp binance_define.WSSubscribeResp
-	// 		if err := json.Unmarshal(message, &subscribeResp); err != nil {
-	// 			logger.Error("Failed to unmarshal pushed message = %s, err = %v", message, err)
-	// 			// TODO: 不确定是否要处理, 暂时返回吧
-	// 			break
-	// 		} else if !subscribeResp.IsSuccess() {
-	// 			if utils.SliceContains([]string{binance_define.ErrCode_InvalidTimestamp,
-	// 				binance_define.ErrCode_TimestampRequestExpired,
-	// 				binance_define.ErrCode_PleaseLogin,
-	// 				binance_define.ErrCode_RequestsTooFrequent,
-	// 				binance_define.ErrCode_NoMultipleLogins,
-	// 				binance_define.ErrCode_LoginInternalError,
-	// 			}, subscribeResp.Code) {
-	// 				// 自动重新登录
-	// 				logger.Warn("Re-login due to error: code = %s, msg = %s", subscribeResp.Code, subscribeResp.Msg)
-	// 				break
-	// 			} else if utils.SliceContains([]string{binance_define.ErrCode_InvalidRequest,
-	// 				binance_define.ErrCode_InvalidArgs,
-	// 				binance_define.ErrCode_WrongURLOrNotExist,
-	// 			}, subscribeResp.Code) {
-	// 				// 订阅参数错误, 直接丢弃
-	// 				logger.Warn("Invalid subscription arguments, discarding: code = %s, msg = %s", subscribeResp.Code, subscribeResp.Msg)
-	// 			} else if utils.SliceContains([]string{binance_define.ErrCode_InvalidApiKey,
-	// 				binance_define.ErrCode_InvalidSign,
-	// 				binance_define.ErrCode_WrongPassphase,
-	// 				binance_define.ErrCode_OnlyWhitelistAllowed,
-	// 				binance_define.ErrCode_ApiKeyNotExist,
-	// 			}, subscribeResp.Code) {
-	// 				// 无法自动恢复的错误, 需要人工介入
-	// 				logger.Error("Critical error received, manual intervention required: code = %s, msg = %s", subscribeResp.Code, subscribeResp.Msg)
-	// 				break
-	// 			} else {
-	// 				// 其他错误, 记录日志, 并重新登录
-	// 				logger.Warn("Other error occurred, re-login may be required: code = %s, msg = %s", subscribeResp.Code, subscribeResp.Msg)
-	// 				break
-	// 			}
-	// 		} else if subscribeResp.Event == "subscribe" || subscribeResp.Event == "unsubscribe" {
-	// 			// 处理订阅响应
-	// 			c.onSubscribeResp(&subscribeResp)
-	// 		} else if subscribeResp.Event == "notice" {
-	// 			// 处理系统通知
-	// 			if subscribeResp.Code == binance_define.ErrCode_ConnectionWillCloseForServiceUpgrade {
-	// 				logger.Warn("Connection will be closed for service upgrade, reconnecting...")
-	// 				break
-	// 			} else {
-	// 				// 其他通知, 待收集并分类处理
-	// 				logger.Error("Received notice: code = %s, msg = %s", subscribeResp.Code, subscribeResp.Msg)
-	// 				break
-	// 			}
-	// 		} else if subscribeResp.Event == "" {
-	// 			if utils.SliceContains(validChannels, subscribeResp.Arg.Channel) && len(subscribeResp.Data) > 0 {
-	// 				// 处理推送的业务数据
-	// 				c.onPushedMsg(&subscribeResp, !hasReceivedData(&subscribeResp.Arg))
-	// 			} else {
-	// 				logger.Error("Received message: message = %s", message)
-	// 				break
-	// 			}
-	// 		} else {
-	// 			subscribeRespJson, _ := json.MarshalIndent(subscribeResp, "", "  ")
-	// 			// TODO: 不确定是否要处理, 暂时记录日志吧
-	// 			logger.Error("Received message:  message = %s", subscribeRespJson)
-	// 			break
-	// 		}
-	// 	}
-	// }
-	// c.connector.LockClose(conn)
 }
 
 // // TODO: 优化这个函数的逻辑, 需要加一些条件判断, 避免不必要的计算
