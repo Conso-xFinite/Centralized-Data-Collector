@@ -1,0 +1,237 @@
+[35m[error] 2025-11-01 08:55:11.839 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 18:56:51.400 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:05:30.990 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:07:48.869 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:10:56.831 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:23:23.622 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:23:50.116 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:25:38.529 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:32:26.395 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:32:47.532 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:41:41.206 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[INFO]  2025-11-01 20:42:03.320 main.go(44)[main]: Database connected.
+[35;1m[ERROR] 2025-11-01 20:42:03.402 redis.go(35)[newRedisClient]: [0m[35mCould not connect to Redis: dial tcp: lookup ccd-redis: no such host[0m
+[INFO]  2025-11-01 20:42:35.375 main.go(44)[main]: Database connected.
+[INFO]  2025-11-01 20:42:35.378 main.go(58)[main]: Redis connected.
+[INFO]  2025-11-01 20:42:35.379 main.go(66)[main]: Data collector created.
+[INFO]  2025-11-01 20:42:35.379 main.go(68)[main]: Data collection started.
+[INFO]  2025-11-01 20:42:35.379 main.go(70)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-01 20:42:35.380 main.go(75)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-01 20:42:35.381 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:35.709 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-01 20:42:36.208 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[33;1m[WARN]  2025-11-01 20:42:36.387 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:36.748 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-01 20:42:37.236 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[33;1m[WARN]  2025-11-01 20:42:37.395 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:37.802 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[33;1m[WARN]  2025-11-01 20:42:38.405 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:38.505 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-01 20:42:38.978 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[33;1m[WARN]  2025-11-01 20:42:39.412 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:39.496 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-01 20:42:40.044 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[33;1m[WARN]  2025-11-01 20:42:40.420 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:40.568 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-01 20:42:41.118 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[33;1m[WARN]  2025-11-01 20:42:41.426 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:41.659 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-01 20:42:42.201 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[33;1m[WARN]  2025-11-01 20:42:42.434 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:42.995 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[33;1m[WARN]  2025-11-01 20:42:43.442 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:43.546 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-01 20:42:44.045 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[33;1m[WARN]  2025-11-01 20:42:44.447 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:44.549 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-01 20:42:45.084 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[33;1m[WARN]  2025-11-01 20:42:45.458 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:45.576 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[35;1m[ERROR] 2025-11-01 20:42:46.040 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.042 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.042 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[33;1m[WARN]  2025-11-01 20:42:46.465 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:46.604 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-01 20:42:47.202 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[33;1m[WARN]  2025-11-01 20:42:47.473 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:47.680 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-01 20:42:48.206 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[33;1m[WARN]  2025-11-01 20:42:48.481 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.631 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.631 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.632 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-01 20:42:49.264 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[33;1m[WARN]  2025-11-01 20:42:49.486 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:49.733 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-01 20:42:50.281 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[33;1m[WARN]  2025-11-01 20:42:50.494 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:50.837 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-01 20:42:51.408 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[33;1m[WARN]  2025-11-01 20:42:51.503 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 20:42:51.985 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-01 20:42:52.479 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[33;1m[WARN]  2025-11-01 20:42:52.509 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:53.517 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:54.523 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:55.529 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:56.536 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:57.544 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:58.551 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:59.557 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:00.562 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:01.568 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:02.577 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:03.584 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:04.591 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:05.597 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:06.604 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:07.611 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:08.619 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:09.626 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:10.633 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:11.641 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:12.646 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:13.653 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:14.662 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:15.669 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:16.676 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:17.684 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:18.693 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:19.702 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:36.771 main.go(44)[main]: Database connected.
+[INFO]  2025-11-01 21:04:36.775 main.go(58)[main]: Redis connected.
+[INFO]  2025-11-01 21:04:36.776 main.go(66)[main]: Data collector created.
+[INFO]  2025-11-01 21:04:36.776 main.go(68)[main]: Data collection started.
+[INFO]  2025-11-01 21:04:36.776 main.go(70)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-01 21:04:36.776 main.go(75)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-01 21:04:36.777 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-01 21:04:36.778 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:37.051 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-01 21:04:37.579 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[33;1m[WARN]  2025-11-01 21:04:37.784 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:38.107 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-01 21:04:38.586 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[33;1m[WARN]  2025-11-01 21:04:38.792 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:39.152 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-01 21:04:39.642 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[33;1m[WARN]  2025-11-01 21:04:39.798 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:40.160 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-01 21:04:40.674 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[33;1m[WARN]  2025-11-01 21:04:40.805 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:41.206 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-01 21:04:41.750 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[33;1m[WARN]  2025-11-01 21:04:41.814 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:42.266 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-01 21:04:42.815 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[33;1m[WARN]  2025-11-01 21:04:42.825 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:43.395 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[33;1m[WARN]  2025-11-01 21:04:43.829 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:43.883 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-01 21:04:44.398 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[33;1m[WARN]  2025-11-01 21:04:44.835 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:44.897 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-01 21:04:45.454 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[33;1m[WARN]  2025-11-01 21:04:45.839 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:45.960 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-01 21:04:46.443 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[33;1m[WARN]  2025-11-01 21:04:46.852 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[INFO]  2025-11-01 21:04:46.984 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-01 21:04:47.486 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-01 21:42:34.539 main.go(44)[main]: Database connected.
+[INFO]  2025-11-01 21:42:34.543 main.go(58)[main]: Redis connected.
+[INFO]  2025-11-01 21:42:34.544 main.go(66)[main]: Data collector created.
+[INFO]  2025-11-01 21:42:34.544 main.go(68)[main]: Data collection started.
+[INFO]  2025-11-01 21:42:34.544 main.go(70)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-01 21:42:34.544 main.go(75)[main]: Subscribe Dispatcher created.
+[INFO]  2025-11-01 21:42:34.858 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-01 21:42:35.321 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-01 21:42:35.833 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-01 21:42:37.310 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-01 21:42:37.862 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-01 21:42:38.379 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[35;1m[ERROR] 2025-11-01 21:42:38.838 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.841 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.841 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-01 21:42:39.429 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-01 21:42:39.955 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-01 21:42:40.639 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-01 21:42:41.115 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-01 21:42:41.794 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-01 21:42:42.340 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-01 21:42:43.086 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-01 21:42:43.726 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-01 21:42:44.265 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-01 21:42:44.730 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-01 21:42:45.306 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[35;1m[ERROR] 2025-11-01 21:42:45.720 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.721 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.721 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-01 21:42:46.357 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-01 21:42:46.920 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-01 21:42:47.539 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-01 21:42:48.006 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-01 21:42:48.494 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-01 21:42:49.031 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-01 21:42:49.566 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-01 21:42:50.051 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-01 21:42:50.623 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-01 21:42:51.189 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-01 21:42:51.684 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-01 21:42:52.496 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-01 21:42:52.997 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[INFO]  2025-11-01 23:56:58.070 main.go(44)[main]: Database connected.
+[INFO]  2025-11-01 23:56:58.075 main.go(58)[main]: Redis connected.
+[INFO]  2025-11-01 23:56:58.076 main.go(66)[main]: Data collector created.
+[INFO]  2025-11-01 23:56:58.076 main.go(68)[main]: Data collection started.
+[INFO]  2025-11-01 23:56:58.076 main.go(70)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-01 23:56:58.076 main.go(75)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-01 23:56:58.077 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-01 23:56:58.527 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-01 23:57:00.071 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-01 23:57:00.608 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-01 23:57:01.079 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-01 23:57:01.648 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-01 23:57:02.187 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-01 23:57:03.311 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-01 23:57:04.623 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-01 23:57:05.432 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-01 23:57:05.890 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-01 23:57:06.492 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-01 23:57:07.008 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[35;1m[ERROR] 2025-11-01 23:57:07.481 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.484 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.484 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-01 23:57:08.411 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-01 23:57:08.978 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-01 23:57:09.505 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-01 23:57:10.503 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-01 23:57:10.796 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-01 23:57:12.387 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-01 23:57:12.625 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-01 23:57:13.126 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-01 23:57:13.646 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-01 23:57:14.129 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-01 23:57:15.198 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-01 23:57:16.762 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-01 23:57:17.269 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-01 23:57:17.740 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-01 23:57:18.269 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-01 23:57:18.998 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-01 23:57:19.270 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-01 23:57:19.859 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29

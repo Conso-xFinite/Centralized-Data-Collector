@@ -1,0 +1,101 @@
+[35m[error] 2025-11-01 08:55:11.839 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 18:56:51.400 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:05:30.990 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:07:48.869 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:10:56.831 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:23:23.622 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:23:50.116 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:25:38.529 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:32:26.395 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:32:47.532 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:41:41.206 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35;1m[ERROR] 2025-11-01 20:42:03.402 redis.go(35)[newRedisClient]: [0m[35mCould not connect to Redis: dial tcp: lookup ccd-redis: no such host[0m
+[33;1m[WARN]  2025-11-01 20:42:35.381 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:36.387 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:37.395 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:38.405 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:39.412 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:40.420 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:41.426 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:42.434 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:43.442 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:44.447 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:45.458 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.040 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.042 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.042 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[33;1m[WARN]  2025-11-01 20:42:46.465 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:47.473 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:48.481 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.631 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.631 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.632 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[33;1m[WARN]  2025-11-01 20:42:49.486 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:50.494 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:51.503 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:52.509 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:53.517 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:54.523 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:55.529 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:56.536 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:57.544 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:58.551 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:42:59.557 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:00.562 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:01.568 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:02.577 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:03.584 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:04.591 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:05.597 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:06.604 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:07.611 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:08.619 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:09.626 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:10.633 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:11.641 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:12.646 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:13.653 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:14.662 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:15.669 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:16.676 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:17.684 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:18.693 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 20:43:19.702 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:36.777 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-01 21:04:36.778 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:37.784 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:38.792 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:39.798 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:40.805 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:41.814 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:42.825 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:43.829 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:44.835 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:45.839 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[33;1m[WARN]  2025-11-01 21:04:46.852 redis_stream.go(88)[SubscribeStream]: [0m[33mRedis XAutoClaim error: got 3, wanted 2[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.838 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.841 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.841 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.720 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.721 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.721 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[33;1m[WARN]  2025-11-01 23:56:58.077 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.481 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.484 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.484 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m

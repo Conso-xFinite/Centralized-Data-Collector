@@ -1,0 +1,41 @@
+[35m[error] 2025-11-01 08:55:11.839 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 18:56:51.400 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:05:30.990 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:07:48.869 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:10:56.831 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:23:23.622 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:23:50.116 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:25:38.529 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:32:26.395 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:32:47.532 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35m[error] 2025-11-01 20:41:41.206 [0m[35m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/init_postgres.go:17
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`: hostname resolving error: lookup coinhub_test_db: no such host
+[35;1m[ERROR] 2025-11-01 20:42:03.402 redis.go(35)[newRedisClient]: [0m[35mCould not connect to Redis: dial tcp: lookup ccd-redis: no such host[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.040 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.042 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:46.042 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.631 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.631 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 20:42:48.632 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.838 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.841 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:38.841 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.720 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.721 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 21:42:45.721 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.481 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.484 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:07.484 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-01 23:57:14.611 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m

@@ -1,0 +1,251 @@
+[35;1m[ERROR] 2025-11-08 11:16:06.992 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 11:16:06.993 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 11:16:06.993 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.559 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.560 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.561 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.560 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.560 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.560 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.648 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.576 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.609 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.609 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.576 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.760 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.761 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.824 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.825 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.846 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.864 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.884 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.897 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:22.913 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.046 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.053 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.053 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.057 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.094 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.243 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.288 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.294 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.308 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 11:26:23.342 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 12:22:53.194 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 12:22:53.196 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 12:22:53.196 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 15:14:16.422 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 15:14:16.425 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 15:14:16.425 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.070 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.072 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.072 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.072 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.072 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.072 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.072 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.106 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.178 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.231 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.270 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.286 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.354 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.354 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.396 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.425 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.425 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.425 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.437 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.483 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.529 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.530 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.627 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.714 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.724 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.784 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.786 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.890 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.891 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-08 15:41:24.907 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[error] 2025-11-08 15:52:49.855 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[2.051ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:49.858 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:49.961 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[2.345ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:49.961 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.066 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.137ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.066 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.171 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.076ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.172 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.278 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.826ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.278 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.384 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.371ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.384 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.489 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.614ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.489 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.595 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.376ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.595 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.700 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.015ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.700 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.806 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.972ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.806 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:50.913 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[5.845ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:50.914 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.019 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.290ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.020 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.125 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.280ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.125 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.230 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.161ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.230 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.335 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.431ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.336 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.442 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.786ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.443 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.547 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.030ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.547 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.654 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.021ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.654 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.759 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.752ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.760 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.866 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[5.511ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.866 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:51.971 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.883ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:51.971 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.074 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[2.053ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.075 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.179 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.780ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.180 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.285 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.934ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.285 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.390 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.751ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.391 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.497 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[5.323ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.497 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.602 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.402ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.602 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.707 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.352ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.708 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.812 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.144ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.813 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:52.918 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.220ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:52.919 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.025 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.675ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.025 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.130 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.490ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.130 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.235 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.897ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.236 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.341 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.072ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.342 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.447 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.688ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.448 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.553 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.848ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.553 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[35;1m[ERROR] 2025-11-08 15:52:53.594 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 15:52:53.595 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 15:52:53.595 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[error] 2025-11-08 15:52:53.660 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[5.650ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.660 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.766 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.894ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.766 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.871 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.761ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.871 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:53.974 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[2.237ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:53.975 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:54.079 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.403ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:54.080 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:54.185 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.983ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:54.185 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:54.291 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[4.076ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:54.291 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[error] 2025-11-08 15:52:54.396 [31;1m/Users/conso-dev1/code/dataCollector/Conso-CoinHub-DataCollector/internal/db/okx_trade_pgs.go:13 [35;1mslice data #0 is invalid: unsupported data
+[0m[33m[3.685ms] [34;1m[rows:0][0m INSERT INTO "transactions" ("chain_index","token_contract_id","tx_id","tx_hash","from_token_id","to_token_id","from_amount","to_amount","price","usd_value","user_address","pool_id","is_filtered","timestamp","tx_type","source","is_first") VALUES (),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),(),() RETURNING "id"
+[35;1m[ERROR] 2025-11-08 15:52:54.397 okx-storer.go(265)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = slice data #0 is invalid: unsupported data[0m
+[35;1m[ERROR] 2025-11-08 16:02:35.102 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 16:02:35.104 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-08 16:02:35.104 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m

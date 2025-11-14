@@ -1,0 +1,78 @@
+[35;1m[ERROR] 2025-11-02 00:25:56.637 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 00:25:56.638 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 00:25:56.639 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:31.260 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:31.263 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:31.264 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:32.305 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:32.305 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:32.305 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:42.996 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:42.996 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:42.996 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.448 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.448 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.448 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.449 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.449 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.449 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.541 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.553 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.587 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.587 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.715 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.715 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.715 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.791 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.791 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.792 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.820 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.821 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.896 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.967 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.061 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.100 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.100 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.100 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.113 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.170 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.170 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.171 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.279 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.297 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.193 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.193 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.193 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.209 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.265 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.289 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.238 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.368 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.368 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.394 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.439 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.502 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.502 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.502 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.599 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.599 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.691 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.725 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.757 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.790 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.794 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.795 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.851 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.852 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.913 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.957 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.977 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.996 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.996 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:45.007 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 23:36:25.587 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:25.590 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:25.590 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:27.826 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:27.827 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:27.827 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m

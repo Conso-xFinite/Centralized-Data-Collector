@@ -1,0 +1,496 @@
+[INFO]  2025-11-11 15:25:14.215 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 15:25:14.219 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 15:25:14.220 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, dex-token-candle1s: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:25:14.220 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, price: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:25:14.220 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, trades: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:25:14.220 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 15:25:14.220 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 15:30:40.737 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 15:30:40.741 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 15:30:40.742 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, dex-token-candle1s: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:30:40.742 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, price: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:30:40.742 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, trades: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:30:40.742 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 15:30:40.742 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 15:35:55.420 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 15:35:55.424 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 15:35:55.425 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, dex-token-candle1s: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:35:55.425 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, price: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:35:55.425 okx-ws-pool.go(92)[AddChannelSubscribe]:
+[client-0] subscription, trades: 1:0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[INFO]  2025-11-11 15:35:55.425 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 15:35:55.426 main.go(63)[main]: Data collection started.
+[35m[error] 2025-11-11 20:24:27.561 [0m[35m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/init_postgres.go:19
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`:
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+[INFO]  2025-11-11 20:24:42.983 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 20:24:42.986 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 20:24:42.986 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 20:24:42.986 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 20:48:09.108 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 20:48:09.112 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 20:48:09.112 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 20:48:09.112 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:11:36.138 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:11:36.141 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:11:36.142 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:11:36.142 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:18:10.633 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:18:10.638 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:18:10.638 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:18:10.638 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:18:10.638 ws.go(121)[Start]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:18:52.559 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:18:52.562 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:18:52.563 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:18:52.563 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:19:11.147 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:19:11.150 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:19:11.150 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:19:11.150 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:19:11.150 ws.go(58)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:20:07.599 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:20:07.603 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:20:07.603 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:20:07.603 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:21:40.721 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:21:40.723 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:21:40.723 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:21:40.723 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:22:07.984 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:22:07.987 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:22:07.987 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:22:07.987 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:22:42.731 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:22:42.735 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:22:42.735 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:22:42.735 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:22:42.735 ws.go(58)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:37:14.847 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:37:14.851 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:37:14.851 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:37:14.851 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:37:14.851 ws.go(58)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:37:14.851 ws-connector.go(40)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...1
+[INFO]  2025-11-11 21:37:14.851 ws-connector.go(42)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...2
+[INFO]  2025-11-11 21:37:14.851 ws-connector.go(46)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...3
+[INFO]  2025-11-11 21:38:20.654 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:38:20.656 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:38:20.656 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:38:20.656 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:38:35.950 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:38:35.952 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:38:35.952 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:38:35.952 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:38:35.952 ws.go(58)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:38:35.952 ws-connector.go(40)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...1
+[INFO]  2025-11-11 21:38:53.225 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:38:53.229 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:38:53.229 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:38:53.229 ws.go(58)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:38:53.229 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:38:53.229 ws-connector.go(40)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...1
+[INFO]  2025-11-11 21:38:53.229 ws-connector.go(42)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...2
+[INFO]  2025-11-11 21:38:53.229 ws-connector.go(46)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...3
+[INFO]  2025-11-11 21:46:58.628 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:46:58.632 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:46:58.633 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:46:58.633 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:46:58.633 ws.go(84)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:47:28.437 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:47:28.440 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:47:28.440 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:47:28.440 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:47:28.440 ws.go(84)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:47:28.440 ws-connector.go(40)[LockDialWebSocket]: WebSocket not connected or not logged in, connecting...1
+[INFO]  2025-11-11 21:47:47.183 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:47:47.186 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:47:47.186 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:47:47.186 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:47:47.186 ws.go(84)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:48:01.470 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:48:01.473 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:48:01.473 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:48:01.473 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:48:01.473 ws.go(84)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:48:35.672 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:48:35.676 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:48:35.676 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:48:35.676 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:48:35.676 ws.go(84)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:49:39.663 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:49:39.664 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:49:39.664 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:49:39.665 main.go(63)[main]: Data collection started.
+[35;1m[ERROR] 2025-11-11 21:49:39.665 ws.go(149)[Start]: [0m[35mLogin error: false[0m
+[INFO]  2025-11-11 21:50:38.474 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:50:38.478 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:50:38.478 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:50:38.478 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:50:38.478 ws.go(84)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 21:50:38.479 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 21:50:38.479 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 21:50:38.479 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 21:52:06.627 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:52:06.630 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:52:06.630 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:52:06.630 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:52:06.630 ws.go(86)[Login]:
+streamUrl = wss://stream.binance.com:9443/stream?streams=btcusdt%!a(MISSING)ggTrade%!F(MISSING)ethusdt%!a(MISSING)ggTrade
+[INFO]  2025-11-11 21:52:06.630 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 21:52:06.630 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 21:52:06.631 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 21:56:21.442 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 21:56:21.444 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 21:56:21.444 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 21:56:21.444 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 21:56:21.444 ws.go(64)[buildCombinedURL]: buildCombinedURL parts: [btcusdt@aggTrade ethusdt@aggTrade]
+[INFO]  2025-11-11 21:56:21.445 ws.go(87)[Login]:
+streamUrl = wss://stream.binance.com:9443/stream?streams=btcusdt%!a(MISSING)ggTrade%!F(MISSING)ethusdt%!a(MISSING)ggTrade
+[INFO]  2025-11-11 21:56:21.445 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 21:56:21.445 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 21:56:21.445 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 22:14:40.678 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:14:40.682 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:14:40.682 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:14:40.682 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:15:53.454 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:15:53.458 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:15:53.458 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:15:53.458 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:17:11.725 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:17:11.729 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:17:11.730 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:17:11.730 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:17:47.570 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:17:47.575 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:17:47.576 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:17:47.576 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:17:53.074 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:17:53.077 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:17:53.078 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:17:53.078 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:18:35.598 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:18:35.601 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:18:35.602 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:18:35.602 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:18:49.867 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:18:49.870 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:18:49.870 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:18:49.870 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:19:20.887 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:19:20.888 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:19:20.888 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:19:20.888 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:19:30.304 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:19:30.306 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:19:30.306 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:19:30.306 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:19:32.333 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:19:32.335 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:19:32.335 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:19:32.335 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:25:01.059 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:25:01.064 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:25:01.064 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:25:01.064 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:25:05.803 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:25:05.805 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:25:05.805 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:25:05.805 main.go(63)[main]: Data collection started.
+[35;1m[ERROR] 2025-11-11 22:25:05.805 ws.go(94)[Login]:
+[0m[35mWebSocket URL: {wss   stream.binance.com:9443 /stream  false false streams=streams%3Dbtcusdt%40aggTrade%2Fethusdt%40aggTrade  }[0m
+[INFO]  2025-11-11 22:27:54.304 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:27:54.308 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:27:54.308 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:27:54.308 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:27:59.937 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:27:59.940 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:27:59.941 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:27:59.941 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:28:07.494 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:28:07.496 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:28:07.496 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:28:07.496 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:28:09.969 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:28:09.971 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:28:09.971 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:28:09.971 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:28:14.646 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:28:14.648 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:28:14.648 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:28:14.648 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:28:22.107 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:28:22.109 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:28:22.109 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:28:22.109 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:28:28.573 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:28:28.577 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:28:28.577 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:28:28.577 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:28:46.302 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:28:46.304 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:28:46.304 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:28:46.304 main.go(63)[main]: Data collection started.
+[35;1m[ERROR] 2025-11-11 22:28:46.304 ws.go(94)[Login]:
+[0m[35mWebSocket URL: {wss   stream.binance.com:9443 /stream  false false streams=streams%3Dbtcusdt%40aggTrade%2Fethusdt%40aggTrade  }[0m
+[INFO]  2025-11-11 22:29:07.815 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:29:07.817 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:29:07.817 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:29:07.817 main.go(63)[main]: Data collection started.
+[35;1m[ERROR] 2025-11-11 22:29:07.817 ws.go(94)[Login]:
+[0m[35mWebSocket URL: {wss   stream.binance.com:9443 /stream  false false streams=streams%3Dbtcusdt%40aggTrade%2Fethusdt%40aggTrade  }[0m
+[INFO]  2025-11-11 22:29:52.883 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:29:52.886 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:29:52.887 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:29:52.887 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:29:56.164 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:29:56.167 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:29:56.167 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:29:56.167 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:29:58.835 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:29:58.837 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:29:58.838 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:29:58.838 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:26.788 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:26.790 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:26.791 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:26.791 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:29.487 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:29.490 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:29.491 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:29.491 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:30.789 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:30.791 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:30.791 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:30.791 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:35.999 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:36.000 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:36.000 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:36.000 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:38.556 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:38.559 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:38.559 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:38.559 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:40.333 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:40.335 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:40.335 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:40.335 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:30:41.720 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:30:41.722 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:30:41.722 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:30:41.722 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:31:35.597 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:31:35.601 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:31:35.601 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:31:35.601 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:32:24.295 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:32:24.299 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:32:24.299 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:32:24.299 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:32:46.378 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:32:46.381 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:32:46.381 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:32:46.381 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:33:08.808 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:33:08.810 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:33:08.810 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:33:08.810 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:34:13.948 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:34:13.952 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:34:13.952 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:34:13.952 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:35:57.048 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:35:57.051 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:35:57.051 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:35:57.051 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:38:56.756 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:38:56.761 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:38:56.761 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:38:56.761 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:40:00.054 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:40:00.057 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:40:00.058 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:40:00.058 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:40:04.381 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:40:04.384 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:40:04.384 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:40:04.384 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:40:08.619 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:40:08.621 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:40:08.621 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:40:08.621 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:40:10.464 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:40:10.466 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:40:10.466 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:40:10.466 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:44:38.142 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:44:38.146 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:44:38.146 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:44:38.146 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:44:40.892 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:44:40.895 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:44:40.895 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:44:40.895 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:44:42.906 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:44:42.907 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:44:42.907 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:44:42.907 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:46:23.693 main.go(43)[main]: Database connected.
+[INFO]  2025-11-11 22:46:23.697 main.go(53)[main]: Redis connected.
+[INFO]  2025-11-11 22:46:23.697 main.go(61)[main]: Data collector created.
+[INFO]  2025-11-11 22:46:23.697 main.go(63)[main]: Data collection started.
+[INFO]  2025-11-11 22:51:47.614 main.go(45)[main]: Database connected.
+[INFO]  2025-11-11 22:51:47.617 main.go(55)[main]: Redis connected.
+[INFO]  2025-11-11 22:51:47.618 main.go(63)[main]: Data collector created.
+[INFO]  2025-11-11 22:51:47.618 main.go(65)[main]: Data collection started.
+[INFO]  2025-11-11 22:56:33.643 main.go(45)[main]: Database connected.
+[INFO]  2025-11-11 22:56:33.647 main.go(55)[main]: Redis connected.
+[INFO]  2025-11-11 22:56:33.647 main.go(63)[main]: Data collector created.
+[INFO]  2025-11-11 22:56:33.647 main.go(65)[main]: Data collection started.
+[INFO]  2025-11-11 22:56:33.647 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 22:56:33.647 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 22:56:33.647 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 23:08:21.536 main.go(45)[main]: Database connected.
+[INFO]  2025-11-11 23:08:21.541 main.go(55)[main]: Redis connected.
+[INFO]  2025-11-11 23:08:21.541 main.go(63)[main]: Data collector created.
+[INFO]  2025-11-11 23:08:21.541 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 23:08:21.541 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 23:08:21.541 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 23:08:21.870 ws-connector.go(48)[LockDialWebSocket]: LockDialWebSocket...4
+[INFO]  2025-11-11 23:10:08.395 main.go(45)[main]: Database connected.
+[INFO]  2025-11-11 23:10:08.396 main.go(55)[main]: Redis connected.
+[INFO]  2025-11-11 23:10:08.396 main.go(63)[main]: Data collector created.
+[INFO]  2025-11-11 23:10:08.397 main.go(65)[main]: Data collection started.
+[INFO]  2025-11-11 23:10:08.397 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 23:10:08.397 main.go(67)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-11 23:10:08.397 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 23:10:08.397 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 23:11:40.105 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:11:40.108 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:11:40.108 main.go(64)[main]: Data collector created.
+[INFO]  2025-11-11 23:11:40.108 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 23:11:40.108 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 23:11:40.108 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 23:11:40.481 ws-connector.go(48)[LockDialWebSocket]: LockDialWebSocket...4
+[INFO]  2025-11-11 23:13:17.649 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:13:17.652 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:13:17.652 main.go(64)[main]: Data collector created.
+[INFO]  2025-11-11 23:13:17.652 ws-connector.go(40)[LockDialWebSocket]: LockDialWebSocket...1
+[INFO]  2025-11-11 23:13:17.652 ws-connector.go(42)[LockDialWebSocket]: LockDialWebSocket...2
+[INFO]  2025-11-11 23:13:17.652 ws-connector.go(46)[LockDialWebSocket]: LockDialWebSocket...3
+[INFO]  2025-11-11 23:13:18.049 ws-connector.go(48)[LockDialWebSocket]: LockDialWebSocket...4
+[INFO]  2025-11-11 23:15:12.412 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:15:12.416 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:15:12.416 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:15:18.418 ws.go(109)[Login]: [0m[35mWebSocket dial failed: dial tcp 108.160.167.30:9443: i/o timeout, http response: <nil>[0m
+[35;1m[ERROR] 2025-11-11 23:15:18.421 ws.go(115)[Login]: [0m[35mWebSocket dial error: dial tcp 108.160.167.30:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:15:18.421 ws.go(127)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:16:40.727 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:16:40.731 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:16:40.731 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:16:40.898 ws.go(109)[Login]:
+[0m[35mWebSocket dial failed: read tcp 192.168.31.16:63443->3.115.248.145:9443: read: connection reset by peer, http response: <nil>[0m
+[35;1m[ERROR] 2025-11-11 23:16:40.898 ws.go(115)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:63443->3.115.248.145:9443: read: connection reset by peer[0m
+[INFO]  2025-11-11 23:16:40.898 ws.go(127)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:18:09.849 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:18:09.851 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:18:09.851 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:18:15.852 ws.go(109)[Login]: [0m[35mWebSocket dial failed: dial tcp 31.13.70.33:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:18:15.854 ws.go(110)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:18:15.854 ws.go(116)[Login]: [0m[35mWebSocket dial error: dial tcp 31.13.70.33:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:18:15.854 ws.go(128)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:22:31.866 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:22:31.870 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:22:31.870 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:22:37.872 ws.go(109)[Login]: [0m[35mWebSocket dial failed: dial tcp 199.59.148.15:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:22:37.875 ws.go(110)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:22:37.875 ws.go(116)[Login]: [0m[35mWebSocket dial error: dial tcp 199.59.148.15:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:22:37.875 ws.go(128)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:26:31.156 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:26:31.159 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:26:31.159 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:26:37.160 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 174.37.175.229:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:26:37.160 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:26:37.160 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 174.37.175.229:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:26:37.160 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:27:09.251 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:27:09.254 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:27:09.255 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:27:15.256 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 174.37.175.229:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:27:15.259 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:27:15.259 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 174.37.175.229:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:27:15.259 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:31:14.273 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:31:14.276 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:31:14.276 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:31:20.277 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:31:20.278 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:31:20.278 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:31:20.278 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:33:25.769 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:33:25.773 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:33:25.773 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:33:31.774 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:33:31.776 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:33:31.776 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:33:31.776 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:34:00.152 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:34:00.154 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:34:00.154 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:34:06.156 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:34:06.156 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:34:06.156 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:34:06.156 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:35:09.053 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:35:09.057 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:35:09.057 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:35:15.058 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:35:15.060 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:35:15.061 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:35:15.061 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:36:26.997 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:36:27.000 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:36:27.000 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:36:33.002 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:36:33.004 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:36:33.004 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:36:33.004 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:38:32.629 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:38:32.631 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:38:32.631 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:38:38.633 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 157.240.15.8:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:38:38.636 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:38:38.636 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 157.240.15.8:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:38:38.636 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:43:02.301 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:43:02.305 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:43:02.305 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:43:08.309 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 50.117.117.42:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:43:08.310 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:43:08.310 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 50.117.117.42:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:43:08.310 ws.go(138)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:57:29.564 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:57:29.569 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:57:29.569 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:57:35.570 ws.go(138)[Login]: [0m[35mWebSocket dial failed: dial tcp 159.138.20.20:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:57:35.572 ws.go(139)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:57:35.572 ws.go(145)[Login]: [0m[35mWebSocket dial error: dial tcp 159.138.20.20:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:57:35.572 ws.go(157)[Login]: WebSocket not connected or not logged in, connecting...
+[INFO]  2025-11-11 23:58:06.496 main.go(46)[main]: Database connected.
+[INFO]  2025-11-11 23:58:06.501 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-11 23:58:06.501 main.go(64)[main]: Data collector created.
+[35;1m[ERROR] 2025-11-11 23:58:12.502 ws.go(138)[Login]: [0m[35mWebSocket dial failed: dial tcp 159.138.20.20:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:58:12.504 ws.go(139)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:58:12.505 ws.go(145)[Login]: [0m[35mWebSocket dial error: dial tcp 159.138.20.20:9443: i/o timeout[0m
+[INFO]  2025-11-11 23:58:12.505 ws.go(157)[Login]: WebSocket not connected or not logged in, connecting...

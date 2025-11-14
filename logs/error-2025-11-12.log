@@ -1,0 +1,27 @@
+[35;1m[ERROR] 2025-11-12 00:27:26.287 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:26.289 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:26.563 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:26.563 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.044 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.045 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.298 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.298 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.561 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.561 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.813 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:27.813 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.064 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.064 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.304 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.304 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.595 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.596 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.863 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:28.864 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:29.137 ws.go(118)[Login]: [0m[35mError logging in: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:27:29.138 ws.go(160)[Start]: [0m[35mLogin error: WS not connected[0m
+[35;1m[ERROR] 2025-11-12 00:35:38.780 ws.go(167)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-12 00:35:39.786 ws.go(167)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-12 00:35:40.787 ws.go(167)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-12 23:10:56.858 binance_storer.go(231)[StoreData]:
+[0m[35mFailed to batch insert OKX trades: err = &{false aggTrade {aggTrade 1762960256748 BTCUSDT 3739708774 104262.48000000 0.00030000 5473866722 5473866722 1762960256748 false true}}[0m

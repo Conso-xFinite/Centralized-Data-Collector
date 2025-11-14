@@ -1,0 +1,530 @@
+[INFO]  2025-11-02 00:25:34.611 main.go(44)[main]: Database connected.
+[INFO]  2025-11-02 00:25:34.616 main.go(58)[main]: Redis connected.
+[INFO]  2025-11-02 00:25:34.617 main.go(66)[main]: Data collector created.
+[INFO]  2025-11-02 00:25:34.617 main.go(68)[main]: Data collection started.
+[INFO]  2025-11-02 00:25:34.617 main.go(70)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-02 00:25:34.617 main.go(75)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-02 00:25:34.618 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-02 00:25:34.868 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-02 00:25:35.385 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-02 00:25:35.926 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-02 00:25:36.513 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-02 00:25:37.381 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-02 00:25:37.954 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-02 00:25:38.440 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-02 00:25:38.984 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-02 00:25:39.517 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-02 00:25:40.117 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-02 00:25:40.696 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-02 00:25:41.521 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-02 00:25:42.031 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-02 00:25:42.801 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-02 00:25:44.279 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-02 00:25:45.827 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-02 00:25:46.439 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-02 00:25:47.833 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-02 00:25:48.333 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-02 00:25:48.881 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-02 00:25:49.363 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-02 00:25:49.996 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-02 00:25:50.799 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-02 00:25:51.613 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-02 00:25:52.442 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-02 00:25:52.981 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-02 00:25:53.967 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-02 00:25:54.030 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-02 00:25:55.930 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[35;1m[ERROR] 2025-11-02 00:25:56.637 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 00:25:56.638 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 00:25:56.639 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-02 00:25:57.224 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[INFO]  2025-11-02 21:20:22.411 main.go(44)[main]: Database connected.
+[INFO]  2025-11-02 21:20:22.416 main.go(58)[main]: Redis connected.
+[INFO]  2025-11-02 21:20:22.417 main.go(66)[main]: Data collector created.
+[INFO]  2025-11-02 21:20:22.417 main.go(68)[main]: Data collection started.
+[INFO]  2025-11-02 21:20:22.417 main.go(70)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-02 21:20:22.417 main.go(75)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-02 21:20:22.417 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-02 21:20:22.900 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-02 21:20:23.897 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-02 21:20:26.098 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-02 21:20:26.547 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-02 21:20:28.104 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-02 21:20:29.633 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-02 21:20:30.317 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-02 21:20:30.787 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[35;1m[ERROR] 2025-11-02 21:20:31.260 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:31.263 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:31.264 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-02 21:20:31.839 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[35;1m[ERROR] 2025-11-02 21:20:32.305 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:32.305 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:32.305 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-02 21:20:32.867 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-02 21:20:35.373 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-02 21:20:35.849 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-02 21:20:36.372 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-02 21:20:37.057 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-02 21:20:37.509 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-02 21:20:39.498 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-02 21:20:40.099 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-02 21:20:40.684 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-02 21:20:41.142 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-02 21:20:42.249 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-02 21:20:42.482 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[35;1m[ERROR] 2025-11-02 21:20:42.996 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:42.996 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 21:20:42.996 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-02 21:20:43.831 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-02 21:20:44.452 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-02 21:20:45.941 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-02 21:20:46.586 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-02 21:20:47.073 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-02 21:20:47.558 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-02 21:20:49.017 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-02 21:20:49.594 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-02 21:20:50.139 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[35;1m[ERROR] 2025-11-02 21:43:20.448 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.448 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.448 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57913->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.448 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57913->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.448 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.449 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57901->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.449 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57901->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.449 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.449 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57873->104.18.43.174:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.449 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57873->104.18.43.174:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.449 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57903->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.449 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57903->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.449 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.450 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57877->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.450 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57877->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.449 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.451 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57919->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.451 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57919->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.541 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.541 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57904->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.541 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57904->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.553 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.553 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57883->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.553 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57883->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.587 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.587 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.587 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57895->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.587 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57891->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.587 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57895->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.587 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57891->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.715 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.715 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57908->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.715 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57908->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.715 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.715 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57898->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.715 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57898->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.715 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.715 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57905->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.715 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57905->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.791 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.791 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57876->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.791 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57876->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.791 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.791 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57914->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.791 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57914->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.792 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.792 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57897->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.792 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57897->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.820 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.821 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.821 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57912->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.821 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57912->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.821 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57918->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.822 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57918->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.896 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.897 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57880->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.897 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57880->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:20.967 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:20.968 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57902->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:20.968 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57902->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.061 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.061 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57884->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.062 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57884->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.100 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.100 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.100 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.100 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57894->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.100 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57907->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.100 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57894->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.100 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57888->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.101 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57907->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.101 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57888->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.113 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.113 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57890->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.113 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57890->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.170 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.170 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57872->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.170 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57872->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.170 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.170 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57909->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.170 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57909->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.171 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.171 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57871->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.171 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57871->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.279 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.279 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57915->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.279 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57915->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:43:21.297 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:43:21.297 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57896->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:43:21.297 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:57896->172.64.144.82:443: use of closed network connection[0m
+[INFO]  2025-11-02 21:43:21.997 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-02 21:43:22.548 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-02 21:43:23.461 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-02 21:43:23.974 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-02 21:43:25.311 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-02 21:43:26.700 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[INFO]  2025-11-02 21:43:27.215 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-02 21:43:27.714 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-02 21:43:28.231 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-02 21:43:29.681 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-02 21:43:30.227 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-02 21:43:31.546 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-02 21:43:31.947 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-02 21:43:33.783 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-02 21:43:34.703 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-02 21:43:35.176 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-02 21:43:36.500 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-02 21:43:37.432 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-02 21:43:37.927 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-02 21:43:38.500 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-02 21:43:39.380 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-02 21:43:40.306 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-02 21:43:41.110 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-02 21:43:41.808 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-02 21:43:42.632 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-02 21:43:43.081 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-02 21:43:43.841 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-02 21:43:45.510 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-02 21:43:46.081 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-02 21:43:46.681 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[35;1m[ERROR] 2025-11-02 21:45:44.193 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.193 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.193 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.194 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59239->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.194 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59152->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.194 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59239->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.194 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59236->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.194 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59152->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.194 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59236->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.209 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.210 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59199->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.210 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59199->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.265 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.265 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59140->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.265 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59140->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.289 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.289 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59047->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.289 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59047->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.238 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.308 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59151->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.308 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59151->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.368 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.368 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.368 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59238->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.368 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59243->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.368 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59238->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.368 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59243->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.394 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.395 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59203->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.395 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59203->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.439 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.439 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59158->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.439 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59158->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.502 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.502 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59145->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.502 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59145->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.502 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.502 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59143->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.502 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59143->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.502 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.502 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59149->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.502 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59149->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.599 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.599 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.600 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59202->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.600 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59141->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.600 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59141->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.600 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59202->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.691 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.691 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59201->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.691 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59201->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.725 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.725 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59162->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.725 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59162->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.757 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.758 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59107->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.758 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59107->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.790 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.794 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59200->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.794 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59200->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.794 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.794 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59160->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.795 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59160->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.795 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.796 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59240->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.796 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59240->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.851 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.852 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59083->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.852 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59083->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.852 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.852 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59150->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.852 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59150->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.913 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.914 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59237->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.914 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59237->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.957 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.963 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59244->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.963 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59244->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.977 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.977 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59146->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.977 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59146->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.996 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.996 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59155->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.996 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59155->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:44.996 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:44.996 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59142->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:44.996 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59142->172.64.144.82:443: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-02 21:45:45.007 okx-ws.go(102)[Start]: [0m[35mNo pong received in the last 30 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-02 21:45:45.010 okx-ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59144->172.64.144.82:443: use of closed network connection[0m
+[33;1m[WARN]  2025-11-02 21:45:45.011 okx-ws.go(193)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 192.168.31.16:59144->172.64.144.82:443: use of closed network connection[0m
+[INFO]  2025-11-02 21:45:45.787 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-02 21:45:46.685 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-02 21:45:48.584 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-02 21:45:48.990 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-02 21:45:49.855 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-02 21:45:50.653 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-02 21:45:51.517 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-02 21:45:53.113 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-02 21:45:53.681 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-02 21:45:54.129 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-02 21:45:54.588 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-02 21:45:55.158 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-02 21:45:55.897 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-02 21:45:56.747 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-02 21:45:57.921 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-02 21:45:58.048 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-02 21:45:58.800 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-02 21:46:00.435 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-02 21:46:00.884 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-02 21:46:01.382 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-02 21:46:02.097 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-02 21:46:03.004 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-02 21:46:03.624 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-02 21:46:04.296 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-02 21:46:05.622 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-02 21:46:05.799 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-02 21:46:06.277 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-02 21:46:06.995 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[INFO]  2025-11-02 21:46:07.520 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-02 21:46:08.058 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-02 23:18:24.939 main.go(44)[main]: Database connected.
+[INFO]  2025-11-02 23:18:24.941 main.go(54)[main]: Redis connected.
+[INFO]  2025-11-02 23:18:24.941 main.go(62)[main]: Data collector created.
+[INFO]  2025-11-02 23:18:24.941 main.go(64)[main]: Data collection started.
+[INFO]  2025-11-02 23:18:24.941 main.go(66)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-02 23:18:24.941 main.go(71)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-02 23:18:24.942 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-02 23:18:27.698 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-02 23:18:27.940 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-02 23:18:28.561 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-02 23:18:29.067 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-02 23:18:29.722 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-02 23:18:30.576 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-02 23:18:31.153 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-02 23:18:31.645 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-02 23:18:32.219 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-02 23:18:32.823 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-02 23:18:34.656 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-02 23:18:35.192 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-02 23:18:36.749 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-02 23:18:38.104 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-02 23:18:39.050 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[INFO]  2025-11-02 23:18:40.574 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-02 23:18:41.198 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-02 23:18:42.218 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[INFO]  2025-11-02 23:18:42.730 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-02 23:18:43.814 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-02 23:18:44.507 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-02 23:18:45.252 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-02 23:18:45.802 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-02 23:18:48.351 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-02 23:18:49.113 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-02 23:18:50.001 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-02 23:18:51.175 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-02 23:18:52.061 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-02 23:18:52.768 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-02 23:18:53.520 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29
+[INFO]  2025-11-02 23:36:15.761 main.go(44)[main]: Database connected.
+[INFO]  2025-11-02 23:36:15.765 main.go(54)[main]: Redis connected.
+[INFO]  2025-11-02 23:36:15.766 main.go(62)[main]: Data collector created.
+[INFO]  2025-11-02 23:36:15.766 main.go(64)[main]: Data collection started.
+[INFO]  2025-11-02 23:36:15.766 main.go(66)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-02 23:36:15.766 main.go(71)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-02 23:36:15.767 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-02 23:36:16.882 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 0
+[INFO]  2025-11-02 23:36:17.111 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 1
+[INFO]  2025-11-02 23:36:17.634 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 2
+[INFO]  2025-11-02 23:36:18.174 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 3
+[INFO]  2025-11-02 23:36:19.025 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 4
+[INFO]  2025-11-02 23:36:19.569 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 5
+[INFO]  2025-11-02 23:36:20.688 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 6
+[INFO]  2025-11-02 23:36:20.702 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 7
+[INFO]  2025-11-02 23:36:21.175 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 8
+[INFO]  2025-11-02 23:36:21.810 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 9
+[INFO]  2025-11-02 23:36:22.335 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 10
+[INFO]  2025-11-02 23:36:23.085 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 11
+[INFO]  2025-11-02 23:36:23.905 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 12
+[INFO]  2025-11-02 23:36:24.459 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 13
+[INFO]  2025-11-02 23:36:25.017 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 14
+[35;1m[ERROR] 2025-11-02 23:36:25.587 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:25.590 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:25.590 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-02 23:36:26.259 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 15
+[INFO]  2025-11-02 23:36:26.875 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 16
+[INFO]  2025-11-02 23:36:27.349 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 17
+[35;1m[ERROR] 2025-11-02 23:36:27.826 okx-ws-connector.go(48)[LockDialWebSocket]: [0m[35mFailed to connect OKX WS: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:27.827 okx-ws.go(51)[Login]: [0m[35mWebSocket dial error: websocket: bad handshake[0m
+[35;1m[ERROR] 2025-11-02 23:36:27.827 okx-ws.go(95)[Start]: [0m[35mLogin error: websocket: bad handshake[0m
+[INFO]  2025-11-02 23:36:28.631 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 18
+[INFO]  2025-11-02 23:36:29.194 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 19
+[INFO]  2025-11-02 23:36:30.106 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 20
+[INFO]  2025-11-02 23:36:31.017 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 21
+[INFO]  2025-11-02 23:36:31.650 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 22
+[INFO]  2025-11-02 23:36:32.342 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 23
+[INFO]  2025-11-02 23:36:33.180 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 24
+[INFO]  2025-11-02 23:36:33.273 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 25
+[INFO]  2025-11-02 23:36:33.848 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 26
+[INFO]  2025-11-02 23:36:34.414 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 27
+[INFO]  2025-11-02 23:36:35.008 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 28
+[INFO]  2025-11-02 23:36:35.528 okx-ws.go(70)[Login]: WebSocket connected and logged in successfully, index: 29

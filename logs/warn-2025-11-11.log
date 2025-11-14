@@ -1,0 +1,49 @@
+[35m[error] 2025-11-11 20:24:27.561 [0m[35m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/init_postgres.go:19
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`:
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused
+[35;1m[ERROR] 2025-11-11 23:15:18.418 ws.go(109)[Login]: [0m[35mWebSocket dial failed: dial tcp 108.160.167.30:9443: i/o timeout, http response: <nil>[0m
+[35;1m[ERROR] 2025-11-11 23:15:18.421 ws.go(115)[Login]: [0m[35mWebSocket dial error: dial tcp 108.160.167.30:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:16:40.898 ws.go(109)[Login]:
+[0m[35mWebSocket dial failed: read tcp 192.168.31.16:63443->3.115.248.145:9443: read: connection reset by peer, http response: <nil>[0m
+[35;1m[ERROR] 2025-11-11 23:16:40.898 ws.go(115)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:63443->3.115.248.145:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-11 23:18:15.852 ws.go(109)[Login]: [0m[35mWebSocket dial failed: dial tcp 31.13.70.33:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:18:15.854 ws.go(110)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:18:15.854 ws.go(116)[Login]: [0m[35mWebSocket dial error: dial tcp 31.13.70.33:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:22:37.872 ws.go(109)[Login]: [0m[35mWebSocket dial failed: dial tcp 199.59.148.15:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:22:37.875 ws.go(110)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:22:37.875 ws.go(116)[Login]: [0m[35mWebSocket dial error: dial tcp 199.59.148.15:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:26:37.160 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 174.37.175.229:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:26:37.160 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:26:37.160 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 174.37.175.229:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:27:15.256 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 174.37.175.229:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:27:15.259 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:27:15.259 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 174.37.175.229:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:31:20.277 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:31:20.278 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:31:20.278 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:33:31.774 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:33:31.776 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:33:31.776 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:34:06.156 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:34:06.156 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:34:06.156 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:35:15.058 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:35:15.060 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:35:15.061 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:36:33.002 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 65.49.26.97:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:36:33.004 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:36:33.004 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 65.49.26.97:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:38:38.633 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 157.240.15.8:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:38:38.636 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:38:38.636 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 157.240.15.8:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:43:08.309 ws.go(119)[Login]: [0m[35mWebSocket dial failed: dial tcp 50.117.117.42:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:43:08.310 ws.go(120)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:43:08.310 ws.go(126)[Login]: [0m[35mWebSocket dial error: dial tcp 50.117.117.42:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:57:35.570 ws.go(138)[Login]: [0m[35mWebSocket dial failed: dial tcp 159.138.20.20:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:57:35.572 ws.go(139)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:57:35.572 ws.go(145)[Login]: [0m[35mWebSocket dial error: dial tcp 159.138.20.20:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-11 23:58:12.502 ws.go(138)[Login]: [0m[35mWebSocket dial failed: dial tcp 159.138.20.20:9443: i/o timeout, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:58:12.504 ws.go(139)[Login]: [0m[35mWebSocket dial failed: <nil>, http response: %!v(MISSING)[0m
+[35;1m[ERROR] 2025-11-11 23:58:12.505 ws.go(145)[Login]: [0m[35mWebSocket dial error: dial tcp 159.138.20.20:9443: i/o timeout[0m
