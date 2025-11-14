@@ -37,15 +37,11 @@ func NewWConnector() *WConnector {
 
 func (c *WConnector) LockDialWebSocket(urlStr string, requestHeader http.Header) (*websocket.Conn, error) {
 	c.myMu.Lock()
-	logger.Info("LockDialWebSocket...1")
 	globalConnectMu.Lock()
-	logger.Info("LockDialWebSocket...2")
 	if sleep := 334*time.Millisecond - time.Since(globalLastConnect); sleep > 0 {
 		time.Sleep(sleep)
 	}
-	logger.Info("LockDialWebSocket...3")
 	conn, _, err := websocket.DefaultDialer.Dial(urlStr, requestHeader)
-	logger.Info("LockDialWebSocket...4")
 	globalLastConnect = time.Now()
 	if err != nil {
 		logger.Error("Failed to connect WS: %v", err)
@@ -75,16 +71,14 @@ func (c *WConnector) LockIsConnected(conn *websocket.Conn) bool {
 }
 
 func (c *WConnector) isLogined(conn *websocket.Conn) bool {
-
+	// return c.isConnected(conn) && c.logined
 	return c.logined
 }
 
 func (c *WConnector) LockIsLogined(conn *websocket.Conn) bool {
-	logger.Debug("LockIsLogined start")
 	c.myMu.Lock()
 	isLogined := c.isLogined(conn)
 	c.myMu.Unlock()
-	logger.Debug("LockIsLogined end")
 	return isLogined
 }
 
@@ -127,14 +121,12 @@ func (c *WConnector) writeJSON(conn *websocket.Conn, v interface{}) error {
 }
 
 func (c *WConnector) LockWritePingMessage(conn *websocket.Conn) error {
-	logger.Debug("LockWritePingMessage start")
 	c.myMu.Lock()
 	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
 		time.Sleep(sleep)
 	}
 	err := c.writeMessage(conn, []byte("ping"))
 	c.myMu.Unlock()
-	logger.Debug("LockWritePingMessage end")
 	return err
 }
 
@@ -241,13 +233,13 @@ func (c *WConnector) LockReadPushMessage(conn *websocket.Conn) (p []byte, err er
 
 func (c *WConnector) LockLogin(conn *websocket.Conn) (err error) {
 	c.myMu.Lock()
-	// defer c.myMu.Unlock()
-	// if !c.isConnected(conn) {
-	// 	return ErrWSNotConnected
-	// }
-	// if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
-	// 	time.Sleep(sleep)
-	// }
+	defer c.myMu.Unlock()
+	if !c.isConnected(conn) {
+		return ErrWSNotConnected
+	}
+	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
+		time.Sleep(sleep)
+	}
 	c.logined = true
 
 	return nil

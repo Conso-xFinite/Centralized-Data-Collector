@@ -112,6 +112,7 @@ func (c *BinanceStorer) parsePushedMsgToCandleModel(ctx context.Context, pushedM
 func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_define.WSSinglePushMsg) {
 	tradeModels := []*model.BinanceAggTrade{}
 	klineModels := []*model.Kline1m{}
+
 	// candle1sModels := []*model.BinanceCandle1m{}
 
 	// 解析 pushedMsgs 为 TradeModel 和 PriceModel
@@ -124,18 +125,16 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 		case "kline":
 			klineModels = append(klineModels, c.parsePushedMsgToCandleModel(ctx, msg))
 		}
-		logger.Debug("tradeModels = %v", len(tradeModels))
-		logger.Debug("klineModels = %v", len(klineModels))
 		// TODO 后续增加价格数据根据交易数据生成。kline数据 也需要整合
 
 		if len(tradeModels) > 0 {
 			for {
 				err := db.BatchInsertBinanceAggTrades(ctx, tradeModels)
 				if err == nil {
-					logger.Info("Stored %d trade records from Binance", len(tradeModels))
+					// logger.Info("Stored %d trade records from Binance", len(tradeModels))
 					break
 				}
-				logger.Error("Failed to batch insert Binance trades: err = %v", err)
+				// logger.Error("Failed to batch insert Binance trades: err = %v", err)
 				time.Sleep(100 * time.Millisecond)
 			}
 		}

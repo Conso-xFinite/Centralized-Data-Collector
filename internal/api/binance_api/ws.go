@@ -6,7 +6,6 @@ import (
 	"Centralized-Data-Collector/pkg/utils"
 	"encoding/json"
 	"fmt"
-	"log"
 	"net/url"
 	"strings"
 	"sync/atomic"
@@ -91,19 +90,13 @@ func (c *Client) Login() error {
 	// 	streamUrl = "wss://stream.binance.com:9443/stream?streams=btcusdt%40avgPrice"
 	// }
 
-	baseBinanceUrl := "wss://stream.binance.com:9443/stream"
+	baseBinanceUrl := "wss://stream.binance.com:9443/stream?streams="
 
 	conn, err := c.connector.LockDialWebSocket(baseBinanceUrl, nil)
 	if err != nil {
 		logger.Error("WebSocket dial error: %v", err)
 		return err
 	}
-
-	// conn, resq, err := websocket.DefaultDialer.Dial(streamUrl, nil)
-	// if err != nil {
-	// 	logger.Error("WebSocket dial failed: %v, http response: %+v", err, resq)
-	// }
-
 	if !c.hasFinishedInitConnect {
 		c.hasFinishedInitConnect = true
 		c.pool.FinishClientInitialized(c.index)
@@ -115,17 +108,18 @@ func (c *Client) Login() error {
 		c.connector.LockClose(conn)
 		return err
 	}
-
-	// // set pong handler to update lastPongTimestamp
-	// conn.SetPongHandler(func(appData string) error {
-	// 	logger.Debug("Received pong: %s", appData)
-	// 	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
-	// 	return nil
-	// })
-	logger.Info("WebSocket logged in successfully")
 	c.conn = conn
-
-	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+	conn.SetPingHandler(func(appData string) error {
+		logger.Debug("Received ping: %s", appData)
+		err := conn.WriteControl(websocket.PongMessage, []byte(appData), time.Now().Add(time.Second))
+		if err != nil {
+			logger.Error("Error logging in: %v", err)
+			c.connector.LockClose(conn)
+			return err
+		}
+		c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+		return nil
+	})
 	go c.listenMsg(conn)
 	return nil
 }
@@ -157,16 +151,17 @@ func (c *Client) Start() {
 					conn = c.conn
 				}
 			} else {
-				if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 10 {
-					logger.Error("No pong received in the last 30 seconds, reconnecting...")
-					c.connector.LockClose(c.conn)
-				} else if pastTime >= 10 {
-					if err := c.connector.LockWritePingMessage(conn); err != nil {
-						log.Printf("Ping error: %v", err)
-						c.connector.LockClose(c.conn)
-					}
-				}
-				// else if err := c.sendPendingMessages(conn); err != nil {
+				// if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 30 {
+				// 	logger.Error("No pong received in the last 30 seconds, reconnecting...")
+				// 	c.connector.LockClose(c.conn)
+				// } else if pastTime >= 10 {
+				// 	if err := c.connector.LockWritePingMessage(conn); err != nil {
+				// 		log.Printf("Ping error: %v", err)
+				// 		c.connector.LockClose(c.conn)
+				// 	}
+				// } else
+
+				// if err := c.sendPendingMessages(conn); err != nil {
 				// 	log.Printf("sendPendingMessages error: %v", err)
 				// 	c.connector.LockClose(c.conn)
 				// }
@@ -233,38 +228,26 @@ func (c *Client) onPongResp() {
 
 // 处理消息和 pong
 func (c *Client) listenMsg(conn *websocket.Conn) {
-
-	defer func() {
-		if conn != nil {
-			_ = conn.Close()
-		}
-	}()
-
-	// 记录首次收到某个 channel 的标记（与之前行为兼容）
-	// channelDataReceivedMap := make(map[string]bool)
-	// hasReceivedData := func(arg *binance_define.WSSubscribeArg) bool {
-	// 	key := fmt.Sprintf("%s:%s:%s", arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
-	// 	_, exists := channelDataReceivedMap[key]
-	// 	if !exists {
-	// 		channelDataReceivedMap[key] = true
-	// 	}
-	// 	return exists
-	// }
-
 	for {
-		if c.forceStop.Load() {
-			logger.Info("force stop requested, breaking listen loop")
-			break
-		}
-
 		_, message, err := conn.ReadMessage()
 		if err != nil {
 			logger.Warn("WebSocket read error: %v", err)
 			break
+		} else {
+			logger.Debug("LockReadPushMessage end =", string(message))
+
 		}
+		continue
+		// message, err := c.connector.LockReadPushMessage(conn)
+		// if err != nil {
+		// 	logger.Warn("WebSocket read error: %v", err)
+		// 	break
+		// } else {
+		// 	logger.Debug("LockReadPushMessage end =", message)
+		// }
 
 		// 更新最后一次活跃时间（收到任意消息视作活跃）
-		c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+		// c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
 
 		// 先尝试解析为通用 map 以便快速判断
 		var generic map[string]interface{}
