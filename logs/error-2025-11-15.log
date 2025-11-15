@@ -631,3 +631,4 @@
 [35;1m[ERROR] 2025-11-15 17:18:46.428 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
 [35;1m[ERROR] 2025-11-15 17:22:29.725 ws.go(150)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
 [35;1m[ERROR] 2025-11-15 17:24:32.734 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-15 17:28:26.936 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m

@@ -104,14 +104,14 @@ func (c *Client) Login() error {
 	c.conn = conn
 	conn.SetPingHandler(func(appData string) error {
 		logger.Debug("Received ping: %s", appData)
-		// err := conn.WriteControl(websocket.PongMessage, []byte(appData), time.Now().Add(time.Second))
-		// if err != nil {
-		// 	logger.Error("Error logging in: %v", err)
-		// 	c.connector.LockClose(conn)
-		// 	return err
-		// }
-		// c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
-		// logger.Debug("Sent pong success :  %s", appData)
+		err := conn.WriteControl(websocket.PongMessage, []byte(appData), time.Now().Add(time.Second))
+		if err != nil {
+			logger.Error("Error logging in: %v", err)
+			c.connector.LockClose(conn)
+			return err
+		}
+		c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+		logger.Debug("Sent pong success :  %s", appData)
 		return nil
 	})
 	go c.listenMsg(conn)
@@ -149,6 +149,7 @@ func (c *Client) Start() {
 			} else {
 				if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 60 {
 					logger.Error("No ping received in the last 60 seconds, reconnecting...")
+					hasSubscribe = false
 					c.connector.LockClose(c.conn)
 				}
 				// 动态订阅逻辑在这里实现
@@ -163,18 +164,18 @@ func (c *Client) Start() {
 					subMsg := binance_define.SubscribeMsg{
 						Method: "SUBSCRIBE",
 						Params: []string{
-							// "btcusdt@aggTrade",
-							// "btcusdt@kline_1m",
+							"btcusdt@aggTrade",
+							"btcusdt@kline_1m",
 							"btcusdt@miniTicker",
-							// "ethusdt@aggTrade",
-							// "ethusdt@kline_1m",
-							// "ethusdt@miniTicker",
-							// "bnbusdt@aggTrade",
-							// "bnbusdt@kline_1m",
-							// "bnbusdt@miniTicker",
-							// "solusdt@aggTrade",
-							// "solusdt@kline_1m",
-							// "solusdt@miniTicker",
+							"ethusdt@aggTrade",
+							"ethusdt@kline_1m",
+							"ethusdt@miniTicker",
+							"bnbusdt@aggTrade",
+							"bnbusdt@kline_1m",
+							"bnbusdt@miniTicker",
+							"solusdt@aggTrade",
+							"solusdt@kline_1m",
+							"solusdt@miniTicker",
 						},
 						ID: 1,
 					}

@@ -688,3 +688,8 @@
 [0m[33mWebSocket read error: read tcp 127.0.0.1:58159->127.0.0.1:7890: use of closed network connection[0m
 [33;1m[WARN]  2025-11-15 17:24:32.736 ws.go(253)[listenMsg]:
 [0m[33mWebSocket read error: read tcp 127.0.0.1:58159->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-15 17:28:26.936 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:28:26.939 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58865->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:28:26.939 ws.go(596)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58865->127.0.0.1:7890: use of closed network connection[0m
