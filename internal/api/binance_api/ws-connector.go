@@ -71,8 +71,7 @@ func (c *WConnector) LockIsConnected(conn *websocket.Conn) bool {
 }
 
 func (c *WConnector) isLogined(conn *websocket.Conn) bool {
-	// return c.isConnected(conn) && c.logined
-	return c.logined
+	return c.isConnected(conn) && c.logined
 }
 
 func (c *WConnector) LockIsLogined(conn *websocket.Conn) bool {

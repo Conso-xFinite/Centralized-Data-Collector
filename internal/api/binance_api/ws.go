@@ -100,16 +100,18 @@ func (c *Client) Login() error {
 		c.connector.LockClose(conn)
 		return err
 	}
+	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
 	c.conn = conn
 	conn.SetPingHandler(func(appData string) error {
 		logger.Debug("Received ping: %s", appData)
-		err := conn.WriteControl(websocket.PongMessage, []byte(appData), time.Now().Add(time.Second))
-		if err != nil {
-			logger.Error("Error logging in: %v", err)
-			c.connector.LockClose(conn)
-			return err
-		}
-		c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+		// err := conn.WriteControl(websocket.PongMessage, []byte(appData), time.Now().Add(time.Second))
+		// if err != nil {
+		// 	logger.Error("Error logging in: %v", err)
+		// 	c.connector.LockClose(conn)
+		// 	return err
+		// }
+		// c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+		// logger.Debug("Sent pong success :  %s", appData)
 		return nil
 	})
 	go c.listenMsg(conn)
@@ -141,9 +143,14 @@ func (c *Client) Start() {
 				} else {
 					// c.channelManager.RequeueAllSubscribedChannels()
 					logger.Info("Client-%d connected and logged in", c.index)
+					hasSubscribe = false
 					conn = c.conn
 				}
 			} else {
+				if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 60 {
+					logger.Error("No ping received in the last 60 seconds, reconnecting...")
+					c.connector.LockClose(c.conn)
+				}
 				// 动态订阅逻辑在这里实现
 				// if err := c.sendPendingMessages(conn); err != nil {
 				// 	log.Printf("sendPendingMessages error: %v", err)
@@ -246,7 +253,7 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 			logger.Warn("WebSocket read error: %v", err)
 			break
 		}
-		logger.Debug("Received message: %s", string(message))
+		// logger.Debug("Received message: %s", string(message))
 		// 先尝试解析为通用 map 以便快速判断
 		var generic map[string]interface{}
 		if err := json.Unmarshal(message, &generic); err != nil {

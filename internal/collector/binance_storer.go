@@ -109,9 +109,27 @@ func (c *BinanceStorer) parsePushedMsgToCandleModel(ctx context.Context, pushedM
 	return dbKline
 }
 
+func (c *BinanceStorer) parsePushedMsgToTickereModel(ctx context.Context, pushedMsg *binance_define.WSSinglePushMsg) *model.TickerModel {
+	// 解析 pushedMsg 为 TickerModel
+	ticker := pushedMsg.Data.(binance_define.Binance24hrMiniTicker)
+	return &model.TickerModel{
+		Event:       ticker.Event,
+		EventTime:   ticker.EventTime,
+		Symbol:      ticker.Symbol,
+		Close:       ticker.Close,
+		Open:        ticker.Open,
+		High:        ticker.High,
+		Low:         ticker.Low,
+		Volume:      ticker.Volume,
+		QuoteVolume: ticker.QuoteVolume,
+		CreatedAt:   time.Now(), // 自动填充
+	}
+}
+
 func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_define.WSSinglePushMsg) {
 	tradeModels := []*model.BinanceAggTrade{}
 	klineModels := []*model.Kline1m{}
+	tickerModels := []*model.TickerModel{}
 
 	// candle1sModels := []*model.BinanceCandle1m{}
 
@@ -124,17 +142,19 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 			tradeModels = append(tradeModels, c.parsePushedMsgToTradeModel(ctx, msg))
 		case "kline":
 			klineModels = append(klineModels, c.parsePushedMsgToCandleModel(ctx, msg))
+		case "24hrMiniTicker":
+			tickerModels = append(tickerModels, c.parsePushedMsgToTickereModel(ctx, msg))
 		}
-		// TODO 后续增加价格数据根据交易数据生成。kline数据 也需要整合
+		// TODO 后续需要检查一个数据，aggtrade中的数据中的交易id和kline中的交易id是否是一致的（逐条推送和聚合推送的在两个数据中id）
 
 		if len(tradeModels) > 0 {
 			for {
 				err := db.BatchInsertBinanceAggTrades(ctx, tradeModels)
 				if err == nil {
-					// logger.Info("Stored %d trade records from Binance", len(tradeModels))
+					logger.Info("Stored %d trade records from Binance", len(tradeModels))
 					break
 				}
-				// logger.Error("Failed to batch insert Binance trades: err = %v", err)
+				logger.Error("Failed to batch insert Binance trades: err = %v", err)
 				time.Sleep(100 * time.Millisecond)
 			}
 		}
@@ -143,7 +163,7 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 			for {
 				err := db.BatchInsertBinanceKline1M(ctx, klineModels)
 				if err == nil {
-					logger.Info("Stored %d kline records from Binance", len(klineModels))
+					// logger.Info("Stored %d kline records from Binance", len(klineModels))
 					break
 				}
 				logger.Error("Failed to batch insert Binance kline: err = %v", err)
@@ -151,5 +171,28 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 			}
 		}
 
+		if len(klineModels) > 0 {
+			for {
+				err := db.BatchInsertBinanceKline1M(ctx, klineModels)
+				if err == nil {
+					// logger.Info("Stored %d kline records from Binance", len(klineModels))
+					break
+				}
+				logger.Error("Failed to batch insert Binance kline: err = %v", err)
+				time.Sleep(100 * time.Millisecond)
+			}
+		}
+		if len(tickerModels) > 0 {
+			for {
+				err := db.BatchInsertBinanceTicker(ctx, tickerModels)
+				if err == nil {
+					logger.Info("Stored %d ticker records from Binance", len(tickerModels))
+					break
+				}
+				logger.Error("Failed to batch insert Binance ticker: err = %v", err)
+				time.Sleep(100 * time.Millisecond)
+			}
+
+		}
 	}
 }

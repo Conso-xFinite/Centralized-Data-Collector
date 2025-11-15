@@ -41,3 +41,17 @@ CREATE TABLE market_kline_1m (
     event_time BIGINT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
+
+CREATE TABLE IF NOT EXISTS market_24h_ticker (
+    id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    event varchar(20) NOT NULL,
+    event_time bigint,
+    symbol varchar(32) NOT NULL,
+    close numeric(36,18),
+    open numeric(36,18),
+    high numeric(36,18),
+    low numeric(36,18),
+    volume numeric(36,18),
+    quote_volume numeric(36,18),
+    created_at timestamptz NOT NULL DEFAULT now()
+);

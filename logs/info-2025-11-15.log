@@ -1,0 +1,1189 @@
+[INFO]  2025-11-15 16:09:34.160 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:09:34.163 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:09:34.163 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:09:34.164 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:10:19.166 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: dial tcp 66.220.147.11:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-15 16:10:19.168 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 66.220.147.11:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-15 16:10:19.168 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 66.220.147.11:9443: i/o timeout[0m
+[INFO]  2025-11-15 16:10:19.168 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:11:55.305 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:11:55.309 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:11:55.309 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:11:55.309 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:55.449 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64642->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:55.451 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64642->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:55.451 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64642->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:55.451 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:55.907 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64643->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:55.908 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64643->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:55.908 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64643->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:55.908 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:56.375 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64644->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:56.376 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64644->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:56.376 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64644->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:56.376 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:56.840 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64645->57.180.170.37:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:56.840 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64645->57.180.170.37:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:56.841 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64645->57.180.170.37:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:56.841 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:57.308 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64646->57.180.170.37:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:57.308 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64646->57.180.170.37:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:57.310 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64646->57.180.170.37:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:57.310 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:57.770 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64647->57.180.170.37:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:57.771 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64647->57.180.170.37:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:57.771 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64647->57.180.170.37:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:57.771 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:58.220 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64648->18.178.55.23:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:58.221 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64648->18.178.55.23:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:58.221 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64648->18.178.55.23:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:58.221 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:58.675 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64649->18.178.55.23:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:58.676 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64649->18.178.55.23:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:58.676 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64649->18.178.55.23:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:58.676 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:59.137 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64650->18.178.55.23:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:59.137 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64650->18.178.55.23:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:59.137 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64650->18.178.55.23:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:59.137 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:11:59.598 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64651->13.115.220.108:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:59.598 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64651->13.115.220.108:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:11:59.599 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64651->13.115.220.108:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:11:59.599 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:00.060 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64652->13.115.220.108:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:00.061 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64652->13.115.220.108:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:00.061 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64652->13.115.220.108:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:00.061 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:00.533 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64653->13.115.220.108:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:00.533 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64653->13.115.220.108:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:00.533 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64653->13.115.220.108:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:00.533 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:00.987 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64654->54.199.38.253:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:00.988 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64654->54.199.38.253:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:00.988 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64654->54.199.38.253:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:00.988 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:02.455 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64655->54.199.38.253:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:02.455 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64655->54.199.38.253:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:02.456 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64655->54.199.38.253:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:02.456 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:02.915 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64657->57.182.89.36:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:02.915 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64657->57.182.89.36:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:02.915 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64657->57.182.89.36:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:02.916 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:03.369 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64658->52.197.42.170:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:03.370 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64658->52.197.42.170:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:03.370 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64658->52.197.42.170:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:03.370 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:03.819 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64659->52.197.42.170:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:03.819 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64659->52.197.42.170:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:03.820 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64659->52.197.42.170:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:03.820 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:04.278 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64660->52.69.15.139:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:04.278 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64660->52.69.15.139:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:04.279 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64660->52.69.15.139:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:04.279 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:05.734 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64661->52.69.15.139:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:05.734 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64661->52.69.15.139:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:05.735 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64661->52.69.15.139:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:05.735 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:06.197 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64663->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:06.198 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64663->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:06.198 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64663->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:06.198 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:06.662 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64664->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:06.663 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64664->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:06.663 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64664->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:06.663 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:07.124 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64665->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:07.124 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64665->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:07.124 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64665->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:07.125 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:07.584 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64666->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:07.585 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64666->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:07.585 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64666->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:07.585 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:08.049 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64667->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:08.049 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64667->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:08.049 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64667->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:08.049 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:08.452 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64688->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:08.452 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64688->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:08.452 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64688->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:08.453 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:12:21.164 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:12:21.166 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:12:21.166 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:12:21.166 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:21.308 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64755->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:21.308 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64755->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:21.308 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64755->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:21.308 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:21.777 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64756->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:21.777 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64756->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:21.777 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64756->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:21.778 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:22.242 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64757->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:22.243 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64757->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:22.243 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64757->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:22.243 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:22.717 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64758->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:22.718 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64758->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:22.718 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64758->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:22.718 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:24.180 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64759->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:24.180 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64759->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:24.180 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64759->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:24.181 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:12:24.640 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: read tcp 192.168.31.16:64761->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:24.646 ws.go(89)[Login]:
+[0m[35mWebSocket dial error: read tcp 192.168.31.16:64761->35.78.25.200:9443: read: connection reset by peer[0m
+[35;1m[ERROR] 2025-11-15 16:12:24.646 ws.go(140)[Start]: [0m[35mLogin error: read tcp 192.168.31.16:64761->35.78.25.200:9443: read: connection reset by peer[0m
+[INFO]  2025-11-15 16:12:24.646 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:15:12.358 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:15:12.361 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:15:12.362 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:15:12.362 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:12.410 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:12.410 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:12.410 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:12.410 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:12.796 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:12.797 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:12.797 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:12.797 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:13.157 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:13.158 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:13.158 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:13.158 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:13.542 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:13.543 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:13.543 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:13.543 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:13.914 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:13.914 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:13.914 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:13.915 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:14.276 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:14.276 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:14.276 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:14.276 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:14.645 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:14.645 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:14.645 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:14.645 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:15.014 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:15.015 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:15.015 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:15.015 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:15.386 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:15.386 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:15.386 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:15.386 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:15.751 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:15.751 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:15.751 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:15.751 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:16.123 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:16.123 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:16.123 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:16.123 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:16.494 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:16.494 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:16.494 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:16.494 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:16.864 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:16.864 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:16.865 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:16.865 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:17.239 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:17.239 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:17.239 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:17.239 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:17.609 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:17.610 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:17.610 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:17.610 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:17.976 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:17.977 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:17.977 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:17.977 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:18.356 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:18.356 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:18.356 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:18.356 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:18.722 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:18.722 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:18.722 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:18.722 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:19.096 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:19.096 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:19.096 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:19.096 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:19.458 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:19.458 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:19.458 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:19.458 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:19.824 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:19.824 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:19.825 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:19.825 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:20.208 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:20.209 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:20.209 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:20.209 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-15 16:15:20.573 ws-connector.go(47)[LockDialWebSocket]:
+[0m[35mFailed to connect WS: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:20.574 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[35;1m[ERROR] 2025-11-15 16:15:20.574 ws.go(140)[Start]: [0m[35mLogin error: dial tcp 103.42.176.244:9443: connect: connection refused[0m
+[INFO]  2025-11-15 16:15:20.574 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:17:38.934 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:17:38.935 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:17:38.935 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:17:38.935 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:17:39.341 ws.go(143)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 16:17:39.483 ws.go(280)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 16:18:20.435 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:18:20.438 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:18:20.438 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:18:20.438 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:18:20.788 ws.go(143)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 16:18:20.976 ws.go(280)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 16:57:27.587 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:57:27.591 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:57:27.591 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:57:27.591 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:57:27.925 ws.go(143)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 16:57:28.040 ws.go(280)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 16:57:28.602 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:29.599 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:30.599 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:49.035 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:57:49.038 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:57:49.038 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:57:49.038 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:57:49.388 ws.go(143)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 16:57:49.540 ws.go(280)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 16:57:51.051 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:52.045 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:53.048 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:54.047 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:55.048 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:56.047 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:57.045 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:58.047 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:57:59.046 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:00.047 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:01.048 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:02.052 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:03.046 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:04.046 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:05.047 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:06.047 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:07.046 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:08.046 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:58:57.665 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 16:58:57.668 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 16:58:57.668 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 16:58:57.668 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 16:58:57.988 ws.go(143)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 16:58:58.153 ws.go(280)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 16:58:59.681 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:59:00.676 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:59:01.677 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:59:02.677 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:59:03.677 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 16:59:04.676 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:29.888 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:14:29.893 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:14:29.893 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:14:29.893 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:14:30.241 ws.go(144)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:14:30.392 ws.go(285)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:14:31.911 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:32.905 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:33.902 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:34.902 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:35.899 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:36.903 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:37.901 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:38.901 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:39.902 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:40.898 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:41.909 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:42.904 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:43.900 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:44.898 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:45.898 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:52.106 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:14:52.108 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:14:52.108 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:14:52.108 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:14:52.442 ws.go(144)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:14:52.608 ws.go(285)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:14:53.121 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:14:55.116 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[error] 2025-11-15 17:14:55.121 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.390ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.122 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.231 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.127ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.231 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.339 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.937ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.340 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.445 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.044ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.445 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.552 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.337ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.552 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.663 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.902ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.663 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.771 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.634ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.771 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.881 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.735ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.881 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:55.988 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.569ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:55.988 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.090 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[2.103ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.090 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.199 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.557ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.200 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.309 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.050ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.310 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.420 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.863ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.421 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.530 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.669ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.530 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.636 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.724ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.637 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.744 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.366ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.744 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.852 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.106ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.852 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:56.961 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.393ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:56.962 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.070 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.180ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.071 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.180 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.355ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.180 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.288 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.987ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.289 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.397 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.617ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.397 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.508 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.955ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.508 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.616 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.537ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.616 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.724 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.187ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.724 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.832 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.983ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.832 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:57.942 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.739ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:57.942 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.050 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.270ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.050 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.159 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.179ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.159 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.268 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.093ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.268 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.377 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.050ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.377 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.486 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.298ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.486 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.595 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.971ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.595 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.701 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.651ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.702 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.810 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.463ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.811 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:58.919 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.534ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:58.919 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.029 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.029ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.029 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.138 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.474ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.139 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.247 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.055ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.248 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.355 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.124ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.356 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.465 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.586ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.465 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.573 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.944ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.574 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.683 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.468ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.683 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.792 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.330ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.793 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:14:59.901 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:9 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.042ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198094036,'BTCUSDT','96057.93000000','97338.73000000','97411.11000000','94012.45000000','36784.84735000','3521103741.89567320','60b6c26a-b20d-41da-aea3-88084bcb7733','2025-11-15 17:14:55.109'),('24hrMiniTicker',1763198095036,'BTCUSDT','96057.93000000','97338.74000000','97411.11000000','94012.45000000','36784.84838000','3521103835.99387260',DEFAULT,'2025-11-15 17:14:55.116') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:14:59.902 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[INFO]  2025-11-15 17:15:30.546 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:15:30.550 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:15:30.551 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:15:30.551 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:15:30.904 ws.go(144)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:15:31.087 ws.go(285)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:15:32.562 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:33.558 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:34.558 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:35.557 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:36.555 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:37.558 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:38.557 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:39.559 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:40.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:41.552 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:42.557 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:43.557 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:44.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:45.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:46.552 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:47.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:48.557 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:49.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:50.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:51.552 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:52.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:53.554 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:54.557 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:55.554 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:56.553 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:57.556 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:15:59.555 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[error] 2025-11-15 17:15:59.560 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.024ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:15:59.561 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:15:59.671 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.442ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:15:59.672 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:15:59.779 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.170ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:15:59.780 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:15:59.888 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.728ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:15:59.888 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:15:59.996 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.280ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:15:59.997 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.104 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.852ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.105 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.216 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[9.444ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.216 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.326 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.365ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.326 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.434 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.923ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.435 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.543 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.618ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.543 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.652 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.536ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.653 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.760 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.560ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.760 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.868 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.926ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.869 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:00.977 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.978ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:00.978 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.085 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.547ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.085 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.195 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.659ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.195 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.303 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.289ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.304 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.413 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.401ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.413 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.518 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.069ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.518 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.625 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.813ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.625 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.732 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.962ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.732 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.842 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.071ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.842 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:01.950 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.924ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:01.951 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.061 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.553ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.061 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.170 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.431ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.170 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.280 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.261ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.280 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.389 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.001ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.389 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.496 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.867ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.497 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.605 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.931ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.605 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.714 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.996ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.714 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.823 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.284ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.823 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:02.932 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.807ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:02.932 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.040 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.658ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.041 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.148 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[5.936ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.148 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.257 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.025ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.257 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.366 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.306ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.366 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.472 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[4.786ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.473 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.581 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.488ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.582 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.691 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.424ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.691 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.799 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.666ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.800 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:03.908 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.793ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:03.908 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:04.012 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[2.523ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:04.012 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:04.116 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[2.040ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:04.116 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:04.221 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[3.500ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:04.221 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:04.331 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[8.372ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:04.331 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:04.440 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[6.457ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:04.440 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-15 17:16:04.549 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_ticker.go:12 [35;1mERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)
+[0m[33m[7.604ms] [34;1m[rows:0][0m INSERT INTO "market_24h_ticker" ("event","event_time","symbol","close","open","high","low","volume","quote_volume","id","created_at") VALUES ('24hrMiniTicker',1763198158036,'BTCUSDT','96089.64000000','97300.10000000','97411.11000000','94012.45000000','36779.11569000','3520537185.62463590','d95a32ec-ef50-4f1c-8949-279ec5557c22','2025-11-15 17:15:59.548'),('24hrMiniTicker',1763198159036,'BTCUSDT','96082.52000000','97300.10000000','97411.11000000','94012.45000000','36779.96842000','3520619113.13273920',DEFAULT,'2025-11-15 17:15:59.556') RETURNING "id","created_at"
+[35;1m[ERROR] 2025-11-15 17:16:04.550 binance_storer.go(192)[StoreData]:
+[0m[35mFailed to batch insert Binance ticker: err = ERROR: duplicate key value violates unique constraint "market_24h_ticker_pkey" (SQLSTATE 23505)[0m
+[INFO]  2025-11-15 17:16:19.660 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:16:19.664 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:16:19.664 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:16:19.664 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:16:20.022 ws.go(144)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:16:20.161 ws.go(285)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:16:21.679 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:22.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:23.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:24.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:25.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:26.670 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:27.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:28.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:29.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:30.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:31.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:33.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:33.677 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:16:34.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:35.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:36.670 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:37.671 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:38.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:40.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:40.677 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:16:41.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:42.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:44.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:44.677 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:16:45.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:46.669 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:48.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:48.677 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:16:49.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:50.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:51.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:52.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:53.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:55.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:55.675 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:16:56.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:57.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:58.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:16:59.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:00.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:01.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:02.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:03.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:04.671 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:05.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:06.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:07.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:08.670 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:09.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:10.678 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:11.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:12.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:13.669 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:14.670 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:15.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:16.671 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:17.668 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:18.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:19.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:20.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:21.673 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:22.674 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:23.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:24.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:25.669 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:26.672 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:30.834 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:17:30.837 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:17:30.837 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:17:30.837 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:17:31.173 ws.go(144)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:17:31.278 ws.go(285)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:17:32.851 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:33.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:34.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:35.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:36.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:37.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:38.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:39.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:40.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:41.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:42.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:43.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:44.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:45.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:46.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:47.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:48.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:49.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:50.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:51.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:52.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:53.844 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:54.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:55.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:56.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:57.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:58.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:17:59.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:00.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:01.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:02.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:03.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:04.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:06.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:06.850 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:18:07.842 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:08.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:09.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:10.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:11.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:12.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:13.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:14.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:15.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:16.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:17.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:18.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:19.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:20.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:21.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:22.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:23.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:24.847 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:25.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:26.846 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:27.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:28.848 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:29.843 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[35;1m[ERROR] 2025-11-15 17:18:30.243 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:30.245 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57414->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:30.245 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57414->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:30.845 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:18:31.246 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:31.584 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:31.584 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:31.584 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57434->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:31.585 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57434->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:32.585 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:32.959 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:32.959 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:32.960 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57486->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:32.960 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57486->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:33.961 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:34.314 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:34.314 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:34.315 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57518->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:34.315 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57518->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:35.316 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:35.653 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:35.653 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:35.654 ws.go(251)[listenMsg]: [0m[33mWebSocket read error: WS not logined[0m
+[INFO]  2025-11-15 17:18:36.654 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:37.003 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:37.003 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:37.004 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57522->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:37.004 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57522->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:38.005 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:38.348 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:38.348 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:38.349 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57524->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:38.349 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57524->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:39.350 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:39.701 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:39.702 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:39.702 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57526->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:39.703 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57526->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:40.703 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:41.050 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:41.051 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:41.051 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57528->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:41.051 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57528->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:42.052 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:42.377 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:42.377 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:42.378 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57530->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:42.378 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57530->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:43.379 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:43.740 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:43.740 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:43.741 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57532->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:43.741 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57532->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:44.742 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:45.063 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:45.063 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:45.063 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57534->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:45.064 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57534->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:18:46.065 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:18:46.427 ws.go(144)[Start]: Client-0 connected and logged in
+[35;1m[ERROR] 2025-11-15 17:18:46.428 ws.go(149)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:18:46.428 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57536->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:18:46.428 ws.go(251)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57536->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:21:29.402 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:21:29.405 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:21:29.406 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:21:29.406 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:21:29.657 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:21:29.793 ws.go(286)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:21:30.412 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:31.432 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:32.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:33.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:34.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:35.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:36.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:37.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:38.418 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:39.419 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:41.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:42.417 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:43.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:44.417 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:45.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:46.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:47.418 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:48.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:49.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:50.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:51.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:52.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:53.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:54.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:55.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:56.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:57.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:58.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:21:59.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:00.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:01.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:03.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:03.419 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:22:04.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:05.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:06.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:07.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:08.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:09.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:11.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:11.418 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:22:13.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:13.418 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:22:14.411 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:15.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:16.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:17.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:18.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:19.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:21.413 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:21.416 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:22:22.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:23.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:24.410 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:25.415 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:26.416 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:27.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:28.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:22:29.414 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[35;1m[ERROR] 2025-11-15 17:22:29.725 ws.go(150)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:22:29.728 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57897->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:22:29.728 ws.go(252)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57897->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:22:30.729 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:22:30.991 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:23:32.375 main.go(46)[main]: Database connected.
+[INFO]  2025-11-15 17:23:32.378 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-15 17:23:32.378 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-15 17:23:32.378 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:23:32.667 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:23:32.827 ws.go(287)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:23:33.393 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:34.384 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:35.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:36.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:37.385 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:38.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:39.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:40.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:41.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:42.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:43.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:44.383 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:46.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:46.390 binance_storer.go(189)[StoreData]: Stored 2 ticker records from Binance
+[INFO]  2025-11-15 17:23:47.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:48.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:49.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:50.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:51.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:52.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:53.385 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:54.383 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:55.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:56.385 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:57.385 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:58.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:23:59.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:00.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:01.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:02.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:03.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:04.383 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:05.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:06.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:07.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:08.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:09.389 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:10.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:11.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:12.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:13.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:14.382 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:15.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:16.384 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:17.389 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:18.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:19.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:20.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:21.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:22.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:23.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:24.384 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:25.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:26.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:27.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:28.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:29.389 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:30.390 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:31.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:32.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[35;1m[ERROR] 2025-11-15 17:24:32.734 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-15 17:24:32.736 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58159->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:24:32.736 ws.go(253)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58159->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-15 17:24:33.737 ws.go(79)[Login]: Login
+[INFO]  2025-11-15 17:24:34.032 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-15 17:24:34.134 ws.go(287)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-15 17:24:35.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:36.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:37.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:38.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:39.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:40.385 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:41.390 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:42.386 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:43.388 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:44.382 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:45.387 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[INFO]  2025-11-15 17:24:46.384 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
