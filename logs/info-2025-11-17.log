@@ -6,3 +6,631 @@
 [35;1m[ERROR] 2025-11-17 11:07:04.436 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 128.242.245.189:9443: i/o timeout[0m
 [35;1m[ERROR] 2025-11-17 11:07:04.436 ws.go(142)[Start]: [0m[35mLogin error: dial tcp 128.242.245.189:9443: i/o timeout[0m
 [INFO]  2025-11-17 11:07:04.436 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:09:09.958 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:09:09.962 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:09:09.962 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:09:09.963 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:09:10.329 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:09:10.342 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:09:10.483 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:09:11.003 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:09:11.013 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:09:11.126 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:09:11.713 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:09:11.841 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:13:48.735 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:13:48.737 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:13:48.737 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:13:48.738 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:13:49.091 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:13:49.093 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:13:49.216 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:13:49.780 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:13:49.800 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:13:49.886 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:13:50.475 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:13:50.619 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:20:38.810 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:20:38.814 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:20:38.814 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:20:38.815 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:20:39.177 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:20:39.196 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:20:39.301 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:20:39.841 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:20:39.850 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:20:40.036 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:20:40.496 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:20:40.661 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:32:07.453 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:32:07.456 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:32:07.456 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:32:07.458 collector.go(143)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:32:07.459 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:32:07.704 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:32:07.707 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:32:07.872 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:32:08.289 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:32:08.292 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:32:08.428 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:32:08.909 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:32:09.016 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:34:18.891 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:34:18.894 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:34:18.894 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:34:18.900 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:34:19.185 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:34:19.198 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:34:19.375 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:34:19.785 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:34:19.804 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:34:19.925 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:34:20.380 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:34:20.561 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:36:59.708 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:36:59.711 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:36:59.711 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.717 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.717 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.717 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:36:59.717 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:36:59.993 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:37:00.008 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:37:00.137 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:37:00.620 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:37:00.630 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:37:00.774 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:37:01.220 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:37:01.394 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:43:54.246 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:43:54.248 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:43:54.248 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:43:54.252 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:43:54.580 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:43:54.592 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:43:54.739 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:43:55.306 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:43:55.319 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:43:55.490 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:43:55.979 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:43:56.151 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:44:46.841 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:44:46.845 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:44:46.845 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.853 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.853 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:44:46.853 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:44:47.166 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:44:47.181 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:44:47.354 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:44:47.835 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:44:47.847 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:44:47.939 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:44:48.514 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:44:48.628 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:45:01.922 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:45:01.924 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:45:01.924 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:45:01.930 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:45:02.338 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:45:02.347 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:45:02.531 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:45:03.050 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:45:03.060 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:45:03.201 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:45:03.723 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:45:03.876 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:46:02.560 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:46:02.562 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:46:02.562 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:46:02.566 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:46:02.915 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:46:02.917 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:46:03.077 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:46:03.624 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:46:03.639 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:46:03.747 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:46:04.332 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:46:04.509 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:09.033 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:50:09.035 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:50:09.035 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 11:50:09.036 collector.go(203)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[INFO]  2025-11-17 11:50:09.036 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:50:09.367 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:50:09.376 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:09.504 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:10.075 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:50:10.088 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:10.245 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:10.772 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:50:10.906 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:31.265 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:50:31.268 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:50:31.268 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:31.269 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:50:31.606 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:50:31.606 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:31.764 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:32.326 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:50:32.337 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:32.479 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:33.022 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:50:33.131 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:53.820 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:50:53.823 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:50:53.823 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:53.828 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:50:54.174 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:50:54.180 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:54.314 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:54.861 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:50:54.864 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:50:55.026 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:50:55.546 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:50:55.702 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:51:46.128 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:51:46.131 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:51:46.132 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:51:46.132 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:51:46.416 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:51:46.431 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:51:46.549 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:51:47.043 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:51:47.055 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:51:47.231 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:51:47.638 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:51:47.758 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:51:59.726 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:51:59.729 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:51:59.729 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:51:59.735 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:51:59.983 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:52:00.004 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:52:00.105 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:52:00.594 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:52:00.608 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:52:00.735 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:52:01.199 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:52:01.334 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:52:09.788 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:52:09.791 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:52:09.791 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:52:09.795 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:52:10.080 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:52:10.093 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:52:10.233 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:52:10.677 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:52:10.695 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:52:10.833 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:52:11.279 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:52:11.401 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:55:41.467 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:55:41.470 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:55:41.470 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:55:41.472 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:55:41.721 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:55:41.726 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:55:41.898 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:55:42.322 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:55:42.329 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:55:42.489 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:55:42.912 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:55:43.091 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:56:20.019 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:56:20.023 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:56:20.023 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:56:20.025 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:56:20.302 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:56:20.316 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:56:20.463 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:56:20.927 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:56:20.941 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:56:21.086 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:56:21.522 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:56:21.635 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:57:47.232 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:57:47.235 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:57:47.235 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:57:47.237 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:57:47.489 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:57:47.506 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:57:47.684 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:57:48.095 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:57:48.113 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:57:48.282 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:57:48.736 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:57:48.839 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:58:18.736 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:58:18.741 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:58:18.741 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:58:18.744 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:58:19.020 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:58:19.035 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:58:19.171 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:58:19.641 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:58:19.658 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:58:19.749 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:58:20.252 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:58:20.428 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:58:35.270 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:58:35.273 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:58:35.273 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:58:35.275 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:58:35.558 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:58:35.568 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:58:35.695 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:58:36.156 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:58:36.175 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:58:36.278 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:58:36.751 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:58:36.889 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:59:14.865 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 11:59:14.867 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 11:59:14.867 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:59:14.868 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 11:59:15.126 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 11:59:15.138 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:59:15.314 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:59:15.724 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 11:59:15.743 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 11:59:15.834 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 11:59:16.318 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 11:59:16.458 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:00:04.288 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:00:04.291 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:00:04.291 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:00:04.293 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:00:04.566 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:00:04.577 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:00:04.741 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:00:05.176 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:00:05.177 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:00:05.367 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:00:05.782 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:00:05.971 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:01:06.805 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:01:06.808 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:01:06.809 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:01:06.811 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:01:07.074 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:01:07.080 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:01:07.208 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:01:07.672 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:01:07.684 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:01:07.777 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:01:08.295 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:01:08.434 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:04:29.803 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:04:29.805 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:04:29.805 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:04:29.807 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:04:30.142 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:04:30.147 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:04:30.323 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:04:30.807 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:04:30.811 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:04:30.913 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:04:31.488 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:04:31.640 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:05:29.964 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:05:29.968 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:05:29.968 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:05:29.971 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:05:30.355 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:05:30.360 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:05:30.458 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:05:31.038 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:05:31.050 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:05:31.185 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:05:31.702 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:05:31.821 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[35;1m[ERROR] 2025-11-17 12:22:10.435 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-17 12:22:10.439 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65376->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-17 12:22:10.439 ws.go(311)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65376->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-17 12:22:10.768 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-17 12:22:10.770 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65406->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-17 12:22:10.770 ws.go(311)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65406->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-17 12:22:11.081 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-17 12:22:11.082 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65404->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-17 12:22:11.082 ws.go(311)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65404->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-17 12:22:11.442 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:22:11.772 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:22:11.774 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:22:11.921 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:22:12.088 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:22:12.471 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:22:12.671 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:22:13.155 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:22:13.311 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[35;1m[ERROR] 2025-11-17 12:35:06.368 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-17 12:35:06.369 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:49250->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-17 12:35:06.369 ws.go(311)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:49250->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-17 12:35:06.550 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-17 12:35:06.550 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:49248->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-17 12:35:06.550 ws.go(311)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:49248->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-17 12:35:06.933 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-17 12:35:06.933 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:49278->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-17 12:35:06.933 ws.go(311)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:49278->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-17 12:35:07.371 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:35:07.550 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:35:07.719 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:35:07.870 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:35:07.934 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:35:08.644 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:35:08.771 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:35:09.336 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:35:09.443 ws.go(345)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:48:02.443 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:48:02.446 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:48:02.447 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:48:02.449 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:48:02.704 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:48:02.711 ws.go(79)[Login]: Login
+[33;1m[WARN]  2025-11-17 12:48:02.828 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:48:02.829 ws.go(321)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:48:03.291 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:48:03.295 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:48:03.403 ws.go(355)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:48:03.884 ws.go(145)[Start]: Client-2 connected and logged in
+[33;1m[WARN]  2025-11-17 12:48:04.027 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:48:04.027 ws.go(321)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[35;1m[ERROR] 2025-11-17 12:49:02.769 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-17 12:49:03.776 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 12:49:03.947 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-17 12:49:04.031 ws.go(145)[Start]: Client-0 connected and logged in
+[33;1m[WARN]  2025-11-17 12:49:04.198 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:49:04.199 ws.go(321)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:49:04.948 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:49:05.225 ws.go(145)[Start]: Client-2 connected and logged in
+[33;1m[WARN]  2025-11-17 12:49:05.423 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:49:05.423 ws.go(321)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:49:13.700 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:49:13.703 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:49:13.704 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:49:13.706 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:49:13.961 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:49:13.976 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:49:14.068 ws.go(356)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:49:14.553 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:49:14.562 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:49:14.691 ws.go(356)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:49:15.142 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:49:15.245 ws.go(356)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:49:55.542 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:49:55.545 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:49:55.545 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:49:55.548 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:49:55.810 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:49:55.817 ws.go(79)[Login]: Login
+[33;1m[WARN]  2025-11-17 12:49:55.920 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:49:55.921 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:49:56.422 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:49:56.426 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:49:56.598 ws.go(356)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:49:57.012 ws.go(145)[Start]: Client-2 connected and logged in
+[33;1m[WARN]  2025-11-17 12:49:57.129 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:49:57.129 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[35;1m[ERROR] 2025-11-17 12:50:55.870 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-17 12:50:56.873 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 12:50:57.075 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-17 12:50:57.128 ws.go(145)[Start]: Client-0 connected and logged in
+[33;1m[WARN]  2025-11-17 12:50:57.331 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:50:57.331 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:50:58.077 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:50:58.363 ws.go(145)[Start]: Client-2 connected and logged in
+[33;1m[WARN]  2025-11-17 12:50:58.549 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:50:58.549 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[35;1m[ERROR] 2025-11-17 12:51:57.192 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-17 12:51:58.197 ws.go(79)[Login]: Login
+[35;1m[ERROR] 2025-11-17 12:51:58.421 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-17 12:51:58.535 ws.go(145)[Start]: Client-0 connected and logged in
+[33;1m[WARN]  2025-11-17 12:51:58.651 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:51:58.651 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:51:59.422 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:51:59.747 ws.go(145)[Start]: Client-2 connected and logged in
+[33;1m[WARN]  2025-11-17 12:51:59.879 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:51:59.879 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:52:41.242 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:52:41.245 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:52:41.245 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:52:41.249 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:52:41.631 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:52:41.642 ws.go(79)[Login]: Login
+[33;1m[WARN]  2025-11-17 12:52:41.811 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:52:41.811 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:52:42.328 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:52:42.342 ws.go(79)[Login]: Login
+[33;1m[WARN]  2025-11-17 12:52:42.524 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-17 12:52:42.524 ws.go(322)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[INFO]  2025-11-17 12:52:43.056 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:52:43.178 ws.go(356)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:57:02.326 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:57:02.330 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:57:02.330 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:57:02.333 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:57:02.712 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:57:02.726 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:57:03.374 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:57:03.374 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:57:04.057 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:57:04.245 ws.go(359)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:58:09.283 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:58:09.285 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:58:09.285 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:58:09.288 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:58:09.644 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:58:09.663 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:58:10.327 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:58:10.329 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:58:10.976 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:58:11.141 ws.go(359)[listenMsg]: Subscription response: {"result":null,"id":1}
+[INFO]  2025-11-17 12:58:47.870 main.go(46)[main]: Database connected.
+[INFO]  2025-11-17 12:58:47.873 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-17 12:58:47.873 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:58:47.876 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-17 12:58:48.215 ws.go(145)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-17 12:58:48.230 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:58:48.895 ws.go(145)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-17 12:58:48.899 ws.go(79)[Login]: Login
+[INFO]  2025-11-17 12:58:49.595 ws.go(145)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-17 12:58:49.784 ws.go(359)[listenMsg]: Subscription response: {"result":null,"id":1}

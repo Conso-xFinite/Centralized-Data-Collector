@@ -1,3 +1,157 @@
 [35;1m[ERROR] 2025-11-17 11:07:04.435 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: dial tcp 128.242.245.189:9443: i/o timeout[0m
 [35;1m[ERROR] 2025-11-17 11:07:04.436 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 128.242.245.189:9443: i/o timeout[0m
 [35;1m[ERROR] 2025-11-17 11:07:04.436 ws.go(142)[Start]: [0m[35mLogin error: dial tcp 128.242.245.189:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-17 11:32:07.458 collector.go(143)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:34:18.900 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.716 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.717 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.717 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:36:59.717 collector.go(151)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.251 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:43:54.252 collector.go(185)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.852 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.853 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:44:46.853 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:45:01.930 collector.go(188)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:46:02.566 collector.go(191)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 11:50:09.036 collector.go(203)[RestoreSubscribedChannels]:
+[0m[35mFailed to unmarshal subscribed channel arg: json: cannot unmarshal number into Go value of type binance_define.RedisChannelArg[0m
+[35;1m[ERROR] 2025-11-17 12:22:10.435 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:22:10.768 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:22:11.081 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:35:06.368 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:35:06.550 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:35:06.933 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:49:02.769 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:49:03.947 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:50:55.870 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:50:57.075 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:51:57.192 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-17 12:51:58.421 ws.go(151)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m

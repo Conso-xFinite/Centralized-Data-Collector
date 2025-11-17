@@ -49,6 +49,11 @@ func NewWSPool(maxConn int) *WSPool {
 	return pool
 }
 
+func (p *WSPool) GetClientsLength() int {
+	len := len(p.clients)
+	return len
+}
+
 // 判断某个连接已否已经完成初始化连接
 func (p *WSPool) IsClientInitialized(index int) bool {
 	return p.clientsInitialized[index].Load()
@@ -101,6 +106,7 @@ func (p *WSPool) BatcxhAddChannelSubscribe(index int32, args *utils.List[*binanc
 
 func (p *WSPool) GetChanneJoinIndex(arg *binance_define.RedisChannelArg) int32 {
 	key := p.GetKey(arg.Channel, arg.TokenPair)
+	logger.Debug("key s% s%", key, &p.connCount)
 	index := utils.HMACSHA256FromStringToUint(key, &p.connCount)
 	//如果已经在已订阅列表中，返回-1
 	_, ok := p.clients[index].channelManager.subscribedChannels.Get(key)
@@ -108,7 +114,7 @@ func (p *WSPool) GetChanneJoinIndex(arg *binance_define.RedisChannelArg) int32 {
 		return -1
 	}
 
-	return index
+	return int32(index)
 }
 
 // func (p *WSPool) AddChannelUnsubscribe(arg *binance_define.RedisChannelArg) bool {

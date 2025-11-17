@@ -35,6 +35,63 @@ func NewDataCollector(ctx context.Context, redisClient *redis.Client) (*DataColl
 		redisHelper: utils.NewRedisHelper(redisClient),
 		storer:      NewBinanceStorer(),
 	}
+	// logger.Debug("NewWSPool", dataCollector.apiClient.GetClientsLength())
+
+	//测试写入订阅数据
+
+	// user := User{Name: "Alice", Age: 20}
+	// data, _ := json.Marshal(user)
+
+	// r.HSet(ctx, "user:1001", "profile", data)
+
+	// "etcusdt@aggTrade", "etcusdt@kline_1m", "etcusdt@miniTicker",
+
+	// type RedisChannelArg struct {
+	// TypeSubscribe string `json:"typeSubscribe"` // 发布端不用管, 订阅端加入到pending队列时写入此值
+	// Channel       string `json:"channel"`       // "aggTrade", "kline_1m", "miniTicker",
+	// TokenPair     string `json:"TokenPair"`
+	// }
+
+	// channelArgsJson, _ := json.MarshalIndent(redisOkxChannelArg, "", "  ")
+
+	// dataCollector.redisHelper.HSet(ctx, BINANCE_SUBSCRIBED_CHANNELS, "btcusdt@aggTrade", {
+	// 	TypeSubscribe: ""
+	// 	Channel: ""     // "aggTrade", "kline_1m", "miniTicker",
+	// 	TokenPair :" "    string `json:"TokenPair"`
+	// })
+
+	err33 := dataCollector.redisHelper.HDel(ctx, BINANCE_SUBSCRIBED_CHANNELS,
+		"BTCUSDT@miniTicker",
+		"bnbusdt@aggTrade",
+		"BTCUSDT@kline_1m",
+	)
+	if err33 != nil {
+		logger.Debug("err33", err33)
+	}
+
+	arg := &binance_define.RedisChannelArg{
+		TypeSubscribe: "subscribe",
+		Channel:       "aggTrade",
+		TokenPair:     "btcusdt",
+	}
+	jsonBytes1, _ := json.Marshal(arg)
+	dataCollector.redisHelper.HSet(ctx, BINANCE_SUBSCRIBED_CHANNELS, "btcusdt@aggTrade", jsonBytes1)
+
+	arg2 := &binance_define.RedisChannelArg{
+		TypeSubscribe: "subscribe",
+		Channel:       "miniTicker",
+		TokenPair:     "btcusdt",
+	}
+	jsonBytes2, _ := json.Marshal(arg2)
+	dataCollector.redisHelper.HSet(ctx, BINANCE_SUBSCRIBED_CHANNELS, "btcusdt@miniTicker", jsonBytes2)
+
+	arg3 := &binance_define.RedisChannelArg{
+		TypeSubscribe: "subscribe",
+		Channel:       "kline_1m",
+		TokenPair:     "btcusdt",
+	}
+	jsonBytes3, _ := json.Marshal(arg3)
+	dataCollector.redisHelper.HSet(ctx, BINANCE_SUBSCRIBED_CHANNELS, "btcusdt@kline_1m", jsonBytes3)
 
 	err := dataCollector.RestoreSubscribedChannels(ctx)
 	if err != nil {
@@ -65,7 +122,7 @@ func (dc *DataCollector) collectData(ctx context.Context) {
 	pushData := dc.apiClient.FetchData()
 	if len(pushData) > 0 {
 		// log.Printf("Stored %d records from Binance", len(pushData))
-		// dc.storer.StoreData(ctx, pushData)
+		dc.storer.StoreData(ctx, pushData)
 	}
 }
 
@@ -112,6 +169,7 @@ func (dc *DataCollector) collectData(ctx context.Context) {
 // 程序启动时, 从 Redis 读取已订阅频道列表, 恢复订阅 理论上不存在取消订阅数据
 func (dc *DataCollector) RestoreSubscribedChannels(ctx context.Context) error {
 	subscribedChannelsMap, err := dc.redisHelper.HGetAll(ctx, BINANCE_SUBSCRIBED_CHANNELS)
+	logger.Debug("BINANCE_SUBSCRIBED_CHANNELS HGetAll", subscribedChannelsMap)
 	if err != nil {
 		if err == redis.Nil {
 			// 没有已订阅频道, 正常返回
@@ -128,8 +186,9 @@ func (dc *DataCollector) RestoreSubscribedChannels(ctx context.Context) error {
 			logger.Error("Failed to unmarshal subscribed channel arg: %v", err)
 			continue
 		}
-
+		// logger.Debug("Unmarshal", channelArg)
 		index := dc.apiClient.GetChanneJoinIndex(&channelArg)
+		logger.Debug("index", index)
 		if index > 0 {
 			if channelMap[index] == nil {
 				channelMap[index] = &utils.List[*binance_define.RedisChannelArg]{}
