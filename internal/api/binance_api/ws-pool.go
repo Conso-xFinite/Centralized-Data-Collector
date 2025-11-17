@@ -24,10 +24,10 @@ import (
 type WSPool struct {
 	clients []*Client
 	// 设定一个数组, 用于记录每个连接是否已完成初始化连接
-	clientsInitialized   []atomic.Bool // 用于保证 client 按顺序初始化
-	connCount            atomic.Int32
-	mu                   sync.Mutex
-	SummarySubscribedMap *utils.SafeMap[string, int] // key: "<channel>:TokenContractAddress, value: client index
+	clientsInitialized []atomic.Bool // 用于保证 client 按顺序初始化
+	connCount          atomic.Int32
+	mu                 sync.Mutex
+	// SummarySubscribedMap *utils.SafeMap[string, int] // key: "<channel>:TokenContractAddress, value: client index
 	singlePushedMsgQueue *utils.SafeQueue[*binance_define.WSSinglePushMsg]
 }
 
@@ -35,7 +35,6 @@ type WSPool struct {
 func NewWSPool(maxConn int) *WSPool {
 	pool := &WSPool{
 		clients:              make([]*Client, maxConn),
-		SummarySubscribedMap: utils.NewSafeMap[string, int](),
 		singlePushedMsgQueue: utils.NewSafeQueue[*binance_define.WSSinglePushMsg](),
 		clientsInitialized:   make([]atomic.Bool, maxConn),
 	}
@@ -71,42 +70,60 @@ func (p *WSPool) GetCanAddSubscriptionClientIndex(channel string) int {
 	return -1
 }
 
-func (cm *WSPool) getKey(channel, chainIndex, tokenContractAddress string) string {
-	return channel + ":" + chainIndex + ":" + tokenContractAddress
+func (p *WSPool) GetKey(channel, tokenPair string) string {
+	return tokenPair + "@" + channel
+}
+
+func (p *WSPool) GetClientByIndex(index int32) *Client {
+	return p.clients[index]
 }
 
 func (p *WSPool) AddChannelSubscribe(arg *binance_define.RedisChannelArg) bool {
-	key := p.getKey(arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
-	_, ok := p.SummarySubscribedMap.Get(key)
+
+	key := p.GetKey(arg.Channel, arg.TokenPair)
+	index := utils.HMACSHA256FromStringToUint(key, &p.connCount)
+
+	_, ok := p.clients[index].channelManager.subscribedChannels.Get(key)
 	if ok {
 		return false
 	}
 
-	index := p.GetCanAddSubscriptionClientIndex(arg.Channel)
-	if index < 0 {
-		logger.Error("No available WS client to add subscription for arg: %+v", arg)
-		return false
-	}
 	p.clients[index].AddChannelSubscribe(arg)
-	p.SummarySubscribedMap.Set(key, index)
-	logger.Info("[client-%d] subscription, %s: %s:%s",
-		index, arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
+	logger.Info("[client-%d] subscription, %s: %s",
+		index, arg.Channel, arg.TokenPair)
 	return true
 }
 
-func (p *WSPool) AddChannelUnsubscribe(arg *binance_define.RedisChannelArg) bool {
-	key := p.getKey(arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
-	index, ok := p.SummarySubscribedMap.Get(key)
-	if !ok {
-		return false
+func (p *WSPool) BatcxhAddChannelSubscribe(index int32, args *utils.List[*binance_define.RedisChannelArg]) bool {
+	p.clients[index].BatchAddChannelSubscribe(args)
+	return true
+}
+
+func (p *WSPool) GetChanneJoinIndex(arg *binance_define.RedisChannelArg) int32 {
+	key := p.GetKey(arg.Channel, arg.TokenPair)
+	index := utils.HMACSHA256FromStringToUint(key, &p.connCount)
+	//如果已经在已订阅列表中，返回-1
+	_, ok := p.clients[index].channelManager.subscribedChannels.Get(key)
+	if ok {
+		return -1
 	}
 
-	p.SummarySubscribedMap.Delete(key)
-	// p.clients[index].AddChannelUnsubscribe(arg)
-	logger.Info("[client-%d] unsubscription, %s: %s:%s",
-		index, arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
-	return true
+	return index
 }
+
+// func (p *WSPool) AddChannelUnsubscribe(arg *binance_define.RedisChannelArg) bool {
+// 	key := p.getKey(arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
+// 	index, ok := p.SummarySubscribedMap.Get(key)
+// 	if !ok {
+// 		return false
+// 	}
+
+// 	p.SummarySubscribedMap.Delete(key)
+// 	// p.clients[index].AddChannelUnsubscribe(arg)
+// 	logger.Info("[client-%d] unsubscription, %s: %s:%s",
+// 		index, arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
+// 	return true
+// }
 
 func (p *WSPool) AddPushDataToQueue(subscribeResp *binance_define.WSSinglePushMsg) {
 	// dataJson, _ := json.MarshalIndent(subscribeResp.Data, "", "  ")

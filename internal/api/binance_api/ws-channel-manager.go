@@ -2,29 +2,28 @@ package binance_api
 
 import (
 	"Centralized-Data-Collector/internal/api/binance_define"
+	"Centralized-Data-Collector/pkg/logger"
 	"Centralized-Data-Collector/pkg/utils"
 	"sync"
 )
 
 type WSChannelManager struct {
-	mutex                 sync.Mutex
-	pendingChannelArgList *utils.List[*binance_define.RedisChannelArg]
-	subscribedChannels    *utils.Map[string, *binance_define.RedisChannelArg] // 记录已订阅频道列表, key: "<channel>:<ChainIndex>:<TokenContractAddress>", value: bool
-	channelLen            int
+	mutex                            sync.Mutex
+	subscribePendingChannelArgList   *utils.List[*binance_define.RedisChannelArg] //等待订阅列表
+	unsubscribePendingChannelArgList *utils.List[*binance_define.RedisChannelArg] //等待取消订阅列表
+	subscribedChannels               *utils.Map[string, bool]                     // 记录已订阅频道列表, key: "<channel>@<TokenPair", value: bool
 }
 
 func pendingChannelArgListEqualFunc(a, b *binance_define.RedisChannelArg) bool {
 	return a.Channel == b.Channel &&
-		a.ChainIndex == b.ChainIndex &&
-		a.TokenContractAddress == b.TokenContractAddress
+		a.TokenPair == b.TokenPair
 }
 
 func NewWSChannelManager() *WSChannelManager {
-	utils.NewList[*binance_define.RedisChannelArg]()
 	return &WSChannelManager{
-		pendingChannelArgList: utils.NewListWithEqualFunc[*binance_define.RedisChannelArg](pendingChannelArgListEqualFunc),
-		subscribedChannels:    utils.NewMap[string, *binance_define.RedisChannelArg](),
-		channelLen:            0,
+		subscribePendingChannelArgList:   utils.NewListWithEqualFunc[*binance_define.RedisChannelArg](pendingChannelArgListEqualFunc),
+		unsubscribePendingChannelArgList: utils.NewListWithEqualFunc[*binance_define.RedisChannelArg](pendingChannelArgListEqualFunc),
+		subscribedChannels:               utils.NewMap[string, bool](),
 	}
 }
 
@@ -40,31 +39,22 @@ func NewWSChannelManager() *WSChannelManager {
 // 	return channel + ":" + chainIndex + ":" + tokenContractAddress
 // }
 
-// func (cm *WSChannelManager) _addChannelSubscribe(arg *okx_define.RedisOkxChannelArg) {
-// 	// 检查是否已经存在未处理的订阅或取消请求
-// 	index := cm.pendingChannelArgList.IndexOf(arg)
-// 	if index >= 0 {
-// 		pendingArg, _ := cm.pendingChannelArgList.Get(index)
-// 		if pendingArg.IsSubscribe {
-// 			// 已经存在未处理的订阅请求 -> do nothing
-// 		} else {
-// 			// 存在未处理的取消请求 -> remove it
-// 			cm.channelLen += len(arg.Channel)
-// 			cm.pendingChannelArgList.RemoveAt(index)
-// 		}
-// 	} else {
-// 		// 判断是否已经订阅
-// 		key := cm.getKey(arg.Channel, arg.ChainIndex, arg.TokenContractAddress)
-// 		if _, hasSubscribed := cm.subscribedChannels.Get(key); hasSubscribed {
-// 			// already subscribed -> do nothing
-// 		} else {
-// 			// not subscribed -> can subscribe
-// 			cm.channelLen += len(arg.Channel)
-// 			arg.IsSubscribe = true
-// 			cm.pendingChannelArgList.Append(arg)
-// 		}
-// 	}
-// }
+func (cm *WSChannelManager) _addChannelSubscribe(arg *binance_define.RedisChannelArg) {
+	// 检查是否已经存在未处理的订阅
+	if arg.TypeSubscribe == "Subscribe" {
+		index := cm.subscribePendingChannelArgList.IndexOf(arg)
+		//外部已经判断是是否已完成订阅，如果pending队列不存在就需要加入
+		if index < 0 {
+			cm.subscribePendingChannelArgList.Append(arg)
+		} else {
+			logger.Debug("已存在pending 队列中")
+		}
+	}
+}
+
+func (cm *WSChannelManager) _BatchaddPendingChannelSubscribe(args *utils.List[*binance_define.RedisChannelArg]) {
+	cm.subscribePendingChannelArgList.AppendBatch(args.All())
+}
 
 // func (cm *WSChannelManager) _addChannelUnsubscribe(arg *okx_define.RedisOkxChannelArg) {
 // 	// 检查是否已经存在未处理的订阅或取消请求
@@ -100,11 +90,17 @@ func NewWSChannelManager() *WSChannelManager {
 // 	}
 // }
 
-// func (cm *WSChannelManager) AddChannelSubscribe(arg *okx_define.RedisOkxChannelArg) {
-// 	cm.mutex.Lock()
-// 	cm._addChannelSubscribe(arg)
-// 	cm.mutex.Unlock()
-// }
+func (cm *WSChannelManager) AddChannelSubscribe(arg *binance_define.RedisChannelArg) {
+	cm.mutex.Lock()
+	cm._addChannelSubscribe(arg)
+	cm.mutex.Unlock()
+}
+
+func (cm *WSChannelManager) BatchAddChannelSubscribe(args *utils.List[*binance_define.RedisChannelArg]) {
+	cm.mutex.Lock()
+	cm._BatchaddPendingChannelSubscribe(args)
+	cm.mutex.Unlock()
+}
 
 // func (cm *WSChannelManager) AddChannelUnsubscribe(arg *okx_define.RedisOkxChannelArg) {
 // 	cm.mutex.Lock()

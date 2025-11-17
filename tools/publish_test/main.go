@@ -1,10 +1,10 @@
 package main
 
 import (
-	"Conso-CoinHub-DataCollector/internal/api/okx_define"
-	"Conso-CoinHub-DataCollector/internal/cache"
-	"Conso-CoinHub-DataCollector/internal/collector"
-	"Conso-CoinHub-DataCollector/pkg/utils"
+	"Centralized-Data-Collector/internal/api/okx_define"
+	"Centralized-Data-Collector/internal/cache"
+	"Centralized-Data-Collector/internal/collector"
+	"Centralized-Data-Collector/pkg/utils"
 	"context"
 	"fmt"
 	"log"

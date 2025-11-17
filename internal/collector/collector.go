@@ -2,8 +2,11 @@ package collector
 
 import (
 	"Centralized-Data-Collector/internal/api/binance_api"
+	"Centralized-Data-Collector/internal/api/binance_define"
+	"Centralized-Data-Collector/pkg/logger"
 	"Centralized-Data-Collector/pkg/utils"
 	"context"
+	"encoding/json"
 	"log"
 	"time"
 
@@ -11,7 +14,7 @@ import (
 )
 
 // const OKX_SUBSCRIPTION_STREAM = "coinhub:subscription:okx:channel"
-// const OKX_SUBSCRIBED_CHANNELS = "data_collector:subscribed:okx:channel"
+const BINANCE_SUBSCRIBED_CHANNELS = "data_collector:subscribed:binance:channel"
 
 type DataCollector struct {
 	apiClient   *binance_api.WSPool // 重连时, 抛弃
@@ -26,19 +29,19 @@ func DataCollectorInstance() *DataCollector {
 }
 
 func NewDataCollector(ctx context.Context, redisClient *redis.Client) (*DataCollector, error) {
-	okxConnPool := binance_api.NewWSPool(1)
+	binanceConnPool := binance_api.NewWSPool(3)
 	dataCollector := &DataCollector{
-		apiClient:   okxConnPool,
+		apiClient:   binanceConnPool,
 		redisHelper: utils.NewRedisHelper(redisClient),
 		storer:      NewBinanceStorer(),
 	}
 
-	// err := dataCollector.RestoreSubscribedChannels(ctx)
-	// if err != nil {
-	// 	logger.Error("Failed to restore subscribed channels: %v", err)
-	// 	return nil, err
-	// }
-	// logger.Debug("Restored subscribed channels from Redis")
+	err := dataCollector.RestoreSubscribedChannels(ctx)
+	if err != nil {
+		logger.Error("Failed to restore subscribed channels: %v", err)
+		return nil, err
+	}
+	logger.Debug("Restored subscribed channels from Redis")
 	dataCollectorInstance = dataCollector
 	return dataCollector, nil
 }
@@ -62,7 +65,7 @@ func (dc *DataCollector) collectData(ctx context.Context) {
 	pushData := dc.apiClient.FetchData()
 	if len(pushData) > 0 {
 		// log.Printf("Stored %d records from Binance", len(pushData))
-		dc.storer.StoreData(ctx, pushData)
+		// dc.storer.StoreData(ctx, pushData)
 	}
 }
 
@@ -106,25 +109,40 @@ func (dc *DataCollector) collectData(ctx context.Context) {
 // 	}
 // }
 
-// // 程序启动时, 从 Redis 读取已订阅频道列表, 恢复订阅
-// func (dc *DataCollector) RestoreSubscribedChannels(ctx context.Context) error {
-// 	subscribedChannelsMap, err := dc.redisHelper.HGetAll(ctx, OKX_SUBSCRIBED_CHANNELS)
-// 	if err != nil {
-// 		if err == redis.Nil {
-// 			// 没有已订阅频道, 正常返回
-// 			return nil
-// 		}
-// 		return err
-// 	}
+// 程序启动时, 从 Redis 读取已订阅频道列表, 恢复订阅 理论上不存在取消订阅数据
+func (dc *DataCollector) RestoreSubscribedChannels(ctx context.Context) error {
+	subscribedChannelsMap, err := dc.redisHelper.HGetAll(ctx, BINANCE_SUBSCRIBED_CHANNELS)
+	if err != nil {
+		if err == redis.Nil {
+			// 没有已订阅频道, 正常返回
+			return nil
+		}
+		return err
+	}
 
-// 	for _, v := range subscribedChannelsMap {
-// 		var channelArg okx_define.RedisOkxChannelArg
-// 		if err := json.Unmarshal([]byte(v), &channelArg); err != nil {
-// 			logger.Error("Failed to unmarshal subscribed channel arg: %v", err)
-// 			continue
-// 		}
-// 		dc.apiClient.AddChannelSubscribe(&channelArg)
-// 	}
+	//循环定位哪些代币对应该存于哪个连接对象中，再批量插入执行
+	channelMap := make(map[int32]*utils.List[*binance_define.RedisChannelArg])
+	for _, v := range subscribedChannelsMap {
+		var channelArg binance_define.RedisChannelArg
+		if err := json.Unmarshal([]byte(v), &channelArg); err != nil {
+			logger.Error("Failed to unmarshal subscribed channel arg: %v", err)
+			continue
+		}
 
-// 	return nil
-// }
+		index := dc.apiClient.GetChanneJoinIndex(&channelArg)
+		if index > 0 {
+			if channelMap[index] == nil {
+				channelMap[index] = &utils.List[*binance_define.RedisChannelArg]{}
+			}
+			channelMap[index].Append(&channelArg)
+		}
+	}
+
+	//循环批量插入各个client
+	for index, list := range channelMap {
+		logger.Debug("批量插入订阅信息  s% 插入信息长度 s%", index, len(list.All()))
+		dc.apiClient.BatcxhAddChannelSubscribe(index, list)
+	}
+
+	return nil
+}

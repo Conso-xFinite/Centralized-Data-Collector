@@ -1,0 +1,3 @@
+[35;1m[ERROR] 2025-11-17 11:07:04.435 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: dial tcp 128.242.245.189:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-17 11:07:04.436 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 128.242.245.189:9443: i/o timeout[0m
+[35;1m[ERROR] 2025-11-17 11:07:04.436 ws.go(142)[Start]: [0m[35mLogin error: dial tcp 128.242.245.189:9443: i/o timeout[0m

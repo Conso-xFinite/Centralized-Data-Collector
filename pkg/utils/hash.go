@@ -3,16 +3,22 @@ package utils
 import (
 	"crypto/hmac"
 	"crypto/sha256"
+	"encoding/binary"
+	"sync/atomic"
 )
 
-// func HashPassword(password string) (string, error) {
-// 	bytes, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
-// 	return string(bytes), err
-// }
-
-// func CheckPasswordHash(password, hash string) bool {
-// 	return bcrypt.CompareHashAndPassword([]byte(hash), []byte(password)) == nil
-// }
+// 生成 HMAC-SHA256 哈希并将前4个字节转换为 uint32,最后与给定的数字进行求模
+func HMACSHA256FromStringToUint(s string, i *atomic.Int32) int32 {
+	hash := sha256.Sum256([]byte(s))
+	b := hash[0:4]
+	num := int32(binary.BigEndian.Uint32(b[:]))
+	poolLength := i.Load()
+	mod := num % (poolLength - 1)
+	if mod < 0 {
+		mod += poolLength
+	}
+	return mod
+}
 
 // 生成 HMAC-SHA256 哈希
 func HMACSHA256(key, data []byte) []byte {

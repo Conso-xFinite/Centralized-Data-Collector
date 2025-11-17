@@ -693,3 +693,27 @@
 [0m[33mWebSocket read error: read tcp 127.0.0.1:58865->127.0.0.1:7890: use of closed network connection[0m
 [33;1m[WARN]  2025-11-15 17:28:26.939 ws.go(596)[listenMsg]:
 [0m[33mWebSocket read error: read tcp 127.0.0.1:58865->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-15 17:56:56.397 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 17:56:56.399 ws.go(312)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 17:59:34.738 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 17:59:34.739 ws.go(313)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:00:16.463 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:00:16.464 ws.go(314)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:00:58.199 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:00:58.200 ws.go(313)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:02:18.334 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:02:18.336 ws.go(313)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:19:20.841 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:19:20.843 ws.go(311)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:19:39.732 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:19:39.732 ws.go(311)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:20:00.601 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m
+[33;1m[WARN]  2025-11-15 18:20:00.601 ws.go(311)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1008 (policy violation): Invalid request[0m

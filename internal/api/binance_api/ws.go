@@ -133,7 +133,7 @@ func (c *Client) Start() {
 
 		var conn *websocket.Conn = nil
 
-		hasSubscribe := false
+		hasSubscribe := true
 		for {
 			if c.forceStop.Load() {
 				break
@@ -164,18 +164,75 @@ func (c *Client) Start() {
 					subMsg := binance_define.SubscribeMsg{
 						Method: "SUBSCRIBE",
 						Params: []string{
-							"btcusdt@aggTrade",
-							"btcusdt@kline_1m",
-							"btcusdt@miniTicker",
-							"ethusdt@aggTrade",
-							"ethusdt@kline_1m",
-							"ethusdt@miniTicker",
-							"bnbusdt@aggTrade",
-							"bnbusdt@kline_1m",
-							"bnbusdt@miniTicker",
-							"solusdt@aggTrade",
-							"solusdt@kline_1m",
-							"solusdt@miniTicker",
+							"btcusdt@aggTrade", "btcusdt@kline_1m", "btcusdt@miniTicker",
+							"ethusdt@aggTrade", "ethusdt@kline_1m", "ethusdt@miniTicker",
+							"bnbusdt@aggTrade", "bnbusdt@kline_1m", "bnbusdt@miniTicker",
+							"usdtusdt@aggTrade", "usdtusdt@kline_1m", "usdtusdt@miniTicker",
+							"xrpusdt@aggTrade", "xrpusdt@kline_1m", "xrpusdt@miniTicker",
+							"adausdt@aggTrade", "adausdt@kline_1m", "adausdt@miniTicker",
+							"dogeusdt@aggTrade", "dogeusdt@kline_1m", "dogeusdt@miniTicker",
+							"maticusdt@aggTrade", "maticusdt@kline_1m", "maticusdt@miniTicker",
+							"solusdt@aggTrade", "solusdt@kline_1m", "solusdt@miniTicker",
+							"dotusdt@aggTrade", "dotusdt@kline_1m", "dotusdt@miniTicker",
+							"avaxusdt@aggTrade", "avaxusdt@kline_1m", "avaxusdt@miniTicker",
+							"shibusdt@aggTrade", "shibusdt@kline_1m", "shibusdt@miniTicker",
+							"tronusdt@aggTrade", "tronusdt@kline_1m", "tronusdt@miniTicker",
+							"wbtcusdt@aggTrade", "wbtcusdt@kline_1m", "wbtcusdt@miniTicker",
+							"linkusdt@aggTrade", "linkusdt@kline_1m", "linkusdt@miniTicker",
+							"nearusdt@aggTrade", "nearusdt@kline_1m", "nearusdt@miniTicker",
+							"ltcusdt@aggTrade", "ltcusdt@kline_1m", "ltcusdt@miniTicker",
+							"atomusdt@aggTrade", "atomusdt@kline_1m", "atomusdt@miniTicker",
+							"xlmusdt@aggTrade", "xlmusdt@kline_1m", "xlmusdt@miniTicker",
+							"fttusdt@aggTrade", "fttusdt@kline_1m", "fttusdt@miniTicker",
+							"filecoinusdt@aggTrade", "filecoinusdt@kline_1m", "filecoinusdt@miniTicker",
+							"apeusdt@aggTrade", "apeusdt@kline_1m", "apeusdt@miniTicker",
+							"cakeusdt@aggTrade", "cakeusdt@kline_1m", "cakeusdt@miniTicker",
+							"etcusdt@aggTrade", "etcusdt@kline_1m", "etcusdt@miniTicker",
+							"egldusdt@aggTrade", "egldusdt@kline_1m", "egldusdt@miniTicker",
+							"thetausdt@aggTrade", "thetausdt@kline_1m", "thetausdt@miniTicker",
+							"vechainusdt@aggTrade", "vechainusdt@kline_1m", "vechainusdt@miniTicker",
+							"xtzusdt@aggTrade", "xtzusdt@kline_1m", "xtzusdt@miniTicker",
+							"uniusdt@aggTrade", "uniusdt@kline_1m", "uniusdt@miniTicker",
+							"algorandusdt@aggTrade", "algorandusdt@kline_1m", "algorandusdt@miniTicker",
+							"ftmusdt@aggTrade", "ftmusdt@kline_1m", "ftmusdt@miniTicker",
+							"reefusdt@aggTrade", "reefusdt@kline_1m", "reefusdt@miniTicker",
+							"galausdt@aggTrade", "galausdt@kline_1m", "galausdt@miniTicker",
+							"eosusdt@aggTrade", "eosusdt@kline_1m", "eosusdt@miniTicker",
+							"axsusdt@aggTrade", "axsusdt@kline_1m", "axsusdt@miniTicker",
+							"hntusdt@aggTrade", "hntusdt@kline_1m", "hntusdt@miniTicker",
+							"neousdt@aggTrade", "neousdt@kline_1m", "neousdt@miniTicker",
+							"chzusdt@aggTrade", "chzusdt@kline_1m", "chzusdt@miniTicker",
+							"arusdt@aggTrade", "arusdt@kline_1m", "arusdt@miniTicker",
+							"runeusdt@aggTrade", "runeusdt@kline_1m", "runeusdt@miniTicker",
+							"zecusdt@aggTrade", "zecusdt@kline_1m", "zecusdt@miniTicker",
+							"bttusdt@aggTrade", "bttusdt@kline_1m", "bttusdt@miniTicker",
+							"gmxusdt@aggTrade", "gmxusdt@kline_1m", "gmxusdt@miniTicker",
+							"crvusdt@aggTrade", "crvusdt@kline_1m", "crvusdt@miniTicker",
+							"klayusdt@aggTrade", "klayusdt@kline_1m", "klayusdt@miniTicker",
+							"paxgusdt@aggTrade", "paxgusdt@kline_1m", "paxgusdt@miniTicker",
+							"icpusdt@aggTrade", "icpusdt@kline_1m", "icpusdt@miniTicker",
+							"manausdt@aggTrade", "manausdt@kline_1m", "manausdt@miniTicker",
+							"enjusdt@aggTrade", "enjusdt@kline_1m", "enjusdt@miniTicker",
+							"sandusdt@aggTrade", "sandusdt@kline_1m", "sandusdt@miniTicker",
+							"zilusdt@aggTrade", "zilusdt@kline_1m", "zilusdt@miniTicker",
+							"dashusdt@aggTrade", "dashusdt@kline_1m", "dashusdt@miniTicker",
+							"omgusdt@aggTrade", "omgusdt@kline_1m", "omgusdt@miniTicker",
+							"wavesusdt@aggTrade", "wavesusdt@kline_1m", "wavesusdt@miniTicker",
+							"ankrusdt@aggTrade", "ankrusdt@kline_1m", "ankrusdt@miniTicker",
+							"qntusdt@aggTrade", "qntusdt@kline_1m", "qntusdt@miniTicker",
+							"minausdt@aggTrade", "minausdt@kline_1m", "minausdt@miniTicker",
+							"aaveusdt@aggTrade", "aaveusdt@kline_1m", "aaveusdt@miniTicker",
+							"zrxusdt@aggTrade", "zrxusdt@kline_1m", "zrxusdt@miniTicker",
+							"bakcusdt@aggTrade", "bakcusdt@kline_1m", "bakcusdt@miniTicker",
+							"rendusdt@aggTrade", "rendusdt@kline_1m", "rendusdt@miniTicker",
+							"leousdt@aggTrade", "leousdt@kline_1m", "leousdt@miniTicker",
+							"tomousdt@aggTrade", "tomousdt@kline_1m", "tomousdt@miniTicker",
+							"stxusdt@aggTrade", "stxusdt@kline_1m", "stxusdt@miniTicker",
+							"iousdt@aggTrade", "iousdt@kline_1m", "iousdt@miniTicker",
+							"tgto@aggTrade", "tgto@kline_1m", "tgto@miniTicker",
+
+							// "arweaveusdt@aggTrade", "arweaveusdt@kline_1m", "arweaveusdt@miniTicker",
+							// "lrcusdt@aggTrade", "lrcusdt@kline_1m", "lrcusdt@miniTicker",
 						},
 						ID: 1,
 					}
@@ -375,7 +432,12 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 // }
 
 func (cm *Client) AddChannelSubscribe(arg *binance_define.RedisChannelArg) {
-	// cm.channelManager.AddChannelSubscribe(arg)
+	cm.channelManager.AddChannelSubscribe(arg)
+
+}
+
+func (cm *Client) BatchAddChannelSubscribe(args *utils.List[*binance_define.RedisChannelArg]) {
+	cm.channelManager.BatchAddChannelSubscribe(args)
 
 }
 
