@@ -60,14 +60,14 @@ func NewDataCollector(ctx context.Context, redisClient *redis.Client) (*DataColl
 	// 	TokenPair :" "    string `json:"TokenPair"`
 	// })
 
-	err33 := dataCollector.redisHelper.HDel(ctx, BINANCE_SUBSCRIBED_CHANNELS,
-		"BTCUSDT@miniTicker",
-		"bnbusdt@aggTrade",
-		"BTCUSDT@kline_1m",
-	)
-	if err33 != nil {
-		logger.Debug("err33", err33)
-	}
+	// err33 := dataCollector.redisHelper.HDel(ctx, BINANCE_SUBSCRIBED_CHANNELS,
+	// 	"BTCUSDT@miniTicker",
+	// 	"bnbusdt@aggTrade",
+	// 	"BTCUSDT@kline_1m",
+	// )
+	// if err33 != nil {
+	// 	logger.Debug("err33", err33)
+	// }
 
 	arg := &binance_define.RedisChannelArg{
 		TypeSubscribe: "subscribe",
@@ -189,7 +189,7 @@ func (dc *DataCollector) RestoreSubscribedChannels(ctx context.Context) error {
 		// logger.Debug("Unmarshal", channelArg)
 		index := dc.apiClient.GetChanneJoinIndex(&channelArg)
 		logger.Debug("index", index)
-		if index > 0 {
+		if index >= 0 {
 			if channelMap[index] == nil {
 				channelMap[index] = &utils.List[*binance_define.RedisChannelArg]{}
 			}
