@@ -7383,3 +7383,263 @@
 [35;1m[ERROR] 2025-11-18 16:36:33.976 collector.go(103)[AddRedisChannelOption]: [0m[35mFailed to record unsubscription: <nil>, retrying...[0m
 [35;1m[ERROR] 2025-11-18 16:36:33.978 collector.go(103)[AddRedisChannelOption]: [0m[35mFailed to record unsubscription: <nil>, retrying...[0m
 [35;1m[ERROR] 2025-11-18 16:36:33.981 collector.go(103)[AddRedisChannelOption]: [0m[35mFailed to record unsubscription: <nil>, retrying...[0m
+[35;1m[ERROR] 2025-11-18 21:45:47.729 ws.go(120)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:45:58.503 ws.go(120)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:46:01.743 ws.go(120)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:46:02.507 ws.go(120)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:46:03.144 ws.go(120)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:50:49.206 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:50:51.601 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:50:53.278 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:50:53.278 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:50:53.278 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:50:57.074 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:50:57.074 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:50:57.075 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:00.016 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:00.017 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:00.017 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:01.019 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:51:02.798 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:51:03.417 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:51:04.193 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:04.194 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:04.194 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:06.947 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:06.947 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:06.947 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:10.322 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:10.322 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:10.322 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:14.074 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:14.074 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:14.074 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:17.426 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:17.426 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:17.426 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:20.570 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:20.570 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:20.570 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:24.453 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:24.453 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:24.453 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:28.095 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:28.097 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:28.098 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:32.327 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:32.327 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:51:32.327 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:38.110 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:57:39.328 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:57:40.541 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:57:41.002 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:41.003 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:41.003 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:41.709 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:57:42.920 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:57:43.741 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:43.742 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:43.742 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:47.443 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:47.444 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:47.444 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:51.083 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:51.084 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:51.084 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:54.922 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:54.922 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:54.922 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:58.070 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:58.070 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:57:58.070 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:01.114 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:01.115 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:01.115 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:04.630 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:04.630 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:04.630 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:07.665 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:07.665 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:07.665 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:10.955 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:10.955 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:10.955 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:15.152 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:15.153 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:15.153 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:18.394 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:18.395 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:18.395 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:21.871 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:21.871 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:21.871 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:25.678 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:25.678 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:25.678 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:28.528 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:28.528 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:28.528 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:31.047 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:31.052 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:58:31.052 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:26.955 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:59:29.955 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:29.955 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:29.955 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:33.336 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:59:33.729 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:33.730 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:33.730 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:37.733 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:37.734 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:37.734 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:40.144 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:59:40.527 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:59:41.408 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:41.408 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:41.408 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:42.761 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 21:59:44.360 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:44.360 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 21:59:44.360 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:15.888 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:01:18.080 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:01:19.648 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:19.649 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:19.649 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:22.490 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:01:22.951 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:22.951 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:22.952 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:25.012 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:25.012 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:25.013 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:25.289 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:01:25.690 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:01:29.374 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:29.374 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:29.374 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:33.247 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:33.247 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:33.247 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:35.914 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:35.914 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:35.914 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:38.834 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:38.834 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:38.834 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:42.428 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:42.429 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:42.429 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:46.330 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:46.331 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:46.331 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:50.330 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:50.332 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:50.332 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:53.641 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:53.642 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:53.643 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:56.350 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:56.351 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:56.351 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:59.300 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:59.303 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:01:59.303 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:02.229 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:02.229 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:02.229 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:06.323 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:06.324 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:06.325 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:08.754 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:08.754 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:08.754 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:11.616 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:11.617 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:11.618 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:15.844 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:15.844 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:15.844 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:19.540 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:19.541 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:19.541 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:22.262 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:22.262 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:02:22.263 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:13.027 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:03:13.715 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:03:15.755 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:15.755 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:15.755 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:16.521 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:03:17.141 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:03:18.794 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:18.794 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:18.795 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:18.941 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:03:21.809 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:21.809 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:21.809 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:24.477 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:24.477 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:24.477 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:28.083 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:28.083 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:28.083 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:31.909 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:31.909 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:31.909 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:33.970 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:33.971 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:33.971 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:37.244 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:37.244 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:37.245 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:41.087 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:41.087 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:41.087 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:44.914 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:44.914 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:44.914 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:47.752 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:47.752 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:47.753 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:51.387 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:51.388 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:51.388 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:55.559 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:55.559 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:55.559 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:58.693 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:58.694 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:03:58.694 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:01.915 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:01.915 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:01.915 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:05.784 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:05.784 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:05.784 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:56.717 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:04:57.397 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:04:59.588 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:04:59.747 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:59.748 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:04:59.748 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:01.118 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:05:01.622 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:01.623 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:01.623 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:02.865 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-18 22:05:04.789 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:04.789 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:04.789 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:07.511 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:07.512 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:07.512 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:10.661 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:10.661 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:10.661 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:13.257 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:13.257 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-18 22:05:13.257 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m

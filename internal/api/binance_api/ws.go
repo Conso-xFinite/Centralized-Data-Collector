@@ -114,18 +114,23 @@ func (c *Client) Start() {
 					//重连的时候需要将已订阅列表中数据转移到pending列表中
 					logger.Info("Client-%d connected and logged in", c.index)
 					conn = c.conn
+					// c.channelManager.reAddSubscibeList()
 				}
 			} else {
-				if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 60 {
+				if pastTime := utils.GetCurrentTimestampSec() - c.lastPongTimestamp.Load(); pastTime >= 40 {
 					logger.Error("No ping received in the last 60 seconds, reconnecting...")
 					c.connector.LockClose(c.conn)
+					c.channelManager.reAddSubscibeList()
+					c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
+				} else {
+					// 动态订阅逻辑在这里实现
+					if err := c.sendPendingMessages(conn); err != nil {
+						log.Printf("sendPendingMessages error: %v", err)
+						c.connector.LockClose(c.conn)
+					}
+					time.Sleep(1 * time.Second)
 				}
-				// 动态订阅逻辑在这里实现
-				if err := c.sendPendingMessages(conn); err != nil {
-					log.Printf("sendPendingMessages error: %v", err)
-					c.connector.LockClose(c.conn)
-				}
-				time.Sleep(1 * time.Second)
+
 			}
 		}
 	}()
@@ -235,34 +240,55 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 	}
 }
 
-// TODO 后续看是否需要处理总订阅数所形成的json 超过4096kb的情况
+// 处理总订阅数所形成的json 超过4096kb的情况
+func getAllowRangeSubscirbeMessage(values []string) ([]byte, int) {
+	msg := binance_define.SubscribeMsg{
+		Method: "SUBSCRIBE",
+		Params: values,
+		ID:     int(utils.GetCurrentTimestampNano()),
+	}
+
+	data, _ := json.Marshal(msg)
+	// 如果序列化后长度 <= 4000，满足条件，直接返回
+	if len(data) <= 4000 {
+		return data, len(values) - 1
+	}
+	return getAllowRangeSubscirbeMessage(values[:len(values)-1])
+
+}
+
+// TODO 后续看是否需要
 func (c *Client) sendPendingMessages(conn *websocket.Conn) error {
+
 	clientSubscribelist := c.channelManager.subscribePendingChannelArgList.All()
 
 	if len(clientSubscribelist) > 0 {
 		logger.Info("Client-%d 需要订阅的数据 %s", c.index, len(clientSubscribelist))
 		logger.Info("Client-%d 已订阅的数据 %s", c.index, len(c.channelManager.subscribedChannels.Keys()))
 		values := []string{} // 创建空切片
-		//TODO 这里需要处理当总订阅数所形成的json 超过4096kb的情况
 
 		for _, subscribe := range clientSubscribelist {
 			values = append(values, subscribe.TokenPair+"@"+subscribe.Channel)
 		}
 		logger.Info("Client-%d 需要订阅的数据 %s", c.index, values)
-		subMsg := binance_define.SubscribeMsg{
-			Method: "SUBSCRIBE",
-			Params: values,
-			ID:     int(utils.GetCurrentTimestampNano()),
+		for {
+			data, index := getAllowRangeSubscirbeMessage(values)
+			logger.Debug("index %d", index)
+			err := conn.WriteMessage(websocket.TextMessage, data)
+			if err != nil {
+				log.Printf("Subscribe error: %v", err)
+			}
+			for _, v := range values[:index+1] {
+				c.channelManager.subscribedChannels.Set(v, true)
+			}
+			logger.Debug("index %d", len(values))
+			c.channelManager.subscribePendingChannelArgList.RemoveRange(0, index+1)
+			if index == (len(values) - 1) {
+				break
+			}
+			values = values[index:]
 		}
-		data, _ := json.Marshal(subMsg)
-		err := conn.WriteMessage(websocket.TextMessage, data)
-		if err != nil {
-			log.Printf("Subscribe error: %v", err)
-		}
-		for _, v := range values {
-			c.channelManager.subscribedChannels.Set(v, true)
-		}
-		c.channelManager.subscribePendingChannelArgList.Clear()
+
 	}
 
 	clientUnsubscribelist := c.channelManager.unsubscribePendingChannelArgList.All()

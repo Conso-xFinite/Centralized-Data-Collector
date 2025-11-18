@@ -77,3 +77,18 @@ func (l *List[T]) RemoveAt(i int) bool {
 func (l *List[T]) Clear() {
 	l.vals = make([]T, 0)
 }
+
+func (l *List[T]) RemoveRange(start, end int) {
+	if start < 0 {
+		start = 0
+	}
+	if end > len(l.vals) {
+		end = len(l.vals)
+	}
+	if start >= end {
+		return // 无需删除
+	}
+
+	// 删除区间[start, end)
+	l.vals = append(l.vals[:start], l.vals[end:]...)
+}

@@ -4,6 +4,7 @@ import (
 	"Centralized-Data-Collector/internal/api/binance_define"
 	"Centralized-Data-Collector/pkg/logger"
 	"Centralized-Data-Collector/pkg/utils"
+	"strings"
 	"sync"
 )
 
@@ -38,6 +39,20 @@ func (cm *WSChannelManager) _addChannelSubscribe(arg *binance_define.RedisChanne
 	}
 }
 
+func (cm *WSChannelManager) _reAddSubscibeList() {
+	logger.Debug("断线重连后的原已订阅数组长度 %d", len(cm.subscribedChannels.Keys()))
+	for _, key := range cm.subscribedChannels.Keys() {
+		parts := strings.Split(key, "@")
+		arg := binance_define.RedisChannelArg{
+			TypeSubscribe: "subscribe",
+			Channel:       parts[1],
+			TokenPair:     parts[0],
+		}
+		cm.subscribePendingChannelArgList.Append(&arg)
+	}
+	cm.subscribedChannels.Clear()
+}
+
 func (cm *WSChannelManager) _addChannelUnsubscribe(arg *binance_define.RedisChannelArg) {
 	// 检查是否已经存在未处理的订阅
 	cm.unsubscribePendingChannelArgList.Append(arg)
@@ -51,6 +66,12 @@ func (cm *WSChannelManager) _BatchaddPendingChannelSubscribe(args *utils.List[*b
 func (cm *WSChannelManager) AddChannelSubscribe(arg *binance_define.RedisChannelArg) {
 	cm.mutex.Lock()
 	cm._addChannelSubscribe(arg)
+	cm.mutex.Unlock()
+}
+
+func (cm *WSChannelManager) reAddSubscibeList() {
+	cm.mutex.Lock()
+	cm._reAddSubscibeList()
 	cm.mutex.Unlock()
 }
 
