@@ -2,9 +2,7 @@ package collector
 
 import (
 	"Centralized-Data-Collector/internal/api/binance_define"
-	"Centralized-Data-Collector/internal/db"
 	"Centralized-Data-Collector/internal/model"
-	"Centralized-Data-Collector/pkg/logger"
 	"Centralized-Data-Collector/pkg/utils"
 	"context"
 	"strconv"
@@ -147,52 +145,52 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 		}
 		// TODO 后续需要检查一个数据，aggtrade中的数据中的交易id和kline中的交易id是否是一致的（逐条推送和聚合推送的在两个数据中id）
 
-		if len(tradeModels) > 0 {
-			for {
-				err := db.BatchInsertBinanceAggTrades(ctx, tradeModels)
-				if err == nil {
-					logger.Info("Stored %d trade records from Binance", len(tradeModels))
-					break
-				}
-				logger.Error("Failed to batch insert Binance trades: err = %v", err)
-				time.Sleep(100 * time.Millisecond)
-			}
-		}
+		// if len(tradeModels) > 0 {
+		// 	for {
+		// 		err := db.BatchInsertBinanceAggTrades(ctx, tradeModels)
+		// 		if err == nil {
+		// 			logger.Info("Stored %d trade records from Binance", len(tradeModels))
+		// 			break
+		// 		}
+		// 		logger.Error("Failed to batch insert Binance trades: err = %v", err)
+		// 		time.Sleep(100 * time.Millisecond)
+		// 	}
+		// }
 
-		if len(klineModels) > 0 {
-			for {
-				err := db.BatchInsertBinanceKline1M(ctx, klineModels)
-				if err == nil {
-					// logger.Info("Stored %d kline records from Binance", len(klineModels))
-					break
-				}
-				logger.Error("Failed to batch insert Binance kline: err = %v", err)
-				time.Sleep(100 * time.Millisecond)
-			}
-		}
+		// if len(klineModels) > 0 {
+		// 	for {
+		// 		err := db.BatchInsertBinanceKline1M(ctx, klineModels)
+		// 		if err == nil {
+		// 			// logger.Info("Stored %d kline records from Binance", len(klineModels))
+		// 			break
+		// 		}
+		// 		logger.Error("Failed to batch insert Binance kline: err = %v", err)
+		// 		time.Sleep(100 * time.Millisecond)
+		// 	}
+		// }
 
-		if len(klineModels) > 0 {
-			for {
-				err := db.BatchInsertBinanceKline1M(ctx, klineModels)
-				if err == nil {
-					// logger.Info("Stored %d kline records from Binance", len(klineModels))
-					break
-				}
-				logger.Error("Failed to batch insert Binance kline: err = %v", err)
-				time.Sleep(100 * time.Millisecond)
-			}
-		}
-		if len(tickerModels) > 0 {
-			for {
-				err := db.BatchInsertBinanceTicker(ctx, tickerModels)
-				if err == nil {
-					logger.Info("Stored %d ticker records from Binance", len(tickerModels))
-					break
-				}
-				logger.Error("Failed to batch insert Binance ticker: err = %v", err)
-				time.Sleep(100 * time.Millisecond)
-			}
+		// if len(klineModels) > 0 {
+		// 	for {
+		// 		err := db.BatchInsertBinanceKline1M(ctx, klineModels)
+		// 		if err == nil {
+		// 			// logger.Info("Stored %d kline records from Binance", len(klineModels))
+		// 			break
+		// 		}
+		// 		logger.Error("Failed to batch insert Binance kline: err = %v", err)
+		// 		time.Sleep(100 * time.Millisecond)
+		// 	}
+		// }
+		// if len(tickerModels) > 0 {
+		// 	for {
+		// 		err := db.BatchInsertBinanceTicker(ctx, tickerModels)
+		// 		if err == nil {
+		// 			logger.Info("Stored %d ticker records from Binance", len(tickerModels))
+		// 			break
+		// 		}
+		// 		logger.Error("Failed to batch insert Binance ticker: err = %v", err)
+		// 		time.Sleep(100 * time.Millisecond)
+		// 	}
 
-		}
+		// }
 	}
 }

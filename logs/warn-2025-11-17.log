@@ -221,3 +221,7 @@
 [35;1m[ERROR] 2025-11-17 14:25:26.389 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: dial tcp 75.126.115.192:9443: i/o timeout[0m
 [35;1m[ERROR] 2025-11-17 14:25:26.389 ws.go(89)[Login]: [0m[35mWebSocket dial error: dial tcp 75.126.115.192:9443: i/o timeout[0m
 [35;1m[ERROR] 2025-11-17 14:25:26.389 ws.go(142)[Start]: [0m[35mLogin error: dial tcp 75.126.115.192:9443: i/o timeout[0m
+[35m[error] 2025-11-17 17:32:37.986 [0m[35m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/init_postgres.go:19
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`:
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused

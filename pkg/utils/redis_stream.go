@@ -43,6 +43,10 @@ func (r *RedisStream[T]) PublishStream(ctx context.Context, stream string, value
 // EnsureGroup 确保指定 stream 的消费者组存在，不存在则创建。
 // group: 消费者组名，stream: 流名
 func (r *RedisStream[T]) EnsureGroup(ctx context.Context, stream, group string) error {
+	t, _ := r.Client.Type(ctx, stream).Result()
+	if t != "none" && t != "stream" {
+		logger.Debug("Client.Type", t)
+	}
 	return r.Client.XGroupCreateMkStream(ctx, stream, group, "0").Err()
 }
 

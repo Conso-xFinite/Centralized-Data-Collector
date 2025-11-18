@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Centralized-Data-Collector/internal/api/okx_define"
+	"Centralized-Data-Collector/internal/api/binance_define"
 	"Centralized-Data-Collector/internal/cache"
 	"Centralized-Data-Collector/internal/collector"
 	"Centralized-Data-Collector/pkg/utils"
@@ -10,30 +10,30 @@ import (
 	"log"
 )
 
-func subscribeChannel(ctx context.Context, rs *utils.RedisStream[collector.RedisOKXMessage], args []*okx_define.RedisOkxChannelArg) error {
+func subscribeChannel(ctx context.Context, rs *utils.RedisStream[collector.RedisBinanceMessage], args []*binance_define.RedisChannelArg) error {
 	option := "subscribe"
-	msg := collector.RedisOKXMessage{
+	msg := collector.RedisBinanceMessage{
 		Type:        option,
 		ChannelArgs: args,
 		Timestamp:   utils.GetCurrentTimestampNano(),
 		MessageId:   fmt.Sprintf("unique-message-id-%s-%d", option, utils.GetCurrentTimestampNano()),
 	}
-	_, err := rs.PublishStream(ctx, collector.OKX_SUBSCRIPTION_STREAM, msg)
+	_, err := rs.PublishStream(ctx, collector.BINANCE_SUBSCRIPTION_STREAM, msg)
 	if err != nil {
 		log.Fatalf("Error publishing stream message: %v", err)
 	}
 	return nil
 }
 
-func unsubscribeChannel(ctx context.Context, rs *utils.RedisStream[collector.RedisOKXMessage], args []*okx_define.RedisOkxChannelArg) error {
+func unsubscribeChannel(ctx context.Context, rs *utils.RedisStream[collector.RedisBinanceMessage], args []*binance_define.RedisChannelArg) error {
 	option := "unsubscribe"
-	msg := collector.RedisOKXMessage{
+	msg := collector.RedisBinanceMessage{
 		Type:        option,
 		ChannelArgs: args,
 		Timestamp:   utils.GetCurrentTimestampNano(),
 		MessageId:   fmt.Sprintf("unique-message-id-%s-%d", option, utils.GetCurrentTimestampNano()),
 	}
-	_, err := rs.PublishStream(ctx, collector.OKX_SUBSCRIPTION_STREAM, msg)
+	_, err := rs.PublishStream(ctx, collector.BINANCE_SUBSCRIPTION_STREAM, msg)
 	if err != nil {
 		log.Fatalf("Error publishing stream message: %v", err)
 	}
@@ -54,56 +54,40 @@ func main() {
 	defer redisClient.Close()
 
 	// 创建消息发布者对象
-	rs := utils.NewRedisStream[collector.RedisOKXMessage](redisClient)
+	rs := utils.NewRedisStream[collector.RedisBinanceMessage](redisClient)
 
-	// unsubscribeChannel(ctx, rs, []*okx_define.RedisOkxChannelArg{
+	// subscribeChannel(ctx, rs, []*binance_define.RedisChannelArg{
 	// 	{
-	// 		Channel:              "price",
-	// 		TokenContractId:      "b98303de-a664-4c6f-a08c-c4ac65e50c10",
-	// 		ChainIndex:           "1",
-	// 		TokenContractAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+	// 		TypeSubscribe: "subscribe",
+	// 		Channel:       "aggTrade",
+	// 		TokenPair:     "solusdt",
+	// 	},
+	// 	{
+	// 		TypeSubscribe: "subscribe",
+	// 		Channel:       "kline_1m",
+	// 		TokenPair:     "solusdt",
+	// 	},
+	// 	{
+	// 		TypeSubscribe: "subscribe",
+	// 		Channel:       "miniTicker",
+	// 		TokenPair:     "solusdt",
 	// 	},
 	// })
-	subscribeChannel(ctx, rs, []*okx_define.RedisOkxChannelArg{
+	unsubscribeChannel(ctx, rs, []*binance_define.RedisChannelArg{
 		{
-			Channel:              "trades",
-			TokenContractId:      "b98303de-a664-4c6f-a08c-c4ac65e50c10",
-			ChainIndex:           "1",
-			TokenContractAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+			TypeSubscribe: "unsubscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "btcusdt",
 		},
 		{
-			Channel:              "price",
-			TokenContractId:      "b98303de-a664-4c6f-a08c-c4ac65e50c10",
-			ChainIndex:           "1",
-			TokenContractAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+			TypeSubscribe: "unsubscribe",
+			Channel:       "miniTicker",
+			TokenPair:     "btcusdt",
 		},
 		{
-			Channel:              "dex-token-candle1s",
-			TokenContractId:      "b98303de-a664-4c6f-a08c-c4ac65e50c10",
-			ChainIndex:           "1",
-			TokenContractAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+			TypeSubscribe: "unsubscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "btcusdt",
 		},
 	})
-	// unsubscribeChannel(ctx, rs, []*okx_define.RedisOkxChannelArg{
-	// 	{
-	// 		Channel:              "trades",
-	// 		TokenContractId:      "b98303de-a664-4c6f-a08c-c4ac65e50c10",
-	// 		ChainIndex:           "1",
-	// 		TokenContractAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-	// 	},
-	// 	{
-	// 		Channel:              "price",
-	// 		TokenContractId:      "b98303de-a664-4c6f-a08c-c4ac65e50c10",
-	// 		ChainIndex:           "1",
-	// 		TokenContractAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-	// 	},
-	// })
 }
-
-// type RedisChannelArg struct {
-//                    string `json:"op"` // 不序列化, 本地用来区分订阅和取消订阅的
-// 	Channel              string `json:"channel"`
-// 	ChainIndex           string `json:"chainIndex"`
-// 	TokenContractAddress string `json:"tokenContractAddress"`
-// 	TokenContractId      string `json:"tokenContractId"`
-// }

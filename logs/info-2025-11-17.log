@@ -3124,3 +3124,7 @@
 [INFO]  2025-11-17 14:45:38.691 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
 [INFO]  2025-11-17 14:45:38.693 binance_storer.go(154)[StoreData]: Stored 5 trade records from Binance
 [INFO]  2025-11-17 14:45:38.697 binance_storer.go(189)[StoreData]: Stored 1 ticker records from Binance
+[35m[error] 2025-11-17 17:32:37.986 [0m[35m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/init_postgres.go:19
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=postgres database=coinhub_dex_test`:
+	[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connect: connection refused
+	127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connect: connection refused

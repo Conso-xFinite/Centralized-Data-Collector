@@ -69,22 +69,18 @@ func main() {
 		logger.Error("Error starting data collector: %v", err)
 	}
 
+	logger.Info("Starting Subscribe Dispatcher...")
+	subscribeDispatcher := collector.NewSubscribeDispatcher(redisClient,
+		dataCollector,
+		collector.BINANCE_SUBSCRIPTION_STREAM,
+		"binanceDataCollectors", "binanceDataCollector-1")
+	logger.Info("Subscribe Dispatcher created.")
 	for {
+		err := subscribeDispatcher.Start(ctx)
+		if err != nil {
+			logger.Error("Error starting subscribe dispatcher: %v", err)
+		}
 		time.Sleep(1 * time.Second)
 	}
-
-	logger.Info("Starting Subscribe Dispatcher...")
-	// subscribeDispatcher := collector.NewSubscribeDispatcher(redisClient,
-	// 	dataCollector,
-	// 	collector.OKX_SUBSCRIPTION_STREAM,
-	// 	"dataCollectors", "dataCollector-1")
-	// logger.Info("Subscribe Dispatcher created.")
-	// for {
-	// 	err := subscribeDispatcher.Start(ctx)
-	// 	if err != nil {
-	// 		logger.Error("Error starting subscribe dispatcher: %v", err)
-	// 	}
-	// 	time.Sleep(1 * time.Second)
-	// }
 
 }
