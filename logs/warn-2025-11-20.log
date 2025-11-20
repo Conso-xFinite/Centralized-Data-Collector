@@ -328,3 +328,104 @@
 [0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
 [33;1m[WARN]  2025-11-20 11:41:54.075 subscribe_dispatcher.go(90)[Start]:
 [0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:56:08.717 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 12:22:02.146 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 12:23:53.076 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.293 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 12:39:02.380 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62221->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 12:39:02.380 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62221->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.516 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 12:39:02.518 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62257->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 12:39:02.518 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62257->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.685 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 12:39:02.719 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62291->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 12:39:02.719 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62291->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.864 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 12:39:02.864 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62255->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 12:39:02.865 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62255->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 12:39:03.093 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 12:39:03.102 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62289->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 12:39:03.102 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:62289->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 15:26:39.143 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 15:59:27.051 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[35;1m[ERROR] 2025-11-20 16:43:31.069 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 16:43:31.077 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60094->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 16:43:31.077 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60094->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 16:43:36.084 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:36.085 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:36.085 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:38.855 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 16:43:38.856 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60111->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 16:43:38.856 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60111->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 16:43:41.426 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:41.426 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:41.426 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:42.165 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 16:43:42.170 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60062->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 16:43:42.173 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60062->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 16:43:43.328 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 16:43:43.336 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60060->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 16:43:43.336 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60060->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 16:43:46.767 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:46.767 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:46.767 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:52.116 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:52.116 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:52.116 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:57.457 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:57.458 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:57.458 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:02.798 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:02.802 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:02.804 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:08.136 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:08.137 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:08.137 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.570 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.570 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.687 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.687 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 17:03:06.693 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50047->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.695 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50047->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.695 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50043->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.695 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60028->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.697 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60028->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.697 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50043->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.697 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50045->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.697 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50045->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.896 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-20 17:03:06.899 ws-connector.go(189)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50049->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-20 17:03:06.899 ws.go(180)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:50049->127.0.0.1:7890: use of closed network connection[0m

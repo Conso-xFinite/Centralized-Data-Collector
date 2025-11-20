@@ -4,9 +4,10 @@ import (
 	"context"
 	"fmt"
 	"sync"
+	"time"
 )
 
-// BlockingSignalProcessor 支持阻塞式入队的信号处理器
+// ThrottleSignalProcessor 支持短时间内重复信号丢弃
 type BlockingSignalProcessor struct {
 	queue   chan struct{} // 信号队列（无 payload）
 	ctx     context.Context
@@ -15,7 +16,7 @@ type BlockingSignalProcessor struct {
 	handler func(ctx context.Context) error
 }
 
-// NewBlockingSignalProcessor 创建 processor，buffer 表示队列容量
+// NewThrottleSignalProcessor 创建 processor，buffer 表示队列容量
 func NewBlockingSignalProcessor(buffer int, handler func(ctx context.Context) error) *BlockingSignalProcessor {
 	ctx, cancel := context.WithCancel(context.Background())
 	p := &BlockingSignalProcessor{
@@ -36,9 +37,10 @@ func (p *BlockingSignalProcessor) run() {
 		select {
 		case <-p.ctx.Done():
 			// 优雅退出：处理完队列中剩余的信号
-			for v := range p.queue {
-				_ = p.handler(p.ctx)
-				_ = v
+			for range p.queue {
+				if err := p.handler(p.ctx); err != nil {
+					fmt.Println("handler error:", err)
+				}
 			}
 			return
 		case _, ok := <-p.queue:
@@ -53,12 +55,21 @@ func (p *BlockingSignalProcessor) run() {
 	}
 }
 
-// Signal 阻塞式入队：如果队列满，会等待空间
+// Signal 入队，如果队列非空且在 1 秒内有信号，直接丢弃
 func (p *BlockingSignalProcessor) Signal() {
 	select {
 	case <-p.ctx.Done():
 		return
-	case p.queue <- struct{}{}: // 阻塞直到有空间
+	default:
+	}
+
+	// 尝试入队，非阻塞
+	select {
+	case p.queue <- struct{}{}:
+		// 入队成功
+	case <-time.After(time.Second):
+		// 超过 1 秒仍然不能入队，直接丢弃
+		fmt.Println("signal dropped due to throttle")
 	}
 }
 
@@ -68,12 +79,3 @@ func (p *BlockingSignalProcessor) Stop() {
 	close(p.queue)
 	p.wg.Wait()
 }
-
-///// 示例用法 /////
-
-// func exampleHandler(ctx context.Context) error {
-// 	fmt.Println("start handling at", time.Now().Format("15:04:05.000"))
-// 	time.Sleep(500 * time.Millisecond)
-// 	fmt.Println("finish handling at", time.Now().Format("15:04:05.000"))
-// 	return nil
-// }

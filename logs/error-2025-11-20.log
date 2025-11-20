@@ -246,3 +246,38 @@
 [0m[33m[9.741ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
 [35;1m[ERROR] 2025-11-20 01:39:03.425 binance_storer.go(209)[StoreData]:
 [0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.293 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.516 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.685 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 12:39:02.864 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 12:39:03.093 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 16:43:31.069 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 16:43:36.084 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:36.085 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:36.085 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:38.855 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 16:43:41.426 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:41.426 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:41.426 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:42.165 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 16:43:43.328 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 16:43:46.767 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:46.767 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:46.767 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:52.116 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:52.116 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:52.116 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:57.457 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:57.458 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:43:57.458 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:02.798 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:02.802 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:02.804 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:08.136 ws-connector.go(46)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:08.137 ws.go(62)[Login]: [0m[35mWebSocket dial error: EOF[0m
+[35;1m[ERROR] 2025-11-20 16:44:08.137 ws.go(113)[Start]: [0m[35mLogin error: EOF[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.570 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.570 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.687 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.687 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-20 17:03:06.896 ws.go(122)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
