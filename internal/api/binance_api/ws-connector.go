@@ -1,7 +1,6 @@
 package binance_api
 
 import (
-	"Centralized-Data-Collector/internal/api/binance_define"
 	"Centralized-Data-Collector/pkg/logger"
 	"encoding/json"
 	"fmt"
@@ -138,51 +137,51 @@ func (c *WConnector) LockWritePingMessage(conn *websocket.Conn) error {
 // 	return c.writeJSON(conn, req)
 // }
 
-func (c *WConnector) LockWriteSubscribeMessage(conn *websocket.Conn, args []*binance_define.WSSubscribeArg) error {
-	c.myMu.Lock()
-	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
-		time.Sleep(sleep)
-	}
-	var err error
-	if !c.isLogined(conn) {
-		err = ErrWSNotLogined
-	} else {
-		_args := make([]interface{}, 0)
-		for _, arg := range args {
-			_args = append(_args, arg)
-		}
-		req := &binance_define.WSReq{
-			Op:   "subscribe",
-			Args: _args,
-		}
-		err = c.writeJSON(conn, req)
-	}
-	c.myMu.Unlock()
-	return err
-}
+// func (c *WConnector) LockWriteSubscribeMessage(conn *websocket.Conn, args []*binance_define.WSSubscribeArg) error {
+// 	c.myMu.Lock()
+// 	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
+// 		time.Sleep(sleep)
+// 	}
+// 	var err error
+// 	if !c.isLogined(conn) {
+// 		err = ErrWSNotLogined
+// 	} else {
+// 		_args := make([]interface{}, 0)
+// 		for _, arg := range args {
+// 			_args = append(_args, arg)
+// 		}
+// 		req := &binance_define.WSReq{
+// 			Op:   "subscribe",
+// 			Args: _args,
+// 		}
+// 		err = c.writeJSON(conn, req)
+// 	}
+// 	c.myMu.Unlock()
+// 	return err
+// }
 
-func (c *WConnector) LockWriteUnsubscribeMessage(conn *websocket.Conn, args []*binance_define.WSSubscribeArg) error {
-	c.myMu.Lock()
-	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
-		time.Sleep(sleep)
-	}
-	var err error
-	if !c.LockIsLogined(conn) {
-		err = ErrWSNotLogined
-	} else {
-		_args := make([]interface{}, 0)
-		for _, arg := range args {
-			_args = append(_args, arg)
-		}
-		req := &binance_define.WSReq{
-			Op:   "unsubscribe",
-			Args: _args,
-		}
-		err = c.writeJSON(conn, req)
-	}
-	c.myMu.Unlock()
-	return err
-}
+// func (c *WConnector) LockWriteUnsubscribeMessage(conn *websocket.Conn, args []*binance_define.WSSubscribeArg) error {
+// 	c.myMu.Lock()
+// 	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
+// 		time.Sleep(sleep)
+// 	}
+// 	var err error
+// 	if !c.LockIsLogined(conn) {
+// 		err = ErrWSNotLogined
+// 	} else {
+// 		_args := make([]interface{}, 0)
+// 		for _, arg := range args {
+// 			_args = append(_args, arg)
+// 		}
+// 		req := &binance_define.WSReq{
+// 			Op:   "unsubscribe",
+// 			Args: _args,
+// 		}
+// 		err = c.writeJSON(conn, req)
+// 	}
+// 	c.myMu.Unlock()
+// 	return err
+// }
 
 func (c *WConnector) readMessage(conn *websocket.Conn) (p []byte, err error) {
 	messageType, message, err := conn.ReadMessage()

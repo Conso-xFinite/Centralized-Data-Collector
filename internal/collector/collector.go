@@ -35,7 +35,6 @@ func NewDataCollector(ctx context.Context, redisClient *redis.Client) (*DataColl
 		redisHelper: utils.NewRedisHelper(redisClient),
 		storer:      NewBinanceStorer(),
 	}
-
 	err := dataCollector.RestoreSubscribedChannels(ctx)
 	if err != nil {
 		logger.Error("Failed to restore subscribed channels: %v", err)

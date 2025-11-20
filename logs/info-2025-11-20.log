@@ -1,0 +1,1032 @@
+[INFO]  2025-11-20 00:12:46.602 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 00:12:46.607 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 00:12:46.607 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:12:46.608 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 00:12:46.608 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 00:12:46.608 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 00:12:46.610 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 00:12:46.950 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 00:12:46.950 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 00:12:46.969 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:12:47.612 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 00:12:47.621 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:12:48.257 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 00:12:48.270 ws.go(52)[Login]: Login
+[error] 2025-11-20 00:12:48.650 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.322ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.650 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:48.755 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.214ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.755 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:48.861 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.633ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.861 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[INFO]  2025-11-20 00:12:48.877 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 00:12:48.897 ws.go(52)[Login]: Login
+[error] 2025-11-20 00:12:48.968 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.252ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.968 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.076 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[7.141ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.077 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.184 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.472ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.184 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.290 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[4.574ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.290 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.397 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.847ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.397 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.502 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.464ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.502 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[INFO]  2025-11-20 00:12:49.535 ws.go(117)[Start]: Client-4 connected and logged in
+[error] 2025-11-20 00:12:49.631 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[27.430ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.631 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.736 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[2.497ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.736 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.841 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.327ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.841 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.949 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.923ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.949 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.056 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.861ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.056 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.164 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.772ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.165 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.272 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.497ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.272 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.380 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.484ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.381 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.488 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.396ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.488 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.594 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[4.306ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.594 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.701 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.685ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.702 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[INFO]  2025-11-20 00:14:16.097 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 00:14:16.101 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 00:14:16.101 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:14:16.103 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 00:14:16.103 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 00:14:16.103 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 00:14:16.105 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 00:14:16.406 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 00:14:16.406 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 00:14:16.414 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:14:17.047 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 00:14:17.047 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:14:17.701 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 00:14:17.701 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:14:18.343 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 00:14:18.351 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:14:18.962 ws.go(117)[Start]: Client-4 connected and logged in
+[error] 2025-11-20 00:14:19.135 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.427ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.136 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.243 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.762ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.243 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.350 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.098ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.351 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.458 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.528ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.458 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.565 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.699ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.566 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.672 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[4.688ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.673 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.782 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[8.451ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.783 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.890 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.165ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.891 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.000 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[8.047ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.001 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.108 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.240ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.109 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.220 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[10.236ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.221 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.329 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[7.006ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.330 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.437 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.937ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.437 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.545 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.765ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.545 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.653 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.280ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.653 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.760 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.453ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.760 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.868 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.030ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.868 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.977 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[7.735ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.978 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[INFO]  2025-11-20 00:15:04.360 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 00:15:04.364 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 00:15:04.364 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:15:04.365 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 00:15:04.365 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 00:15:04.365 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 00:15:04.368 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 00:15:04.722 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 00:15:04.722 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 00:15:04.743 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:15:05.596 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 00:15:05.607 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:15:06.556 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 00:15:06.573 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:15:07.437 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 00:15:07.445 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:15:08.321 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 00:15:09.402 binance_storer.go(206)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 00:45:16.421 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 00:45:16.424 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 00:45:16.424 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:45:16.425 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 00:45:16.425 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 00:45:16.425 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 00:45:16.426 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 00:45:16.764 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 00:45:16.765 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 00:45:16.781 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:45:17.419 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 00:45:17.430 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:45:18.101 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:45:18.101 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 00:45:18.779 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 00:45:18.795 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:45:19.449 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 00:45:21.470 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 00:47:01.200 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 00:47:01.204 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 00:47:01.204 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:47:01.206 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 00:47:01.206 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 00:47:01.206 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 00:47:01.208 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 00:47:01.557 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 00:47:01.557 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 00:47:01.559 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:47:02.230 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 00:47:02.231 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:47:02.927 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 00:47:02.944 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:47:03.235 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 00:47:03.616 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 00:47:03.634 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:47:04.286 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 00:55:54.707 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 00:55:54.712 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 00:55:54.712 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:55:54.713 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 00:55:54.714 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 00:55:54.714 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 00:55:54.716 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 00:55:55.066 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 00:55:55.066 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 00:55:55.069 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:55:55.784 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 00:55:55.787 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:55:56.473 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 00:55:56.477 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:55:56.750 binance_storer.go(199)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 00:55:57.168 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 00:55:57.185 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 00:55:57.897 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:18:09.875 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:18:09.879 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:18:09.880 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:18:09.881 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:18:09.881 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:18:09.881 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:18:09.883 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:18:10.143 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:18:10.143 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:18:10.152 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:18:10.748 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:18:10.762 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:18:11.359 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:18:11.371 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:18:11.977 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:18:11.979 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:18:12.584 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:18:16.922 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:22:13.644 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:22:13.648 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:22:13.648 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:22:13.649 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:22:13.649 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:22:13.649 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:22:13.651 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:22:13.918 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:22:13.918 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:22:13.921 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:22:14.526 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:22:14.547 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:22:14.692 binance_storer.go(201)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:22:15.121 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:22:15.129 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:22:15.723 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:22:15.735 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:22:16.318 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:27:09.351 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:27:09.355 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:27:09.355 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:27:09.356 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:27:09.356 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:27:09.356 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:27:09.358 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:27:09.622 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:27:09.623 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:27:09.625 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:27:10.230 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:27:10.231 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:27:10.861 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:27:10.864 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:27:11.455 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:27:11.457 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:27:12.048 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:27:13.402 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:28:32.112 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:28:32.117 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:28:32.117 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:28:32.118 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:28:32.118 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:28:32.118 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:28:32.120 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:28:32.399 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:28:32.399 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:28:32.416 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:28:32.986 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:28:33.002 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:28:33.144 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:28:33.607 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:28:33.607 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:28:34.196 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:28:34.214 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:28:34.796 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:30:36.905 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:30:36.909 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:30:36.910 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:30:36.911 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:30:36.911 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:30:36.911 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:30:36.912 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:30:37.202 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:30:37.202 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:30:37.223 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:30:37.796 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:30:37.809 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:30:38.400 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:30:38.417 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:30:38.938 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:30:39.000 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:30:39.000 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:30:39.582 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:31:07.743 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:31:07.746 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:31:07.746 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:31:07.747 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:31:07.747 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:31:07.747 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:31:07.748 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:31:08.024 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:31:08.024 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:31:08.040 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:31:08.604 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:31:08.625 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:31:09.192 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:31:09.209 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:31:09.817 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:31:09.818 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:31:10.419 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:31:12.786 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:35:40.152 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:35:40.156 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:35:40.157 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:35:40.158 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:35:40.158 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:35:40.158 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:35:40.160 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:35:40.465 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:35:40.465 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:35:40.482 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:35:41.079 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:35:41.096 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:35:41.713 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:35:41.728 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:35:42.333 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:35:42.336 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:35:42.944 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:35:45.176 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:36:06.166 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:36:06.170 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:36:06.170 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:36:06.170 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:36:06.171 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:36:06.171 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:36:06.171 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:36:06.454 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:36:06.454 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:36:06.467 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:36:07.057 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:36:07.074 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:36:07.632 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:36:07.640 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:36:08.220 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:36:08.224 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:36:08.818 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:36:09.198 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:38:54.826 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:38:54.831 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:38:54.831 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:38:54.832 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:38:54.832 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:38:54.832 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:38:54.833 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:38:55.179 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:38:55.179 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:38:55.190 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:38:55.857 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:38:55.861 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:38:56.601 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:38:56.622 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:38:57.288 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:38:57.294 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:38:57.975 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:39:00.871 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[error] 2025-11-20 01:39:00.882 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[4.816ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:00.883 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:00.990 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[6.570ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:00.990 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.099 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.206ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.100 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.209 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[7.599ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.209 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.318 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.668ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.319 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.430 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[10.068ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.431 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.545 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[12.769ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.545 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.655 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.538ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.655 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.765 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.021ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.765 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.876 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[10.641ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.876 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.986 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.677ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.986 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.097 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.894ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.097 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.207 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.528ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.207 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.318 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.954ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.318 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.428 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.888ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.429 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.538 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[7.605ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.538 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.652 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[12.247ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.652 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.762 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.797ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.763 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.870 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[7.139ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.870 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.978 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[6.782ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.978 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.088 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.941ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.089 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.204 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[14.609ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.204 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.314 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[9.033ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.314 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.425 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[9.741ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.425 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[INFO]  2025-11-20 01:39:56.236 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:39:56.239 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:39:56.239 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:39:56.239 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:39:56.239 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:39:56.239 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:39:56.240 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:39:56.614 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:39:56.614 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:39:56.622 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:39:57.364 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:39:57.377 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:39:58.059 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:39:58.074 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:39:58.749 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:39:58.767 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:39:59.282 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:39:59.466 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:45:39.239 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:45:39.242 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:45:39.242 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:45:39.243 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:45:39.243 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:45:39.243 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:45:39.244 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:45:39.595 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:45:39.595 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:45:39.595 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:45:40.327 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:45:40.346 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:45:40.998 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:45:41.004 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:45:41.267 binance_storer.go(200)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:45:41.684 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:45:41.695 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:45:42.345 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:47:34.070 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:47:34.075 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:47:34.075 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:47:34.076 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:47:34.076 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:47:34.076 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:47:34.078 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:47:34.449 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:47:34.449 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:47:34.452 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:47:35.132 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:47:35.152 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:47:35.842 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:47:35.842 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:47:36.543 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:47:36.556 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:47:37.110 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:47:37.226 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:50:53.838 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:50:53.841 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:50:53.842 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:50:53.842 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:50:53.843 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:50:53.843 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:50:53.844 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:50:54.195 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:50:54.196 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:50:54.197 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:50:54.879 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:50:54.921 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:50:54.928 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:50:55.595 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:50:55.597 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:50:56.277 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:50:56.288 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:50:56.976 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:56:02.722 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:56:02.729 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:56:02.730 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:56:02.731 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:56:02.731 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:56:02.731 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:56:02.733 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:56:03.080 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:56:03.081 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:56:03.083 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:56:03.766 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:56:03.774 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:56:04.441 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:56:04.450 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:56:04.761 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:56:05.098 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:56:05.119 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:56:05.762 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:57:07.756 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:57:07.758 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:57:07.758 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:57:07.759 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:57:07.759 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:57:07.759 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:57:07.760 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:57:08.126 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:57:08.127 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:57:08.140 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:57:08.794 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:57:08.815 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:57:08.832 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:57:09.515 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:57:09.532 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:57:10.198 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:57:10.201 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:57:10.872 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:58:07.102 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:58:07.107 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:58:07.107 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:58:07.108 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:58:07.108 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:58:07.108 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:58:07.110 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:58:07.466 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:58:07.466 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:58:07.483 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:58:08.160 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:58:08.170 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:58:08.821 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:58:08.840 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:58:09.140 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:58:09.487 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:58:09.495 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:58:10.181 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 01:59:15.729 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 01:59:15.733 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 01:59:15.733 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:59:15.734 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 01:59:15.734 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 01:59:15.735 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 01:59:15.736 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 01:59:16.097 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 01:59:16.098 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 01:59:16.115 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:59:16.778 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 01:59:16.810 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 01:59:16.825 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:59:17.504 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 01:59:17.521 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:59:18.188 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 01:59:18.189 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 01:59:18.859 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:33:36.804 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:33:36.809 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:33:36.809 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:33:36.811 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:33:36.811 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:33:36.811 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:33:36.812 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:33:37.193 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:33:37.194 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:33:37.208 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:33:37.939 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:33:37.940 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:33:38.620 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:33:38.632 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:33:39.355 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:33:39.369 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:33:40.099 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:33:44.866 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:35:21.046 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:35:21.050 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:35:21.050 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:35:21.051 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:35:21.051 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:35:21.051 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:35:21.052 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:35:21.391 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:35:21.391 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:35:21.416 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:35:22.074 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:35:22.086 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:35:22.745 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:35:22.766 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:35:23.418 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:35:23.434 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:35:24.119 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:35:25.087 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:38:19.447 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:38:19.450 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:38:19.450 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:38:19.451 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:38:19.451 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:38:19.451 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:38:19.452 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:38:19.829 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:38:19.830 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:38:19.847 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:38:20.534 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:38:20.537 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:38:21.261 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:38:21.279 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:38:21.473 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:38:21.973 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:38:21.991 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:38:22.681 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:43:47.123 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:43:47.129 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:43:47.129 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:43:47.130 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:43:47.130 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:43:47.130 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:43:47.132 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:43:47.480 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:43:47.481 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:43:47.486 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:43:48.151 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:43:48.156 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:43:48.882 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:43:48.891 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:43:49.561 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:43:49.578 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:43:50.233 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:44:00.169 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:45:45.362 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:45:45.367 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:45:45.367 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:45:45.368 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:45:45.368 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:45:45.368 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:45:45.369 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:45:45.708 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:45:45.708 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:45:45.723 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:45:46.395 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:45:46.414 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:45:47.052 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:45:47.067 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:45:47.722 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:45:47.741 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:45:48.410 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:45:49.406 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:48:21.902 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:48:21.910 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:48:21.910 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:48:21.911 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:48:21.911 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:48:21.911 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:48:21.913 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:48:22.245 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:48:22.245 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:48:22.254 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:48:22.908 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:48:22.926 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:48:23.609 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:48:23.618 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:48:24.302 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:48:24.322 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:48:25.037 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:48:28.952 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:51:44.912 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:51:44.916 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:51:44.916 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:51:44.917 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:51:44.917 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:51:44.917 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:51:44.918 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:51:45.243 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:51:45.243 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:51:45.256 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:51:45.923 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:51:45.927 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:51:46.603 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:51:46.622 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:51:47.391 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:51:47.397 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:51:48.051 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:51:50.959 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:56:50.764 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:56:50.769 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:56:50.769 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:56:50.770 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:56:50.770 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:56:50.770 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:56:50.772 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:56:51.141 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:56:51.141 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:56:51.148 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:56:51.847 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:56:51.863 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:56:52.732 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:56:52.748 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:56:53.446 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:56:53.462 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:56:54.276 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:56:54.810 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 10:59:19.000 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 10:59:19.004 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 10:59:19.004 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:59:19.006 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 10:59:19.006 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 10:59:19.006 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 10:59:19.007 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 10:59:19.355 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 10:59:19.355 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 10:59:19.365 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:59:20.052 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 10:59:20.058 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:59:20.725 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 10:59:20.730 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:59:21.414 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 10:59:21.424 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 10:59:22.119 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 10:59:23.044 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:02:48.812 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:02:48.816 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:02:48.816 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:02:48.817 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:02:48.817 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:02:48.817 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:02:48.820 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:02:49.192 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:02:49.193 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:02:49.193 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:02:49.845 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:02:49.851 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:02:50.549 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:02:50.564 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:02:51.227 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:02:51.242 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:02:51.956 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:02:52.868 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:04:25.928 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:04:25.933 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:04:25.933 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:04:25.934 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:04:25.934 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:04:25.934 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:04:25.936 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:04:26.796 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:04:26.797 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:04:26.806 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:04:27.470 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:04:27.479 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:04:28.161 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:04:28.169 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:04:28.840 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:04:28.859 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:04:28.966 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:04:29.524 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:05:25.527 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:05:25.530 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:05:25.530 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:05:25.531 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:05:25.531 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:05:25.531 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:05:25.532 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:05:25.897 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:05:25.898 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:05:25.907 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:05:26.578 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:05:26.581 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:05:27.269 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:05:27.275 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:05:27.946 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:05:27.946 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:05:28.625 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:05:43.568 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:08:13.255 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:08:13.264 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:08:13.265 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:08:13.266 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:08:13.266 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:08:13.266 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:08:13.268 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:08:13.615 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:08:13.615 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:08:13.621 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:08:14.297 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:08:14.309 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:08:14.971 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:08:14.990 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:08:15.661 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:08:15.681 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:08:16.386 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:08:23.306 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:10:02.715 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:10:02.720 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:10:02.720 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:10:02.721 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:10:02.721 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:10:02.721 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:10:02.723 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:10:03.058 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:10:03.058 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:10:03.061 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:10:03.729 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:10:03.735 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:10:04.388 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:10:04.409 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:10:05.087 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:10:05.098 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:10:05.758 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:10:06.756 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:13:15.554 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:13:15.556 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:13:15.557 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:13:15.557 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:13:15.557 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:13:15.557 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:13:15.558 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:13:15.885 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:13:15.885 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:13:15.894 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:13:16.600 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:13:16.619 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:13:17.297 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:13:17.312 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:13:17.966 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:13:17.967 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:13:18.658 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:13:22.595 binance_storer.go(205)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:14:05.527 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:14:05.530 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:14:05.531 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:14:05.532 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:14:05.532 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:14:05.532 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:14:05.533 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:14:05.869 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:14:05.870 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:14:05.887 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:14:06.538 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:14:06.556 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:14:07.264 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:14:07.272 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:14:07.959 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:14:07.978 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:14:08.569 binance_storer.go(204)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:14:08.629 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:36:16.894 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:36:16.899 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:36:16.899 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:36:16.899 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:36:16.899 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:36:16.899 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:36:16.900 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:36:17.191 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:36:17.191 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:36:17.191 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:36:17.812 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:36:17.823 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:36:18.408 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:36:18.413 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:36:19.025 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:36:19.038 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:36:19.646 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:36:28.951 binance_storer.go(206)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:41:54.067 main.go(46)[main]: Database connected.
+[INFO]  2025-11-20 11:41:54.071 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-20 11:41:54.072 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:41:54.073 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-20 11:41:54.073 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-20 11:41:54.073 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-20 11:41:54.075 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-20 11:41:54.461 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-20 11:41:54.461 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-20 11:41:54.471 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:41:55.144 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-20 11:41:55.160 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:41:56.693 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-20 11:41:56.701 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:41:59.072 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-20 11:41:59.086 ws.go(52)[Login]: Login
+[INFO]  2025-11-20 11:41:59.735 ws.go(116)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-20 11:42:01.133 binance_storer.go(180)[StoreData]: Stored 1 kline records from Binance
+[INFO]  2025-11-20 11:42:01.137 binance_storer.go(206)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:42:01.154 binance_storer.go(180)[StoreData]: Stored 2 kline records from Binance
+[INFO]  2025-11-20 11:42:01.155 binance_storer.go(206)[StoreData]: Stored 1 data fill records from Binance
+[INFO]  2025-11-20 11:42:03.106 binance_storer.go(180)[StoreData]: Stored 1 kline records from Binance
+[INFO]  2025-11-20 11:42:13.098 binance_storer.go(180)[StoreData]: Stored 1 kline records from Binance
+[INFO]  2025-11-20 11:42:33.101 binance_storer.go(180)[StoreData]: Stored 1 kline records from Binance
+[INFO]  2025-11-20 11:42:39.096 binance_storer.go(180)[StoreData]: Stored 1 kline records from Binance

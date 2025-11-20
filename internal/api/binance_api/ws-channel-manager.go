@@ -59,6 +59,12 @@ func (cm *WSChannelManager) _addChannelUnsubscribe(arg *binance_define.RedisChan
 
 }
 
+func (cm *WSChannelManager) _isInSubscribe(stream string) bool {
+	// 检查是否已经存在未处理的订阅
+	_, ok := cm.subscribedChannels.Get(stream)
+	return ok
+}
+
 func (cm *WSChannelManager) _BatchaddPendingChannelSubscribe(args *utils.List[*binance_define.RedisChannelArg]) {
 	cm.subscribePendingChannelArgList.AppendBatch(args.All())
 }
@@ -85,4 +91,8 @@ func (cm *WSChannelManager) AddChannelUnsubscribe(arg *binance_define.RedisChann
 	cm.mutex.Lock()
 	cm._addChannelUnsubscribe(arg)
 	cm.mutex.Unlock()
+}
+
+func (cm *WSChannelManager) IsInSubscirbe(stream string) bool {
+	return cm._isInSubscribe(stream)
 }

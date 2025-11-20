@@ -1,0 +1,330 @@
+[33;1m[WARN]  2025-11-20 00:12:46.610 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[error] 2025-11-20 00:12:48.650 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.322ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.650 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:48.755 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.214ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.755 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:48.861 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.633ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.861 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:48.968 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.252ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:48.968 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.076 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[7.141ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.077 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.184 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.472ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.184 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.290 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[4.574ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.290 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.397 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.847ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.397 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.502 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.464ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.502 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.631 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[27.430ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.631 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.736 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[2.497ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.736 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.841 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.327ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.841 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:49.949 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.923ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:49.949 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.056 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.861ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.056 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.164 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.772ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.165 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.272 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.497ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.272 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.380 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.484ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.381 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.488 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.396ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.488 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.594 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[4.306ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.594 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:12:50.701 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:16 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.685ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568720591,1763568768592,'ENAUSDT',false,'2025-11-20 00:12:48.641')
+[35;1m[ERROR] 2025-11-20 00:12:50.702 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[33;1m[WARN]  2025-11-20 00:14:16.105 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[error] 2025-11-20 00:14:19.135 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[3.427ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.136 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.243 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.762ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.243 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.350 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.098ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.351 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.458 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.528ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.458 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.565 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.699ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.566 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.672 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[4.688ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.673 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.782 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[8.451ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.783 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:19.890 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.165ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:19.891 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.000 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[8.047ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.001 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.108 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.240ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.109 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.220 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[10.236ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.221 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.329 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[7.006ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.330 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.437 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.937ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.437 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.545 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.765ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.545 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.653 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.280ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.653 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.760 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[5.453ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.760 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.868 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[6.030ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.868 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[error] 2025-11-20 00:14:20.977 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)
+[0m[33m[7.735ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("id","event","event_start_time","event_end_time","symbol","is_closed","created_at") VALUES ('','kline',1763568768592,1763568858591,'ENAUSDT',false,'2025-11-20 00:14:19.126')
+[35;1m[ERROR] 2025-11-20 00:14:20.978 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: invalid input syntax for type uuid: "" (SQLSTATE 22P02)[0m
+[33;1m[WARN]  2025-11-20 00:15:04.368 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 00:45:16.426 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 00:47:01.208 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 00:55:54.716 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:18:09.883 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:22:13.651 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:27:09.358 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:28:32.120 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:30:36.912 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:31:07.748 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:35:40.160 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:36:06.171 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:38:54.833 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[error] 2025-11-20 01:39:00.882 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[4.816ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:00.883 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:00.990 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[6.570ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:00.990 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.099 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.206ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.100 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.209 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[7.599ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.209 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.318 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.668ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.319 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.430 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[10.068ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.431 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.545 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[12.769ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.545 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.655 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.538ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.655 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.765 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.021ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.765 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.876 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[10.641ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.876 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:01.986 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.677ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:01.986 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.097 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.894ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.097 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.207 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.528ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.207 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.318 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.954ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.318 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.428 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.888ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.429 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.538 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[7.605ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.538 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.652 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[12.247ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.652 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.762 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.797ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.763 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.870 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[7.139ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.870 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:02.978 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[6.782ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:02.978 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.088 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[8.941ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.089 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.204 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[14.609ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.204 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.314 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[9.033ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.314 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[error] 2025-11-20 01:39:03.425 [31;1m/Users/conso-dev1/code/dataCollector/Centralized-Data-Collector/internal/db/binance_data_fill.go:13 [35;1mERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)
+[0m[33m[9.741ms] [34;1m[rows:0][0m INSERT INTO "market_data_fill" ("event","event_start_time","event_end_time","symbol","is_closed","created_at","id") VALUES ('kline',1763573880000,1763573880000,'ENAUSDT',false,'2025-11-20 01:39:00.859','b6e96ca7-280a-4283-8d9a-bf99a761f15c') RETURNING "id"
+[35;1m[ERROR] 2025-11-20 01:39:03.425 binance_storer.go(209)[StoreData]:
+[0m[35mFailed to batch insert Binance data fill: err = ERROR: duplicate key value violates unique constraint "market_data_fill_pkey" (SQLSTATE 23505)[0m
+[33;1m[WARN]  2025-11-20 01:39:56.240 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:45:39.244 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:47:34.078 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:50:53.844 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:56:02.733 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:57:07.760 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:58:07.110 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 01:59:15.736 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:33:36.812 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:35:21.052 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:38:19.452 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:43:47.132 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:45:45.369 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:48:21.913 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:51:44.918 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:56:50.772 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 10:59:19.007 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:02:48.820 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:04:25.936 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:05:25.532 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:08:13.268 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:10:02.723 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:13:15.558 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:14:05.533 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:36:16.900 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-20 11:41:54.075 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m

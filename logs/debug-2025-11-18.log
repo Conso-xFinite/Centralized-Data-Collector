@@ -18739,3 +18739,622 @@ Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@klin
 [34m[DEBUG] 2025-11-18 22:05:21.837 ws.go(85)[Login]: [0m[34mSent pong success :  1763474721845[0m
 [34m[DEBUG] 2025-11-18 22:05:25.599 ws.go(77)[Login]: [0m[34mReceived ping: 1763474725583[0m
 [34m[DEBUG] 2025-11-18 22:05:25.599 ws.go(85)[Login]: [0m[34mSent pong success :  1763474725583[0m
+[INFO]  2025-11-18 22:07:19.396 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:07:19.400 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:07:19.400 ws.go(50)[Login]: Login
+[34m[DEBUG] 2025-11-18 22:07:19.401 collector.go(44)[NewDataCollector]: [0m[34mRestored subscribed channels from Redis[0m
+[INFO]  2025-11-18 22:07:19.402 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:07:19.402 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:07:19.402 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:07:19.403 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:07:19.787 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:07:19.800 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:20.445 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:07:20.446 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:07:20.446 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:07:20.446 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@kline_1m ethusdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:07:20.446 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:07:20.446 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:07:20.447 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:20.634 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474840446533000}
+[INFO]  2025-11-18 22:07:21.121 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:07:21.121 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:07:21.121 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:07:21.121 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:07:21.121 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:07:21.121 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:07:21.139 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:21.312 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474841121487000}
+[INFO]  2025-11-18 22:07:21.811 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:07:21.812 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:07:21.813 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:07:21.813 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:07:21.813 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:07:21.813 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:07:21.822 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:21.989 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474841813124000}
+[INFO]  2025-11-18 22:07:22.497 ws.go(115)[Start]: Client-4 connected and logged in
+[34m[DEBUG] 2025-11-18 22:07:25.719 ws.go(77)[Login]: [0m[34mReceived ping: 1763474845727[0m
+[34m[DEBUG] 2025-11-18 22:07:25.719 ws.go(85)[Login]: [0m[34mSent pong success :  1763474845727[0m
+[34m[DEBUG] 2025-11-18 22:07:28.890 ws.go(77)[Login]: [0m[34mReceived ping: 1763474848898[0m
+[34m[DEBUG] 2025-11-18 22:07:28.892 ws.go(85)[Login]: [0m[34mSent pong success :  1763474848898[0m
+[34m[DEBUG] 2025-11-18 22:07:29.723 ws.go(77)[Login]: [0m[34mReceived ping: 1763474849730[0m
+[34m[DEBUG] 2025-11-18 22:07:29.724 ws.go(85)[Login]: [0m[34mSent pong success :  1763474849730[0m
+[34m[DEBUG] 2025-11-18 22:07:30.646 ws.go(77)[Login]: [0m[34mReceived ping: 1763474850654[0m
+[34m[DEBUG] 2025-11-18 22:07:30.646 ws.go(85)[Login]: [0m[34mSent pong success :  1763474850654[0m
+[34m[DEBUG] 2025-11-18 22:07:31.101 ws.go(77)[Login]: [0m[34mReceived ping: 1763474851105[0m
+[34m[DEBUG] 2025-11-18 22:07:31.101 ws.go(85)[Login]: [0m[34mSent pong success :  1763474851105[0m
+[34m[DEBUG] 2025-11-18 22:07:45.741 ws.go(77)[Login]: [0m[34mReceived ping: 1763474865749[0m
+[34m[DEBUG] 2025-11-18 22:07:45.742 ws.go(85)[Login]: [0m[34mSent pong success :  1763474865749[0m
+[34m[DEBUG] 2025-11-18 22:07:48.914 ws.go(77)[Login]: [0m[34mReceived ping: 1763474868920[0m
+[34m[DEBUG] 2025-11-18 22:07:48.915 ws.go(85)[Login]: [0m[34mSent pong success :  1763474868920[0m
+[34m[DEBUG] 2025-11-18 22:07:49.746 ws.go(77)[Login]: [0m[34mReceived ping: 1763474869753[0m
+[34m[DEBUG] 2025-11-18 22:07:49.746 ws.go(85)[Login]: [0m[34mSent pong success :  1763474869753[0m
+[34m[DEBUG] 2025-11-18 22:07:50.770 ws.go(77)[Login]: [0m[34mReceived ping: 1763474870779[0m
+[34m[DEBUG] 2025-11-18 22:07:50.771 ws.go(85)[Login]: [0m[34mSent pong success :  1763474870779[0m
+[34m[DEBUG] 2025-11-18 22:07:51.122 ws.go(77)[Login]: [0m[34mReceived ping: 1763474871127[0m
+[34m[DEBUG] 2025-11-18 22:07:51.122 ws.go(85)[Login]: [0m[34mSent pong success :  1763474871127[0m
+[INFO]  2025-11-18 22:08:03.515 ws-pool.go(96)[AddChannelSubscribe]: [client-2] subscription, aggTrade: pumpusdt
+[34m[DEBUG] 2025-11-18 22:08:03.516 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "aggTrade",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:08:03.519 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: pumpusdt
+[34m[DEBUG] 2025-11-18 22:08:03.519 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "kline_1m",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:08:03.519 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, miniTicker: pumpusdt
+[34m[DEBUG] 2025-11-18 22:08:03.519 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "miniTicker",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:08:03.820 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:08:03.821 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:08:03.821 ws.go(273)[sendPendingMessages]: Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:08:03.821 ws.go(276)[sendPendingMessages]: [0m[34mindex 1[0m
+[34m[DEBUG] 2025-11-18 22:08:03.821 ws.go(284)[sendPendingMessages]: [0m[34mindex 2[0m
+[INFO]  2025-11-18 22:08:03.938 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474883821444000}
+[INFO]  2025-11-18 22:08:04.165 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:08:04.166 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:08:04.166 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:08:04.166 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:08:04.166 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:08:04.262 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474884166247000}
+[34m[DEBUG] 2025-11-18 22:08:05.763 ws.go(77)[Login]: [0m[34mReceived ping: 1763474885771[0m
+[34m[DEBUG] 2025-11-18 22:08:05.766 ws.go(85)[Login]: [0m[34mSent pong success :  1763474885771[0m
+[34m[DEBUG] 2025-11-18 22:08:08.933 ws.go(77)[Login]: [0m[34mReceived ping: 1763474888941[0m
+[34m[DEBUG] 2025-11-18 22:08:08.933 ws.go(85)[Login]: [0m[34mSent pong success :  1763474888941[0m
+[34m[DEBUG] 2025-11-18 22:08:09.773 ws.go(77)[Login]: [0m[34mReceived ping: 1763474889780[0m
+[34m[DEBUG] 2025-11-18 22:08:09.776 ws.go(85)[Login]: [0m[34mSent pong success :  1763474889780[0m
+[34m[DEBUG] 2025-11-18 22:08:10.795 ws.go(77)[Login]: [0m[34mReceived ping: 1763474890802[0m
+[34m[DEBUG] 2025-11-18 22:08:10.795 ws.go(85)[Login]: [0m[34mSent pong success :  1763474890802[0m
+[34m[DEBUG] 2025-11-18 22:08:11.147 ws.go(77)[Login]: [0m[34mReceived ping: 1763474891152[0m
+[34m[DEBUG] 2025-11-18 22:08:11.148 ws.go(85)[Login]: [0m[34mSent pong success :  1763474891152[0m
+[34m[DEBUG] 2025-11-18 22:08:25.689 ws.go(77)[Login]: [0m[34mReceived ping: 1763474905697[0m
+[34m[DEBUG] 2025-11-18 22:08:25.689 ws.go(85)[Login]: [0m[34mSent pong success :  1763474905697[0m
+[34m[DEBUG] 2025-11-18 22:08:28.956 ws.go(77)[Login]: [0m[34mReceived ping: 1763474908963[0m
+[34m[DEBUG] 2025-11-18 22:08:28.957 ws.go(85)[Login]: [0m[34mSent pong success :  1763474908963[0m
+[34m[DEBUG] 2025-11-18 22:08:29.800 ws.go(77)[Login]: [0m[34mReceived ping: 1763474909803[0m
+[34m[DEBUG] 2025-11-18 22:08:29.801 ws.go(85)[Login]: [0m[34mSent pong success :  1763474909803[0m
+[34m[DEBUG] 2025-11-18 22:08:30.717 ws.go(77)[Login]: [0m[34mReceived ping: 1763474910726[0m
+[34m[DEBUG] 2025-11-18 22:08:30.718 ws.go(85)[Login]: [0m[34mSent pong success :  1763474910726[0m
+[34m[DEBUG] 2025-11-18 22:08:31.071 ws.go(77)[Login]: [0m[34mReceived ping: 1763474911075[0m
+[34m[DEBUG] 2025-11-18 22:08:31.071 ws.go(85)[Login]: [0m[34mSent pong success :  1763474911075[0m
+[34m[DEBUG] 2025-11-18 22:08:45.713 ws.go(77)[Login]: [0m[34mReceived ping: 1763474925721[0m
+[34m[DEBUG] 2025-11-18 22:08:45.714 ws.go(85)[Login]: [0m[34mSent pong success :  1763474925721[0m
+[34m[DEBUG] 2025-11-18 22:08:48.881 ws.go(77)[Login]: [0m[34mReceived ping: 1763474928888[0m
+[34m[DEBUG] 2025-11-18 22:08:48.881 ws.go(85)[Login]: [0m[34mSent pong success :  1763474928888[0m
+[34m[DEBUG] 2025-11-18 22:08:49.829 ws.go(77)[Login]: [0m[34mReceived ping: 1763474929827[0m
+[34m[DEBUG] 2025-11-18 22:08:49.830 ws.go(85)[Login]: [0m[34mSent pong success :  1763474929827[0m
+[34m[DEBUG] 2025-11-18 22:08:50.741 ws.go(77)[Login]: [0m[34mReceived ping: 1763474930749[0m
+[34m[DEBUG] 2025-11-18 22:08:50.742 ws.go(85)[Login]: [0m[34mSent pong success :  1763474930749[0m
+[34m[DEBUG] 2025-11-18 22:08:51.091 ws.go(77)[Login]: [0m[34mReceived ping: 1763474931096[0m
+[34m[DEBUG] 2025-11-18 22:08:51.091 ws.go(85)[Login]: [0m[34mSent pong success :  1763474931096[0m
+[INFO]  2025-11-18 22:08:59.090 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:08:59.093 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:08:59.093 ws.go(50)[Login]: Login
+[34m[DEBUG] 2025-11-18 22:08:59.094 collector.go(44)[NewDataCollector]: [0m[34mRestored subscribed channels from Redis[0m
+[INFO]  2025-11-18 22:08:59.094 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:08:59.094 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:08:59.094 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:08:59.096 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:08:59.448 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:08:59.449 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:08:59.449 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:08:59.449 ws.go(273)[sendPendingMessages]: Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:08:59.449 ws.go(276)[sendPendingMessages]: [0m[34mindex 1[0m
+[34m[DEBUG] 2025-11-18 22:08:59.449 ws.go(284)[sendPendingMessages]: [0m[34mindex 2[0m
+[INFO]  2025-11-18 22:08:59.449 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:08:59.622 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474939449438000}
+[INFO]  2025-11-18 22:09:00.122 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:09:00.123 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:00.123 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:00.123 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[34m[DEBUG] 2025-11-18 22:09:00.123 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:09:00.123 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:09:00.138 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:00.320 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474940123311000}
+[INFO]  2025-11-18 22:09:00.796 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:09:00.796 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:00.796 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:00.797 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:09:00.797 ws.go(276)[sendPendingMessages]: [0m[34mindex 1[0m
+[34m[DEBUG] 2025-11-18 22:09:00.797 ws.go(284)[sendPendingMessages]: [0m[34mindex 2[0m
+[INFO]  2025-11-18 22:09:00.808 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:00.985 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474940797108000}
+[INFO]  2025-11-18 22:09:01.457 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:09:01.457 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:01.457 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:01.457 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m]
+[34m[DEBUG] 2025-11-18 22:09:01.458 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:09:01.458 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:09:01.457 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:01.585 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474941458031000}
+[INFO]  2025-11-18 22:09:02.119 ws.go(115)[Start]: Client-4 connected and logged in
+[34m[DEBUG] 2025-11-18 22:09:02.785 ws.go(77)[Login]: [0m[34mReceived ping: 1763474942793[0m
+[34m[DEBUG] 2025-11-18 22:09:02.786 ws.go(85)[Login]: [0m[34mSent pong success :  1763474942793[0m
+[34m[DEBUG] 2025-11-18 22:09:05.538 ws.go(77)[Login]: [0m[34mReceived ping: 1763474945547[0m
+[34m[DEBUG] 2025-11-18 22:09:05.538 ws.go(85)[Login]: [0m[34mSent pong success :  1763474945547[0m
+[34m[DEBUG] 2025-11-18 22:09:10.135 collector.go(95)[AddRedisChannelOption]: [0m[34m收到取消订阅消息 &{subscribe aggTrade pumpusdt}[0m
+[INFO]  2025-11-18 22:09:10.137 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, pumpusdt@aggTrade:
+[34m[DEBUG] 2025-11-18 22:09:10.137 collector.go(97)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, unsubscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "aggTrade",
+  "TokenPair": "pumpusdt"
+}[0m
+[34m[DEBUG] 2025-11-18 22:09:10.139 collector.go(95)[AddRedisChannelOption]: [0m[34m收到取消订阅消息 &{subscribe kline_1m pumpusdt}[0m
+[INFO]  2025-11-18 22:09:10.139 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@kline_1m:
+[34m[DEBUG] 2025-11-18 22:09:10.140 collector.go(97)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, unsubscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "kline_1m",
+  "TokenPair": "pumpusdt"
+}[0m
+[34m[DEBUG] 2025-11-18 22:09:10.141 collector.go(95)[AddRedisChannelOption]: [0m[34m收到取消订阅消息 &{subscribe miniTicker pumpusdt}[0m
+[INFO]  2025-11-18 22:09:10.141 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@miniTicker:
+[34m[DEBUG] 2025-11-18 22:09:10.141 collector.go(97)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, unsubscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "miniTicker",
+  "TokenPair": "pumpusdt"
+}[0m
+[34m[DEBUG] 2025-11-18 22:09:10.197 ws.go(77)[Login]: [0m[34mReceived ping: 1763474950204[0m
+[34m[DEBUG] 2025-11-18 22:09:10.197 ws.go(85)[Login]: [0m[34mSent pong success :  1763474950204[0m
+[INFO]  2025-11-18 22:09:10.459 ws.go(295)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:10.460 ws.go(296)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:10.460 ws.go(302)[sendPendingMessages]:
+Client-0 需要订阅取消订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:09:10.635 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474950460370000}
+[INFO]  2025-11-18 22:09:10.801 ws.go(295)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:09:10.801 ws.go(296)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:10.801 ws.go(302)[sendPendingMessages]: Client-2 需要订阅取消订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:09:10.899 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474950802032000}
+[34m[DEBUG] 2025-11-18 22:09:11.537 ws.go(77)[Login]: [0m[34mReceived ping: 1763474951547[0m
+[34m[DEBUG] 2025-11-18 22:09:11.538 ws.go(85)[Login]: [0m[34mSent pong success :  1763474951547[0m
+[34m[DEBUG] 2025-11-18 22:09:20.341 ws.go(77)[Login]: [0m[34mReceived ping: 1763474960353[0m
+[34m[DEBUG] 2025-11-18 22:09:20.342 ws.go(85)[Login]: [0m[34mSent pong success :  1763474960353[0m
+[34m[DEBUG] 2025-11-18 22:09:22.810 ws.go(77)[Login]: [0m[34mReceived ping: 1763474962818[0m
+[34m[DEBUG] 2025-11-18 22:09:22.810 ws.go(85)[Login]: [0m[34mSent pong success :  1763474962818[0m
+[34m[DEBUG] 2025-11-18 22:09:25.465 ws.go(77)[Login]: [0m[34mReceived ping: 1763474965474[0m
+[34m[DEBUG] 2025-11-18 22:09:25.466 ws.go(85)[Login]: [0m[34mSent pong success :  1763474965474[0m
+[34m[DEBUG] 2025-11-18 22:09:30.125 ws.go(77)[Login]: [0m[34mReceived ping: 1763474970130[0m
+[34m[DEBUG] 2025-11-18 22:09:30.125 ws.go(85)[Login]: [0m[34mSent pong success :  1763474970130[0m
+[34m[DEBUG] 2025-11-18 22:09:31.560 ws.go(77)[Login]: [0m[34mReceived ping: 1763474971570[0m
+[34m[DEBUG] 2025-11-18 22:09:31.560 ws.go(85)[Login]: [0m[34mSent pong success :  1763474971570[0m
+[34m[DEBUG] 2025-11-18 22:09:40.475 ws.go(77)[Login]: [0m[34mReceived ping: 1763474980380[0m
+[34m[DEBUG] 2025-11-18 22:09:40.475 ws.go(85)[Login]: [0m[34mSent pong success :  1763474980380[0m
+[34m[DEBUG] 2025-11-18 22:09:42.835 ws.go(77)[Login]: [0m[34mReceived ping: 1763474982844[0m
+[34m[DEBUG] 2025-11-18 22:09:42.836 ws.go(85)[Login]: [0m[34mSent pong success :  1763474982844[0m
+[34m[DEBUG] 2025-11-18 22:09:45.498 ws.go(77)[Login]: [0m[34mReceived ping: 1763474985505[0m
+[34m[DEBUG] 2025-11-18 22:09:45.498 ws.go(85)[Login]: [0m[34mSent pong success :  1763474985505[0m
+[34m[DEBUG] 2025-11-18 22:09:50.051 ws.go(77)[Login]: [0m[34mReceived ping: 1763474990058[0m
+[34m[DEBUG] 2025-11-18 22:09:50.051 ws.go(85)[Login]: [0m[34mSent pong success :  1763474990058[0m
+[34m[DEBUG] 2025-11-18 22:09:51.483 ws.go(77)[Login]: [0m[34mReceived ping: 1763474991492[0m
+[34m[DEBUG] 2025-11-18 22:09:51.483 ws.go(85)[Login]: [0m[34mSent pong success :  1763474991492[0m
+[INFO]  2025-11-18 22:09:54.051 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:09:54.053 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:09:54.053 ws.go(50)[Login]: Login
+[34m[DEBUG] 2025-11-18 22:09:54.053 collector.go(44)[NewDataCollector]: [0m[34mRestored subscribed channels from Redis[0m
+[INFO]  2025-11-18 22:09:54.053 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:09:54.053 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:09:54.053 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:09:54.054 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:09:54.380 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:09:54.391 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:55.084 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:09:55.084 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:55.084 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:55.084 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@kline_1m ethusdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:09:55.085 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:09:55.085 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:09:55.102 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:55.235 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474995084975000}
+[INFO]  2025-11-18 22:09:55.742 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:09:55.742 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:09:55.742 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:55.742 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:09:55.742 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:09:55.743 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:09:55.752 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:55.913 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474995742920000}
+[INFO]  2025-11-18 22:09:56.418 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:09:56.419 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:56.419 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:56.419 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:09:56.419 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:09:56.419 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:09:56.421 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:56.591 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474996419481000}
+[INFO]  2025-11-18 22:09:57.135 ws.go(115)[Start]: Client-4 connected and logged in
+[34m[DEBUG] 2025-11-18 22:09:58.605 ws.go(77)[Login]: [0m[34mReceived ping: 1763474998613[0m
+[34m[DEBUG] 2025-11-18 22:09:58.605 ws.go(85)[Login]: [0m[34mSent pong success :  1763474998613[0m
+[34m[DEBUG] 2025-11-18 22:10:02.020 ws.go(77)[Login]: [0m[34mReceived ping: 1763475002030[0m
+[34m[DEBUG] 2025-11-18 22:10:02.022 ws.go(85)[Login]: [0m[34mSent pong success :  1763475002030[0m
+[INFO]  2025-11-18 22:10:06.354 ws-pool.go(96)[AddChannelSubscribe]: [client-2] subscription, aggTrade: pumpusdt
+[34m[DEBUG] 2025-11-18 22:10:06.354 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "aggTrade",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:10:06.357 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: pumpusdt
+[34m[DEBUG] 2025-11-18 22:10:06.357 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "kline_1m",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:10:06.358 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, miniTicker: pumpusdt
+[34m[DEBUG] 2025-11-18 22:10:06.358 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "miniTicker",
+  "TokenPair": "pumpusdt"
+}[0m
+[34m[DEBUG] 2025-11-18 22:10:06.359 collector.go(95)[AddRedisChannelOption]: [0m[34m收到取消订阅消息 &{subscribe aggTrade pumpusdt}[0m
+[INFO]  2025-11-18 22:10:06.359 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, pumpusdt@aggTrade:
+[34m[DEBUG] 2025-11-18 22:10:06.359 collector.go(97)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, unsubscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "aggTrade",
+  "TokenPair": "pumpusdt"
+}[0m
+[34m[DEBUG] 2025-11-18 22:10:06.360 collector.go(95)[AddRedisChannelOption]: [0m[34m收到取消订阅消息 &{subscribe kline_1m pumpusdt}[0m
+[INFO]  2025-11-18 22:10:06.360 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@kline_1m:
+[34m[DEBUG] 2025-11-18 22:10:06.360 collector.go(97)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, unsubscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "kline_1m",
+  "TokenPair": "pumpusdt"
+}[0m
+[34m[DEBUG] 2025-11-18 22:10:06.361 collector.go(95)[AddRedisChannelOption]: [0m[34m收到取消订阅消息 &{subscribe miniTicker pumpusdt}[0m
+[INFO]  2025-11-18 22:10:06.361 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@miniTicker:
+[34m[DEBUG] 2025-11-18 22:10:06.361 collector.go(97)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, unsubscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "miniTicker",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:10:06.392 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.392 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:06.392 ws.go(273)[sendPendingMessages]: Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:10:06.392 ws.go(276)[sendPendingMessages]: [0m[34mindex 1[0m
+[34m[DEBUG] 2025-11-18 22:10:06.392 ws.go(284)[sendPendingMessages]: [0m[34mindex 2[0m
+[INFO]  2025-11-18 22:10:06.392 ws.go(295)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.393 ws.go(296)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.393 ws.go(302)[sendPendingMessages]:
+Client-0 需要订阅取消订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:10:06.518 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006392882000}
+[INFO]  2025-11-18 22:10:06.518 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006393037000}
+[INFO]  2025-11-18 22:10:06.754 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:06.754 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:06.754 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:10:06.754 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:10:06.754 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:10:06.754 ws.go(295)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:06.754 ws.go(296)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.754 ws.go(302)[sendPendingMessages]: Client-2 需要订阅取消订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:10:06.925 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006754386000}
+[INFO]  2025-11-18 22:10:06.926 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006754546000}
+[34m[DEBUG] 2025-11-18 22:10:10.472 ws.go(77)[Login]: [0m[34mReceived ping: 1763475010482[0m
+[34m[DEBUG] 2025-11-18 22:10:10.473 ws.go(85)[Login]: [0m[34mSent pong success :  1763475010482[0m
+[34m[DEBUG] 2025-11-18 22:10:15.263 ws.go(77)[Login]: [0m[34mReceived ping: 1763475015269[0m
+[34m[DEBUG] 2025-11-18 22:10:15.264 ws.go(85)[Login]: [0m[34mSent pong success :  1763475015269[0m
+[34m[DEBUG] 2025-11-18 22:10:16.619 ws.go(77)[Login]: [0m[34mReceived ping: 1763475016627[0m
+[34m[DEBUG] 2025-11-18 22:10:16.620 ws.go(85)[Login]: [0m[34mSent pong success :  1763475016627[0m
+[34m[DEBUG] 2025-11-18 22:10:18.634 ws.go(77)[Login]: [0m[34mReceived ping: 1763475018642[0m
+[34m[DEBUG] 2025-11-18 22:10:18.635 ws.go(85)[Login]: [0m[34mSent pong success :  1763475018642[0m
+[34m[DEBUG] 2025-11-18 22:10:21.943 ws.go(77)[Login]: [0m[34mReceived ping: 1763475021953[0m
+[34m[DEBUG] 2025-11-18 22:10:21.943 ws.go(85)[Login]: [0m[34mSent pong success :  1763475021953[0m
+[34m[DEBUG] 2025-11-18 22:10:30.397 ws.go(77)[Login]: [0m[34mReceived ping: 1763475030407[0m
+[34m[DEBUG] 2025-11-18 22:10:30.398 ws.go(85)[Login]: [0m[34mSent pong success :  1763475030407[0m
+[34m[DEBUG] 2025-11-18 22:10:35.191 ws.go(77)[Login]: [0m[34mReceived ping: 1763475035197[0m
+[34m[DEBUG] 2025-11-18 22:10:35.191 ws.go(85)[Login]: [0m[34mSent pong success :  1763475035197[0m
+[34m[DEBUG] 2025-11-18 22:10:36.543 ws.go(77)[Login]: [0m[34mReceived ping: 1763475036551[0m
+[34m[DEBUG] 2025-11-18 22:10:36.544 ws.go(85)[Login]: [0m[34mSent pong success :  1763475036551[0m
+[34m[DEBUG] 2025-11-18 22:10:38.660 ws.go(77)[Login]: [0m[34mReceived ping: 1763475038668[0m
+[34m[DEBUG] 2025-11-18 22:10:38.660 ws.go(85)[Login]: [0m[34mSent pong success :  1763475038668[0m
+[34m[DEBUG] 2025-11-18 22:10:41.967 ws.go(77)[Login]: [0m[34mReceived ping: 1763475041976[0m
+[34m[DEBUG] 2025-11-18 22:10:41.967 ws.go(85)[Login]: [0m[34mSent pong success :  1763475041976[0m
+[INFO]  2025-11-18 22:10:50.215 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:10:50.216 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:10:50.216 ws.go(50)[Login]: Login
+[34m[DEBUG] 2025-11-18 22:10:50.217 collector.go(44)[NewDataCollector]: [0m[34mRestored subscribed channels from Redis[0m
+[INFO]  2025-11-18 22:10:50.217 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:10:50.217 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:10:50.217 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:10:50.218 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:10:50.589 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:10:50.595 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:51.293 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:10:51.293 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:10:51.294 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:51.294 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[34m[DEBUG] 2025-11-18 22:10:51.294 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:10:51.294 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:10:51.307 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:51.458 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475051294281000}
+[INFO]  2025-11-18 22:10:51.982 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:10:51.982 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:51.982 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:51.982 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:10:51.982 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:10:51.982 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:10:52.000 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:52.140 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475051982282000}
+[INFO]  2025-11-18 22:10:52.689 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:10:52.689 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:10:52.689 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:52.690 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:10:52.690 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:10:52.690 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:10:52.699 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:52.878 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475052690079000}
+[INFO]  2025-11-18 22:10:53.356 ws.go(115)[Start]: Client-4 connected and logged in
+[34m[DEBUG] 2025-11-18 22:10:57.170 ws.go(77)[Login]: [0m[34mReceived ping: 1763475057174[0m
+[34m[DEBUG] 2025-11-18 22:10:57.170 ws.go(85)[Login]: [0m[34mSent pong success :  1763475057174[0m
+[34m[DEBUG] 2025-11-18 22:10:59.649 ws.go(77)[Login]: [0m[34mReceived ping: 1763475059653[0m
+[34m[DEBUG] 2025-11-18 22:10:59.650 ws.go(85)[Login]: [0m[34mSent pong success :  1763475059653[0m
+[34m[DEBUG] 2025-11-18 22:11:00.390 ws.go(77)[Login]: [0m[34mReceived ping: 1763475060395[0m
+[34m[DEBUG] 2025-11-18 22:11:00.390 ws.go(85)[Login]: [0m[34mSent pong success :  1763475060395[0m
+[34m[DEBUG] 2025-11-18 22:11:02.192 ws.go(77)[Login]: [0m[34mReceived ping: 1763475062198[0m
+[34m[DEBUG] 2025-11-18 22:11:02.192 ws.go(85)[Login]: [0m[34mSent pong success :  1763475062198[0m
+[34m[DEBUG] 2025-11-18 22:11:12.586 ws.go(77)[Login]: [0m[34mReceived ping: 1763475072585[0m
+[34m[DEBUG] 2025-11-18 22:11:12.587 ws.go(85)[Login]: [0m[34mSent pong success :  1763475072585[0m
+[34m[DEBUG] 2025-11-18 22:11:17.188 ws.go(77)[Login]: [0m[34mReceived ping: 1763475077195[0m
+[34m[DEBUG] 2025-11-18 22:11:17.189 ws.go(85)[Login]: [0m[34mSent pong success :  1763475077195[0m
+[34m[DEBUG] 2025-11-18 22:11:19.670 ws.go(77)[Login]: [0m[34mReceived ping: 1763475079674[0m
+[34m[DEBUG] 2025-11-18 22:11:19.671 ws.go(85)[Login]: [0m[34mSent pong success :  1763475079674[0m
+[34m[DEBUG] 2025-11-18 22:11:20.411 ws.go(77)[Login]: [0m[34mReceived ping: 1763475080416[0m
+[34m[DEBUG] 2025-11-18 22:11:20.411 ws.go(85)[Login]: [0m[34mSent pong success :  1763475080416[0m
+[34m[DEBUG] 2025-11-18 22:11:22.217 ws.go(77)[Login]: [0m[34mReceived ping: 1763475082224[0m
+[34m[DEBUG] 2025-11-18 22:11:22.217 ws.go(85)[Login]: [0m[34mSent pong success :  1763475082224[0m
+[34m[DEBUG] 2025-11-18 22:11:32.516 ws.go(77)[Login]: [0m[34mReceived ping: 1763475092514[0m
+[34m[DEBUG] 2025-11-18 22:11:32.516 ws.go(85)[Login]: [0m[34mSent pong success :  1763475092514[0m
+[34m[DEBUG] 2025-11-18 22:11:37.212 ws.go(77)[Login]: [0m[34mReceived ping: 1763475097220[0m
+[34m[DEBUG] 2025-11-18 22:11:37.213 ws.go(85)[Login]: [0m[34mSent pong success :  1763475097220[0m
+[INFO]  2025-11-18 22:11:39.002 ws-pool.go(96)[AddChannelSubscribe]: [client-2] subscription, aggTrade: pumpusdt
+[34m[DEBUG] 2025-11-18 22:11:39.002 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "aggTrade",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:11:39.007 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: pumpusdt
+[34m[DEBUG] 2025-11-18 22:11:39.007 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "kline_1m",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:11:39.008 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, miniTicker: pumpusdt
+[34m[DEBUG] 2025-11-18 22:11:39.008 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "miniTicker",
+  "TokenPair": "pumpusdt"
+}[0m
+[INFO]  2025-11-18 22:11:39.009 ws-pool.go(96)[AddChannelSubscribe]: [client-1] subscription, aggTrade: enausdt
+[34m[DEBUG] 2025-11-18 22:11:39.009 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "aggTrade",
+  "TokenPair": "enausdt"
+}[0m
+[INFO]  2025-11-18 22:11:39.010 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: enausdt
+[34m[DEBUG] 2025-11-18 22:11:39.010 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "kline_1m",
+  "TokenPair": "enausdt"
+}[0m
+[INFO]  2025-11-18 22:11:39.010 ws-pool.go(96)[AddChannelSubscribe]: [client-3] subscription, miniTicker: enausdt
+[34m[DEBUG] 2025-11-18 22:11:39.010 collector.go(82)[AddRedisChannelOption]:
+[0m[34mRedisChannelOption, subscribe: {
+  "typeSubscribe": "subscribe",
+  "channel": "miniTicker",
+  "TokenPair": "enausdt"
+}[0m
+[INFO]  2025-11-18 22:11:39.027 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.027 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.027 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:11:39.027 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:11:39.027 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:11:39.190 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099027396000}
+[INFO]  2025-11-18 22:11:39.348 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.348 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:11:39.348 ws.go(273)[sendPendingMessages]: Client-1 需要订阅的数据 [enausdt@aggTrade]
+[34m[DEBUG] 2025-11-18 22:11:39.349 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:11:39.349 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:11:39.520 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099349025000}
+[INFO]  2025-11-18 22:11:39.640 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:11:39.640 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:11:39.640 ws.go(273)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[34m[DEBUG] 2025-11-18 22:11:39.640 ws.go(276)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:11:39.641 ws.go(284)[sendPendingMessages]: [0m[34mindex 3[0m
+[34m[DEBUG] 2025-11-18 22:11:39.691 ws.go(77)[Login]: [0m[34mReceived ping: 1763475099695[0m
+[34m[DEBUG] 2025-11-18 22:11:39.691 ws.go(85)[Login]: [0m[34mSent pong success :  1763475099695[0m
+[INFO]  2025-11-18 22:11:39.731 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099640881000}
+[INFO]  2025-11-18 22:11:39.737 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.737 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:11:39.737 ws.go(273)[sendPendingMessages]: Client-3 需要订阅的数据 [enausdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:11:39.738 ws.go(276)[sendPendingMessages]: [0m[34mindex 0[0m
+[34m[DEBUG] 2025-11-18 22:11:39.738 ws.go(284)[sendPendingMessages]: [0m[34mindex 1[0m
+[INFO]  2025-11-18 22:11:39.833 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099738289000}
+[34m[DEBUG] 2025-11-18 22:11:40.434 ws.go(77)[Login]: [0m[34mReceived ping: 1763475100437[0m
+[34m[DEBUG] 2025-11-18 22:11:40.434 ws.go(85)[Login]: [0m[34mSent pong success :  1763475100437[0m
+[34m[DEBUG] 2025-11-18 22:11:42.338 ws.go(77)[Login]: [0m[34mReceived ping: 1763475102346[0m
+[34m[DEBUG] 2025-11-18 22:11:42.339 ws.go(85)[Login]: [0m[34mSent pong success :  1763475102346[0m
+[34m[DEBUG] 2025-11-18 22:11:52.540 ws.go(77)[Login]: [0m[34mReceived ping: 1763475112540[0m
+[34m[DEBUG] 2025-11-18 22:11:52.541 ws.go(85)[Login]: [0m[34mSent pong success :  1763475112540[0m
+[34m[DEBUG] 2025-11-18 22:11:57.135 ws.go(77)[Login]: [0m[34mReceived ping: 1763475117142[0m
+[34m[DEBUG] 2025-11-18 22:11:57.135 ws.go(85)[Login]: [0m[34mSent pong success :  1763475117142[0m
+[34m[DEBUG] 2025-11-18 22:11:59.717 ws.go(77)[Login]: [0m[34mReceived ping: 1763475119719[0m
+[34m[DEBUG] 2025-11-18 22:11:59.717 ws.go(85)[Login]: [0m[34mSent pong success :  1763475119719[0m
+[34m[DEBUG] 2025-11-18 22:12:00.454 ws.go(77)[Login]: [0m[34mReceived ping: 1763475120458[0m
+[34m[DEBUG] 2025-11-18 22:12:00.454 ws.go(85)[Login]: [0m[34mSent pong success :  1763475120458[0m
+[34m[DEBUG] 2025-11-18 22:12:02.261 ws.go(77)[Login]: [0m[34mReceived ping: 1763475122269[0m
+[34m[DEBUG] 2025-11-18 22:12:02.262 ws.go(85)[Login]: [0m[34mSent pong success :  1763475122269[0m
+[34m[DEBUG] 2025-11-18 22:12:12.645 ws.go(77)[Login]: [0m[34mReceived ping: 1763475132565[0m
+[34m[DEBUG] 2025-11-18 22:12:12.646 ws.go(85)[Login]: [0m[34mSent pong success :  1763475132565[0m
+[34m[DEBUG] 2025-11-18 22:12:17.157 ws.go(77)[Login]: [0m[34mReceived ping: 1763475137164[0m
+[34m[DEBUG] 2025-11-18 22:12:17.158 ws.go(85)[Login]: [0m[34mSent pong success :  1763475137164[0m
+[34m[DEBUG] 2025-11-18 22:12:19.536 ws.go(77)[Login]: [0m[34mReceived ping: 1763475139540[0m
+[34m[DEBUG] 2025-11-18 22:12:19.536 ws.go(85)[Login]: [0m[34mSent pong success :  1763475139540[0m
+[34m[DEBUG] 2025-11-18 22:12:20.426 ws.go(77)[Login]: [0m[34mReceived ping: 1763475140382[0m
+[34m[DEBUG] 2025-11-18 22:12:20.427 ws.go(85)[Login]: [0m[34mSent pong success :  1763475140382[0m
+[34m[DEBUG] 2025-11-18 22:12:22.283 ws.go(77)[Login]: [0m[34mReceived ping: 1763475142291[0m
+[34m[DEBUG] 2025-11-18 22:12:22.284 ws.go(85)[Login]: [0m[34mSent pong success :  1763475142291[0m
+[34m[DEBUG] 2025-11-18 22:12:32.591 ws.go(77)[Login]: [0m[34mReceived ping: 1763475152591[0m
+[34m[DEBUG] 2025-11-18 22:12:32.591 ws.go(85)[Login]: [0m[34mSent pong success :  1763475152591[0m
+[34m[DEBUG] 2025-11-18 22:12:37.179 ws.go(77)[Login]: [0m[34mReceived ping: 1763475157187[0m
+[34m[DEBUG] 2025-11-18 22:12:37.180 ws.go(85)[Login]: [0m[34mSent pong success :  1763475157187[0m
+[34m[DEBUG] 2025-11-18 22:12:39.658 ws.go(77)[Login]: [0m[34mReceived ping: 1763475159661[0m
+[34m[DEBUG] 2025-11-18 22:12:39.659 ws.go(85)[Login]: [0m[34mSent pong success :  1763475159661[0m
+[34m[DEBUG] 2025-11-18 22:12:40.399 ws.go(77)[Login]: [0m[34mReceived ping: 1763475160404[0m
+[34m[DEBUG] 2025-11-18 22:12:40.400 ws.go(85)[Login]: [0m[34mSent pong success :  1763475160404[0m
+[34m[DEBUG] 2025-11-18 22:12:42.309 ws.go(77)[Login]: [0m[34mReceived ping: 1763475162316[0m
+[34m[DEBUG] 2025-11-18 22:12:42.309 ws.go(85)[Login]: [0m[34mSent pong success :  1763475162316[0m
+[34m[DEBUG] 2025-11-18 22:12:52.521 ws.go(77)[Login]: [0m[34mReceived ping: 1763475172517[0m
+[34m[DEBUG] 2025-11-18 22:12:52.521 ws.go(85)[Login]: [0m[34mSent pong success :  1763475172517[0m
+[34m[DEBUG] 2025-11-18 22:12:57.205 ws.go(77)[Login]: [0m[34mReceived ping: 1763475177209[0m
+[34m[DEBUG] 2025-11-18 22:12:57.206 ws.go(85)[Login]: [0m[34mSent pong success :  1763475177209[0m
+[34m[DEBUG] 2025-11-18 22:12:59.679 ws.go(77)[Login]: [0m[34mReceived ping: 1763475179682[0m
+[34m[DEBUG] 2025-11-18 22:12:59.679 ws.go(85)[Login]: [0m[34mSent pong success :  1763475179682[0m
+[34m[DEBUG] 2025-11-18 22:13:00.421 ws.go(77)[Login]: [0m[34mReceived ping: 1763475180424[0m
+[34m[DEBUG] 2025-11-18 22:13:00.421 ws.go(85)[Login]: [0m[34mSent pong success :  1763475180424[0m
+[34m[DEBUG] 2025-11-18 22:13:02.331 ws.go(77)[Login]: [0m[34mReceived ping: 1763475182338[0m
+[34m[DEBUG] 2025-11-18 22:13:02.332 ws.go(85)[Login]: [0m[34mSent pong success :  1763475182338[0m
+[34m[DEBUG] 2025-11-18 22:13:12.548 ws.go(77)[Login]: [0m[34mReceived ping: 1763475192547[0m
+[34m[DEBUG] 2025-11-18 22:13:12.550 ws.go(85)[Login]: [0m[34mSent pong success :  1763475192547[0m
+[34m[DEBUG] 2025-11-18 22:13:17.128 ws.go(77)[Login]: [0m[34mReceived ping: 1763475197134[0m
+[34m[DEBUG] 2025-11-18 22:13:17.128 ws.go(85)[Login]: [0m[34mSent pong success :  1763475197134[0m
+[34m[DEBUG] 2025-11-18 22:13:19.701 ws.go(77)[Login]: [0m[34mReceived ping: 1763475199704[0m
+[34m[DEBUG] 2025-11-18 22:13:19.701 ws.go(85)[Login]: [0m[34mSent pong success :  1763475199704[0m
+[34m[DEBUG] 2025-11-18 22:13:20.443 ws.go(77)[Login]: [0m[34mReceived ping: 1763475200446[0m
+[34m[DEBUG] 2025-11-18 22:13:20.444 ws.go(85)[Login]: [0m[34mSent pong success :  1763475200446[0m
+[34m[DEBUG] 2025-11-18 22:13:22.253 ws.go(77)[Login]: [0m[34mReceived ping: 1763475202261[0m
+[34m[DEBUG] 2025-11-18 22:13:22.254 ws.go(85)[Login]: [0m[34mSent pong success :  1763475202261[0m
+[34m[DEBUG] 2025-11-18 22:13:32.576 ws.go(77)[Login]: [0m[34mReceived ping: 1763475212573[0m
+[34m[DEBUG] 2025-11-18 22:13:32.577 ws.go(85)[Login]: [0m[34mSent pong success :  1763475212573[0m
+[34m[DEBUG] 2025-11-18 22:13:37.148 ws.go(77)[Login]: [0m[34mReceived ping: 1763475217156[0m
+[34m[DEBUG] 2025-11-18 22:13:37.149 ws.go(85)[Login]: [0m[34mSent pong success :  1763475217156[0m
+[34m[DEBUG] 2025-11-18 22:13:39.722 ws.go(77)[Login]: [0m[34mReceived ping: 1763475219726[0m
+[34m[DEBUG] 2025-11-18 22:13:39.722 ws.go(85)[Login]: [0m[34mSent pong success :  1763475219726[0m
+[34m[DEBUG] 2025-11-18 22:13:40.367 ws.go(77)[Login]: [0m[34mReceived ping: 1763475220369[0m
+[34m[DEBUG] 2025-11-18 22:13:40.367 ws.go(85)[Login]: [0m[34mSent pong success :  1763475220369[0m
+[34m[DEBUG] 2025-11-18 22:13:42.275 ws.go(77)[Login]: [0m[34mReceived ping: 1763475222283[0m
+[34m[DEBUG] 2025-11-18 22:13:42.275 ws.go(85)[Login]: [0m[34mSent pong success :  1763475222283[0m
+[INFO]  2025-11-18 22:13:47.267 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:13:47.271 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:13:47.271 ws.go(50)[Login]: Login
+[34m[DEBUG] 2025-11-18 22:13:47.272 collector.go(44)[NewDataCollector]: [0m[34mRestored subscribed channels from Redis[0m
+[INFO]  2025-11-18 22:13:47.272 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:13:47.272 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:13:47.272 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:13:47.274 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:13:47.604 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:13:47.605 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[34m[DEBUG] 2025-11-18 22:13:47.605 ws.go(273)[sendPendingMessages]: [0m[34mindex 2[0m
+[34m[DEBUG] 2025-11-18 22:13:47.605 ws.go(281)[sendPendingMessages]: [0m[34mindex 3[0m
+[INFO]  2025-11-18 22:13:47.612 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:47.782 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475227605313000}
+[INFO]  2025-11-18 22:13:48.303 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:13:48.303 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade ethusdt@kline_1m]
+[34m[DEBUG] 2025-11-18 22:13:48.303 ws.go(273)[sendPendingMessages]: [0m[34mindex 3[0m
+[34m[DEBUG] 2025-11-18 22:13:48.304 ws.go(281)[sendPendingMessages]: [0m[34mindex 4[0m
+[INFO]  2025-11-18 22:13:48.322 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:48.448 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475228303804000}
+[INFO]  2025-11-18 22:13:48.984 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:13:48.984 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:13:48.984 ws.go(273)[sendPendingMessages]: [0m[34mindex 1[0m
+[34m[DEBUG] 2025-11-18 22:13:48.985 ws.go(281)[sendPendingMessages]: [0m[34mindex 2[0m
+[INFO]  2025-11-18 22:13:48.993 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:49.143 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475228984890000}
+[INFO]  2025-11-18 22:13:49.743 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:13:49.743 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[34m[DEBUG] 2025-11-18 22:13:49.743 ws.go(273)[sendPendingMessages]: [0m[34mindex 3[0m
+[34m[DEBUG] 2025-11-18 22:13:49.744 ws.go(281)[sendPendingMessages]: [0m[34mindex 4[0m
+[INFO]  2025-11-18 22:13:49.747 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:49.876 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475229743875000}
+[INFO]  2025-11-18 22:13:50.414 ws.go(115)[Start]: Client-4 connected and logged in
+[34m[DEBUG] 2025-11-18 22:13:55.581 ws.go(77)[Login]: [0m[34mReceived ping: 1763475235578[0m
+[34m[DEBUG] 2025-11-18 22:13:55.582 ws.go(85)[Login]: [0m[34mSent pong success :  1763475235578[0m
+[34m[DEBUG] 2025-11-18 22:13:59.059 ws.go(77)[Login]: [0m[34mReceived ping: 1763475239069[0m
+[34m[DEBUG] 2025-11-18 22:13:59.060 ws.go(85)[Login]: [0m[34mSent pong success :  1763475239069[0m
+[34m[DEBUG] 2025-11-18 22:14:03.502 ws.go(77)[Login]: [0m[34mReceived ping: 1763475243513[0m
+[34m[DEBUG] 2025-11-18 22:14:03.503 ws.go(85)[Login]: [0m[34mSent pong success :  1763475243513[0m
+[34m[DEBUG] 2025-11-18 22:14:07.864 ws.go(77)[Login]: [0m[34mReceived ping: 1763475247872[0m
+[34m[DEBUG] 2025-11-18 22:14:07.865 ws.go(85)[Login]: [0m[34mSent pong success :  1763475247872[0m
+[34m[DEBUG] 2025-11-18 22:14:09.614 ws.go(77)[Login]: [0m[34mReceived ping: 1763475249624[0m
+[34m[DEBUG] 2025-11-18 22:14:09.614 ws.go(85)[Login]: [0m[34mSent pong success :  1763475249624[0m
+[34m[DEBUG] 2025-11-18 22:14:15.627 ws.go(77)[Login]: [0m[34mReceived ping: 1763475255603[0m
+[34m[DEBUG] 2025-11-18 22:14:15.628 ws.go(85)[Login]: [0m[34mSent pong success :  1763475255603[0m
+[33;1m[WARN]  2025-11-18 22:14:15.656 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: EOF[0m
+[33;1m[WARN]  2025-11-18 22:14:16.772 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:17.825 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:18.929 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[34m[DEBUG] 2025-11-18 22:14:19.079 ws.go(77)[Login]: [0m[34mReceived ping: 1763475259089[0m
+[34m[DEBUG] 2025-11-18 22:14:19.080 ws.go(85)[Login]: [0m[34mSent pong success :  1763475259089[0m
+[33;1m[WARN]  2025-11-18 22:14:20.024 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:21.137 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:22.235 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:23.328 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[34m[DEBUG] 2025-11-18 22:14:23.330 ws.go(77)[Login]: [0m[34mReceived ping: 1763475263339[0m
+[34m[DEBUG] 2025-11-18 22:14:23.330 ws.go(85)[Login]: [0m[34mSent pong success :  1763475263339[0m
+[33;1m[WARN]  2025-11-18 22:14:24.436 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:25.549 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:26.674 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:27.775 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[34m[DEBUG] 2025-11-18 22:14:27.888 ws.go(77)[Login]: [0m[34mReceived ping: 1763475267896[0m
+[34m[DEBUG] 2025-11-18 22:14:27.889 ws.go(85)[Login]: [0m[34mSent pong success :  1763475267896[0m
+[33;1m[WARN]  2025-11-18 22:14:28.867 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[34m[DEBUG] 2025-11-18 22:14:29.538 ws.go(77)[Login]: [0m[34mReceived ping: 1763475269547[0m
+[34m[DEBUG] 2025-11-18 22:14:29.538 ws.go(85)[Login]: [0m[34mSent pong success :  1763475269547[0m
+[33;1m[WARN]  2025-11-18 22:14:29.925 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:31.033 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m

@@ -7891,3 +7891,28 @@
 [35;1m[ERROR] 2025-11-18 22:05:13.257 ws-connector.go(47)[LockDialWebSocket]: [0m[35mFailed to connect WS: EOF[0m
 [35;1m[ERROR] 2025-11-18 22:05:13.257 ws.go(60)[Login]: [0m[35mWebSocket dial error: EOF[0m
 [35;1m[ERROR] 2025-11-18 22:05:13.257 ws.go(112)[Start]: [0m[35mLogin error: EOF[0m
+[33;1m[WARN]  2025-11-18 22:07:19.403 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-18 22:08:59.096 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-18 22:09:54.054 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-18 22:10:50.218 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-18 22:13:47.274 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[33;1m[WARN]  2025-11-18 22:14:15.656 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: EOF[0m
+[33;1m[WARN]  2025-11-18 22:14:16.772 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:17.825 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:18.929 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:20.024 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:21.137 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:22.235 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:23.328 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:24.436 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:25.549 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:26.674 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:27.775 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:28.867 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:29.925 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:31.033 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m

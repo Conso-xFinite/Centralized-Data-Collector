@@ -1,0 +1,2105 @@
+[INFO]  2025-11-19 10:27:13.268 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 10:27:13.274 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 10:27:13.274 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:27:13.275 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 10:27:13.275 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 10:27:13.275 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 10:27:13.277 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 10:27:13.655 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 10:27:13.655 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 10:27:13.660 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:27:13.834 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763519233655866000}
+[INFO]  2025-11-19 10:27:14.333 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 10:27:14.334 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade]
+[INFO]  2025-11-19 10:27:14.351 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:27:14.484 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763519234334316000}
+[INFO]  2025-11-19 10:27:14.998 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 10:27:14.998 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 10:27:14.999 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:27:15.180 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763519234998835000}
+[INFO]  2025-11-19 10:27:15.657 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 10:27:15.658 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 10:27:15.665 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:27:15.856 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763519235658161000}
+[INFO]  2025-11-19 10:27:16.379 ws.go(115)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 10:41:08.316 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 10:41:08.364 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60354->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 10:41:08.364 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60354->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 10:41:08.369 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 10:41:08.637 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 10:41:08.638 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60345->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 10:41:08.638 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60345->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 10:41:08.638 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 10:41:08.638 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 10:41:08.639 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60359->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 10:41:08.639 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60359->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 10:41:08.639 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 10:41:08.961 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:41:08.961 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 10:41:08.962 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60342->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 10:41:08.962 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60357->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 10:41:08.962 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60342->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 10:41:08.962 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:60357->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 10:41:08.962 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:41:08.962 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:41:09.278 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 10:41:09.278 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 10:41:09.422 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520069278673000}
+[INFO]  2025-11-19 10:41:10.091 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 10:41:10.091 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 10:41:10.249 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520070091983000}
+[INFO]  2025-11-19 10:41:10.857 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 10:41:11.666 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 10:41:11.666 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m]
+[INFO]  2025-11-19 10:41:11.851 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520071666730000}
+[INFO]  2025-11-19 10:41:12.437 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 10:41:12.438 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 10:41:12.601 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520072438198000}
+[33;1m[WARN]  2025-11-19 10:42:22.984 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.985 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.989 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.989 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.990 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.990 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.995 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.995 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.995 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 10:42:22.995 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[35;1m[ERROR] 2025-11-19 10:42:44.565 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 10:42:44.570 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 10:42:44.758 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 10:42:44.758 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:42:44.941 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 10:42:44.941 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 10:42:45.052 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520164941621000}
+[INFO]  2025-11-19 10:42:45.640 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 10:42:45.640 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-19 10:42:45.787 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520165640580000}
+[35;1m[ERROR] 2025-11-19 10:42:50.203 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 10:42:50.205 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:42:50.550 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 10:42:50.551 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 10:42:50.672 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520170551141000}
+[35;1m[ERROR] 2025-11-19 10:42:53.392 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 10:42:53.394 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:42:53.760 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 10:42:53.760 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 10:42:53.945 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763520173760631000}
+[35;1m[ERROR] 2025-11-19 10:43:02.959 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 10:43:02.960 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 10:43:03.350 ws.go(115)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 11:34:11.281 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:34:11.282 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65154->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:34:11.282 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 11:34:11.282 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65154->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 11:34:11.553 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:34:11.554 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:64867->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:34:11.554 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:64867->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:34:11.554 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 11:34:11.554 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:34:11.556 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:64861->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:34:11.556 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:64861->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:34:11.556 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 11:34:11.768 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:34:11.768 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65060->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:34:11.768 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:65060->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:34:11.768 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 11:34:11.918 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:34:11.919 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:64844->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:34:11.919 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:64844->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:34:11.919 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:34:11.953 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 11:34:12.684 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 11:34:12.685 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 11:34:12.914 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523252685414000}
+[INFO]  2025-11-19 11:34:13.440 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 11:34:13.440 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-19 11:34:13.630 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523253441023000}
+[INFO]  2025-11-19 11:34:14.064 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 11:34:14.065 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 11:34:14.302 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523254065640000}
+[INFO]  2025-11-19 11:34:14.776 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 11:34:14.776 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 11:34:14.879 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523254776735000}
+[33;1m[WARN]  2025-11-19 11:35:26.326 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.327 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.327 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.327 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.328 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.328 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.328 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.329 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.329 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:26.329 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[35;1m[ERROR] 2025-11-19 11:35:56.787 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 11:35:56.797 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:35:57.053 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 11:35:57.056 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 11:35:57.199 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523357056910000}
+[33;1m[WARN]  2025-11-19 11:35:57.484 ws-connector.go(190)[readMessage]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[33;1m[WARN]  2025-11-19 11:35:57.484 ws.go(145)[listenMsg]: [0m[33mWebSocket read error: websocket: close 1006 (abnormal closure): unexpected EOF[0m
+[35;1m[ERROR] 2025-11-19 11:36:00.062 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 11:36:00.063 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:36:00.309 ws.go(115)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 11:36:03.553 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 11:36:03.554 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:36:03.849 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 11:36:03.849 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[35;1m[ERROR] 2025-11-19 11:36:03.880 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 11:36:03.880 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:36:04.032 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523363849498000}
+[INFO]  2025-11-19 11:36:04.529 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 11:36:04.529 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 11:36:04.726 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523364530006000}
+[35;1m[ERROR] 2025-11-19 11:36:06.191 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 11:36:06.192 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:36:06.450 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 11:36:06.451 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 11:36:06.557 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523366451260000}
+[35;1m[ERROR] 2025-11-19 11:36:37.097 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 11:36:37.100 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:36:37.353 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 11:36:37.353 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 11:36:37.540 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763523397353808000}
+[35;1m[ERROR] 2025-11-19 11:58:35.326 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:58:35.409 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54761->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:58:35.409 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54761->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:58:35.409 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 11:58:35.447 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:58:35.447 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54686->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:58:35.447 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54686->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:58:35.447 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 11:58:35.761 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:58:35.762 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54684->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:58:35.762 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54684->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:58:35.762 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 11:58:36.196 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:58:36.197 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 11:58:36.197 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54678->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:58:36.197 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54678->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:58:36.197 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 11:58:36.197 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54834->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 11:58:36.197 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:54834->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 11:58:36.197 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 11:58:36.712 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 11:58:36.712 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 11:58:36.900 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763524716712987000}
+[INFO]  2025-11-19 11:58:37.415 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 11:58:37.415 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 11:58:37.597 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763524717415706000}
+[INFO]  2025-11-19 11:58:38.117 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 11:58:38.117 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-19 11:58:38.286 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763524718117553000}
+[INFO]  2025-11-19 11:58:38.774 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 11:58:39.449 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 11:58:39.450 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 11:58:39.637 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763524719450447000}
+[35;1m[ERROR] 2025-11-19 12:14:28.084 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:14:28.116 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55631->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:14:28.116 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55631->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:14:28.116 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:14:28.159 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:14:28.159 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55953->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:14:28.159 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55953->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:14:28.159 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:14:28.499 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:14:28.499 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55910->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:14:28.499 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55910->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:14:28.500 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:14:28.794 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:14:28.795 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55761->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:14:28.795 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55761->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:14:28.795 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:14:28.828 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:14:28.829 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55985->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:14:28.829 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:55985->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:14:28.829 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 12:14:28.836 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 12:14:28.837 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 12:14:29.013 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763525668837053000}
+[INFO]  2025-11-19 12:14:29.499 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 12:14:30.204 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 12:14:30.204 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-19 12:14:30.317 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763525670204516000}
+[INFO]  2025-11-19 12:14:30.865 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 12:14:30.865 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 12:14:31.012 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763525670865919000}
+[INFO]  2025-11-19 12:14:31.558 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 12:14:31.558 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 12:14:31.741 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763525671558693000}
+[35;1m[ERROR] 2025-11-19 12:30:36.427 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:30:36.427 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:30:36.537 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56441->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:30:36.537 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56424->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:30:36.537 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56441->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:30:36.537 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56424->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:30:36.537 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 12:30:36.537 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:30:36.628 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:30:36.628 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56331->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:30:36.628 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56331->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:30:36.628 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:30:36.658 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:30:36.658 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56438->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:30:36.658 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56438->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:30:36.658 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:30:37.003 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:30:37.004 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56426->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:30:37.004 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56426->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:30:37.004 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 12:30:37.313 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 12:30:37.993 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 12:30:37.994 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 12:30:38.094 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763526637994093000}
+[INFO]  2025-11-19 12:30:38.707 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 12:30:38.707 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 12:30:38.822 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763526638707437000}
+[INFO]  2025-11-19 12:30:39.374 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 12:30:39.374 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 12:30:39.537 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763526639374733000}
+[INFO]  2025-11-19 12:30:40.059 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 12:30:40.059 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-19 12:30:40.218 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763526640059911000}
+[35;1m[ERROR] 2025-11-19 12:46:45.804 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:46:45.867 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56675->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:46:45.867 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 12:46:45.867 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56675->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 12:46:45.879 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:46:45.879 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56732->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:46:45.879 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56732->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:46:45.879 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:46:46.135 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:46:46.136 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56603->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:46:46.136 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56603->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:46:46.136 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:46:46.201 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:46:46.203 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56729->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 12:46:46.203 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56729->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:46:46.204 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 12:46:46.518 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 12:46:46.519 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56696->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:46:46.519 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 12:46:46.519 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:56696->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 12:46:47.304 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 12:46:47.305 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 12:46:47.430 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763527607305749000}
+[INFO]  2025-11-19 12:46:47.975 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 12:46:47.975 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-19 12:46:48.141 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763527607975688000}
+[INFO]  2025-11-19 12:46:48.660 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 12:46:49.356 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 12:46:49.357 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 12:46:49.459 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763527609357338000}
+[INFO]  2025-11-19 12:46:50.030 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 12:46:50.030 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 12:46:50.138 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763527610030212000}
+[35;1m[ERROR] 2025-11-19 13:02:43.029 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:02:43.031 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57161->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:02:43.031 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57161->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:02:43.031 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:02:43.030 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:02:43.031 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57136->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:02:43.031 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57136->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:02:43.032 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:02:43.289 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:02:43.290 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57072->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:02:43.290 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57072->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:02:43.290 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:02:43.330 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:02:43.330 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57157->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:02:43.330 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 13:02:43.330 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57157->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 13:02:43.640 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:02:43.640 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57154->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:02:43.640 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57154->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:02:43.640 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 13:02:43.833 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 13:02:43.833 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 13:02:44.010 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763528563833703000}
+[INFO]  2025-11-19 13:02:44.426 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 13:02:44.427 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 13:02:44.561 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763528564427183000}
+[INFO]  2025-11-19 13:02:45.035 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 13:02:45.036 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 13:02:45.208 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763528565036509000}
+[INFO]  2025-11-19 13:02:45.661 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 13:02:45.662 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 13:02:45.854 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763528565662679000}
+[INFO]  2025-11-19 13:02:46.294 ws.go(115)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 13:18:55.343 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:18:55.427 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57494->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:18:55.427 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57494->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:18:55.427 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:18:55.520 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:18:55.520 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57415->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:18:55.520 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57415->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:18:55.520 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:18:55.727 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:18:55.728 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57492->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:18:55.728 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57492->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:18:55.728 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:18:55.986 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:18:55.986 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57496->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:18:55.986 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57496->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:18:55.987 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 13:18:56.110 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 13:18:56.110 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[35;1m[ERROR] 2025-11-19 13:18:56.114 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:18:56.115 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57490->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:18:56.115 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57490->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:18:56.115 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 13:18:56.309 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763529536110820000}
+[INFO]  2025-11-19 13:18:56.758 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 13:18:56.758 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 13:18:56.957 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763529536758562000}
+[INFO]  2025-11-19 13:18:57.450 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 13:18:57.450 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 13:18:57.618 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763529537450968000}
+[INFO]  2025-11-19 13:18:58.151 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 13:18:58.842 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 13:18:58.842 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 13:18:58.980 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763529538842627000}
+[35;1m[ERROR] 2025-11-19 13:29:07.972 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:29:07.983 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:29:08.080 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57522->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:29:08.081 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 13:29:08.080 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57608->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:29:08.081 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57522->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:29:08.081 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57608->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:29:08.081 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:29:08.286 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:29:08.287 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57606->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:29:08.287 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 13:29:08.287 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57606->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 13:29:08.598 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:29:08.598 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57604->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:29:08.598 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57604->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:29:08.598 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:29:08.680 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:29:08.680 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57610->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:29:08.680 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57610->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:29:08.680 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 13:29:08.824 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 13:29:08.824 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 13:29:08.964 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763530148824927000}
+[INFO]  2025-11-19 13:29:09.679 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 13:29:10.417 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 13:29:10.417 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade]
+[INFO]  2025-11-19 13:29:10.570 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763530150418126000}
+[INFO]  2025-11-19 13:29:11.222 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 13:29:11.222 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 13:29:11.419 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763530151222547000}
+[INFO]  2025-11-19 13:29:12.099 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 13:29:12.100 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 13:29:12.227 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763530152100292000}
+[35;1m[ERROR] 2025-11-19 13:43:58.153 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:43:58.153 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57904->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:43:58.153 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57904->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:43:58.154 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:43:58.305 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:43:58.306 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57757->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:43:58.306 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57757->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:43:58.306 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:43:58.583 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:43:58.584 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57954->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:43:58.584 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57954->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:43:58.584 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 13:43:58.689 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:43:58.691 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57952->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:43:58.691 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57952->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:43:58.691 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 13:43:58.787 ws.go(115)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 13:43:58.897 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 13:43:58.898 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57937->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 13:43:58.898 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:57937->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 13:43:58.898 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 13:43:59.473 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 13:43:59.477 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 13:43:59.594 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763531039477792000}
+[INFO]  2025-11-19 13:44:00.144 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 13:44:00.145 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 13:44:00.324 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763531040145127000}
+[INFO]  2025-11-19 13:44:00.854 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 13:44:00.854 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 13:44:00.970 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763531040854931000}
+[INFO]  2025-11-19 13:44:01.537 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 13:44:01.537 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 13:44:01.680 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763531041537852000}
+[35;1m[ERROR] 2025-11-19 14:00:28.190 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:00:28.267 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58175->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:00:28.267 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58175->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:00:28.267 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:00:28.530 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:00:28.530 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58146->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:00:28.530 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58146->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:00:28.530 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:00:28.599 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:00:28.599 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58225->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:00:28.599 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58225->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:00:28.599 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:00:28.841 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:00:28.841 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58083->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:00:28.841 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58083->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:00:28.841 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:00:28.914 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:00:28.915 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58189->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:00:28.915 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58189->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:00:28.915 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:00:29.007 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:00:29.007 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 14:00:29.136 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763532029007565000}
+[INFO]  2025-11-19 14:00:29.666 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:00:29.666 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker enausdt@kline_1m pumpusdt@kline_1m]
+[INFO]  2025-11-19 14:00:29.796 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763532029666565000}
+[INFO]  2025-11-19 14:00:30.339 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:00:30.339 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 14:00:30.444 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763532030339607000}
+[INFO]  2025-11-19 14:00:31.017 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:00:31.690 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:00:31.690 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 14:00:31.863 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763532031690769000}
+[35;1m[ERROR] 2025-11-19 14:16:40.452 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:16:40.454 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58902->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:16:40.454 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58902->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:16:40.454 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:16:40.763 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:16:40.763 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58900->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:16:40.763 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58900->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:16:40.763 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:16:40.777 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:16:40.777 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58906->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:16:40.777 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58906->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:16:40.777 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:16:41.115 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:16:41.116 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58796->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:16:41.116 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58796->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 14:16:41.115 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 14:16:41.116 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 14:16:41.116 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58904->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:16:41.116 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:58904->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:16:41.116 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:16:41.164 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:16:41.165 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 14:16:41.298 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533001165289000}
+[INFO]  2025-11-19 14:16:41.906 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:16:41.906 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker enausdt@kline_1m pumpusdt@kline_1m]
+[INFO]  2025-11-19 14:16:42.031 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533001906996000}
+[INFO]  2025-11-19 14:16:42.629 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:16:42.630 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 14:16:42.811 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533002630112000}
+[INFO]  2025-11-19 14:16:43.347 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:16:43.347 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 14:16:43.509 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533003347296000}
+[INFO]  2025-11-19 14:16:44.035 ws.go(115)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 14:19:45.811 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:19:45.902 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59030->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:19:45.902 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 14:19:45.902 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59030->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 14:19:45.904 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:19:45.904 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59153->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:19:45.904 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 14:19:45.904 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59153->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 14:19:46.210 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[INFO]  2025-11-19 14:19:46.213 ws.go(50)[Login]: Login
+[33;1m[WARN]  2025-11-19 14:19:46.214 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59147->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:19:46.214 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59147->127.0.0.1:7890: use of closed network connection[0m
+[35;1m[ERROR] 2025-11-19 14:19:46.479 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:19:46.479 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59107->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:19:46.479 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59107->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:19:46.479 ws.go(50)[Login]: Login
+[35;1m[ERROR] 2025-11-19 14:19:46.582 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[33;1m[WARN]  2025-11-19 14:19:46.582 ws-connector.go(190)[readMessage]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59157->127.0.0.1:7890: use of closed network connection[0m
+[33;1m[WARN]  2025-11-19 14:19:46.582 ws.go(145)[listenMsg]:
+[0m[33mWebSocket read error: read tcp 127.0.0.1:59157->127.0.0.1:7890: use of closed network connection[0m
+[INFO]  2025-11-19 14:19:46.584 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:19:46.992 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:19:46.992 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 14:19:47.075 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533186992645000}
+[INFO]  2025-11-19 14:19:47.685 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:19:47.686 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 14:19:47.851 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533187686983000}
+[INFO]  2025-11-19 14:19:48.474 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:19:48.475 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 14:19:48.609 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533188475413000}
+[INFO]  2025-11-19 14:19:49.275 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:19:49.275 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker enausdt@kline_1m pumpusdt@kline_1m]
+[INFO]  2025-11-19 14:19:49.439 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763533189275752000}
+[INFO]  2025-11-19 14:19:50.041 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:43:51.670 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 14:43:51.675 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 14:43:51.675 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:43:51.676 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 14:43:51.676 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 14:43:51.676 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 14:43:51.678 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 14:43:52.017 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:43:52.018 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 14:43:52.030 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:43:52.712 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:43:52.712 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@aggTrade ethusdt@kline_1m ethusdt@miniTicker]
+[INFO]  2025-11-19 14:43:52.719 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:43:53.430 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:43:53.430 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 14:43:53.431 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:43:54.110 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:43:54.110 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 14:43:54.121 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:43:54.797 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:55:16.122 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 14:55:16.128 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 14:55:16.128 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:16.129 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 14:55:16.129 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 14:55:16.129 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 14:55:16.131 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 14:55:16.463 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:55:16.463 ws.go(285)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 14:55:16.467 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:17.117 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:55:17.118 ws.go(285)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker enausdt@aggTrade ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 14:55:17.138 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:17.795 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:55:17.796 ws.go(285)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 14:55:17.795 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:18.489 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:55:18.490 ws.go(285)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker enausdt@miniTicker]
+[INFO]  2025-11-19 14:55:18.508 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:19.190 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:55:54.210 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 14:55:54.212 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 14:55:54.212 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:54.213 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 14:55:54.213 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 14:55:54.213 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 14:55:54.213 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 14:55:54.558 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:55:54.558 ws.go(285)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 14:55:54.568 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:55.268 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:55:55.268 ws.go(285)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade]
+[INFO]  2025-11-19 14:55:55.279 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:55.962 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:55:55.962 ws.go(285)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 14:55:55.974 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:56.646 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:55:56.647 ws.go(285)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker enausdt@miniTicker solusdt@aggTrade solusdt@kline_1m]
+[INFO]  2025-11-19 14:55:56.666 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:55:57.340 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:56:54.421 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 14:56:54.425 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 14:56:54.425 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:56:54.426 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 14:56:54.426 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 14:56:54.426 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 14:56:54.428 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 14:56:54.807 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:56:54.808 ws.go(287)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@miniTicker pumpusdt@kline_1m]
+[INFO]  2025-11-19 14:56:54.815 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:56:55.495 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:56:55.495 ws.go(287)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@kline_1m enausdt@aggTrade ethusdt@aggTrade]
+[INFO]  2025-11-19 14:56:55.506 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:56:56.195 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:56:56.195 ws.go(287)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 14:56:56.195 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:56:56.857 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:56:56.858 ws.go(287)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade solusdt@miniTicker]
+[INFO]  2025-11-19 14:56:56.861 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:56:57.535 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:57:35.133 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 14:57:35.138 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 14:57:35.138 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:57:35.139 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 14:57:35.139 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 14:57:35.139 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 14:57:35.141 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 14:57:35.485 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:57:35.486 ws.go(287)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 14:57:35.506 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:57:36.156 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:57:36.156 ws.go(287)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 14:57:36.158 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:57:36.854 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:57:36.855 ws.go(287)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 14:57:36.871 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:57:37.544 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:57:37.544 ws.go(287)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@aggTrade solusdt@miniTicker solusdt@kline_1m]
+[INFO]  2025-11-19 14:57:37.560 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:57:38.258 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 14:58:04.274 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 14:58:04.277 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 14:58:04.277 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:58:04.278 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 14:58:04.278 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 14:58:04.278 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 14:58:04.279 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 14:58:04.622 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 14:58:04.622 ws.go(284)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker pumpusdt@kline_1m enausdt@kline_1m]
+[INFO]  2025-11-19 14:58:04.632 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:58:05.335 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 14:58:05.336 ws.go(284)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade enausdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[INFO]  2025-11-19 14:58:05.346 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:58:06.005 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 14:58:06.006 ws.go(284)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 14:58:06.017 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:58:06.682 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 14:58:06.682 ws.go(284)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m solusdt@miniTicker enausdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 14:58:06.686 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 14:58:07.348 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:00:10.691 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:00:10.695 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:00:10.695 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:10.696 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:00:10.696 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:00:10.696 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:00:10.697 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:00:11.056 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:00:11.056 ws.go(290)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 15:00:11.069 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:11.768 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:00:11.769 ws.go(290)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@kline_1m enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade]
+[INFO]  2025-11-19 15:00:11.780 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:12.461 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:00:12.462 ws.go(290)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 15:00:12.469 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:13.144 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:00:13.144 ws.go(290)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m solusdt@aggTrade enausdt@miniTicker]
+[INFO]  2025-11-19 15:00:13.162 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:13.819 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:00:41.379 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:00:41.384 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:00:41.384 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:41.385 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:00:41.385 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:00:41.385 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:00:41.387 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:00:41.751 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:00:41.752 ws.go(291)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 15:00:41.768 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:42.413 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:00:42.414 ws.go(291)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 15:00:42.425 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:43.077 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:00:43.077 ws.go(291)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:00:43.097 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:43.757 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:00:43.758 ws.go(291)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m solusdt@aggTrade enausdt@miniTicker]
+[INFO]  2025-11-19 15:00:43.768 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:00:44.434 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:01:08.409 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:01:08.412 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:01:08.412 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:08.413 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:01:08.414 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:01:08.414 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:01:08.415 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:01:08.750 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:01:08.750 ws.go(291)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 15:01:08.753 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:09.421 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:01:09.421 ws.go(291)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 15:01:09.426 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:10.097 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:01:10.097 ws.go(291)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:01:10.118 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:10.769 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:01:10.770 ws.go(291)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 15:01:10.789 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:11.438 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:01:29.197 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:01:29.204 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:01:29.204 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:29.205 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:01:29.205 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:01:29.205 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:01:29.207 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:01:29.531 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:01:29.531 ws.go(290)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker pumpusdt@kline_1m enausdt@kline_1m]
+[INFO]  2025-11-19 15:01:29.541 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:30.218 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:01:30.219 ws.go(290)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 15:01:30.235 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:30.898 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:01:30.898 ws.go(290)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:01:30.905 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:31.564 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:01:31.565 ws.go(290)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@miniTicker enausdt@miniTicker solusdt@kline_1m]
+[INFO]  2025-11-19 15:01:31.575 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:01:32.253 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:02:07.989 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:02:07.994 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:02:07.994 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:02:07.996 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:02:07.996 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:02:07.996 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:02:07.997 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:02:08.324 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:02:08.324 ws.go(290)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@miniTicker pumpusdt@kline_1m]
+[INFO]  2025-11-19 15:02:08.332 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:02:09.017 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:02:09.018 ws.go(290)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade enausdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[INFO]  2025-11-19 15:02:09.022 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:02:09.733 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:02:09.734 ws.go(290)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:02:09.752 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:02:10.407 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:02:10.408 ws.go(290)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker]
+[INFO]  2025-11-19 15:02:10.422 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:02:11.074 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:04:15.687 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:04:15.690 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:04:15.690 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:04:15.691 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:04:15.691 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:04:15.691 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:04:15.693 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:04:16.056 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:04:16.057 ws.go(290)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@miniTicker pumpusdt@kline_1m]
+[INFO]  2025-11-19 15:04:16.070 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:04:16.741 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:04:16.742 ws.go(290)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 15:04:16.752 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:04:17.449 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:04:17.450 ws.go(290)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:04:17.455 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:04:18.132 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:04:18.132 ws.go(290)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade solusdt@miniTicker]
+[INFO]  2025-11-19 15:04:18.149 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:04:18.820 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:05:18.351 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:05:18.355 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:05:18.355 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:05:18.356 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:05:18.356 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:05:18.356 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:05:18.358 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:05:18.725 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:05:18.725 ws.go(290)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 15:05:18.742 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:05:19.390 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:05:19.390 ws.go(290)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 15:05:19.394 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:05:20.060 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:05:20.061 ws.go(290)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:05:20.064 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:05:20.757 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:05:20.758 ws.go(290)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 15:05:20.770 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:05:21.447 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:09:27.610 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:09:27.615 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:09:27.615 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:09:27.616 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:09:27.616 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:09:27.616 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:09:27.618 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:09:27.958 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:09:27.958 ws.go(290)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 15:09:27.958 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:09:28.680 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:09:28.680 ws.go(290)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m ethusdt@aggTrade]
+[INFO]  2025-11-19 15:09:28.692 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:09:29.357 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:09:29.357 ws.go(290)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:09:29.360 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:09:30.033 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:09:30.033 ws.go(290)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m solusdt@aggTrade solusdt@miniTicker enausdt@miniTicker]
+[INFO]  2025-11-19 15:09:30.050 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:09:30.739 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 15:34:06.089 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 15:34:06.094 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 15:34:06.094 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:34:06.095 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 15:34:06.095 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 15:34:06.095 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 15:34:06.097 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 15:34:06.459 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 15:34:06.459 ws.go(349)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 15:34:06.471 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:34:07.127 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 15:34:07.127 ws.go(349)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 15:34:07.142 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:34:07.780 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 15:34:07.780 ws.go(349)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 15:34:07.790 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 15:34:08.459 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 15:34:08.459 ws.go(349)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@miniTicker solusdt@kline_1m solusdt@aggTrade]
+[INFO]  2025-11-19 15:34:08.460 ws.go(50)[Login]: Login
+[INFO]  2025-11-19 16:13:57.831 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:13:57.836 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:13:57.837 ws.go(51)[Login]: Login
+[INFO]  2025-11-19 16:13:57.838 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:13:57.838 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:13:57.838 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:13:57.839 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:13:58.193 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:13:58.193 ws.go(375)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@miniTicker pumpusdt@kline_1m]
+[INFO]  2025-11-19 16:13:58.193 ws.go(51)[Login]: Login
+[INFO]  2025-11-19 16:13:58.903 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:13:58.903 ws.go(375)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@kline_1m ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade]
+[INFO]  2025-11-19 16:13:58.907 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:13:59.053 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.486 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.487 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.487 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.487 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.488 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.488 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.488 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[INFO]  2025-11-19 16:13:59.595 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:13:59.595 ws.go(375)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 16:13:59.596 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:14:00.015 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.015 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.044 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.102 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.103 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.103 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.314 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[INFO]  2025-11-19 16:14:00.314 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 16:14:00.315 ws.go(375)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@kline_1m solusdt@aggTrade solusdt@miniTicker]
+[INFO]  2025-11-19 16:14:00.324 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:14:00.334 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.584 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.736 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.737 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.738 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.738 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.739 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.740 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.742 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.802 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.803 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.901 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[INFO]  2025-11-19 16:14:01.005 ws.go(116)[Start]: Client-4 connected and logged in
+[35;1m[ERROR] 2025-11-19 16:14:01.044 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.104 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.286 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.291 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.542 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.590 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.757 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.769 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.804 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.822 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.825 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.825 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.826 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.832 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.115 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.116 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.117 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.286 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.594 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.803 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.828 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.046 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.097 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.114 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.115 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.119 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.123 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.124 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.124 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.143 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.145 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.155 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.161 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.162 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.162 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.164 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.217 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.284 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.293 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.375 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.594 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[INFO]  2025-11-19 16:20:09.434 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:20:09.439 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:20:09.439 ws.go(51)[Login]: Login
+[INFO]  2025-11-19 16:20:09.441 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:20:09.441 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:20:09.441 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:20:09.443 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:20:09.778 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:20:09.779 ws.go(376)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 16:20:09.795 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:20:10.298 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410298e+12 c:0.00306100 e:24hrMiniTicker h:0.00320800 l:0.00296900 o:0.00306000 q:32661642.22150700 s:PUMPUSDT v:10530538578.00] stream:pumpusdt@miniTicker][0m
+[INFO]  2025-11-19 16:20:10.451 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:20:10.452 ws.go(376)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 16:20:10.462 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:20:10.591 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410592e+12 e:kline k:map[B:0 L:2.26828926e+08 Q:2113.69759400 T:1.763540459999e+12 V:7775.67000000 c:0.27150000 f:2.26828883e+08 h:0.27190000 i:1m l:0.27150000 n:44 o:0.27190000 q:8780.66015000 s:ENAUSDT t:1.7635404e+12 v:32325.10000000 x:false] s:ENAUSDT] stream:enausdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.645 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041065e+12 M:true T:1.76354041065e+12 a:1.802411153e+09 e:aggTrade f:3.197180837e+09 l:3.197180837e+09 m:true p:3073.49000000 q:0.01660000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.757 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410758e+12 M:true T:1.763540410757e+12 a:1.802411154e+09 e:aggTrade f:3.197180838e+09 l:3.197180844e+09 m:false p:3073.50000000 q:0.12810000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411155e+09 e:aggTrade f:3.197180845e+09 l:3.197180845e+09 m:false p:3073.50000000 q:0.13000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411156e+09 e:aggTrade f:3.197180846e+09 l:3.197180848e+09 m:false p:3073.50000000 q:1.02910000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411157e+09 e:aggTrade f:3.197180849e+09 l:3.197180851e+09 m:false p:3073.52000000 q:0.00520000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411158e+09 e:aggTrade f:3.197180852e+09 l:3.197180852e+09 m:false p:3073.54000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411159e+09 e:aggTrade f:3.197180853e+09 l:3.197180853e+09 m:false p:3073.56000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.80241116e+09 e:aggTrade f:3.197180854e+09 l:3.197180857e+09 m:false p:3073.57000000 q:0.00720000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411161e+09 e:aggTrade f:3.197180858e+09 l:3.197180858e+09 m:false p:3073.58000000 q:3.11120000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411162e+09 e:aggTrade f:3.197180859e+09 l:3.197180864e+09 m:false p:3073.58000000 q:0.15100000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410759e+12 a:1.802411163e+09 e:aggTrade f:3.197180865e+09 l:3.197180865e+09 m:false p:3073.59000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410759e+12 a:1.802411164e+09 e:aggTrade f:3.197180866e+09 l:3.197180872e+09 m:false p:3073.60000000 q:0.03020000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411165e+09 e:aggTrade f:3.197180873e+09 l:3.197180873e+09 m:false p:3073.64000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411166e+09 e:aggTrade f:3.197180874e+09 l:3.197180875e+09 m:false p:3073.65000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411167e+09 e:aggTrade f:3.197180876e+09 l:3.197180879e+09 m:false p:3073.66000000 q:0.02940000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411168e+09 e:aggTrade f:3.19718088e+09 l:3.19718088e+09 m:false p:3073.67000000 q:0.00250000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411169e+09 e:aggTrade f:3.197180881e+09 l:3.197180881e+09 m:false p:3073.68000000 q:0.00200000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.80241117e+09 e:aggTrade f:3.197180882e+09 l:3.197180882e+09 m:false p:3073.69000000 q:0.00330000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411171e+09 e:aggTrade f:3.197180883e+09 l:3.197180884e+09 m:false p:3073.73000000 q:0.00340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.763 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411172e+09 e:aggTrade f:3.197180885e+09 l:3.197180889e+09 m:false p:3073.75000000 q:0.10680000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.764 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411173e+09 e:aggTrade f:3.19718089e+09 l:3.197180892e+09 m:false p:3073.76000000 q:0.06670000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411174e+09 e:aggTrade f:3.197180893e+09 l:3.197180894e+09 m:false p:3073.77000000 q:0.00510000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411175e+09 e:aggTrade f:3.197180895e+09 l:3.197180897e+09 m:false p:3073.80000000 q:0.00510000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411176e+09 e:aggTrade f:3.197180898e+09 l:3.1971809e+09 m:false p:3073.81000000 q:0.00540000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411177e+09 e:aggTrade f:3.197180901e+09 l:3.197180906e+09 m:false p:3073.82000000 q:0.01130000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411178e+09 e:aggTrade f:3.197180907e+09 l:3.197180907e+09 m:false p:3073.83000000 q:0.09540000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411179e+09 e:aggTrade f:3.197180908e+09 l:3.197180911e+09 m:false p:3073.83000000 q:0.08150000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.806 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.80241118e+09 e:aggTrade f:3.197180912e+09 l:3.197180914e+09 m:false p:3073.85000000 q:0.05340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.807 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411181e+09 e:aggTrade f:3.197180915e+09 l:3.197180917e+09 m:false p:3073.86000000 q:0.16460000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.807 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411182e+09 e:aggTrade f:3.197180918e+09 l:3.197180919e+09 m:false p:3073.91000000 q:0.00340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.807 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411183e+09 e:aggTrade f:3.19718092e+09 l:3.197180921e+09 m:false p:3073.92000000 q:0.00500000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.808 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411184e+09 e:aggTrade f:3.197180922e+09 l:3.197180922e+09 m:false p:3073.95000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.808 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411185e+09 e:aggTrade f:3.197180923e+09 l:3.197180929e+09 m:false p:3073.98000000 q:0.06130000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.808 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411186e+09 e:aggTrade f:3.19718093e+09 l:3.197180934e+09 m:false p:3073.99000000 q:0.88350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411187e+09 e:aggTrade f:3.197180935e+09 l:3.197180939e+09 m:false p:3074.00000000 q:0.10730000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411188e+09 e:aggTrade f:3.19718094e+09 l:3.19718094e+09 m:false p:3074.02000000 q:0.00330000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411189e+09 e:aggTrade f:3.197180941e+09 l:3.197180942e+09 m:false p:3074.08000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.80241119e+09 e:aggTrade f:3.197180943e+09 l:3.197180946e+09 m:false p:3074.09000000 q:2.71970000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411191e+09 e:aggTrade f:3.197180947e+09 l:3.197180947e+09 m:false p:3074.10000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411192e+09 e:aggTrade f:3.197180948e+09 l:3.197180948e+09 m:false p:3074.11000000 q:0.05000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411193e+09 e:aggTrade f:3.197180949e+09 l:3.197180951e+09 m:false p:3074.14000000 q:0.38090000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411194e+09 e:aggTrade f:3.197180952e+09 l:3.197180952e+09 m:false p:3074.15000000 q:0.34410000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411195e+09 e:aggTrade f:3.197180953e+09 l:3.197180954e+09 m:false p:3074.17000000 q:0.33630000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411196e+09 e:aggTrade f:3.197180955e+09 l:3.197180955e+09 m:false p:3074.20000000 q:0.32000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411197e+09 e:aggTrade f:3.197180956e+09 l:3.197180956e+09 m:false p:3074.22000000 q:0.00200000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411198e+09 e:aggTrade f:3.197180957e+09 l:3.197180958e+09 m:false p:3074.23000000 q:0.04300000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411199e+09 e:aggTrade f:3.197180959e+09 l:3.197180961e+09 m:false p:3074.24000000 q:0.06290000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.8024112e+09 e:aggTrade f:3.197180962e+09 l:3.197180963e+09 m:false p:3074.25000000 q:0.10170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411201e+09 e:aggTrade f:3.197180964e+09 l:3.197180964e+09 m:false p:3074.27000000 q:0.44940000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410766e+12 M:true T:1.763540410763e+12 a:8.1752568e+07 e:aggTrade f:2.26828927e+08 l:2.26828929e+08 m:false p:0.27160000 q:111.33000000 s:ENAUSDT] stream:enausdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410782e+12 M:true T:1.763540410777e+12 a:1.802411202e+09 e:aggTrade f:3.197180965e+09 l:3.197180965e+09 m:false p:3074.25000000 q:0.06500000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.818 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410823e+12 M:true T:1.763540410823e+12 a:1.802411203e+09 e:aggTrade f:3.197180966e+09 l:3.197180969e+09 m:true p:3074.24000000 q:0.19070000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.836 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410841e+12 M:true T:1.763540410841e+12 a:1.802411204e+09 e:aggTrade f:3.19718097e+09 l:3.197180985e+09 m:true p:3074.24000000 q:7.53230000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411205e+09 e:aggTrade f:3.197180986e+09 l:3.197180995e+09 m:true p:3074.23000000 q:0.01700000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411206e+09 e:aggTrade f:3.197180996e+09 l:3.197181e+09 m:true p:3074.22000000 q:0.00850000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411207e+09 e:aggTrade f:3.197181001e+09 l:3.197181003e+09 m:true p:3074.20000000 q:0.66790000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411208e+09 e:aggTrade f:3.197181004e+09 l:3.197181005e+09 m:true p:3074.20000000 q:0.29570000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.838 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411209e+09 e:aggTrade f:3.197181006e+09 l:3.197181006e+09 m:true p:3074.19000000 q:2.18070000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.838 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.80241121e+09 e:aggTrade f:3.197181007e+09 l:3.197181007e+09 m:true p:3074.19000000 q:0.32550000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.838 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.802411211e+09 e:aggTrade f:3.197181008e+09 l:3.197181008e+09 m:true p:3074.19000000 q:0.32550000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.839 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.802411212e+09 e:aggTrade f:3.197181009e+09 l:3.197181015e+09 m:true p:3074.19000000 q:0.37810000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.839 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.802411213e+09 e:aggTrade f:3.197181016e+09 l:3.197181016e+09 m:true p:3074.10000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.998 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411003e+12 M:true T:1.763540411003e+12 a:1.802411214e+09 e:aggTrade f:3.197181017e+09 l:3.197181021e+09 m:true p:3074.00000000 q:0.22520000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.047 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411052e+12 c:3074.00000000 e:24hrMiniTicker h:3169.95000000 l:2992.23000000 o:3035.55000000 q:1848645072.67065600 s:ETHUSDT v:599463.70860000] stream:ethusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.095 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411101e+12 M:true T:1.7635404111e+12 a:1.802411215e+09 e:aggTrade f:3.197181022e+09 l:3.197181022e+09 m:true p:3074.00000000 q:0.32700000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[INFO]  2025-11-19 16:20:11.149 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:20:11.149 ws.go(376)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 16:20:11.154 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:20:11.292 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411293e+12 c:0.00306100 e:24hrMiniTicker h:0.00320800 l:0.00296900 o:0.00305900 q:32661981.13299100 s:PUMPUSDT v:10530649290.00] stream:pumpusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.296 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411296e+12 e:kline k:map[B:0 L:2.6172409e+07 Q:664.31910600 T:1.763540459999e+12 V:216846.00 c:0.00306100 f:2.6172369e+07 h:0.00306900 i:1m l:0.00306100 n:41 o:0.00306900 q:5924.51053100 s:PUMPUSDT t:1.7635404e+12 v:1932899.00 x:false] s:PUMPUSDT] stream:pumpusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.297 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411303e+12 M:true T:1.763540411303e+12 a:1.802411216e+09 e:aggTrade f:3.197181023e+09 l:3.197181026e+09 m:false p:3074.01000000 q:0.04800000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.310 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411317e+12 M:true T:1.763540411316e+12 a:1.802411217e+09 e:aggTrade f:3.197181027e+09 l:3.197181027e+09 m:false p:3074.01000000 q:0.05000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.573 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411578e+12 M:true T:1.763540411578e+12 a:1.802411218e+09 e:aggTrade f:3.197181028e+09 l:3.197181036e+09 m:false p:3074.01000000 q:0.19900000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.711 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411219e+09 e:aggTrade f:3.197181037e+09 l:3.197181056e+09 m:false p:3074.01000000 q:0.20860000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.712 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.80241122e+09 e:aggTrade f:3.197181057e+09 l:3.197181064e+09 m:false p:3074.02000000 q:0.07140000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.712 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411221e+09 e:aggTrade f:3.197181065e+09 l:3.197181065e+09 m:false p:3074.06000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.713 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411222e+09 e:aggTrade f:3.197181066e+09 l:3.197181066e+09 m:false p:3074.07000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.713 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411223e+09 e:aggTrade f:3.197181067e+09 l:3.197181068e+09 m:false p:3074.10000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.713 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411224e+09 e:aggTrade f:3.197181069e+09 l:3.197181071e+09 m:false p:3074.11000000 q:0.00520000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411225e+09 e:aggTrade f:3.197181072e+09 l:3.197181077e+09 m:false p:3074.15000000 q:0.04830000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411226e+09 e:aggTrade f:3.197181078e+09 l:3.197181081e+09 m:false p:3074.16000000 q:0.03460000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411227e+09 e:aggTrade f:3.197181082e+09 l:3.197181082e+09 m:false p:3074.19000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411228e+09 e:aggTrade f:3.197181083e+09 l:3.197181083e+09 m:false p:3074.20000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.715 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411229e+09 e:aggTrade f:3.197181084e+09 l:3.197181088e+09 m:false p:3074.24000000 q:0.00880000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.735 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041174e+12 M:true T:1.763540411739e+12 a:8.1752569e+07 e:aggTrade f:2.2682893e+08 l:2.26828933e+08 m:false p:0.27170000 q:1216.57000000 s:ENAUSDT] stream:enausdt@aggTrade][0m
+[INFO]  2025-11-19 16:20:11.833 ws.go(116)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 16:20:11.833 ws.go(376)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@miniTicker solusdt@kline_1m solusdt@aggTrade]
+[INFO]  2025-11-19 16:20:11.845 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:20:11.848 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411854e+12 M:true T:1.763540411854e+12 a:1.80241123e+09 e:aggTrade f:3.197181089e+09 l:3.197181089e+09 m:true p:3074.24000000 q:0.66000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:12.012 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540412018e+12 e:kline k:map[B:0 L:3.197181089e+09 Q:121999.86689700 T:1.763540459999e+12 V:39.69680000 c:3074.24000000 f:3.197179753e+09 h:3074.59000000 i:1m l:3072.50000000 n:1337 o:3074.59000000 q:284562.70286500 s:ETHUSDT t:1.7635404e+12 v:92.58100000 x:false] s:ETHUSDT] stream:ethusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:20:12.046 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540412053e+12 c:3074.24000000 e:24hrMiniTicker h:3169.95000000 l:2992.23000000 o:3036.16000000 q:1848533749.56469300 s:ETHUSDT v:599427.01250000] stream:ethusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:12.108 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540412111e+12 c:929.44000000 e:24hrMiniTicker h:941.06000000 l:910.42000000 o:914.47000000 q:224428140.53428000 s:BNBUSDT v:242248.35700000] stream:bnbusdt@miniTicker][0m
+[INFO]  2025-11-19 16:24:48.274 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:24:48.277 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:24:48.277 ws.go(51)[Login]: Login
+[INFO]  2025-11-19 16:24:48.278 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:24:48.278 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:24:48.278 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:24:48.278 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:24:48.622 ws.go(116)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:24:48.622 ws.go(377)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@miniTicker pumpusdt@kline_1m]
+[INFO]  2025-11-19 16:24:48.642 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:24:49.288 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540689291e+12 e:kline k:map[B:0 L:2.617271e+07 Q:3280.44354400 T:1.763540699999e+12 V:1064953.00 c:0.00307700 f:2.6172663e+07 h:0.00308400 i:1m l:0.00307600 n:48 o:0.00308300 q:6813.05319600 s:PUMPUSDT t:1.76354064e+12 v:2211827.00 x:false] s:PUMPUSDT] stream:pumpusdt@kline_1m][0m
+[INFO]  2025-11-19 16:24:49.315 ws.go(116)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:24:49.316 ws.go(377)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 16:24:49.333 ws.go(51)[Login]: Login
+[INFO]  2025-11-19 16:24:49.989 ws.go(116)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:24:49.989 ws.go(377)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 16:24:50.002 ws.go(51)[Login]: Login
+[35;1m[ERROR] 2025-11-19 16:24:50.019 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690017e+12 e:kline k:map[B:0 L:3.197197042e+09 Q:83323.42923900 T:1.763540699999e+12 V:27.03920000 c:3081.09000000 f:3.197195005e+09 h:3082.80000000 i:1m l:3080.45000000 n:2038 o:3082.34000000 q:215546.06900200 s:ETHUSDT t:1.76354064e+12 v:69.94490000 x:false] s:ETHUSDT] stream:ethusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.023 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690029e+12 M:true T:1.763540690028e+12 a:1.802415754e+09 e:aggTrade f:3.197197043e+09 l:3.19719707e+09 m:false p:3081.10000000 q:0.34470000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.026 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415755e+09 e:aggTrade f:3.197197071e+09 l:3.19719708e+09 m:false p:3081.11000000 q:0.01880000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.027 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415756e+09 e:aggTrade f:3.197197081e+09 l:3.197197084e+09 m:false p:3081.12000000 q:0.00690000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.027 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415757e+09 e:aggTrade f:3.197197085e+09 l:3.197197086e+09 m:false p:3081.15000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.027 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415758e+09 e:aggTrade f:3.197197087e+09 l:3.197197087e+09 m:false p:3081.19000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.046 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690051e+12 c:3081.09000000 e:24hrMiniTicker h:3169.95000000 l:2992.23000000 o:3032.41000000 q:1843100747.34622400 s:ETHUSDT v:597621.57010000] stream:ethusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.157 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.802415759e+09 e:aggTrade f:3.197197088e+09 l:3.197197097e+09 m:false p:3081.20000000 q:0.08790000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.158 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.80241576e+09 e:aggTrade f:3.197197098e+09 l:3.197197102e+09 m:false p:3081.21000000 q:0.00860000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.159 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.802415761e+09 e:aggTrade f:3.197197103e+09 l:3.197197103e+09 m:false p:3081.23000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.159 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.802415762e+09 e:aggTrade f:3.197197104e+09 l:3.197197104e+09 m:false p:3081.24000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.159 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415763e+09 e:aggTrade f:3.197197105e+09 l:3.197197109e+09 m:false p:3081.24000000 q:0.00690000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415764e+09 e:aggTrade f:3.19719711e+09 l:3.197197111e+09 m:false p:3081.25000000 q:0.00340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415765e+09 e:aggTrade f:3.197197112e+09 l:3.197197112e+09 m:false p:3081.26000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415766e+09 e:aggTrade f:3.197197113e+09 l:3.197197116e+09 m:false p:3081.30000000 q:0.02510000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415767e+09 e:aggTrade f:3.197197117e+09 l:3.197197118e+09 m:false p:3081.33000000 q:0.00380000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[INFO]  2025-11-19 16:37:32.993 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:37:32.998 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:37:32.998 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:37:33.000 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:37:33.000 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:37:33.000 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:37:33.001 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:37:34.646 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:37:34.646 ws.go(389)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 16:37:34.667 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:37:35.849 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:37:35.849 ws.go(389)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 16:37:35.859 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:37:37.381 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:37:37.382 ws.go(389)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 16:37:37.393 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:37:38.200 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 16:37:38.200 ws.go(389)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 16:37:38.213 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:37:38.927 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 16:39:17.703 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:39:17.708 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:39:17.708 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:17.709 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:39:17.710 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:39:17.710 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:39:17.711 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:39:18.050 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:39:18.051 ws.go(387)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-19 16:39:18.053 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:18.749 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:39:18.749 ws.go(387)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@aggTrade ethusdt@kline_1m ethusdt@miniTicker]
+[INFO]  2025-11-19 16:39:18.764 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:19.407 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:39:19.407 ws.go(387)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 16:39:19.422 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:20.095 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 16:39:20.095 ws.go(387)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m solusdt@aggTrade solusdt@miniTicker enausdt@miniTicker]
+[INFO]  2025-11-19 16:39:20.114 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:20.789 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 16:39:34.320 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:39:34.323 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:39:34.323 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:34.323 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:39:34.323 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:39:34.323 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:39:34.324 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:39:34.652 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:39:34.652 ws.go(386)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker pumpusdt@kline_1m enausdt@kline_1m]
+[INFO]  2025-11-19 16:39:34.659 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:35.333 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:39:35.334 ws.go(386)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 16:39:35.352 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:36.005 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:39:36.005 ws.go(386)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 16:39:36.021 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:36.695 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 16:39:36.695 ws.go(386)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@miniTicker enausdt@miniTicker solusdt@kline_1m]
+[INFO]  2025-11-19 16:39:36.714 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:39:37.338 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 16:42:31.227 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 16:42:31.232 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 16:42:31.232 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:42:31.233 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 16:42:31.233 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 16:42:31.233 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 16:42:31.235 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 16:42:31.620 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 16:42:31.621 ws.go(385)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker pumpusdt@kline_1m enausdt@kline_1m]
+[INFO]  2025-11-19 16:42:31.621 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:42:32.308 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 16:42:32.309 ws.go(385)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@kline_1m ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade]
+[INFO]  2025-11-19 16:42:32.317 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:42:32.988 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 16:42:32.989 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:42:32.989 ws.go(385)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 16:42:33.630 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 16:42:33.630 ws.go(385)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@miniTicker solusdt@kline_1m solusdt@aggTrade]
+[INFO]  2025-11-19 16:42:33.637 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 16:42:34.285 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:06:56.422 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:06:56.428 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:06:56.429 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:06:56.430 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:06:56.430 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:06:56.430 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:06:56.431 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:06:56.817 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:06:56.818 ws.go(340)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker pumpusdt@kline_1m enausdt@kline_1m]
+[INFO]  2025-11-19 23:06:56.824 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:06:57.557 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:06:57.558 ws.go(340)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[INFO]  2025-11-19 23:06:57.576 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:06:58.270 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:06:58.271 ws.go(340)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 23:06:58.273 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:06:58.990 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:06:58.990 ws.go(340)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade enausdt@miniTicker solusdt@kline_1m]
+[INFO]  2025-11-19 23:06:59.002 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:06:59.704 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:10:39.065 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:10:39.068 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:10:39.068 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:10:39.070 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:10:39.070 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:10:39.070 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:10:39.071 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:10:39.538 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:10:39.538 ws.go(341)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker enausdt@kline_1m pumpusdt@kline_1m]
+[INFO]  2025-11-19 23:10:39.558 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:10:40.276 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:10:40.276 ws.go(341)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m ethusdt@aggTrade]
+[INFO]  2025-11-19 23:10:40.279 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:10:41.009 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:10:41.009 ws.go(341)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 23:10:41.015 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:10:41.748 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:10:41.748 ws.go(341)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m]
+[INFO]  2025-11-19 23:10:41.765 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:10:42.518 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:11:44.591 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:11:44.597 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:11:44.597 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:11:44.598 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:11:44.598 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:11:44.598 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:11:44.600 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:11:44.999 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:11:45.000 ws.go(341)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@miniTicker pumpusdt@kline_1m enausdt@kline_1m]
+[INFO]  2025-11-19 23:11:45.016 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:11:45.748 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:11:45.748 ws.go(341)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m enausdt@aggTrade]
+[INFO]  2025-11-19 23:11:45.768 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:11:46.518 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:11:46.519 ws.go(341)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 23:11:46.523 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:11:47.246 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:11:47.246 ws.go(341)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 23:11:47.254 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:11:47.969 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:13:03.247 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:13:03.252 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:13:03.252 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:13:03.253 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:13:03.253 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:13:03.253 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:13:03.254 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:13:03.678 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:13:03.678 ws.go(341)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m enausdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-19 23:13:03.691 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:13:04.394 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:13:04.394 ws.go(341)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@kline_1m ethusdt@aggTrade ethusdt@miniTicker]
+[INFO]  2025-11-19 23:13:04.403 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:13:05.108 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:13:05.109 ws.go(341)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-19 23:13:05.118 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:13:05.797 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:13:05.797 ws.go(341)[sendPendingMessages]:
+Client-3 需要订阅的数据 [enausdt@miniTicker solusdt@aggTrade solusdt@miniTicker solusdt@kline_1m]
+[INFO]  2025-11-19 23:13:05.806 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:13:06.512 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:16:32.000 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:16:32.004 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:16:32.004 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:32.005 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:16:32.005 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:16:32.005 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:16:32.007 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:16:32.385 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:16:32.385 ws.go(333)[sendPendingMessages]:
+Client-0 需要订阅的数据 [enausdt@kline_1m pumpusdt@miniTicker pumpusdt@kline_1m]
+[INFO]  2025-11-19 23:16:32.401 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:33.088 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:16:33.088 ws.go(333)[sendPendingMessages]:
+Client-1 需要订阅的数据 [enausdt@aggTrade ethusdt@miniTicker ethusdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-19 23:16:33.097 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:33.843 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:16:33.843 ws.go(333)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-19 23:16:33.853 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:34.563 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:16:34.563 ws.go(333)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@kline_1m enausdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 23:16:34.566 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:35.294 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:16:37.069 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, pumpusdt@aggTrade:
+[INFO]  2025-11-19 23:16:37.072 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@kline_1m:
+[INFO]  2025-11-19 23:16:37.073 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@miniTicker:
+[INFO]  2025-11-19 23:16:37.074 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, bnbusdt@aggTrade:
+[INFO]  2025-11-19 23:16:37.074 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, bnbusdt@kline_1m:
+[INFO]  2025-11-19 23:16:37.075 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, bnbusdt@miniTicker:
+[INFO]  2025-11-19 23:16:37.076 ws-pool.go(126)[AddChannelUnsubscribe]: [client-1] unsubscription, ethusdt@aggTrade:
+[INFO]  2025-11-19 23:16:37.077 ws-pool.go(126)[AddChannelUnsubscribe]: [client-1] unsubscription, ethusdt@kline_1m:
+[INFO]  2025-11-19 23:16:37.078 ws-pool.go(126)[AddChannelUnsubscribe]: [client-1] unsubscription, ethusdt@miniTicker:
+[INFO]  2025-11-19 23:16:37.081 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, btcusdt@aggTrade:
+[INFO]  2025-11-19 23:16:37.082 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, btcusdt@kline_1m:
+[INFO]  2025-11-19 23:16:37.083 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, btcusdt@miniTicker:
+[INFO]  2025-11-19 23:16:37.092 ws.go(359)[sendPendingMessages]:
+Client-1 需要订阅取消订阅的数据 [ethusdt@aggTrade ethusdt@kline_1m ethusdt@miniTicker]
+[INFO]  2025-11-19 23:16:37.389 ws.go(359)[sendPendingMessages]:
+Client-0 需要订阅取消订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker btcusdt@aggTrade btcusdt@kline_1m btcusdt@miniTicker]
+[INFO]  2025-11-19 23:16:37.847 ws.go(359)[sendPendingMessages]:
+Client-2 需要订阅取消订阅的数据 [pumpusdt@aggTrade bnbusdt@aggTrade bnbusdt@kline_1m bnbusdt@miniTicker]
+[INFO]  2025-11-19 23:16:52.144 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:16:52.147 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:16:52.147 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:52.148 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:16:52.149 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:16:52.149 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:16:52.150 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:16:52.526 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:16:52.527 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:16:52.544 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:53.240 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:16:53.241 ws.go(333)[sendPendingMessages]: Client-1 需要订阅的数据 [enausdt@aggTrade]
+[INFO]  2025-11-19 23:16:53.256 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:53.979 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:16:53.989 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:54.686 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:16:54.686 ws.go(333)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@kline_1m enausdt@miniTicker solusdt@miniTicker solusdt@aggTrade]
+[INFO]  2025-11-19 23:16:54.703 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:16:55.419 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:17:40.660 ws-pool.go(126)[AddChannelUnsubscribe]: [client-3] unsubscription, solusdt@aggTrade:
+[INFO]  2025-11-19 23:17:40.664 ws-pool.go(126)[AddChannelUnsubscribe]: [client-3] unsubscription, solusdt@kline_1m:
+[INFO]  2025-11-19 23:17:40.666 ws-pool.go(126)[AddChannelUnsubscribe]: [client-3] unsubscription, solusdt@miniTicker:
+[INFO]  2025-11-19 23:17:40.738 ws.go(359)[sendPendingMessages]:
+Client-3 需要订阅取消订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[INFO]  2025-11-19 23:17:47.010 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:17:47.013 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:17:47.013 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:17:47.013 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:17:47.014 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:17:47.014 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:17:47.014 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:17:47.297 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:17:47.298 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:17:47.305 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:17:47.927 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:17:47.927 ws.go(333)[sendPendingMessages]: Client-1 需要订阅的数据 [enausdt@aggTrade]
+[INFO]  2025-11-19 23:17:47.936 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:17:48.556 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:17:48.568 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:17:49.162 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:17:49.162 ws.go(333)[sendPendingMessages]: Client-3 需要订阅的数据 [enausdt@miniTicker]
+[INFO]  2025-11-19 23:17:49.174 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:17:49.765 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:18:32.900 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:18:32.903 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:18:32.903 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:32.903 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:18:32.904 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:18:32.904 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:18:32.904 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:18:33.175 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:18:33.175 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:18:33.175 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:33.767 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:18:33.767 ws.go(333)[sendPendingMessages]: Client-1 需要订阅的数据 [enausdt@aggTrade]
+[INFO]  2025-11-19 23:18:33.782 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:34.394 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:18:34.409 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:35.017 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:18:35.017 ws.go(333)[sendPendingMessages]: Client-3 需要订阅的数据 [enausdt@miniTicker]
+[INFO]  2025-11-19 23:18:35.018 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:35.738 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:18:43.935 ws-pool.go(126)[AddChannelUnsubscribe]: [client-1] unsubscription, enausdt@aggTrade:
+[INFO]  2025-11-19 23:18:43.941 ws-pool.go(126)[AddChannelUnsubscribe]: [client-3] unsubscription, enausdt@miniTicker:
+[INFO]  2025-11-19 23:18:44.027 ws.go(359)[sendPendingMessages]: Client-3 需要订阅取消订阅的数据 [enausdt@miniTicker]
+[INFO]  2025-11-19 23:18:44.776 ws.go(359)[sendPendingMessages]: Client-1 需要订阅取消订阅的数据 [enausdt@aggTrade]
+[INFO]  2025-11-19 23:18:49.716 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:18:49.719 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:18:49.719 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:49.719 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:18:49.719 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:18:49.719 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:18:49.720 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:18:49.980 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:18:49.980 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:18:49.991 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:50.566 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:18:50.576 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:51.163 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:18:51.183 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:51.754 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:18:51.774 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:18:52.377 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:37:36.407 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:37:36.413 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:37:36.413 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:37:36.415 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:37:36.415 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:37:36.415 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:37:36.417 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:37:36.860 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:37:36.861 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:37:36.875 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:37:37.561 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:37:37.562 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:37:38.320 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:37:38.333 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:37:39.025 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:37:39.043 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:37:39.740 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:39:07.853 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:39:07.857 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:39:07.858 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:39:07.859 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:39:07.859 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:39:07.859 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:39:07.860 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:39:08.226 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:39:08.226 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:39:08.238 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:39:08.990 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:39:08.990 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:39:09.682 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:39:09.702 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:39:10.389 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:39:10.409 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:39:11.064 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:40:10.032 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:40:10.036 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:40:10.037 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:40:10.038 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:40:10.038 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:40:10.038 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:40:10.039 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:40:10.632 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:40:10.633 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:40:10.643 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:40:11.378 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:40:11.379 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:40:12.107 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:40:12.112 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:40:12.803 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:40:12.821 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:40:13.516 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:41:12.439 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:41:12.441 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:41:12.441 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:41:12.442 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:41:12.442 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:41:12.442 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:41:12.443 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:41:12.832 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:41:12.832 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:41:12.840 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:41:13.553 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:41:13.570 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:41:14.269 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:41:14.281 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:41:15.005 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:41:15.016 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:41:15.968 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:43:07.038 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:43:07.042 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:43:07.042 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:43:07.043 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:43:07.043 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:43:07.043 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:43:07.044 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:43:07.460 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:43:07.461 ws.go(333)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:43:07.480 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:43:08.154 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:43:08.172 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:43:08.846 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:43:08.864 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:43:09.582 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:43:09.598 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:43:10.333 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:46:18.504 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:46:18.511 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:46:18.512 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:46:18.513 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:46:18.513 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:46:18.513 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:46:18.515 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:46:18.913 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:46:18.914 ws.go(332)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:46:18.929 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:46:19.659 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:46:19.668 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:46:20.358 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:46:20.377 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:46:21.044 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:46:21.047 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:46:21.769 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:48:22.372 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:48:22.376 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:48:22.376 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:48:22.377 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:48:22.377 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:48:22.377 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:48:22.379 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:48:22.767 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:48:22.767 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:48:22.773 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:48:23.525 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:48:23.528 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:48:24.242 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:48:24.261 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:48:25.366 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:48:25.370 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:48:26.249 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:50:19.008 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:50:19.013 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:50:19.013 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:50:19.014 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:50:19.014 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:50:19.014 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:50:19.016 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:50:19.410 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:50:19.410 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:50:19.431 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:50:20.139 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:50:20.145 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:50:20.848 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:50:20.856 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:50:21.622 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:50:21.638 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:50:22.358 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:51:08.136 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:51:08.140 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:51:08.140 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:51:08.141 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:51:08.141 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:51:08.141 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:51:08.142 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:51:08.510 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:51:08.510 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:51:08.515 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:51:09.215 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:51:09.230 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:51:09.941 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:51:09.949 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:51:10.656 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:51:10.669 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:51:11.380 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:52:14.480 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:52:14.484 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:52:14.484 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:52:14.486 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:52:14.486 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:52:14.486 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:52:14.488 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:52:14.837 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:52:14.837 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:52:14.837 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:52:15.725 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:52:15.737 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:52:16.418 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:52:16.432 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:52:17.150 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:52:17.166 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:52:17.868 ws.go(117)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-19 23:54:30.847 main.go(46)[main]: Database connected.
+[INFO]  2025-11-19 23:54:30.850 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-19 23:54:30.850 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:54:30.851 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-19 23:54:30.851 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-19 23:54:30.851 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-19 23:54:30.852 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-19 23:54:31.245 ws.go(117)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-19 23:54:31.246 ws.go(334)[sendPendingMessages]: Client-0 需要订阅的数据 [enausdt@kline_1m]
+[INFO]  2025-11-19 23:54:31.249 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:54:31.944 ws.go(117)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-19 23:54:31.960 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:54:32.686 ws.go(117)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-19 23:54:32.701 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:54:33.416 ws.go(117)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-19 23:54:33.435 ws.go(52)[Login]: Login
+[INFO]  2025-11-19 23:54:34.151 ws.go(117)[Start]: Client-4 connected and logged in

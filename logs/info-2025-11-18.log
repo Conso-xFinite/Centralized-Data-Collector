@@ -9956,3 +9956,243 @@ Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@klin
 [INFO]  2025-11-18 22:05:17.074 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
 [INFO]  2025-11-18 22:05:17.074 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
 [INFO]  2025-11-18 22:05:17.245 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474717074325000}
+[INFO]  2025-11-18 22:07:19.396 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:07:19.400 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:07:19.400 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:19.402 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:07:19.402 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:07:19.402 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:07:19.403 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:07:19.787 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:07:19.800 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:20.445 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:07:20.446 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:07:20.446 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:07:20.446 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@kline_1m ethusdt@aggTrade]
+[INFO]  2025-11-18 22:07:20.447 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:20.634 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474840446533000}
+[INFO]  2025-11-18 22:07:21.121 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:07:21.121 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:07:21.121 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:07:21.121 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
+[INFO]  2025-11-18 22:07:21.139 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:21.312 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474841121487000}
+[INFO]  2025-11-18 22:07:21.811 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:07:21.812 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:07:21.813 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:07:21.813 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[INFO]  2025-11-18 22:07:21.822 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:07:21.989 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474841813124000}
+[INFO]  2025-11-18 22:07:22.497 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-18 22:08:03.515 ws-pool.go(96)[AddChannelSubscribe]: [client-2] subscription, aggTrade: pumpusdt
+[INFO]  2025-11-18 22:08:03.519 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: pumpusdt
+[INFO]  2025-11-18 22:08:03.519 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, miniTicker: pumpusdt
+[INFO]  2025-11-18 22:08:03.820 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:08:03.821 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:08:03.821 ws.go(273)[sendPendingMessages]: Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:08:03.938 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474883821444000}
+[INFO]  2025-11-18 22:08:04.165 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:08:04.166 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:08:04.166 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:08:04.262 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474884166247000}
+[INFO]  2025-11-18 22:08:59.090 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:08:59.093 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:08:59.093 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:08:59.094 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:08:59.094 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:08:59.094 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:08:59.096 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:08:59.448 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:08:59.449 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:08:59.449 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:08:59.449 ws.go(273)[sendPendingMessages]: Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:08:59.449 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:08:59.622 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474939449438000}
+[INFO]  2025-11-18 22:09:00.122 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:09:00.123 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:00.123 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:00.123 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[INFO]  2025-11-18 22:09:00.138 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:00.320 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474940123311000}
+[INFO]  2025-11-18 22:09:00.796 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:09:00.796 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:00.796 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:00.797 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:09:00.808 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:00.985 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474940797108000}
+[INFO]  2025-11-18 22:09:01.457 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:09:01.457 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:01.457 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:01.457 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m]
+[INFO]  2025-11-18 22:09:01.457 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:01.585 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474941458031000}
+[INFO]  2025-11-18 22:09:02.119 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-18 22:09:10.137 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, pumpusdt@aggTrade:
+[INFO]  2025-11-18 22:09:10.139 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@kline_1m:
+[INFO]  2025-11-18 22:09:10.141 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@miniTicker:
+[INFO]  2025-11-18 22:09:10.459 ws.go(295)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:10.460 ws.go(296)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:10.460 ws.go(302)[sendPendingMessages]:
+Client-0 需要订阅取消订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:09:10.635 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474950460370000}
+[INFO]  2025-11-18 22:09:10.801 ws.go(295)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:09:10.801 ws.go(296)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:09:10.801 ws.go(302)[sendPendingMessages]: Client-2 需要订阅取消订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:09:10.899 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474950802032000}
+[INFO]  2025-11-18 22:09:54.051 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:09:54.053 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:09:54.053 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:54.053 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:09:54.053 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:09:54.053 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:09:54.054 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:09:54.380 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:09:54.391 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:55.084 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:09:55.084 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:55.084 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:55.084 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@kline_1m ethusdt@aggTrade]
+[INFO]  2025-11-18 22:09:55.102 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:55.235 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474995084975000}
+[INFO]  2025-11-18 22:09:55.742 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:09:55.742 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:09:55.742 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:55.742 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
+[INFO]  2025-11-18 22:09:55.752 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:55.913 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474995742920000}
+[INFO]  2025-11-18 22:09:56.418 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:09:56.419 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:09:56.419 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:09:56.419 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[INFO]  2025-11-18 22:09:56.421 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:09:56.591 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763474996419481000}
+[INFO]  2025-11-18 22:09:57.135 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-18 22:10:06.354 ws-pool.go(96)[AddChannelSubscribe]: [client-2] subscription, aggTrade: pumpusdt
+[INFO]  2025-11-18 22:10:06.357 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: pumpusdt
+[INFO]  2025-11-18 22:10:06.358 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, miniTicker: pumpusdt
+[INFO]  2025-11-18 22:10:06.359 ws-pool.go(126)[AddChannelUnsubscribe]: [client-2] unsubscription, pumpusdt@aggTrade:
+[INFO]  2025-11-18 22:10:06.360 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@kline_1m:
+[INFO]  2025-11-18 22:10:06.361 ws-pool.go(126)[AddChannelUnsubscribe]: [client-0] unsubscription, pumpusdt@miniTicker:
+[INFO]  2025-11-18 22:10:06.392 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.392 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:06.392 ws.go(273)[sendPendingMessages]: Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:10:06.392 ws.go(295)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.393 ws.go(296)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.393 ws.go(302)[sendPendingMessages]:
+Client-0 需要订阅取消订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker]
+[INFO]  2025-11-18 22:10:06.518 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006392882000}
+[INFO]  2025-11-18 22:10:06.518 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006393037000}
+[INFO]  2025-11-18 22:10:06.754 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:06.754 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:06.754 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:10:06.754 ws.go(295)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:06.754 ws.go(296)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=2)
+[INFO]  2025-11-18 22:10:06.754 ws.go(302)[sendPendingMessages]: Client-2 需要订阅取消订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:10:06.925 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006754386000}
+[INFO]  2025-11-18 22:10:06.926 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475006754546000}
+[INFO]  2025-11-18 22:10:50.215 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:10:50.216 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:10:50.216 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:50.217 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:10:50.217 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:10:50.217 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:10:50.218 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:10:50.589 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:10:50.595 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:51.293 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:10:51.293 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:10:51.294 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:51.294 ws.go(273)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@aggTrade ethusdt@miniTicker ethusdt@kline_1m]
+[INFO]  2025-11-18 22:10:51.307 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:51.458 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475051294281000}
+[INFO]  2025-11-18 22:10:51.982 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:10:51.982 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:10:51.982 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:51.982 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [bnbusdt@miniTicker]
+[INFO]  2025-11-18 22:10:52.000 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:52.140 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475051982282000}
+[INFO]  2025-11-18 22:10:52.689 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:10:52.689 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:10:52.689 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:10:52.690 ws.go(273)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@aggTrade solusdt@kline_1m solusdt@miniTicker]
+[INFO]  2025-11-18 22:10:52.699 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:10:52.878 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475052690079000}
+[INFO]  2025-11-18 22:10:53.356 ws.go(115)[Start]: Client-4 connected and logged in
+[INFO]  2025-11-18 22:11:39.002 ws-pool.go(96)[AddChannelSubscribe]: [client-2] subscription, aggTrade: pumpusdt
+[INFO]  2025-11-18 22:11:39.007 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: pumpusdt
+[INFO]  2025-11-18 22:11:39.008 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, miniTicker: pumpusdt
+[INFO]  2025-11-18 22:11:39.009 ws-pool.go(96)[AddChannelSubscribe]: [client-1] subscription, aggTrade: enausdt
+[INFO]  2025-11-18 22:11:39.010 ws-pool.go(96)[AddChannelSubscribe]: [client-0] subscription, kline_1m: enausdt
+[INFO]  2025-11-18 22:11:39.010 ws-pool.go(96)[AddChannelSubscribe]: [client-3] subscription, miniTicker: enausdt
+[INFO]  2025-11-18 22:11:39.027 ws.go(266)[sendPendingMessages]: Client-2 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.027 ws.go(267)[sendPendingMessages]: Client-2 已订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.027 ws.go(273)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade]
+[INFO]  2025-11-18 22:11:39.190 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099027396000}
+[INFO]  2025-11-18 22:11:39.348 ws.go(266)[sendPendingMessages]: Client-1 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.348 ws.go(267)[sendPendingMessages]: Client-1 已订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:11:39.348 ws.go(273)[sendPendingMessages]: Client-1 需要订阅的数据 [enausdt@aggTrade]
+[INFO]  2025-11-18 22:11:39.520 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099349025000}
+[INFO]  2025-11-18 22:11:39.640 ws.go(266)[sendPendingMessages]: Client-0 需要订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:11:39.640 ws.go(267)[sendPendingMessages]: Client-0 已订阅的数据 %!s(int=0)
+[INFO]  2025-11-18 22:11:39.640 ws.go(273)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-18 22:11:39.731 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099640881000}
+[INFO]  2025-11-18 22:11:39.737 ws.go(266)[sendPendingMessages]: Client-3 需要订阅的数据 %!s(int=1)
+[INFO]  2025-11-18 22:11:39.737 ws.go(267)[sendPendingMessages]: Client-3 已订阅的数据 %!s(int=3)
+[INFO]  2025-11-18 22:11:39.737 ws.go(273)[sendPendingMessages]: Client-3 需要订阅的数据 [enausdt@miniTicker]
+[INFO]  2025-11-18 22:11:39.833 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475099738289000}
+[INFO]  2025-11-18 22:13:47.267 main.go(46)[main]: Database connected.
+[INFO]  2025-11-18 22:13:47.271 main.go(56)[main]: Redis connected.
+[INFO]  2025-11-18 22:13:47.271 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:47.272 main.go(65)[main]: Data collector created.
+[INFO]  2025-11-18 22:13:47.272 main.go(72)[main]: Starting Subscribe Dispatcher...
+[INFO]  2025-11-18 22:13:47.272 main.go(77)[main]: Subscribe Dispatcher created.
+[33;1m[WARN]  2025-11-18 22:13:47.274 subscribe_dispatcher.go(90)[Start]:
+[0m[33mConsumer group already exists, continue: BUSYGROUP Consumer Group name already exists[0m
+[INFO]  2025-11-18 22:13:47.604 ws.go(115)[Start]: Client-0 connected and logged in
+[INFO]  2025-11-18 22:13:47.605 ws.go(270)[sendPendingMessages]:
+Client-0 需要订阅的数据 [pumpusdt@kline_1m pumpusdt@miniTicker enausdt@kline_1m]
+[INFO]  2025-11-18 22:13:47.612 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:47.782 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475227605313000}
+[INFO]  2025-11-18 22:13:48.303 ws.go(115)[Start]: Client-1 connected and logged in
+[INFO]  2025-11-18 22:13:48.303 ws.go(270)[sendPendingMessages]:
+Client-1 需要订阅的数据 [ethusdt@miniTicker ethusdt@aggTrade enausdt@aggTrade ethusdt@kline_1m]
+[INFO]  2025-11-18 22:13:48.322 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:48.448 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475228303804000}
+[INFO]  2025-11-18 22:13:48.984 ws.go(115)[Start]: Client-2 connected and logged in
+[INFO]  2025-11-18 22:13:48.984 ws.go(270)[sendPendingMessages]: Client-2 需要订阅的数据 [pumpusdt@aggTrade bnbusdt@miniTicker]
+[INFO]  2025-11-18 22:13:48.993 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:49.143 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475228984890000}
+[INFO]  2025-11-18 22:13:49.743 ws.go(115)[Start]: Client-3 connected and logged in
+[INFO]  2025-11-18 22:13:49.743 ws.go(270)[sendPendingMessages]:
+Client-3 需要订阅的数据 [solusdt@miniTicker solusdt@aggTrade solusdt@kline_1m enausdt@miniTicker]
+[INFO]  2025-11-18 22:13:49.747 ws.go(50)[Login]: Login
+[INFO]  2025-11-18 22:13:49.876 ws.go(179)[listenMsg]: Subscription response: {"result":null,"id":1763475229743875000}
+[INFO]  2025-11-18 22:13:50.414 ws.go(115)[Start]: Client-4 connected and logged in
+[33;1m[WARN]  2025-11-18 22:14:15.656 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: EOF[0m
+[33;1m[WARN]  2025-11-18 22:14:16.772 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:17.825 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:18.929 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:20.024 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:21.137 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:22.235 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:23.328 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:24.436 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:25.549 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:26.674 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:27.775 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:28.867 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:29.925 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m
+[33;1m[WARN]  2025-11-18 22:14:31.033 redis_stream.go(134)[SubscribeStream]: [0m[33mRedis XReadGroup error: dial tcp [::1]:6379: connect: connection refused[0m

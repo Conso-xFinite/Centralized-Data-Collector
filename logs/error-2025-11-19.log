@@ -1,0 +1,530 @@
+[35;1m[ERROR] 2025-11-19 10:41:08.316 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:41:08.637 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:41:08.638 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:41:08.961 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:41:08.961 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:42:44.565 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:42:44.758 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:42:50.203 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:42:53.392 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 10:43:02.959 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:34:11.281 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:34:11.553 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:34:11.554 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:34:11.768 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:34:11.918 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:35:56.787 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:36:00.062 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:36:03.553 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:36:03.880 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:36:06.191 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:36:37.097 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:58:35.326 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:58:35.447 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:58:35.761 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:58:36.196 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 11:58:36.197 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:14:28.084 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:14:28.159 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:14:28.499 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:14:28.794 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:14:28.828 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:30:36.427 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:30:36.427 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:30:36.628 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:30:36.658 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:30:37.003 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:46:45.804 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:46:45.879 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:46:46.135 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:46:46.201 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 12:46:46.518 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:02:43.029 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:02:43.030 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:02:43.289 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:02:43.330 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:02:43.640 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:18:55.343 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:18:55.520 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:18:55.727 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:18:55.986 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:18:56.114 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:29:07.972 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:29:07.983 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:29:08.286 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:29:08.598 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:29:08.680 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:43:58.153 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:43:58.305 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:43:58.583 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:43:58.689 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 13:43:58.897 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:00:28.190 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:00:28.530 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:00:28.599 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:00:28.841 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:00:28.914 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:16:40.452 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:16:40.763 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:16:40.777 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:16:41.115 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:16:41.115 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:19:45.811 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:19:45.904 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:19:46.210 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:19:46.479 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 14:19:46.582 ws.go(121)[Start]: [0m[35mNo ping received in the last 60 seconds, reconnecting...[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.053 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.486 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.487 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.487 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.487 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.488 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.488 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:13:59.488 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.015 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.015 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.044 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.102 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.103 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.103 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.314 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.334 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.584 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.736 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.737 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.738 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.738 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.739 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.740 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.742 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.802 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.803 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:00.901 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.044 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.104 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.286 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.291 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.542 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.590 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.757 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.768 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.769 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.804 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.822 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.825 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.825 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.826 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:01.832 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.115 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.116 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.117 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.286 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.594 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.803 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:02.828 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.046 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.097 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.113 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.114 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.115 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.119 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.120 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.121 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.123 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.124 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.124 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.143 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.145 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.155 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.161 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.162 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.162 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.164 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.166 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.167 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.168 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.169 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.217 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.284 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.293 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.375 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:14:03.594 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: %!v(PANIC=Error method: runtime error: invalid memory address or nil pointer dereference)[0m
+[35;1m[ERROR] 2025-11-19 16:20:10.298 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410298e+12 c:0.00306100 e:24hrMiniTicker h:0.00320800 l:0.00296900 o:0.00306000 q:32661642.22150700 s:PUMPUSDT v:10530538578.00] stream:pumpusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.591 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410592e+12 e:kline k:map[B:0 L:2.26828926e+08 Q:2113.69759400 T:1.763540459999e+12 V:7775.67000000 c:0.27150000 f:2.26828883e+08 h:0.27190000 i:1m l:0.27150000 n:44 o:0.27190000 q:8780.66015000 s:ENAUSDT t:1.7635404e+12 v:32325.10000000 x:false] s:ENAUSDT] stream:enausdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.645 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041065e+12 M:true T:1.76354041065e+12 a:1.802411153e+09 e:aggTrade f:3.197180837e+09 l:3.197180837e+09 m:true p:3073.49000000 q:0.01660000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.757 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410758e+12 M:true T:1.763540410757e+12 a:1.802411154e+09 e:aggTrade f:3.197180838e+09 l:3.197180844e+09 m:false p:3073.50000000 q:0.12810000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411155e+09 e:aggTrade f:3.197180845e+09 l:3.197180845e+09 m:false p:3073.50000000 q:0.13000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.758 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411156e+09 e:aggTrade f:3.197180846e+09 l:3.197180848e+09 m:false p:3073.50000000 q:1.02910000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411157e+09 e:aggTrade f:3.197180849e+09 l:3.197180851e+09 m:false p:3073.52000000 q:0.00520000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411158e+09 e:aggTrade f:3.197180852e+09 l:3.197180852e+09 m:false p:3073.54000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411159e+09 e:aggTrade f:3.197180853e+09 l:3.197180853e+09 m:false p:3073.56000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.759 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.80241116e+09 e:aggTrade f:3.197180854e+09 l:3.197180857e+09 m:false p:3073.57000000 q:0.00720000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411161e+09 e:aggTrade f:3.197180858e+09 l:3.197180858e+09 m:false p:3073.58000000 q:3.11120000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410758e+12 a:1.802411162e+09 e:aggTrade f:3.197180859e+09 l:3.197180864e+09 m:false p:3073.58000000 q:0.15100000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410759e+12 a:1.802411163e+09 e:aggTrade f:3.197180865e+09 l:3.197180865e+09 m:false p:3073.59000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410759e+12 M:true T:1.763540410759e+12 a:1.802411164e+09 e:aggTrade f:3.197180866e+09 l:3.197180872e+09 m:false p:3073.60000000 q:0.03020000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411165e+09 e:aggTrade f:3.197180873e+09 l:3.197180873e+09 m:false p:3073.64000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.760 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411166e+09 e:aggTrade f:3.197180874e+09 l:3.197180875e+09 m:false p:3073.65000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411167e+09 e:aggTrade f:3.197180876e+09 l:3.197180879e+09 m:false p:3073.66000000 q:0.02940000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411168e+09 e:aggTrade f:3.19718088e+09 l:3.19718088e+09 m:false p:3073.67000000 q:0.00250000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411169e+09 e:aggTrade f:3.197180881e+09 l:3.197180881e+09 m:false p:3073.68000000 q:0.00200000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.80241117e+09 e:aggTrade f:3.197180882e+09 l:3.197180882e+09 m:false p:3073.69000000 q:0.00330000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.761 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411171e+09 e:aggTrade f:3.197180883e+09 l:3.197180884e+09 m:false p:3073.73000000 q:0.00340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.763 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411172e+09 e:aggTrade f:3.197180885e+09 l:3.197180889e+09 m:false p:3073.75000000 q:0.10680000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.764 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411173e+09 e:aggTrade f:3.19718089e+09 l:3.197180892e+09 m:false p:3073.76000000 q:0.06670000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411174e+09 e:aggTrade f:3.197180893e+09 l:3.197180894e+09 m:false p:3073.77000000 q:0.00510000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411175e+09 e:aggTrade f:3.197180895e+09 l:3.197180897e+09 m:false p:3073.80000000 q:0.00510000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411176e+09 e:aggTrade f:3.197180898e+09 l:3.1971809e+09 m:false p:3073.81000000 q:0.00540000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411177e+09 e:aggTrade f:3.197180901e+09 l:3.197180906e+09 m:false p:3073.82000000 q:0.01130000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041076e+12 M:true T:1.763540410759e+12 a:1.802411178e+09 e:aggTrade f:3.197180907e+09 l:3.197180907e+09 m:false p:3073.83000000 q:0.09540000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.765 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411179e+09 e:aggTrade f:3.197180908e+09 l:3.197180911e+09 m:false p:3073.83000000 q:0.08150000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.806 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.80241118e+09 e:aggTrade f:3.197180912e+09 l:3.197180914e+09 m:false p:3073.85000000 q:0.05340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.807 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411181e+09 e:aggTrade f:3.197180915e+09 l:3.197180917e+09 m:false p:3073.86000000 q:0.16460000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.807 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411182e+09 e:aggTrade f:3.197180918e+09 l:3.197180919e+09 m:false p:3073.91000000 q:0.00340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.807 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411183e+09 e:aggTrade f:3.19718092e+09 l:3.197180921e+09 m:false p:3073.92000000 q:0.00500000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.808 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411184e+09 e:aggTrade f:3.197180922e+09 l:3.197180922e+09 m:false p:3073.95000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.808 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411185e+09 e:aggTrade f:3.197180923e+09 l:3.197180929e+09 m:false p:3073.98000000 q:0.06130000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.808 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411186e+09 e:aggTrade f:3.19718093e+09 l:3.197180934e+09 m:false p:3073.99000000 q:0.88350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411187e+09 e:aggTrade f:3.197180935e+09 l:3.197180939e+09 m:false p:3074.00000000 q:0.10730000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411188e+09 e:aggTrade f:3.19718094e+09 l:3.19718094e+09 m:false p:3074.02000000 q:0.00330000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411189e+09 e:aggTrade f:3.197180941e+09 l:3.197180942e+09 m:false p:3074.08000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.80241119e+09 e:aggTrade f:3.197180943e+09 l:3.197180946e+09 m:false p:3074.09000000 q:2.71970000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411191e+09 e:aggTrade f:3.197180947e+09 l:3.197180947e+09 m:false p:3074.10000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411192e+09 e:aggTrade f:3.197180948e+09 l:3.197180948e+09 m:false p:3074.11000000 q:0.05000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411193e+09 e:aggTrade f:3.197180949e+09 l:3.197180951e+09 m:false p:3074.14000000 q:0.38090000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411194e+09 e:aggTrade f:3.197180952e+09 l:3.197180952e+09 m:false p:3074.15000000 q:0.34410000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.809 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410761e+12 M:true T:1.76354041076e+12 a:1.802411195e+09 e:aggTrade f:3.197180953e+09 l:3.197180954e+09 m:false p:3074.17000000 q:0.33630000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411196e+09 e:aggTrade f:3.197180955e+09 l:3.197180955e+09 m:false p:3074.20000000 q:0.32000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411197e+09 e:aggTrade f:3.197180956e+09 l:3.197180956e+09 m:false p:3074.22000000 q:0.00200000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411198e+09 e:aggTrade f:3.197180957e+09 l:3.197180958e+09 m:false p:3074.23000000 q:0.04300000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411199e+09 e:aggTrade f:3.197180959e+09 l:3.197180961e+09 m:false p:3074.24000000 q:0.06290000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.8024112e+09 e:aggTrade f:3.197180962e+09 l:3.197180963e+09 m:false p:3074.25000000 q:0.10170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410762e+12 M:true T:1.76354041076e+12 a:1.802411201e+09 e:aggTrade f:3.197180964e+09 l:3.197180964e+09 m:false p:3074.27000000 q:0.44940000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410766e+12 M:true T:1.763540410763e+12 a:8.1752568e+07 e:aggTrade f:2.26828927e+08 l:2.26828929e+08 m:false p:0.27160000 q:111.33000000 s:ENAUSDT] stream:enausdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.810 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410782e+12 M:true T:1.763540410777e+12 a:1.802411202e+09 e:aggTrade f:3.197180965e+09 l:3.197180965e+09 m:false p:3074.25000000 q:0.06500000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.818 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410823e+12 M:true T:1.763540410823e+12 a:1.802411203e+09 e:aggTrade f:3.197180966e+09 l:3.197180969e+09 m:true p:3074.24000000 q:0.19070000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.836 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410841e+12 M:true T:1.763540410841e+12 a:1.802411204e+09 e:aggTrade f:3.19718097e+09 l:3.197180985e+09 m:true p:3074.24000000 q:7.53230000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411205e+09 e:aggTrade f:3.197180986e+09 l:3.197180995e+09 m:true p:3074.23000000 q:0.01700000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411206e+09 e:aggTrade f:3.197180996e+09 l:3.197181e+09 m:true p:3074.22000000 q:0.00850000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411207e+09 e:aggTrade f:3.197181001e+09 l:3.197181003e+09 m:true p:3074.20000000 q:0.66790000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.837 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411208e+09 e:aggTrade f:3.197181004e+09 l:3.197181005e+09 m:true p:3074.20000000 q:0.29570000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.838 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410843e+12 a:1.802411209e+09 e:aggTrade f:3.197181006e+09 l:3.197181006e+09 m:true p:3074.19000000 q:2.18070000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.838 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.80241121e+09 e:aggTrade f:3.197181007e+09 l:3.197181007e+09 m:true p:3074.19000000 q:0.32550000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.838 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.802411211e+09 e:aggTrade f:3.197181008e+09 l:3.197181008e+09 m:true p:3074.19000000 q:0.32550000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.839 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.802411212e+09 e:aggTrade f:3.197181009e+09 l:3.197181015e+09 m:true p:3074.19000000 q:0.37810000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.839 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540410844e+12 M:true T:1.763540410844e+12 a:1.802411213e+09 e:aggTrade f:3.197181016e+09 l:3.197181016e+09 m:true p:3074.10000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:10.998 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411003e+12 M:true T:1.763540411003e+12 a:1.802411214e+09 e:aggTrade f:3.197181017e+09 l:3.197181021e+09 m:true p:3074.00000000 q:0.22520000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.047 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411052e+12 c:3074.00000000 e:24hrMiniTicker h:3169.95000000 l:2992.23000000 o:3035.55000000 q:1848645072.67065600 s:ETHUSDT v:599463.70860000] stream:ethusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.095 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411101e+12 M:true T:1.7635404111e+12 a:1.802411215e+09 e:aggTrade f:3.197181022e+09 l:3.197181022e+09 m:true p:3074.00000000 q:0.32700000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.292 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411293e+12 c:0.00306100 e:24hrMiniTicker h:0.00320800 l:0.00296900 o:0.00305900 q:32661981.13299100 s:PUMPUSDT v:10530649290.00] stream:pumpusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.296 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411296e+12 e:kline k:map[B:0 L:2.6172409e+07 Q:664.31910600 T:1.763540459999e+12 V:216846.00 c:0.00306100 f:2.6172369e+07 h:0.00306900 i:1m l:0.00306100 n:41 o:0.00306900 q:5924.51053100 s:PUMPUSDT t:1.7635404e+12 v:1932899.00 x:false] s:PUMPUSDT] stream:pumpusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.297 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411303e+12 M:true T:1.763540411303e+12 a:1.802411216e+09 e:aggTrade f:3.197181023e+09 l:3.197181026e+09 m:false p:3074.01000000 q:0.04800000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.310 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411317e+12 M:true T:1.763540411316e+12 a:1.802411217e+09 e:aggTrade f:3.197181027e+09 l:3.197181027e+09 m:false p:3074.01000000 q:0.05000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.573 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411578e+12 M:true T:1.763540411578e+12 a:1.802411218e+09 e:aggTrade f:3.197181028e+09 l:3.197181036e+09 m:false p:3074.01000000 q:0.19900000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.711 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411219e+09 e:aggTrade f:3.197181037e+09 l:3.197181056e+09 m:false p:3074.01000000 q:0.20860000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.712 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.80241122e+09 e:aggTrade f:3.197181057e+09 l:3.197181064e+09 m:false p:3074.02000000 q:0.07140000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.712 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411221e+09 e:aggTrade f:3.197181065e+09 l:3.197181065e+09 m:false p:3074.06000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.713 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411222e+09 e:aggTrade f:3.197181066e+09 l:3.197181066e+09 m:false p:3074.07000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.713 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411223e+09 e:aggTrade f:3.197181067e+09 l:3.197181068e+09 m:false p:3074.10000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.713 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411224e+09 e:aggTrade f:3.197181069e+09 l:3.197181071e+09 m:false p:3074.11000000 q:0.00520000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411225e+09 e:aggTrade f:3.197181072e+09 l:3.197181077e+09 m:false p:3074.15000000 q:0.04830000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411226e+09 e:aggTrade f:3.197181078e+09 l:3.197181081e+09 m:false p:3074.16000000 q:0.03460000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411227e+09 e:aggTrade f:3.197181082e+09 l:3.197181082e+09 m:false p:3074.19000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.714 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411228e+09 e:aggTrade f:3.197181083e+09 l:3.197181083e+09 m:false p:3074.20000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.715 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411717e+12 M:true T:1.763540411716e+12 a:1.802411229e+09 e:aggTrade f:3.197181084e+09 l:3.197181088e+09 m:false p:3074.24000000 q:0.00880000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.735 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.76354041174e+12 M:true T:1.763540411739e+12 a:8.1752569e+07 e:aggTrade f:2.2682893e+08 l:2.26828933e+08 m:false p:0.27170000 q:1216.57000000 s:ENAUSDT] stream:enausdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:11.848 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540411854e+12 M:true T:1.763540411854e+12 a:1.80241123e+09 e:aggTrade f:3.197181089e+09 l:3.197181089e+09 m:true p:3074.24000000 q:0.66000000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:20:12.012 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540412018e+12 e:kline k:map[B:0 L:3.197181089e+09 Q:121999.86689700 T:1.763540459999e+12 V:39.69680000 c:3074.24000000 f:3.197179753e+09 h:3074.59000000 i:1m l:3072.50000000 n:1337 o:3074.59000000 q:284562.70286500 s:ETHUSDT t:1.7635404e+12 v:92.58100000 x:false] s:ETHUSDT] stream:ethusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:20:12.046 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540412053e+12 c:3074.24000000 e:24hrMiniTicker h:3169.95000000 l:2992.23000000 o:3036.16000000 q:1848533749.56469300 s:ETHUSDT v:599427.01250000] stream:ethusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:20:12.108 ws.go(205)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540412111e+12 c:929.44000000 e:24hrMiniTicker h:941.06000000 l:910.42000000 o:914.47000000 q:224428140.53428000 s:BNBUSDT v:242248.35700000] stream:bnbusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:24:49.288 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540689291e+12 e:kline k:map[B:0 L:2.617271e+07 Q:3280.44354400 T:1.763540699999e+12 V:1064953.00 c:0.00307700 f:2.6172663e+07 h:0.00308400 i:1m l:0.00307600 n:48 o:0.00308300 q:6813.05319600 s:PUMPUSDT t:1.76354064e+12 v:2211827.00 x:false] s:PUMPUSDT] stream:pumpusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.019 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690017e+12 e:kline k:map[B:0 L:3.197197042e+09 Q:83323.42923900 T:1.763540699999e+12 V:27.03920000 c:3081.09000000 f:3.197195005e+09 h:3082.80000000 i:1m l:3080.45000000 n:2038 o:3082.34000000 q:215546.06900200 s:ETHUSDT t:1.76354064e+12 v:69.94490000 x:false] s:ETHUSDT] stream:ethusdt@kline_1m][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.023 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690029e+12 M:true T:1.763540690028e+12 a:1.802415754e+09 e:aggTrade f:3.197197043e+09 l:3.19719707e+09 m:false p:3081.10000000 q:0.34470000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.026 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415755e+09 e:aggTrade f:3.197197071e+09 l:3.19719708e+09 m:false p:3081.11000000 q:0.01880000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.027 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415756e+09 e:aggTrade f:3.197197081e+09 l:3.197197084e+09 m:false p:3081.12000000 q:0.00690000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.027 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415757e+09 e:aggTrade f:3.197197085e+09 l:3.197197086e+09 m:false p:3081.15000000 q:0.00350000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.027 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690033e+12 M:true T:1.763540690032e+12 a:1.802415758e+09 e:aggTrade f:3.197197087e+09 l:3.197197087e+09 m:false p:3081.19000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.046 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690051e+12 c:3081.09000000 e:24hrMiniTicker h:3169.95000000 l:2992.23000000 o:3032.41000000 q:1843100747.34622400 s:ETHUSDT v:597621.57010000] stream:ethusdt@miniTicker][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.157 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.802415759e+09 e:aggTrade f:3.197197088e+09 l:3.197197097e+09 m:false p:3081.20000000 q:0.08790000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.158 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.80241576e+09 e:aggTrade f:3.197197098e+09 l:3.197197102e+09 m:false p:3081.21000000 q:0.00860000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.159 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.802415761e+09 e:aggTrade f:3.197197103e+09 l:3.197197103e+09 m:false p:3081.23000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.159 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690162e+12 M:true T:1.763540690162e+12 a:1.802415762e+09 e:aggTrade f:3.197197104e+09 l:3.197197104e+09 m:false p:3081.24000000 q:0.00170000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.159 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415763e+09 e:aggTrade f:3.197197105e+09 l:3.197197109e+09 m:false p:3081.24000000 q:0.00690000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415764e+09 e:aggTrade f:3.19719711e+09 l:3.197197111e+09 m:false p:3081.25000000 q:0.00340000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415765e+09 e:aggTrade f:3.197197112e+09 l:3.197197112e+09 m:false p:3081.26000000 q:0.00180000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415766e+09 e:aggTrade f:3.197197113e+09 l:3.197197116e+09 m:false p:3081.30000000 q:0.02510000 s:ETHUSDT] stream:ethusdt@aggTrade][0m
+[35;1m[ERROR] 2025-11-19 16:24:50.160 ws.go(206)[listenMsg]:
+[0m[35mFailed to marshal messageJson: map[data:map[E:1.763540690164e+12 M:true T:1.763540690163e+12 a:1.802415767e+09 e:aggTrade f:3.197197117e+09 l:3.197197118e+09 m:false p:3081.33000000 q:0.00380000 s:ETHUSDT] stream:ethusdt@aggTrade][0m

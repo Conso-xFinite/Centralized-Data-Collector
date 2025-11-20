@@ -67,6 +67,14 @@ type WSSubscribeArg struct {
 	TokenContractAddress string `json:"tokenContractAddress"`
 }
 
+type NewSubscribeArg struct {
+	// Op                   string `json:"op"` // 不序列化, 本地用来区分订阅和取消订阅的
+	Channel          string `json:"channel"`
+	TokenPair        string `json:"chainIndex"`
+	currentTimeStamp string `json:"currentTimeStamp"`
+	ID               string
+}
+
 // 待删除
 type WSReq struct {
 	Op   string        `json:"op"`

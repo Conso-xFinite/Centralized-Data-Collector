@@ -55,3 +55,13 @@ CREATE TABLE IF NOT EXISTS market_24h_ticker (
     quote_volume numeric(36,18),
     created_at timestamptz NOT NULL DEFAULT now()
 );
+
+CREATE TABLE IF NOT EXISTS market_data_fill (
+    id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    event varchar(20) NOT NULL,
+    event_start_time bigint,
+    event_end_time bigint,
+    symbol varchar(32) NOT NULL,
+     is_closed BOOLEAN DEFAULT false,
+    created_at timestamptz NOT NULL DEFAULT now()
+);

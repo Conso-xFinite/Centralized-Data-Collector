@@ -5,7 +5,9 @@ import (
 	"Centralized-Data-Collector/pkg/logger"
 	"Centralized-Data-Collector/pkg/utils"
 	"encoding/json"
+	"fmt"
 	"log"
+	"strings"
 	"sync/atomic"
 	"time"
 
@@ -74,7 +76,6 @@ func (c *Client) Login() error {
 	c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
 	c.conn = conn
 	conn.SetPingHandler(func(appData string) error {
-		logger.Debug("Received ping: %s", appData)
 		err := conn.WriteControl(websocket.PongMessage, []byte(appData), time.Now().Add(time.Second))
 		if err != nil {
 			logger.Error("Error logging in: %v", err)
@@ -136,9 +137,43 @@ func (c *Client) Start() {
 	}()
 }
 
+func isContentsSubscribeMessage(messageMap map[string]interface{}) (string, error) {
+
+	dataMap, ok := messageMap["data"].(map[string]interface{})
+	if !ok {
+		fmt.Println("data field missing or not an object")
+		return "", &json.UnmarshalTypeError{}
+	}
+
+	eVal, ok := dataMap["e"].(string)
+	if !ok {
+		logger.Debug("messageMap no string type")
+		return eVal, &json.UnmarshalTypeError{}
+	}
+
+	// 判断 e 字段是否包含特定字符串
+	if strings.Contains(eVal, "aggTrade") || strings.Contains(eVal, "kline") || strings.Contains(eVal, "24hrMiniTicker") {
+		return eVal, nil
+	}
+	return "nil", nil
+}
+
 // 处理消息和 pong
 func (c *Client) listenMsg(conn *websocket.Conn) {
 	//是否需要判断 连接状态后续确认
+
+	channelDataReceivedMap := make(map[string]bool)
+
+	hasReceivedData := func(stream string, msg *binance_define.WSSinglePushMsg) bool {
+		_, exists := channelDataReceivedMap[stream]
+		if !exists {
+			channelDataReceivedMap[stream] = true
+			msg.IsFirst = true
+		}
+		c.pool.AddPushDataToQueue(msg)
+		return exists
+	}
+
 	for {
 		message, err := c.connector.LockReadPushMessage(conn)
 		if err != nil {
@@ -146,99 +181,126 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 			break
 		}
 		// logger.Debug("Received message: %s", string(message))
-		// 先尝试解析为通用 map 以便快速判断
-		var generic map[string]interface{}
-		if err := json.Unmarshal(message, &generic); err != nil {
-			logger.Error("Failed to unmarshal message: %v, raw: %s", err, message)
+		// {"result":null,"id":1763534632712956000}
+		// {"stream":"ethusdt@miniTicker","data":{"e":"24hrMiniTicker","E":1763534633053,"s":"ETHUSDT","c":"3040.65000000",
+		// "o":"2976.95000000","h":"3169.95000000","l":"2973.53000000","v":"620337.05010000","q":"1909901787.54333500"}}
+
+		var messageJson map[string]interface{}
+		parseErr := json.Unmarshal([]byte(string(message)), &messageJson)
+		if parseErr != nil {
+			logger.Error("message format failed")
+		}
+		//订阅和取消订阅消息
+		if messageJson["result"] == nil && messageJson["id"] != nil {
+			logger.Debug("订阅和取消订阅消息 %s", message)
 			continue
 		}
 
-		// 辅助函数：从一个 interface{}（可能是 map[string]interface{} 或 json.RawMessage）
-		// 安全提取出包含事件的 map[string]interface{}
-		var dataMap map[string]interface{}
-		if d, ok := generic["data"]; ok && d != nil {
-			// combined stream: top-level has "data" object
-			if dm, ok := d.(map[string]interface{}); ok {
-				dataMap = dm
-			} else {
-				// 有时候 data 可能是 json.RawMessage ——再反序列化一次
-				var raw json.RawMessage
-				b, _ := json.Marshal(d)
-				if json.Unmarshal(b, &raw) == nil {
-					var dm2 map[string]interface{}
-					if json.Unmarshal(b, &dm2) == nil {
-						dataMap = dm2
+		if messageJson["stream"] != nil && messageJson["data"] != nil {
+			stream, ok := messageJson["stream"].(string)
+			if ok {
+				// 不是 string 类型
+				isExist := c.channelManager.IsInSubscirbe(stream)
+				if isExist {
+					evt, err := isContentsSubscribeMessage(messageJson)
+					if err != nil {
+						logger.Error("Failed to marshal messageJson: %v", messageJson)
+						// logger.Error("Failed to marshal messageJson: %v", err)
+						continue
+					}
+					dataField, ok := messageJson["data"]
+					if !ok {
+						fmt.Println("data field not found")
+						continue
+					}
+
+					payload, err := json.Marshal(dataField)
+					if err != nil {
+						fmt.Println("marshal data failed:", err)
+						continue
+					}
+					// logger.Debug("evt %s", evt)
+					if evt == "aggTrade" {
+						var trade binance_define.BinanceAggTrade
+						if err := json.Unmarshal(payload, &trade); err != nil {
+							logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
+							continue
+						}
+						msg := &binance_define.WSSinglePushMsg{
+							IsFirst:   false,
+							EventType: evt,
+							Data:      trade,
+						}
+						hasReceivedData(stream, msg)
+
+					} else if evt == "kline" {
+						var kline binance_define.KlineMessage
+						if err := json.Unmarshal(payload, &kline); err != nil {
+							logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
+							continue
+						}
+
+						msg := &binance_define.WSSinglePushMsg{
+							IsFirst:   false,
+							EventType: evt,
+							Data:      kline,
+						}
+						hasReceivedData(stream, msg)
+
+					} else if evt == "24hrMiniTicker" {
+						var miniTicker binance_define.Binance24hrMiniTicker
+						if err := json.Unmarshal(payload, &miniTicker); err != nil {
+							logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
+							continue
+						}
+						msg := &binance_define.WSSinglePushMsg{
+							IsFirst:   false,
+							EventType: evt,
+							Data:      miniTicker,
+						}
+						hasReceivedData(stream, msg)
+					} else {
+						logger.Debug("Received other event type: %s, message: %s", evt, string(message))
 					}
 				}
 			}
-		} else {
-			dataMap = generic
+
 		}
-
-		if _, ok := generic["result"]; ok {
-			logger.Info("Subscription response: %s", string(message))
-			continue
-		}
-
-		evt, _ := dataMap["e"].(string)
-
-		var payload []byte
-		if raw, ok := generic["data"]; ok {
-			// 重新编码 generic["data"] 为 JSON bytes，然后反序列化
-			b, err := json.Marshal(raw)
-			if err != nil {
-				logger.Error("Failed to marshal generic[data]: %v", err)
-				continue
-			}
-			payload = b
-		} else {
-			// 如果没有 data 字段，就直接用原始 message（single stream）
-			payload = message
-		}
-
-		if evt == "aggTrade" {
-			var trade binance_define.BinanceAggTrade
-			if err := json.Unmarshal(payload, &trade); err != nil {
-				logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
-				continue
-			}
-			msg := &binance_define.WSSinglePushMsg{
-				IsFirst:   false,
-				EventType: evt,
-				Data:      trade,
-			}
-			c.pool.AddPushDataToQueue(msg)
-		} else if evt == "kline" {
-			var kline binance_define.KlineMessage
-			if err := json.Unmarshal(payload, &kline); err != nil {
-				logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
-				continue
-			}
-			msg := &binance_define.WSSinglePushMsg{
-				IsFirst:   false,
-				EventType: evt,
-				Data:      kline,
-			}
-			c.pool.AddPushDataToQueue(msg)
-
-		} else if evt == "24hrMiniTicker" {
-			var miniTicker binance_define.Binance24hrMiniTicker
-			if err := json.Unmarshal(payload, &miniTicker); err != nil {
-				logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
-				continue
-			}
-			msg := &binance_define.WSSinglePushMsg{
-				IsFirst:   false,
-				EventType: evt,
-				Data:      miniTicker,
-			}
-			c.pool.AddPushDataToQueue(msg)
-		} else {
-			logger.Debug("Received other event type: %s, message: %s", evt, string(message))
-		}
-		continue
 	}
 }
+
+// func (c *Client) onPullHistoryMsg(event string, pushedMsg *binance_define.WSSinglePushMsg) {
+// newSinglePushMsg := func(arg *binance_define.WSSubscribeArg, data interface{}) *binance_define.WSSinglePushMsg {
+// 	return &binance_define.WSSinglePushMsg{
+// 		IsFirst: isFirst,
+// 		Arg:     arg,
+// 		Data:    data,
+// 	}
+// }
+
+// 将推送的数据加入到处理队列中
+// switch pushedMsg.Arg.Channel {
+// case "price":
+// 	var priceData []*okx_define.WSPriceData
+// 	json.Unmarshal(pushedMsg.Data, &priceData)
+// 	for i := 0; i < len(priceData); i++ {
+// 		c.pool.AddPushDataToQueue(newSinglePushMsg(&pushedMsg.Arg, priceData[i]))
+// 	}
+
+// case "dex-token-candle1s":
+// 	var candleData [][okx_define.WSCandleDataFieldTotalCount]string
+// 	json.Unmarshal(pushedMsg.Data, &candleData)
+// 	for i := 0; i < len(candleData); i++ {
+// 		c.pool.AddPushDataToQueue(newSinglePushMsg(&pushedMsg.Arg, candleData[i]))
+// 	}
+// case "trades":
+// 	var tradeData []*okx_define.WSTradeData
+// 	json.Unmarshal(pushedMsg.Data, &tradeData)
+// 	for i := 0; i < len(tradeData); i++ {
+// 		c.pool.AddPushDataToQueue(newSinglePushMsg(&pushedMsg.Arg, tradeData[i]))
+// 	}
+// }
+// }
 
 // 处理总订阅数所形成的json 超过4096kb的情况
 func getAllowRangeSubscirbeMessage(values []string) ([]byte, int) {
@@ -263,10 +325,7 @@ func (c *Client) sendPendingMessages(conn *websocket.Conn) error {
 	clientSubscribelist := c.channelManager.subscribePendingChannelArgList.All()
 
 	if len(clientSubscribelist) > 0 {
-		logger.Info("Client-%d 需要订阅的数据 %s", c.index, len(clientSubscribelist))
-		logger.Info("Client-%d 已订阅的数据 %s", c.index, len(c.channelManager.subscribedChannels.Keys()))
 		values := []string{} // 创建空切片
-
 		for _, subscribe := range clientSubscribelist {
 			values = append(values, subscribe.TokenPair+"@"+subscribe.Channel)
 		}
@@ -288,15 +347,11 @@ func (c *Client) sendPendingMessages(conn *websocket.Conn) error {
 			}
 			values = values[index:]
 		}
-
 	}
 
 	clientUnsubscribelist := c.channelManager.unsubscribePendingChannelArgList.All()
 	if len(clientUnsubscribelist) > 0 {
-		logger.Info("Client-%d 需要订阅的数据 %s", c.index, len(clientUnsubscribelist))
-		logger.Info("Client-%d 已订阅的数据 %s", c.index, len(c.channelManager.subscribedChannels.Keys()))
 		values := []string{} // 创建空切片
-
 		for _, subscribe := range clientUnsubscribelist {
 			values = append(values, subscribe.TokenPair+"@"+subscribe.Channel)
 		}
