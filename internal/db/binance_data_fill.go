@@ -20,10 +20,10 @@ func DeleteBinanceDataFill(ctx context.Context, fillDatas *model.MarketDataFill)
 	return GormDB.WithContext(ctx).Delete(fillDatas).Error
 }
 
-func UpdateBinanceDataFill(ctx context.Context, symbol string, startTime int64, startTimeUpdateTo int64, isClosed bool) error {
+func UpdateBinanceDataFill(ctx context.Context, event string, symbol string, startTime int64, startTimeUpdateTo int64, isClosed bool) error {
 	return GormDB.WithContext(ctx).
 		Model(&model.MarketDataFill{}).
-		Where("event = ?", "kline").
+		Where("event = ?", event).
 		Where("symbol = ?", symbol).
 		Where("event_start_time = ?", startTime).
 		Updates(map[string]interface{}{

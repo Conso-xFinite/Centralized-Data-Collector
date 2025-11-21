@@ -17,6 +17,10 @@ CREATE TABLE market_agg_trade (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
+CREATE INDEX CONCURRENTLY idx_market_agg_trade_symbol_event_time_id_desc
+ON market_agg_trade (symbol, event_time DESC, id DESC);
+CREATE UNIQUE INDEX CONCURRENTLY ux_market_agg_trade_agg_id ON market_agg_trade (agg_id);
+
 
 
 CREATE TABLE market_kline_1m (
@@ -62,6 +66,7 @@ CREATE TABLE IF NOT EXISTS market_data_fill (
     event_start_time bigint,
     event_end_time bigint,
     symbol varchar(32) NOT NULL,
-     is_closed BOOLEAN DEFAULT false,
+    is_closed BOOLEAN DEFAULT false,
     created_at timestamptz NOT NULL DEFAULT now()
 );
+

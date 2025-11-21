@@ -34,20 +34,23 @@ func BatchInsertKline1mAndFillData(ctx context.Context, klineModels []*model.Kli
 		}
 		logger.Debug("BatchInsertBinanceKline1M %s 成功", fillData.Symbol)
 		if len(klineModels) < 1000 {
-			updateErr := UpdateBinanceDataFill(ctx, fillData.Symbol, fillData.EventStartTime, fillData.EventStartTime, true)
+			updateErr := UpdateBinanceDataFill(ctx, fillData.Event, fillData.Symbol, fillData.EventStartTime, fillData.EventStartTime, true)
 			if updateErr != nil {
 				logger.Debug("UpdateBinanceDataFill failed:%s", updateErr)
 				return updateErr
 			}
-			logger.Debug("UpdateBinanceDataFill %s 成功", fillData.Symbol)
+			logger.Debug("BatchInsertBinanceAggTrades %d 条数据成功", len(klineModels))
+			// time.Sleep(200 * time.Millisecond)
 		} else {
 			//如果返回的数量少于limit 就说明还有，需要再次发起
-			updateErr2 := UpdateBinanceDataFill(ctx, fillData.Symbol, fillData.EventStartTime, klineModels[len(klineModels)-1].StartTime, false)
+			updateErr2 := UpdateBinanceDataFill(ctx, fillData.Event, fillData.Symbol, fillData.EventStartTime, klineModels[len(klineModels)-1].StartTime, false)
 			if updateErr2 != nil {
 				logger.Debug("UpdateBinanceDataFill failed:%s", updateErr2)
 				return updateErr2
 			}
 		}
+		logger.Debug("kline数据补充 %d 条数据成功， 第一条的id: %d 最后一条id: %d", len(klineModels), klineModels[0].EventTime, klineModels[len(klineModels)-1].EventTime)
+
 		return nil
 	})
 }
@@ -69,13 +72,11 @@ func BatchDeleteAndInsertKline1M(ctx context.Context, models []*model.Kline1m) e
 		if err != nil {
 			logger.Debug("批量删除失败:", err)
 		}
-		logger.Debug("批量删除成功")
 		// 2) 插入 dedupedCandles（如果有）
 		batchInsertErr := BatchInsertBinanceKline1M(ctx, models)
 		if batchInsertErr != nil {
 			return err
 		}
-		logger.Debug("批量插入成功")
 		return nil
 	})
 }

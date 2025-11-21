@@ -2,12 +2,12 @@ package collector
 
 import (
 	"Centralized-Data-Collector/internal/api/binance_define"
+	"Centralized-Data-Collector/internal/config"
 	"Centralized-Data-Collector/internal/db"
 	"Centralized-Data-Collector/internal/model"
 	pkg "Centralized-Data-Collector/pkg/http"
 	"Centralized-Data-Collector/pkg/logger"
 	"context"
-	"encoding/json"
 	"strconv"
 	"time"
 )
@@ -122,121 +122,112 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 	tickerModels := []*model.TickerModel{}
 
 	marketDataFillModels := []*model.MarketDataFill{}
-
-	// 解析 pushedMsgs 为 TradeModel 和 PriceModel
 	for i := 0; i < len(pushedMsgs); i++ {
 		msg := pushedMsgs[i]
 
 		switch msg.EventType {
-		case "aggTrade":
+		case config.AggTradeStream:
 			tradeModel := c.parsePushedMsgToTradeModel(ctx, msg)
+			// logger.Debug("aggTrade %d %s %d %d", tradeModel.AggID, tradeModel.Event, tradeModel.EventTime, tradeModel.FirstID)
 			tradeModels = append(tradeModels, tradeModel)
 			if msg.IsFirst {
-				//需要填充表中增加数据
-				//先查询是否有存在最新的
 				tradeLast, err := db.GetLatestAggTradeInfo(ctx, tradeModel.Symbol)
 				if err != nil {
-					logger.Debug("GetLatestKLine1mInfo err %s", err)
+					logger.Error("GetLatestKLine1mInfo err %s", err)
 				}
 				if tradeLast != nil {
-					marketDataFillModels = append(marketDataFillModels, createDateFillModel("kline", tradeLast.EventTime, tradeModel.EventTime, tradeModel.Symbol))
+					marketDataFillModels = append(marketDataFillModels, createDateFillModel(config.AggTradeStream, tradeLast.EventTime, tradeModel.EventTime, tradeModel.Symbol))
 				}
 			}
-		case "kline":
+		case config.KlineStream:
 			klineModel := c.parsePushedMsgToCandleModel(ctx, msg)
 
 			klineModels = append(klineModels, klineModel)
 			if msg.IsFirst {
-				//需要填充表中增加数据
-				//先查询是否有存在最新的
 				klineLast, err := db.GetLatestKLine1mInfo(ctx, klineModel.Pair)
 				if err != nil {
-					logger.Debug("GetLatestKLine1mInfo err %s", err)
+					logger.Error("GetLatestKLine1mInfo err %s", err)
 				}
 				if klineLast != nil {
-					marketDataFillModels = append(marketDataFillModels, createDateFillModel("kline", klineLast.StartTime, klineModel.StartTime, klineLast.Pair))
+					marketDataFillModels = append(marketDataFillModels, createDateFillModel(config.KlineStream, klineLast.StartTime, klineModel.StartTime, klineLast.Pair))
 				}
 			}
-		case "24hrMiniTicker":
+		case config.MiniTickerStream:
 			tickerModels = append(tickerModels, c.parsePushedMsgToTickereModel(ctx, msg))
 		}
-
 		// TODO 后续需要检查一个数据，aggtrade中的数据中的交易id和kline中的交易id是否是一致的（逐条推送和聚合推送的在两个数据中id）
+	}
 
-		if len(tradeModels) > 0 {
-			for {
-				err := db.BatchInsertBinanceAggTrades(ctx, tradeModels)
-				if err == nil {
-					logger.Info("Stored %d trade records from Binance", len(tradeModels))
-					break
-				}
-				logger.Error("Failed to batch insert Binance trades: err = %v", err)
-				time.Sleep(100 * time.Millisecond)
+	if len(tradeModels) > 0 {
+		for {
+			err := db.BatchInsertBinanceAggTrades(ctx, tradeModels)
+			if err == nil {
+				logger.Info("Stored %d trade records from Binance", len(tradeModels))
+				// tradeModels = tradeModels[:0]
+				break
 			}
-		}
-
-		if len(klineModels) > 0 {
-			for {
-				//先去重，保证每分钟只有一条线存在
-				err := db.BatchDeleteAndInsertKline1M(ctx, klineModels)
-				if err == nil {
-					logger.Info("Stored %d kline records from Binance", len(klineModels))
-					break
-				}
-				logger.Error("Failed to batch insert Binance kline: err = %v", err)
-				time.Sleep(100 * time.Millisecond)
-
-			}
-		}
-
-		// if len(tickerModels) > 0 {
-		// 	for {
-		// 		err := db.BatchInsertBinanceTicker(ctx, tickerModels)
-		// 		if err == nil {
-		// 			logger.Info("Stored %d ticker records from Binance", len(tickerModels))
-		// 			break
-		// 		}
-		// 		logger.Error("Failed to batch insert Binance ticker: err = %v", err)
-		// 		time.Sleep(100 * time.Millisecond)
-		// 	}
-
-		// }
-
-		if len(marketDataFillModels) > 0 {
-			for {
-				err := db.BatchInsertBinanceDataFill(ctx, marketDataFillModels)
-				if err == nil {
-					logger.Info("Stored %d data fill records from Binance", len(marketDataFillModels))
-
-					// 连续发信号（阻塞式入队）
-					logger.Debug("send signal")
-					c.signalProcessor.Signal()
-					// fmt.Println("processor stopped")
-					break
-				} else {
-					logger.Error("Failed to batch insert Binance data fill: err = %v", err)
-					time.Sleep(100 * time.Millisecond)
-					continue
-				}
-
-			}
+			logger.Error("Failed to batch insert Binance trades: err = %v", err)
+			time.Sleep(100 * time.Millisecond)
 
 		}
 	}
+
+	if len(klineModels) > 0 {
+		for {
+			//先去重，保证每分钟只有一条线存在
+			err := db.BatchDeleteAndInsertKline1M(ctx, klineModels)
+			if err == nil {
+				logger.Info("Stored %d kline records from Binance", len(klineModels))
+				// klineModels = klineModels[:0]
+				break
+			}
+			logger.Error("Failed to batch insert Binance kline: err = %v", err)
+			time.Sleep(100 * time.Millisecond)
+
+		}
+	}
+	if len(marketDataFillModels) > 0 {
+		for {
+			err := db.BatchInsertBinanceDataFill(ctx, marketDataFillModels)
+			if err == nil {
+				logger.Info("Stored %d data fill records from Binance", len(marketDataFillModels))
+				// marketDataFillModels = marketDataFillModels[:0]
+				c.signalProcessor.Signal()
+				break
+			} else {
+				logger.Error("Failed to batch insert Binance data fill: err = %v", err)
+				time.Sleep(100 * time.Millisecond)
+				continue
+			}
+
+		}
+
+	}
+
+	// if len(tickerModels) > 0 {
+	// 	for {
+	// 		err := db.BatchInsertBinanceTicker(ctx, tickerModels)
+	// 		if err == nil {
+	// 			logger.Info("Stored %d ticker records from Binance", len(tickerModels))
+	// 			break
+	// 		}
+	// 		logger.Error("Failed to batch insert Binance ticker: err = %v", err)
+	// 		time.Sleep(100 * time.Millisecond)
+	// 	}
+
+	// }
+
 }
 
 // 处理数据补充
 func dateFillHandler(ctx context.Context) error {
-	logger.Debug("dateFillHandler sigal")
 	//查询data_fill表中是否有需要使用短连接拉取数据
 	for {
 		fillData, err := db.GetBinanceDataFill(ctx)
 		if err != nil {
 			logger.Debug("GetBinanceDataFill failed")
-			time.Sleep(100 * time.Millisecond)
+			// time.Sleep(100 * time.Millisecond)
 		}
-		dataIndents, err := json.MarshalIndent(fillData, "", "  ")
-		logger.Debug("GetBinanceData result: %s", string(dataIndents))
 		if fillData == nil {
 			break
 		}
@@ -244,8 +235,10 @@ func dateFillHandler(ctx context.Context) error {
 		err2 := opDataFill(ctx, fillData)
 		if err2 != nil {
 			logger.Debug("opDataFill failed %s", err2)
-			time.Sleep(100 * time.Millisecond)
+
 		}
+		time.Sleep(200 * time.Millisecond)
+
 	}
 
 	return nil
@@ -254,17 +247,17 @@ func dateFillHandler(ctx context.Context) error {
 func fillingKLine(ctx context.Context, fillData *model.MarketDataFill) error {
 
 	//开始查询短连接
-	logger.Debug("FetchKlines param %s %d %s ", fillData.Symbol, fillData.EventStartTime, fillData.EventEndTime)
-	klineResponses, err := pkg.FetchKlines(fillData.Symbol, "1m", 1000, fillData.EventStartTime, fillData.EventEndTime-60000)
-	dataIndents, err := json.MarshalIndent(klineResponses, "", "  ")
-	logger.Debug("get from binance api JSON:\n", string(dataIndents))
+	klineResponses, err := pkg.FetchKlines(fillData.Symbol, config.Interval1m, config.DefaultLimit, fillData.EventStartTime, fillData.EventEndTime-config.OneminuteTimestamp)
 	if err != nil {
 		logger.Debug("FetchKlines failed: %s", err)
 		time.Sleep(500 * time.Millisecond)
 		return err
 	}
+	logger.Debug("EventStartTime: %d", fillData.EventStartTime)
+	logger.Debug("EventEndTime: %d", fillData.EventEndTime)
+	logger.Debug("FetchKlines: %s", len(klineResponses))
 	if len(klineResponses) == 0 {
-		err := db.UpdateBinanceDataFill(ctx, fillData.Symbol, fillData.EventStartTime, fillData.EventStartTime, true)
+		err := db.UpdateBinanceDataFill(ctx, fillData.Event, fillData.Symbol, fillData.EventStartTime, fillData.EventStartTime, true)
 		if err != nil {
 			logger.Debug("UpdateBinanceDataFill failed: %s", err)
 			time.Sleep(200 * time.Millisecond)
@@ -286,22 +279,15 @@ func fillingKLine(ctx context.Context, fillData *model.MarketDataFill) error {
 func fillingTrade(ctx context.Context, fillData *model.MarketDataFill) error {
 
 	//开始查询短连接
-
-	tradesResponses, err := pkg.FetchAggTrades(fillData.Symbol, 1000, fillData.EventStartTime, fillData.EventEndTime)
+	tradesResponses, err := pkg.FetchAggTrades(fillData.Symbol, config.DefaultLimit, fillData.EventStartTime, fillData.EventEndTime)
 	if err != nil {
-		logger.Debug("FetchAggTrades failed: %s", err)
-		return err
-	}
-	logger.Debug("FetchKlines param %s %d %s ", fillData.Symbol, fillData.EventStartTime, fillData.EventEndTime)
-	dataIndents, err := json.MarshalIndent(tradesResponses, "", "  ")
-	logger.Debug("get from binance AggTrades api JSON:\n", string(dataIndents))
-	if err != nil {
-		logger.Debug("FetchAggTrades failed: %s", err)
 		time.Sleep(200 * time.Millisecond)
+		logger.Debug("FetchAggTrades failed: %s", err)
 		return err
 	}
+
 	if len(tradesResponses) == 0 {
-		err := db.UpdateBinanceDataFill(ctx, fillData.Symbol, fillData.EventStartTime, fillData.EventStartTime, true)
+		err := db.UpdateBinanceDataFill(ctx, fillData.Event, fillData.Symbol, fillData.EventStartTime, fillData.EventStartTime, true)
 		if err != nil {
 			logger.Debug("UpdateBinanceDataFill failed: %s", err)
 			time.Sleep(200 * time.Millisecond)
@@ -309,25 +295,26 @@ func fillingTrade(ctx context.Context, fillData *model.MarketDataFill) error {
 		}
 		return nil
 	}
-	// 如果第一条startTime与查询条件中的startTime一致，就更新它，其他插入
-	// 如果返回的数量少于limit 就说明还有，需要再次发起
-
 	tradeModels := ConvertAggTrades(fillData.Symbol, tradesResponses)
-	dataIndents2, _ := json.MarshalIndent(tradeModels, "", "  ")
-	logger.Debug("get from binance AggTrades api JSON:\n", string(dataIndents2))
+	txErr := db.BatchInsertAggTradeAndFillData(ctx, tradeModels, fillData)
+	if txErr != nil {
+		logger.Debug("BatchInsertAggTradeAndFillData failed: %s", txErr)
+		time.Sleep(200 * time.Millisecond)
+		return txErr
+	}
 	return nil
 }
 
 func opDataFill(ctx context.Context, fillData *model.MarketDataFill) error {
 	if fillData != nil {
 		switch fillData.Event {
-		case "kline":
+		case config.KlineStream:
 			klineErr := fillingKLine(ctx, fillData)
 			if klineErr != nil {
 				logger.Debug("fillingKLine failed:%s", klineErr)
 				return klineErr
 			}
-		case "aggTrade":
+		case config.AggTradeStream:
 			tradeErr := fillingTrade(ctx, fillData)
 			if tradeErr != nil {
 				logger.Debug("fillingTrade failed:%s", tradeErr)
@@ -358,8 +345,8 @@ func ConvertRESTKlines(pair string, responses []pkg.KlineResponse) []*model.Klin
 			Pair:           pair,
 			StartTime:      r.OpenTime,
 			EndTime:        r.CloseTime,
-			Interval:       "1m",
-			FirstTradeID:   0, // REST 不提供
+			Interval:       config.Interval1m,
+			FirstTradeID:   0,
 			LastTradeID:    0, // REST 不提供
 			OpenPrice:      parseFloat(r.Open),
 			ClosePrice:     parseFloat(r.Close),
@@ -387,8 +374,8 @@ func ConvertAggTrades(symbol string, responses []pkg.AggTradeResponse) []*model.
 
 	for _, r := range responses {
 		k := model.BinanceAggTrade{
-			Event:      "aggTrade",  // REST aggTrades 没有 e 字段，统一写 aggTrade
-			EventTime:  r.Timestamp, // 使用交易时间作为 event time（aggTrade 没有 E 字段）
+			Event:      config.AggTradeStream, // REST aggTrades 没有 e 字段，统一写 aggTrade
+			EventTime:  r.Timestamp,           // 使用交易时间作为 event time（aggTrade 没有 E 字段）
 			Symbol:     symbol,
 			AggID:      r.AggTradeID,
 			Price:      parseFloat(r.Price),

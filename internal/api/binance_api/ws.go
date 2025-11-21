@@ -2,6 +2,7 @@ package binance_api
 
 import (
 	"Centralized-Data-Collector/internal/api/binance_define"
+	"Centralized-Data-Collector/internal/config"
 	"Centralized-Data-Collector/pkg/logger"
 	"Centralized-Data-Collector/pkg/utils"
 	"encoding/json"
@@ -55,9 +56,7 @@ func (c *Client) Login() error {
 		return nil
 	}
 
-	baseBinanceUrl := "wss://stream.binance.com:9443/stream?streams="
-
-	conn, err := c.connector.LockDialWebSocket(baseBinanceUrl, nil)
+	conn, err := c.connector.LockDialWebSocket(config.BinanceWebsocketUrl, nil)
 	if err != nil {
 		logger.Error("WebSocket dial error: %v", err)
 		return err
@@ -83,7 +82,7 @@ func (c *Client) Login() error {
 			return err
 		}
 		c.lastPongTimestamp.Store(utils.GetCurrentTimestampSec())
-		logger.Debug("Sent pong success :  %s", appData)
+		// logger.Debug("Sent pong success :  %s", appData)
 		return nil
 	})
 	go c.listenMsg(conn)
@@ -152,7 +151,7 @@ func isContentsSubscribeMessage(messageMap map[string]interface{}) (string, erro
 	}
 
 	// 判断 e 字段是否包含特定字符串
-	if strings.Contains(eVal, "aggTrade") || strings.Contains(eVal, "kline") || strings.Contains(eVal, "24hrMiniTicker") {
+	if strings.Contains(eVal, config.AggTradeStream) || strings.Contains(eVal, config.KlineStream) || strings.Contains(eVal, config.MiniTickerStream) {
 		return eVal, nil
 	}
 	return "nil", nil
@@ -180,11 +179,6 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 			logger.Warn("WebSocket read error: %v", err)
 			break
 		}
-		// logger.Debug("Received message: %s", string(message))
-		// {"result":null,"id":1763534632712956000}
-		// {"stream":"ethusdt@miniTicker","data":{"e":"24hrMiniTicker","E":1763534633053,"s":"ETHUSDT","c":"3040.65000000",
-		// "o":"2976.95000000","h":"3169.95000000","l":"2973.53000000","v":"620337.05010000","q":"1909901787.54333500"}}
-
 		var messageJson map[string]interface{}
 		parseErr := json.Unmarshal([]byte(string(message)), &messageJson)
 		if parseErr != nil {
@@ -199,13 +193,11 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 		if messageJson["stream"] != nil && messageJson["data"] != nil {
 			stream, ok := messageJson["stream"].(string)
 			if ok {
-				// 不是 string 类型
 				isExist := c.channelManager.IsInSubscirbe(stream)
 				if isExist {
 					evt, err := isContentsSubscribeMessage(messageJson)
 					if err != nil {
 						logger.Error("Failed to marshal messageJson: %v", messageJson)
-						// logger.Error("Failed to marshal messageJson: %v", err)
 						continue
 					}
 					dataField, ok := messageJson["data"]
@@ -219,8 +211,7 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 						fmt.Println("marshal data failed:", err)
 						continue
 					}
-					// logger.Debug("evt %s", evt)
-					if evt == "aggTrade" {
+					if evt == config.AggTradeStream {
 						var trade binance_define.BinanceAggTrade
 						if err := json.Unmarshal(payload, &trade); err != nil {
 							logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
@@ -233,7 +224,7 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 						}
 						hasReceivedData(stream, msg)
 
-					} else if evt == "kline" {
+					} else if evt == config.KlineStream {
 						var kline binance_define.KlineMessage
 						if err := json.Unmarshal(payload, &kline); err != nil {
 							logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
@@ -247,18 +238,19 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 						}
 						hasReceivedData(stream, msg)
 
-					} else if evt == "24hrMiniTicker" {
-						var miniTicker binance_define.Binance24hrMiniTicker
-						if err := json.Unmarshal(payload, &miniTicker); err != nil {
-							logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
-							continue
-						}
-						msg := &binance_define.WSSinglePushMsg{
-							IsFirst:   false,
-							EventType: evt,
-							Data:      miniTicker,
-						}
-						hasReceivedData(stream, msg)
+						// }
+						//  else if evt == "24hrMiniTicker" {
+						// 	var miniTicker binance_define.Binance24hrMiniTicker
+						// 	if err := json.Unmarshal(payload, &miniTicker); err != nil {
+						// 		logger.Error("Failed to unmarshal aggTrade payload: %v, payload: %s", err, string(payload))
+						// 		continue
+						// 	}
+						// 	msg := &binance_define.WSSinglePushMsg{
+						// 		IsFirst:   false,
+						// 		EventType: evt,
+						// 		Data:      miniTicker,
+						// 	}
+						// 	hasReceivedData(stream, msg)
 					} else {
 						logger.Debug("Received other event type: %s, message: %s", evt, string(message))
 					}
@@ -268,39 +260,6 @@ func (c *Client) listenMsg(conn *websocket.Conn) {
 		}
 	}
 }
-
-// func (c *Client) onPullHistoryMsg(event string, pushedMsg *binance_define.WSSinglePushMsg) {
-// newSinglePushMsg := func(arg *binance_define.WSSubscribeArg, data interface{}) *binance_define.WSSinglePushMsg {
-// 	return &binance_define.WSSinglePushMsg{
-// 		IsFirst: isFirst,
-// 		Arg:     arg,
-// 		Data:    data,
-// 	}
-// }
-
-// 将推送的数据加入到处理队列中
-// switch pushedMsg.Arg.Channel {
-// case "price":
-// 	var priceData []*okx_define.WSPriceData
-// 	json.Unmarshal(pushedMsg.Data, &priceData)
-// 	for i := 0; i < len(priceData); i++ {
-// 		c.pool.AddPushDataToQueue(newSinglePushMsg(&pushedMsg.Arg, priceData[i]))
-// 	}
-
-// case "dex-token-candle1s":
-// 	var candleData [][okx_define.WSCandleDataFieldTotalCount]string
-// 	json.Unmarshal(pushedMsg.Data, &candleData)
-// 	for i := 0; i < len(candleData); i++ {
-// 		c.pool.AddPushDataToQueue(newSinglePushMsg(&pushedMsg.Arg, candleData[i]))
-// 	}
-// case "trades":
-// 	var tradeData []*okx_define.WSTradeData
-// 	json.Unmarshal(pushedMsg.Data, &tradeData)
-// 	for i := 0; i < len(tradeData); i++ {
-// 		c.pool.AddPushDataToQueue(newSinglePushMsg(&pushedMsg.Arg, tradeData[i]))
-// 	}
-// }
-// }
 
 // 处理总订阅数所形成的json 超过4096kb的情况
 func getAllowRangeSubscirbeMessage(values []string) ([]byte, int) {

@@ -128,61 +128,6 @@ func (c *WConnector) LockWritePingMessage(conn *websocket.Conn) error {
 	return err
 }
 
-// func (c *WConnector) writeLoginMessage(conn *websocket.Conn, arg *binance_define.WSLoginArg) error {
-
-// 	req := &binance_define.WSReq{
-// 		Op:   "login",
-// 		Args: []interface{}{arg},
-// 	}
-// 	return c.writeJSON(conn, req)
-// }
-
-// func (c *WConnector) LockWriteSubscribeMessage(conn *websocket.Conn, args []*binance_define.WSSubscribeArg) error {
-// 	c.myMu.Lock()
-// 	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
-// 		time.Sleep(sleep)
-// 	}
-// 	var err error
-// 	if !c.isLogined(conn) {
-// 		err = ErrWSNotLogined
-// 	} else {
-// 		_args := make([]interface{}, 0)
-// 		for _, arg := range args {
-// 			_args = append(_args, arg)
-// 		}
-// 		req := &binance_define.WSReq{
-// 			Op:   "subscribe",
-// 			Args: _args,
-// 		}
-// 		err = c.writeJSON(conn, req)
-// 	}
-// 	c.myMu.Unlock()
-// 	return err
-// }
-
-// func (c *WConnector) LockWriteUnsubscribeMessage(conn *websocket.Conn, args []*binance_define.WSSubscribeArg) error {
-// 	c.myMu.Lock()
-// 	if sleep := 125*time.Millisecond - time.Since(c.lastSendMsgTime); sleep > 0 {
-// 		time.Sleep(sleep)
-// 	}
-// 	var err error
-// 	if !c.LockIsLogined(conn) {
-// 		err = ErrWSNotLogined
-// 	} else {
-// 		_args := make([]interface{}, 0)
-// 		for _, arg := range args {
-// 			_args = append(_args, arg)
-// 		}
-// 		req := &binance_define.WSReq{
-// 			Op:   "unsubscribe",
-// 			Args: _args,
-// 		}
-// 		err = c.writeJSON(conn, req)
-// 	}
-// 	c.myMu.Unlock()
-// 	return err
-// }
-
 func (c *WConnector) readMessage(conn *websocket.Conn) (p []byte, err error) {
 	messageType, message, err := conn.ReadMessage()
 	if err != nil {
@@ -201,33 +146,6 @@ func (c *WConnector) LockReadPushMessage(conn *websocket.Conn) (p []byte, err er
 	}
 	return c.readMessage(conn)
 }
-
-// func (c *WConnector) readLoginMessage(conn *websocket.Conn) (err error) {
-// 	message, err := c.readMessage(conn)
-// 	if err != nil {
-// 		logger.Warn("WebSocket read error: %v", err)
-// 		return err
-// 	}
-
-// 	var loginResp binance_define.WSLoginResp
-// 	err = json.Unmarshal(message, &loginResp)
-// 	if err != nil {
-// 		logger.Error("Failed to unmarshal login response: %v", err)
-// 		return err
-// 	}
-
-// 	if loginResp.Event == "login" {
-// 		if loginResp.IsSuccess() && len(loginResp.ConnId) > 0 {
-// 			// logger.Info("Login successful, connId: %s", loginResp.ConnId)
-// 			return nil
-// 		} else {
-// 			logger.Warn("Login failed: %s", loginResp.Msg)
-// 			return fmt.Errorf("login failed: msg = %s", loginResp.Msg)
-// 		}
-// 	}
-// 	logger.Warn("Login failed: event = %s", loginResp.Event)
-// 	return fmt.Errorf("login failed: event = %s", loginResp.Event)
-// }
 
 func (c *WConnector) LockLogin(conn *websocket.Conn) (err error) {
 	c.myMu.Lock()

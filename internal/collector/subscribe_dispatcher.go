@@ -12,52 +12,12 @@ import (
 	"github.com/go-redis/redis/v8"
 )
 
-// type REDIS_CHANNEL string
-
-// const (
-// 	// 价格订阅请求频道
-// 	REDIS_PRICE_SUBSCRIPTION_REQUEST REDIS_CHANNEL = "coinhub:subscription:price:request"
-
-// 	// 价格订阅取消频道
-// 	REDIS_PRICE_SUBSCRIPTION_CANCEL REDIS_CHANNEL = "coinhub:subscription:price:cancel"
-
-// 	// 价格订阅通知频道
-// 	REDIS_PRICE_SUBSCRIPTION_NOTIFICATION REDIS_CHANNEL = "coinhub:subscription:price:notification"
-
-// 	// 交易订阅请求频道
-// 	REDIS_TRADE_SUBSCRIPTION_REQUEST REDIS_CHANNEL = "coinhub:subscription:trade:request"
-
-// 	// 交易订阅取消频道
-// 	REDIS_TRADE_SUBSCRIPTION_CANCEL REDIS_CHANNEL = "coinhub:subscription:trade:cancel"
-
-// 	// 交易订阅通知频道
-// 	REDIS_TRADE_SUBSCRIPTION_NOTIFICATION REDIS_CHANNEL = "coinhub:subscription:trade:notification"
-// )
-
-// // type RedisChannelArg struct {
-// // 	// Op                   string `json:"op,omitempty"` // "subscribe" 或 "unsubscribe" // 订阅方填充, 发布方不用管
-// // 	Channel              string `json:"channel"` // "price", "trades", "dex-token-candle1s"
-// // 	TokenContractId      string `json:"tokenContractId"`
-// // 	ChainIndex           int    `json:"chainIndex"`
-// // 	TokenContractAddress string `json:"tokenContractAddress"`
-// // }
-
-// // type RedisOkxChannelArg struct {
-// // 	Channel              string `json:"channel"` // "price", "trades", "dex-token-candle1s"
-// // 	ChainIndex           string `json:"chainIndex"`
-// // 	TokenContractAddress string `json:"tokenContractAddress"`
-// // 	TokenContractId      string `json:"tokenContractId"`
-// // }
-
-// RedisOKXMessage 是存储在 Redis Stream 中的消息结构体
 type RedisBinanceMessage struct {
 	Type        string                            `json:"type"`       // 消息类型，如 "subscribe_channel" 或 "unsubscribe_channel"
-	ChannelArgs []*binance_define.RedisChannelArg `json:"channelArg"` // 订阅参数，okx 的订阅时是  []*okx_define.RedisOkxChannelArg类型
+	ChannelArgs []*binance_define.RedisChannelArg `json:"channelArg"` //  的订阅时是
 	Timestamp   int64                             `json:"timestamp"`  // 消息生成时间戳（Unix 毫秒）
 	MessageId   string                            `json:"message_id"` // 业务端生成的MessageId，用于去重
 }
-
-// var redisOKXMessageQueue *utils.SafeQueue[*RedisOKXMessage] = utils.NewSafeQueue[*RedisOKXMessage]()
 
 // // SubscribeDispatcher 负责从 Redis Stream 拉取订阅参数并调用 OKX 订阅
 type SubscribeDispatcher struct {
@@ -114,6 +74,4 @@ func (d *SubscribeDispatcher) Start(ctx context.Context) error {
 			rs.AckStream(ctx, d.Stream, d.Group, msg.ID)
 		}
 	}
-	// }()
-	// return nil
 }

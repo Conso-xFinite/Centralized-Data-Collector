@@ -135,7 +135,7 @@ func (p *WSPool) AddPushDataToQueue(subscribeResp *binance_define.WSSinglePushMs
 }
 
 func (p *WSPool) FetchData() []*binance_define.WSSinglePushMsg {
-	return p.singlePushedMsgQueue.PopBatch(100)
+	return p.singlePushedMsgQueue.PopBatch(1000)
 }
 
 // Close 关闭所有连接
