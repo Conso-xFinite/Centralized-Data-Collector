@@ -49,7 +49,7 @@ func BatchInsertKline1mAndFillData(ctx context.Context, klineModels []*model.Kli
 				return updateErr2
 			}
 		}
-		logger.Debug("kline数据补充 %d 条数据成功， 第一条的id: %d 最后一条id: %d", len(klineModels), klineModels[0].EventTime, klineModels[len(klineModels)-1].EventTime)
+		logger.Debug("kline. %s 数据补充 %d 条数据成功， 第一条的id: %d 最后一条id: %d", klineModels[0].Pair, len(klineModels), klineModels[0].EventTime, klineModels[len(klineModels)-1].EventTime)
 
 		return nil
 	})

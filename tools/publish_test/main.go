@@ -63,99 +63,239 @@ func main() {
 			Channel:       "kline_1m",
 			TokenPair:     "btcusdt",
 		},
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "btcusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "ethusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "ethusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "solusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "solusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "bnbusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "bnbusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "dogeusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "dogeusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "zecusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "zecusdt",
-		// }, {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "asterusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "asterusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "datausdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "dateusdt",
-		// }, {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "tnsrusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "tnsrusdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "kline_1m",
-		// 	TokenPair:     "allousdt",
-		// },
-		// {
-		// 	TypeSubscribe: "subscribe",
-		// 	Channel:       "aggTrade",
-		// 	TokenPair:     "enausdt",
-		// },
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "btcusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "ethusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "ethusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "solusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "solusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "bnbusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "bnbusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "dogeusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "dogeusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "zecusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "zecusdt",
+		}, {
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "asterusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "asterusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "datausdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "dateusdt",
+		}, {
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "tnsrusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "tnsrusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "allousdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "allousdt",
+		},
+
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "xrpusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "xrpousdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "trxusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "trxusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "adausdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "adausdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "xlmusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "xlmusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "linkusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "linkusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "ltcusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "ltcusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "uniusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "uniusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "avaxusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "avaxusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "suiusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "suiusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "shibusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "shibusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "dotusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "dotusdt",
+		}, {
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "tonusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "tonusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "wlfiusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "wlfiusdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "kline_1m",
+			TokenPair:     "taousdt",
+		},
+		{
+			TypeSubscribe: "subscribe",
+			Channel:       "aggTrade",
+			TokenPair:     "taousdt",
+		},
 	})
 
 	// unsubscribeChannel(ctx, rs, []*binance_define.RedisChannelArg{

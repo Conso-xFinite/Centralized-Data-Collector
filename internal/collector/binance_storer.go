@@ -178,7 +178,6 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 			err := db.BatchDeleteAndInsertKline1M(ctx, klineModels)
 			if err == nil {
 				logger.Info("Stored %d kline records from Binance", len(klineModels))
-				// klineModels = klineModels[:0]
 				break
 			}
 			logger.Error("Failed to batch insert Binance kline: err = %v", err)
@@ -191,7 +190,6 @@ func (c *BinanceStorer) StoreData(ctx context.Context, pushedMsgs []*binance_def
 			err := db.BatchInsertBinanceDataFill(ctx, marketDataFillModels)
 			if err == nil {
 				logger.Info("Stored %d data fill records from Binance", len(marketDataFillModels))
-				// marketDataFillModels = marketDataFillModels[:0]
 				c.signalProcessor.Signal()
 				break
 			} else {

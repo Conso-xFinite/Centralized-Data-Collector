@@ -66,7 +66,7 @@ func BatchInsertAggTradeAndFillData(ctx context.Context, tradeModels []*model.Bi
 				return updateErr2
 			}
 		}
-		logger.Debug("AggTrades数据补充 %d 条数据成功， 第一条的id: %d 最后一条id: %d", len(tradeModels), tradeModels[0].EventTime, tradeModels[len(tradeModels)-1].EventTime)
+		logger.Debug("AggTrades。 %s 数据补充 %d 条数据成功， 第一条的id: %d 最后一条id: %d", tradeModels[0].Symbol, len(tradeModels), tradeModels[0].EventTime, tradeModels[len(tradeModels)-1].EventTime)
 		return nil
 	})
 }
